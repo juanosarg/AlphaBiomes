@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef>
+    <defName>GU_AlienSand</defName>
+    <label>red-tinged ground</label>
+    <texturePath>Terrain/Surfaces/GU_AlienSand</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>350</renderPrecedence>
+    <pathCost>4</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <scatterType>SoftDry</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Sand</generatedFilth>
+    <fertility>0.9</fertility>
+    <takeFootprints>True</takeFootprints>
+  </TerrainDef>
+
+  <TerrainDef>
+    <defName>GU_AlienSandFine</defName>
+    <label>fine red sand</label>
+    <texturePath>Terrain/Surfaces/GU_AlienSandFine</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+  </TerrainDef>
+  
+  <TerrainDef>
+    <defName>GU_RedWaterShallow</defName>
+    <label>red shallow water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+	<color>(200,100,100)</color>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <edgeType>Water</edgeType>
+    <renderPrecedence>394</renderPrecedence>
+    <pathCost>12</pathCost>
+    <acceptFilth>false</acceptFilth>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <changeable>false</changeable>
+    <holdSnow>false</holdSnow>
+    <driesTo>GU_AlienSandFine</driesTo>
+    <takeSplashes>true</takeSplashes>
+    <extinguishesFire>true</extinguishesFire>
+    <tags>
+      <li>Water</li>
+    </tags>
+  </TerrainDef>
+  
+  <TerrainDef>
+    <defName>GU_RedWaterDeep</defName>
+    <label>red deep water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+	<color>(200,100,100)</color>
+
+    <edgeType>Water</edgeType>
+    <renderPrecedence>395</renderPrecedence>
+		<passability>Impassable</passability>
+    <pathCost>300</pathCost>
+    <acceptFilth>false</acceptFilth>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <changeable>false</changeable>
+		<holdSnow>false</holdSnow>
+    <takeSplashes>true</takeSplashes>
+    <extinguishesFire>true</extinguishesFire>
+    <tags>
+      <li>Water</li>
+    </tags>
+  </TerrainDef>
+  
+  <TerrainDef>
+    <defName>GU_MossyRed</defName>
+    <label>parched sand</label>
+    <texturePath>Terrain/Surfaces/AB_MossyRed2</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>315</renderPrecedence>
+    <pathCost>3</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <acceptFilth>true</acceptFilth>
+    <avoidWander>false</avoidWander>
+  </TerrainDef>
+  
+  <TerrainDef>
+    <defName>GU_RedQuartzBase</defName>
+    <label>rough red quartz</label>
+    <texturePath>Terrain/Surfaces/RoughStone</texturePath>
+	<color>(120,50,50)</color>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>315</renderPrecedence>
+    <pathCost>3</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+
+    </affordances>
+    <fertility>0</fertility>
+    <takeFootprints>false</takeFootprints>
+    <acceptFilth>true</acceptFilth>
+    <avoidWander>false</avoidWander>
+  </TerrainDef>
+</Defs>
