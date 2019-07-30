@@ -10,6 +10,7 @@ namespace AlphaBiomes
         public WeatherOverlay_RedFog()
         {
             this.worldOverlayMat = RedFogOverlayWorld;
+            base.OverlayColor = new Color(0.8f, 0.35f, 0.26f);
             this.worldOverlayPanSpeed1 = 0.005f;
             this.worldOverlayPanSpeed2 = 0.004f;
             this.worldPanDir1 = new Vector2(1f, 1f);

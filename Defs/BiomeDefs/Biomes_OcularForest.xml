@@ -4,7 +4,7 @@
   <BiomeDef>
     <defName>AB_OcularForest</defName>
     <label>ocular forest</label>
-    <description>.</description>
+    <description>This sickly looking forest seems to be completely alien, probably of an extra-dimensional origin. Plant life seems to be struggling to grow, and the very ground fights against the neighbouring lands. Strange lifeforms, perhaps not entirely alive, scurry around the sickening vegetation.</description>
     <workerClass>AlphaBiomes.BiomeWorker_OcularForest</workerClass>
     <animalDensity>1.9</animalDensity>
     <plantDensity>0.5</plantDensity>

@@ -45,50 +45,27 @@
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
   
-  <TerrainDef>
+
+  
+    <TerrainDef ParentName="WaterShallowBase">
     <defName>GU_RedWaterShallow</defName>
     <label>red shallow water</label>
-    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
 	<color>(200,100,100)</color>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <edgeType>Water</edgeType>
     <renderPrecedence>394</renderPrecedence>
-    <pathCost>12</pathCost>
-    <acceptFilth>false</acceptFilth>
-    <fertility>0</fertility>
-    <avoidWander>true</avoidWander>
-    <changeable>false</changeable>
-    <holdSnow>false</holdSnow>
     <driesTo>GU_AlienSandFine</driesTo>
-    <takeSplashes>true</takeSplashes>
-    <extinguishesFire>true</extinguishesFire>
-    <tags>
-      <li>Water</li>
-    </tags>
   </TerrainDef>
   
-  <TerrainDef>
+    <TerrainDef ParentName="WaterDeepBase">
     <defName>GU_RedWaterDeep</defName>
     <label>red deep water</label>
-    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
-    <waterDepthShader>Map/WaterDepth</waterDepthShader>
-	<color>(200,100,100)</color>
+		<color>(200,100,100)</color>
 
-    <edgeType>Water</edgeType>
     <renderPrecedence>395</renderPrecedence>
-		<passability>Impassable</passability>
-    <pathCost>300</pathCost>
-    <acceptFilth>false</acceptFilth>
-    <fertility>0</fertility>
-    <avoidWander>true</avoidWander>
-    <changeable>false</changeable>
-		<holdSnow>false</holdSnow>
-    <takeSplashes>true</takeSplashes>
-    <extinguishesFire>true</extinguishesFire>
-    <tags>
-      <li>Water</li>
-    </tags>
   </TerrainDef>
+  
+  
   
   <TerrainDef>
     <defName>GU_MossyRed</defName>

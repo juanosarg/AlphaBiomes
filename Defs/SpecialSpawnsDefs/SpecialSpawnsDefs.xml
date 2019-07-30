@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+   <AlphaBiomes.SpecialSpawnsDef>
+      <defName>AB_SpawnAgariluxPrime</defName>
+      <thingDef>AB_AgariluxPrime</thingDef>
+      <allowOnWater>false</allowOnWater>
+	  <numberToSpawn>3</numberToSpawn>
+      <terrainValidationDisallowed/>
+      <terrainValidationAllowed>
+         <li>AB_MycoticGrass</li>
+      </terrainValidationAllowed>
+      <forbiddenBiomes/>
+      <allowedBiomes>
+         <li>AB_MycoticJungle</li>
+      </allowedBiomes>
+   </AlphaBiomes.SpecialSpawnsDef>
+   
+  
+</Defs>

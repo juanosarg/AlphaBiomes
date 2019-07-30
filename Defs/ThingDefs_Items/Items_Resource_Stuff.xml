@@ -132,12 +132,80 @@
     </techHediffsTags>
     <tools>
       <li>
-	          <label>alien wood log</label>
+	          <label>red wood log</label>
 
         <capacities>
           <li>Blunt</li>
         </capacities>
         <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+     <ThingDef ParentName="ResourceVerbBase">
+    <defName>AB_MushroomWoodLog</defName>
+    <label>mushroom stalks</label>
+    <description>These mushroom stalks have been hardened by age until they are almost as firm as a low quality wood. Very flammable, and not very resistant.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AB_MushroomWoodLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <stuffAdjective>mushroom stalk</stuffAdjective>
+	  
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <commonality>0</commonality>
+      <color>(200,200,200)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <appearance>Planks</appearance>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+		<Beauty>0.3</Beauty>
+        <MaxHitPoints>0.32</MaxHitPoints>    
+        <Flammability>1.2</Flammability>
+        <WorkToMake>0.45</WorkToMake>
+		<WorkToBuild>0.6</WorkToBuild>
+        <DoorOpenSpeed>1.2</DoorOpenSpeed>
+        
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <tools>
+      <li>
+	          <label>mushroom stalk</label>
+
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
