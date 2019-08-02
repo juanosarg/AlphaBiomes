@@ -44,77 +44,67 @@ namespace AlphaBiomes
         public void doMapSpawns()
         {
 
-            IEnumerable<IntVec3> tmpTerrain = map.AllCells.InRandomOrder(); //random so we can spawn plants and stuff in this step.
+            IEnumerable<IntVec3> tmpTerrain = map.AllCells.InRandomOrder(); 
 
-            foreach (IntVec3 c in tmpTerrain)
-            {
-                bool canSpawn = true;
-                TerrainDef terrain = c.GetTerrain(map);
-                foreach (SpecialSpawnsDef element in DefDatabase<SpecialSpawnsDef>.AllDefs)
+            if (map.Biome.defName.Contains("AB_")) {
+                foreach (SpecialSpawnsDef element in DefDatabase<SpecialSpawnsDef>.AllDefs.Where(element => element.allowedBiome == map.Biome.defName))
                 {
+                    bool canSpawn = true;
                     if (spawnCounter == 0)
                     {
                         spawnCounter = element.numberToSpawn;
                     }
-        
-                    foreach (string biome in element.forbiddenBiomes)
+                    foreach (IntVec3 c in tmpTerrain)
                     {
-                        if (map.Biome.defName == biome)
-                        {
-                            canSpawn = false;
-                            break;
-                        }
-                    }
+                        
+                        TerrainDef terrain = c.GetTerrain(map);
 
-                    foreach (string biome in element.allowedBiomes)
-                    {
-                        if (map.Biome.defName != biome)
-                        {
-                            canSpawn = false;
-                            break;
-                        }
-                    }
-                    if (!canSpawn)
-                    {
-                        continue;
-                    }
-                
-                    foreach (string allowed in element.terrainValidationAllowed)
-                    {
-                        if (terrain.defName == allowed)
-                        {
-                            canSpawn = true;
-                            break;
-                        }
-                        canSpawn = false;
-                    }
-                    foreach (string notAllowed in element.terrainValidationDisallowed)
-                    {
-                        if (terrain.HasTag(notAllowed))
-                        {
-                            canSpawn = false;
-                            break;
-                        }
-                    }
+                            foreach (string allowed in element.terrainValidationAllowed)
+                            {
+                                if (terrain.defName == allowed)
+                                {
+                                    canSpawn = true;
+                                    break;
+                                }
+                                canSpawn = false;
+                            }
+                            foreach (string notAllowed in element.terrainValidationDisallowed)
+                            {
+                                if (terrain.HasTag(notAllowed))
+                                {
+                                    canSpawn = false;
+                                    break;
+                                }
+                            }
 
-                   
+                            if (canSpawn)
+                            {
 
-                    if (canSpawn)
-                    {
-                        Thing thing = (Thing)ThingMaker.MakeThing(element.thingDef, null);
-                        GenSpawn.Spawn(thing, c, map);
-                        spawnCounter--;
-                    }  
+                                Thing thing = (Thing)ThingMaker.MakeThing(element.thingDef, null);
+                                CellRect occupiedRect = GenAdj.OccupiedRect(c, thing.Rotation, thing.def.Size);
+                                if (occupiedRect.InBounds(map))
+                                {
+                                    GenSpawn.Spawn(thing, c, map);
+                                    spawnCounter--;
+                                }
+                               
+                            }
+                        if (canSpawn && spawnCounter <= 0)
+                        {
+                            spawnCounter = 0;
+                            break;
+                        }
+                    }
+                    
 
                 }
-                if (canSpawn && spawnCounter<=0)
-                {
-                    break;
-                }
+
+
 
             }
+            
 
-           
+
             this.verifyFirstTime = false;
 
         }

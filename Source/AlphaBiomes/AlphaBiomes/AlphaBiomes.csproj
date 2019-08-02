@@ -50,6 +50,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BiomeWorker_GallatrossGraveyard.cs" />
     <Compile Include="BiomeWorker_MycoticJungle.cs" />
     <Compile Include="BiomeWorker_OcularForest.cs" />
     <Compile Include="CompGasProducer.cs" />

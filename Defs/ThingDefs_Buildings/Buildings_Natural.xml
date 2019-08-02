@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AB_GallatrossBones</defName>
+    <label>gallatross bones</label>
+    <description>This ribcage once belonged to a living Gallatross of truly exceptional size.</description>
+    <thingClass>BuildingOnTop</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AB_Bones1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+	<rotatable>false</rotatable>
+	
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <destroyable>true</destroyable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(4,4)</size>
+   
+    <blockPlants>true</blockPlants>
+   
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AB_AncientGallatrossSkull</defName>
+    <label>ancient gallatross skull</label>
+    <description>This skull belonged to an exceptionally huge Gallatross. Look at the size of this thing!</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AB_AncientGallatrossSkull</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+	<rotatable>false</rotatable>
+	
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <destroyable>true</destroyable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(2,2)</size>
+   
+    <blockPlants>true</blockPlants>
+   
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AB_AncientBone</defName>
+    <label>ancient bone</label>
+    <description>This fosilized bone might have belonged to an exceptionally large Gallatross.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AB_AncientBone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+	<rotatable>false</rotatable>
+	
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <destroyable>true</destroyable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(2,2)</size>
+   
+    <blockPlants>true</blockPlants>
+   
+  </ThingDef>
+  
+    <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AB_AncientBrokenBone</defName>
+    <label>ancient shattered bone</label>
+    <description>This fosilized bone might have belonged to an exceptionally large Gallatross.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AB_AncientBrokenBone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+	<rotatable>false</rotatable>
+	
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <destroyable>true</destroyable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(1,1)</size>
+   
+    <blockPlants>true</blockPlants>
+   
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AB_AncientVerticalBone</defName>
+    <label>ancient bones</label>
+    <description>These fosilized bones might have belonged to an exceptionally large Gallatross.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AB_AncientVerticalBone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+	<rotatable>false</rotatable>
+	
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <destroyable>true</destroyable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(1,2)</size>
+   
+    <blockPlants>true</blockPlants>
+   
+  </ThingDef>
+  
+   <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AB_HugeGallatrossSkeleton</defName>
+    <label>huge gallatross skeleton</label>
+    <description>These fosilized bones might have belonged to an exceptionally large Gallatross.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AB_WholeGallatrossSkeleton</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(12,8)</drawSize>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+	<rotatable>false</rotatable>
+	
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <destroyable>true</destroyable>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(8,4)</size>
+   
+    <blockPlants>true</blockPlants>
+   
+  </ThingDef>
+
+  
+
+</Defs>

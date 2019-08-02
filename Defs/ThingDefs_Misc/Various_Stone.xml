@@ -239,6 +239,125 @@
 			<GU_BlocksRoseQuartz>20</GU_BlocksRoseQuartz>
 		</products>
 	</RecipeDef>
+	
+	
+	  <!-- ================ Mudstone ================ -->
+  
+  <ThingDef ParentName="GU_RockBase" Name="AB_MudstoneBase">
+  
+
+    <defName>AB_Mudstone</defName>
+    <label>mudstone</label>
+	<generateCommonality>0</generateCommonality>
+    <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
+    <graphicData>
+      <color>(49,31,15)</color>
+    </graphicData>
+    <statBases>
+	 
+      <MaxHitPoints>475</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>AB_ChunkMudstone</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+	  <mineableYieldWasteable>false</mineableYieldWasteable>
+	  <smoothedThing>AB_SmoothedMudstone</smoothedThing>
+    </building>
+  </ThingDef>
+  
+    <ThingDef ParentName="AB_MudstoneBase">
+    <defName>AB_SmoothedMudstone</defName>
+    <label>smoothed mudstone</label>
+    <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="GU_ChunkRockBase">
+    <defName>AB_ChunkMudstone</defName>
+    <label>mudstone chunk</label>
+    <graphicData>
+      <color>(49,31,15)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <AB_BlocksMudstone>20</AB_BlocksMudstone>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="GU_StoneBlocksBase">
+    <defName>AB_BlocksMudstone</defName>
+    <label>mudstone blocks</label>
+    <description>Blocks of solid mudstone.</description>
+    <graphicData>
+      <color>(49,31,15)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+	<tradeability>Sellable</tradeability>
+
+    <stuffProps>
+	      <commonality>0</commonality>
+
+      <color>(49,31,15)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>mudstone</stuffAdjective>
+      <statFactors>
+
+        <Beauty>1.1</Beauty>  
+        
+        <MaxHitPoints>1.25</MaxHitPoints>
+				
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>GU_MakeStoneBlocksMudstone</defName>
+		<label>make mudstone blocks</label>
+		<description>Cuts mudstone chunks into usable blocks.</description>
+		<recipeUsers>
+				<li>TableStonecutter</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AB_ChunkMudstone</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_ChunkMudstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AB_BlocksMudstone>20</AB_BlocksMudstone>
+		</products>
+	</RecipeDef>
 
  <!-- ================ Ancient Metals ================ -->
 

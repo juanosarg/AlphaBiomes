@@ -12,9 +12,8 @@ namespace AlphaBiomes
         public bool allowOnWater;
         public int numberToSpawn;
         public List<string> terrainValidationAllowed;
-        public List<string> terrainValidationDisallowed;
-        public List<string> forbiddenBiomes;
-        public List<string> allowedBiomes;
+        public List<string> terrainValidationDisallowed;     
+        public string allowedBiome;
 
     }
 }
