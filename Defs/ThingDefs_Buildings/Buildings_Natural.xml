@@ -7,13 +7,13 @@
     <defName>AB_GallatrossBones</defName>
     <label>gallatross bones</label>
     <description>This ribcage once belonged to a living Gallatross of truly exceptional size.</description>
-    <thingClass>BuildingOnTop</thingClass>
+    <thingClass>Building</thingClass>
     <graphicData>
       <texPath>Things/Building/AB_Bones1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
     </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
 	<rotatable>false</rotatable>
 	
     <statBases>

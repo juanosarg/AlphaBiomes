@@ -4,7 +4,7 @@
   <BiomeDef>
     <defName>AB_GallatrossGraveyard</defName>
     <label>gallatross graveyard</label>
-    <description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</description>
+    <description>These parched mudflats are littered with the ancient bones of colossal Gallatrosses. Apparently the highly intelligent beasts are coming here to die, and to mourn their fallen relatives.</description>
     <workerClass>AlphaBiomes.BiomeWorker_GallatrossGraveyard</workerClass>
     <animalDensity>1.8</animalDensity>
     <plantDensity>0.05</plantDensity>

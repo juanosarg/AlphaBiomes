@@ -58,11 +58,19 @@ namespace AlphaBiomes
 
                 __result = replacedList;
             }
+            else if (__instance.grid.tiles[tile].biome.defName == "AB_GelatinousSuperorganism")
+            {
+                List<ThingDef> replacedList = new List<ThingDef>();
+                ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_SlimeStone");
+                replacedList.Add(item);
+               
+                __result = replacedList;
+            }
             else {
                 Rand.PushState();
                 Rand.Seed = tile;
                 List<ThingDef> list = (from d in DefDatabase<ThingDef>.AllDefs
-                                       where d.category == ThingCategory.Building && d.building.isNaturalRock && !d.building.isResourceRock && !d.IsSmoothed && d.defName!= "GU_RoseQuartz" && d.defName != "AB_Mudstone"
+                                       where d.category == ThingCategory.Building && d.building.isNaturalRock && !d.building.isResourceRock && !d.IsSmoothed && d.defName!= "GU_RoseQuartz" && d.defName != "AB_Mudstone" && d.defName != "AB_SlimeStone"
                                        select d).ToList<ThingDef>();
                 int num = Rand.RangeInclusive(2, 3);
                 if (num > list.Count)

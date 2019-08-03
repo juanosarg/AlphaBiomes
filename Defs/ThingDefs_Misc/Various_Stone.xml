@@ -359,6 +359,96 @@
 		</products>
 	</RecipeDef>
 
+ <!-- ================ Slime ================ -->	
+	
+	  <ThingDef ParentName="GU_RockBase" Name="AB_SlimeBase">
+  
+
+    <defName>AB_SlimeStone</defName>
+    <label>hardened slime</label>
+	<generateCommonality>0</generateCommonality>
+    <description>This is a hardened slime deposit. Not very useful... This "rock" produces chunks, but they can't be turned into blocks like other types of rock.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/AB_SlimeAtlas</texPath>
+            <color>(24,69,5)</color>
+
+    </graphicData>
+    <statBases>
+	 
+      <MaxHitPoints>700</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>AB_ChunkSlimeStone</mineableThing>
+      <mineableDropChance>0.1</mineableDropChance>
+	  <mineableYieldWasteable>false</mineableYieldWasteable>
+	  <smoothedThing>AB_SmoothedSlimeStone</smoothedThing>
+    </building>
+  </ThingDef>
+  
+   <ThingDef ParentName="AB_SlimeBase">
+    <defName>AB_SmoothedSlimeStone</defName>
+    <label>smoothed slime</label>
+    <description>This is a hardened slime deposit. Not very useful... This "rock" produces chunks, but they can't be turned into blocks like other types of rock.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+     
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+   <ThingDef ParentName="GU_ChunkRockBase">
+    <defName>AB_ChunkSlimeStone</defName>
+    <label>hardened slime chunk</label>
+	    <description>This is a hardened slime chunk. Not very useful... Maybe it can be deconstructed into little pieces of hardened slime, and then... eaten. Yuck.</description>
+
+    <graphicData>
+      <color>(51,55,20)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <Steel>20</Steel>
+    </butcherProducts>
+  </ThingDef>
+  
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>AB_MakeStoneBlocksSlimeStone</defName>
+		<label>turn hardened slime chunks into "food"</label>
+		<description>Cuts slime stone chunks into semi-edible food.</description>
+		<recipeUsers>
+				<li>TableStonecutter</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AB_ChunkSlimeStone</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_ChunkSlimeStone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AB_SlimeMeal>1</AB_SlimeMeal>
+		</products>
+	</RecipeDef>
  <!-- ================ Ancient Metals ================ -->
 
   <!-- <ThingDef ParentName="GU_RockBase">

@@ -7,7 +7,7 @@
     <description>This sickly looking forest seems to be completely alien, probably of an extra-dimensional origin. Plant life seems to be struggling to grow, and the very ground fights against the neighbouring lands. Strange lifeforms, perhaps not entirely alive, scurry around the sickening vegetation.</description>
     <workerClass>AlphaBiomes.BiomeWorker_OcularForest</workerClass>
     <animalDensity>1.9</animalDensity>
-    <plantDensity>0.5</plantDensity>
+    <plantDensity>0.35</plantDensity>
     <settlementSelectionWeight>0.0</settlementSelectionWeight>
 	<texture>Biomes/AB_OcularForest</texture>
     <forageability>0.1</forageability>
@@ -54,7 +54,7 @@
       </li>
     </diseases>
 	<baseWeatherCommonalities>
-      <Clear>17</Clear>
+      <Clear>1</Clear>
       <AB_RedFog>17</AB_RedFog>
       <Rain>1</Rain>
       <DryThunderstorm>1</DryThunderstorm>
@@ -98,7 +98,9 @@
     </terrainPatchMakers>
 		<wildPlants>
 			<GU_AlienTree>150</GU_AlienTree>
-			<GU_AlienGrass>50</GU_AlienGrass>
+			<AB_TentacularPlant>50</AB_TentacularPlant>
+			<AB_GlobularPlant>5</AB_GlobularPlant>
+			<GU_AlienGrass>300</GU_AlienGrass>
 			<GU_RedLeaves>50</GU_RedLeaves>
 			<GU_RedPlantsTall>50</GU_RedPlantsTall>
 

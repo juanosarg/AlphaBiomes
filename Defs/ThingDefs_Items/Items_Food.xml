@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="MealRottable">
+    <defName>AB_SlimeMeal</defName>
+    <label>slime meal</label>
+    <description>These hardened chunks of slime can be used as a last chance alternative to starvation. Barely edible, and absolutely disgusting.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AB_SlimeMeal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+	  <tasteThought>AteAwfulMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+ 
+
+</Defs>
