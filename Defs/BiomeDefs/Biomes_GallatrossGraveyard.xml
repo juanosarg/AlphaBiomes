@@ -82,12 +82,11 @@
     </baseWeatherCommonalities>
     <wildPlants>
 			<Plant_Grass>7.0</Plant_Grass>
-			<Plant_Dandelion>0.8</Plant_Dandelion>
+			<AB_TangleTea>0.8</AB_TangleTea>
 			<Plant_Bush>0.7</Plant_Bush>
-			<Plant_PincushionCactus>0.6</Plant_PincushionCactus>
+			<AB_EuphorbiaRimworldia>0.6</AB_EuphorbiaRimworldia>
 			<Plant_Agave>0.2</Plant_Agave>
-			<Plant_SaguaroCactus>0.26</Plant_SaguaroCactus>
-			<Plant_TreeDrago>0.20</Plant_TreeDrago>
+			<AB_DeadBowerTree>0.46</AB_DeadBowerTree>
 			<Plant_Berry>0.10</Plant_Berry>
     </wildPlants>
     <wildAnimals>

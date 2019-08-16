@@ -58,16 +58,37 @@
 		<statBases>
 			<Nutrition>0.075</Nutrition>
 			<FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
-		</statBases>
-		<statBases>
 			<MarketValue>1.5</MarketValue>
 		</statBases>
+		
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawSlime</defName>
+		<label>raw slime</label>
+		<description>Raw slime. This thing is edible. Barely.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawSlime</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>

@@ -127,7 +127,16 @@
 
 		</wildPlants>
 		<wildAnimals>
-
+			<Rat>1</Rat>
+			<Boomalope>0.5</Boomalope>
+			<Cassowary>0.5</Cassowary>
+			<Chinchilla>0.5</Chinchilla>
+			<WildBoar>0.5</WildBoar>
+			<Alpaca>0.5</Alpaca>
+			<Cobra>0.15</Cobra>
+			<Warg>0.07</Warg>
+			<Raccoon>0.5</Raccoon>
+			
 		</wildAnimals>
 	</BiomeDef>
 

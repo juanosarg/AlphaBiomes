@@ -4,7 +4,7 @@
  <BiomeDef>
 		<defName>AB_GelatinousSuperorganism</defName>
 		<label>gelatinous superorganism</label>
-		<description>A huge mold-like organism has grown in this area, basically destroying the previous existing ecosystem, and replacing it with an alien landscape of its own creation. Its strange biology seems to be compatible with this planet's biosphere. Expect to find no useable rocky materials to build here.</description>
+		<description>A huge mold-like organism has grown in this area, basically destroying the previous existing ecosystem, and replacing it with an alien landscape of its own creation. Its strange biology seems to be compatible with this planet's biosphere. Expect to find no useable rocky materials to build here, and very little wood.</description>
 		<workerClass>AlphaBiomes.BiomeWorker_GelatinousSuperorganism</workerClass>
 		<animalDensity>2</animalDensity>
 		<plantDensity>0.2</plantDensity>
@@ -12,7 +12,7 @@
 		<movementDifficulty>4</movementDifficulty>
 		<texture>Biomes/AB_GelatinousSuperorganism</texture>
 		<forageability>0.75</forageability>
-		<foragedFood>RawBerries</foragedFood>
+		<foragedFood>AB_RawSlime</foragedFood>
 		<wildPlantRegrowDays>13</wildPlantRegrowDays>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Jungle</li>
@@ -115,9 +115,11 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<AB_TallSlimyGrass>4.8</AB_TallSlimyGrass>
-	 <AB_SlimyTree>1</AB_SlimyTree>
-      <AB_Slimecasia>0.5</AB_Slimecasia>
-	  <AB_SlimyFern>0.5</AB_SlimyFern>
+			<AB_SlimyTree>1</AB_SlimyTree>
+			<AB_LargeSlimyTree>0.3</AB_LargeSlimyTree>
+			<Plant_TreePalm>0.05</Plant_TreePalm>
+			<AB_Slimecasia>0.5</AB_Slimecasia>
+			<AB_SlimyFern>0.5</AB_SlimyFern>
      
 		</wildPlants>
 		<wildAnimals>

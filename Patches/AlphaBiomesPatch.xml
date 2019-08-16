@@ -10,9 +10,55 @@
 
 
 
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Junglelisk"]/race</xpath>
+				<value>
+					<wildBiomes>
+						<AB_FeraliskInfestedJungle>0.2</AB_FeraliskInfestedJungle>
+					</wildBiomes>
+										
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Feralisk"]/race/wildBiomes</xpath>
+				<value>
 
+					<AB_FeraliskInfestedJungle>0.1</AB_FeraliskInfestedJungle>
 
+										
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Dunealisk"]/race/wildBiomes</xpath>
+				<value>
 
+					<AB_FeraliskInfestedJungle>0.07</AB_FeraliskInfestedJungle>
+
+										
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Agaripod"]/race</xpath>
+				<value>
+					<wildBiomes>
+						<AB_MycoticJungle>0.5</AB_MycoticJungle>
+					</wildBiomes>
+										
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_MycoidColossus"]/race</xpath>
+				<value>
+					<wildBiomes>
+						<AB_MycoticJungle>0.5</AB_MycoticJungle>
+					</wildBiomes>
+										
+				</value>
+			</li>
 			
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_Wildpod"]/race/wildBiomes</xpath>
@@ -38,8 +84,18 @@
 				<xpath>/Defs/ThingDef[defName="AA_OcularJelly"]/race/wildBiomes</xpath>
 				<value>
 
-					<AB_OcularForest>0.1</AB_OcularForest>
+					<AB_OcularForest>2</AB_OcularForest>
 					
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_RedSpore"]/race</xpath>
+				<value>
+					<wildBiomes>
+						<AB_OcularForest>0.85</AB_OcularForest>
+					</wildBiomes>
+										
 				</value>
 			</li>
 

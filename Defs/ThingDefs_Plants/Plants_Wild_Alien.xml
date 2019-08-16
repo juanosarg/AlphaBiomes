@@ -228,6 +228,51 @@
       
     </comps>
   </ThingDef>
+  
+   <ThingDef ParentName="PlantBase">
+    <defName>AB_BloodBouquet</defName>
+    <label>blood bouquet</label>
+    <description>This tree is completely alien.</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+	   <Flammability>0.8</Flammability>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/AB_BloodBouquet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.35</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+      
+    </ingestible>
+    <plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>5</growDays>
+			
+			
+			<visualSizeRange>
+				<min>2</min>
+				<max>2.5</max>
+			</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+		</plant>
+		<comps>
+      
+    </comps>
+  </ThingDef>
 
 	
 

@@ -38,7 +38,7 @@
 				<verbClass>Verb_ShootOneUse</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<range>20</range>
-				<forcedMissRadius>0.9</forcedMissRadius>
+				
 				<warmupTime>1.5</warmupTime>
 				<noiseRadius>4</noiseRadius>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>

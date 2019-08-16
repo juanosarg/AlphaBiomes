@@ -27,7 +27,7 @@ namespace AlphaBiomes
                         {
                             Pawn pawn = current as Pawn;
                             bool flag = (pawn != null);
-                            if (flag && pawn.def.defName != "AA_Wildpod" && pawn.def.defName != "AA_Wildpawn" && pawn.def.defName != "AB_Agaripod" && pawn.def.defName != "AB_MycoidColossus")
+                            if (flag && pawn.def.defName != "AA_Wildpod" && pawn.def.defName != "AA_Wildpawn" && pawn.def.defName != "AA_Agaripod" && pawn.def.defName != "AA_MycoidColossus")
                             {
                                 pawn.TakeDamage(new DamageInfo(DamageDefOf.Cut, 1, 0f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown));
                                 HealthUtility.AdjustSeverity(pawn, HediffDefOf.ToxicBuildup, (float)0.050);
