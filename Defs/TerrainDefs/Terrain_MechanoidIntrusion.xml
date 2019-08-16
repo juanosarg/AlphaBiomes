@@ -63,11 +63,11 @@
     <takeFootprints>false</takeFootprints>
   </TerrainDef>
   
-  <TerrainDef>
-    <defName>GU_MetalFloor4</defName>
-    <label>sun-bleached seamless metallic floor</label>
-    <texturePath>Terrain/Surfaces/GU_MetalFloor1</texturePath>
-		<color>(120,120,120)</color>
+    <TerrainDef>
+    <defName>AB_SoilOnCrackedMetal</defName>
+    <label>soil on cracked metal</label>
+    <texturePath>Terrain/Surfaces/AB_SoilOnCrackedMetal</texturePath>
+		<color>(100,100,100)</color>
 
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>350</renderPrecedence>
@@ -80,9 +80,11 @@
       <li>Heavy</li>
   
     </affordances>
-    <fertility>0</fertility>
+    <fertility>0.45</fertility>
     <takeFootprints>false</takeFootprints>
   </TerrainDef>
+  
+ 
   
     <TerrainDef>
     <defName>GU_Piping</defName>

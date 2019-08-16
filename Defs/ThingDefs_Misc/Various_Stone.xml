@@ -451,27 +451,51 @@
 	</RecipeDef>
  <!-- ================ Ancient Metals ================ -->
 
-  <!-- <ThingDef ParentName="GU_RockBase">
+   <ThingDef ParentName="GU_RockBase" Name="GU_AncientMetals">
   
 
     <defName>GU_AncientMetals</defName>
     <label>ancient metal walls</label>
 	<generateCommonality>0</generateCommonality>
-    <description>These ancient metal walls have been here for a while.</description>
+    <description>These ancient metal walls have been here for a while. They can be mined to acquire steel chunks.</description>
     <graphicData>
-      <texPath>Things/Building/Linked/AncientMetals_Atlas</texPath>
+      <texPath>Things/Building/Linked/AB_SlimeAtlas</texPath>
+	  <color>(80,80,80)</color>
+
       
     </graphicData>
     <statBases>
 	
-      <MaxHitPoints>400</MaxHitPoints>
+      <MaxHitPoints>950</MaxHitPoints>
     </statBases>
     <building>
       <mineableThing>ChunkSlagSteel</mineableThing>
-      <mineableDropChance>0.25</mineableDropChance>
+      <mineableDropChance>0.75</mineableDropChance>
 	  <mineableYieldWasteable>false</mineableYieldWasteable>
 
     </building>
-  </ThingDef>-->
+  </ThingDef>
+  
+  
+   <ThingDef ParentName="GU_AncientMetals">
+    <defName>AB_SmoothedAncientMetals</defName>
+    <label>smoothed ancient metals</label>
+    <description>These ancient metal walls have been here for a while. They can be mined to acquire steel chunks.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+     
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
  
 </Defs>
