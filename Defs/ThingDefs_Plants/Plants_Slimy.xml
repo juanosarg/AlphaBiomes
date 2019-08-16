@@ -85,7 +85,7 @@
 		<description>An exceptionally strong hardwood tree that grows in warm climates. Because teak wood is so durable and water-resistant, it was used to form the keel of wooden sailing ships in ancient times.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_SlimyTree</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
 			<color>(255, 255, 255, 180)</color>
 		</graphicData>
