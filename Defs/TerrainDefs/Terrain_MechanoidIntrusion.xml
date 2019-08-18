@@ -15,6 +15,7 @@
     </statBases>
     <affordances>
       <li>Light</li>
+	  <li>Medium</li>
       <li>Heavy</li>
   
     </affordances>
@@ -35,6 +36,8 @@
     </statBases>
     <affordances>
       <li>Light</li>
+	  	  <li>Medium</li>
+
       <li>Heavy</li>
   
     </affordances>
@@ -56,6 +59,8 @@
     </statBases>
     <affordances>
       <li>Light</li>
+	  	  <li>Medium</li>
+
       <li>Heavy</li>
   
     </affordances>
@@ -77,7 +82,11 @@
     </statBases>
     <affordances>
       <li>Light</li>
+	  	  <li>Medium</li>
+
       <li>Heavy</li>
+	  <li>GrowSoil</li>
+      <li>Diggable</li>
   
     </affordances>
     <fertility>0.45</fertility>
@@ -100,8 +109,7 @@
     </statBases>
     <affordances>
       <li>Light</li>
-      <li>Heavy</li>
-  
+     
     </affordances>
     <fertility>0</fertility>
     <takeFootprints>false</takeFootprints>

@@ -87,10 +87,7 @@
 			<shaderType>Transparent</shaderType>
 			<color>(255, 255, 255, 120)</color>
 			<drawSize>2</drawSize>
-			<shadowData>
-				<volume>(0.55, 0.17, 0.15)</volume>
-				<offset>(0,0,-0.2)</offset>
-			</shadowData>
+			
 		</graphicData>
 		<plant>
 			<topWindExposure>0.25</topWindExposure>
@@ -112,10 +109,7 @@
 			<shaderType>Transparent</shaderType>
 			<color>(255, 255, 255, 120)</color>
 			<drawSize>2</drawSize>
-			<shadowData>
-				<volume>(0.55, 0.17, 0.15)</volume>
-				<offset>(0,0,-0.2)</offset>
-			</shadowData>
+			
 		</graphicData>
 		<plant>
 			<topWindExposure>0.25</topWindExposure>
