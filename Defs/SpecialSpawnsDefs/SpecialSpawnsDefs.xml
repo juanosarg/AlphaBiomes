@@ -99,4 +99,39 @@
       <allowedBiome>AB_GallatrossGraveyard</allowedBiome>
 
    </AlphaBiomes.SpecialSpawnsDef>
+   
+   <AlphaBiomes.SpecialSpawnsDef>
+      <defName>AB_SpawnShipChunks</defName>
+      <thingDef>ShipChunk</thingDef>
+      <allowOnWater>false</allowOnWater>
+	  <numberToSpawn>15</numberToSpawn>
+      <terrainValidationDisallowed/>
+      <terrainValidationAllowed>
+         <li>GU_MetalFloor1</li>
+		 <li>GU_MetalFloor2</li>
+		 <li>GU_MetalFloor3</li>
+      </terrainValidationAllowed>
+       
+      <allowedBiome>AB_MechanoidIntrusion</allowedBiome>
+
+   </AlphaBiomes.SpecialSpawnsDef>
+   
+  
+   
+   <AlphaBiomes.SpecialSpawnsDef>
+      <defName>AB_SpawnPoisonShipChunks</defName>
+      <thingDef>AB_AbandonedShipPart</thingDef>
+      <allowOnWater>false</allowOnWater>
+	  <numberToSpawn>1</numberToSpawn>
+      <terrainValidationDisallowed/>
+      <terrainValidationAllowed>
+         <li>GU_MetalFloor1</li>
+		 <li>GU_MetalFloor2</li>
+		 <li>GU_MetalFloor3</li>
+      </terrainValidationAllowed>
+       
+      <allowedBiome>AB_MechanoidIntrusion</allowedBiome>
+
+   </AlphaBiomes.SpecialSpawnsDef>
+   
 </Defs>

@@ -6,7 +6,7 @@
 	<BiomeDef>
 		<defName>AB_MechanoidIntrusion</defName>
 		<label>mechanoid intrusion</label>
-		<description>A mechanoid hive was dismantling this biome, turning its mass into computronium. Almost no trace of its biological origins has been left untouched, with even the trees turned into mechanical contraptions destined for some nefarious purposes. Animals rarely come to this biome, and thus finding food can be VERY difficult.</description>
+		<description>A mechanoid hive was dismantling this biome, turning its mass into computronium, and hastily left it abandoned for unknown reasons. Almost no trace of its biological origins has been left untouched, with even the trees turned into mechanical contraptions destined for some nefarious purposes. Animals rarely come to this biome, and thus finding food can be VERY difficult.</description>
 		<workerClass>AlphaBiomes.BiomeWorker_MechanoidIntrusion</workerClass>
 		<canAutoChoose>false</canAutoChoose>
 		<allowRoads>false</allowRoads>

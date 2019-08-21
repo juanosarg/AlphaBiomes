@@ -38,10 +38,10 @@ namespace AlphaBiomes
         public static void RemoveGravel(Map map,ref TerrainDef __result)
 
         {
-            Log.Message(__result.defName);
+            //Log.Message(__result.defName);
             if ((__result == TerrainDefOf.Gravel)&&(map.Biome.defName== "AB_MechanoidIntrusion"))
             {
-                Log.Message("Detectado e intentando cambiar");
+                //Log.Message("Detectado e intentando cambiar");
                 __result = TerrainDef.Named("AB_SoilOnCrackedMetal");
             }
 
