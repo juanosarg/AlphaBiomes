@@ -8,7 +8,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>AB_TangleTea</defName>
 		<label>tangle tea</label>
-		<description>This strange flower seems to be of alien origins. It doesn't seem to be fit for human consumption.</description>
+		<description>This strange plant seems to be of alien origins. It doesn't seem to be fit for human consumption. Its common name alludes to the tea-bag shape of its flowers, and the fact that its sap is a very sticky substance.</description>
 		<pathCost>50</pathCost>
 		<graphicData>
 			<texPath>Things/Plants/AB_TangleTea</texPath>

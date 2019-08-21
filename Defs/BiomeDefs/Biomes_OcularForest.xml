@@ -20,6 +20,14 @@
 		</soundsAmbient>
 		<diseaseMtbDays>30</diseaseMtbDays>
 		<diseases>
+		<li>
+				<diseaseInc>AB_Disease_SporesAllergy</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>AB_Disease_AnimalSporesAllergy</diseaseInc>
+				<commonality>100</commonality>
+			</li>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>
 				<commonality>100</commonality>
@@ -107,13 +115,13 @@
 			</li>
 		</terrainPatchMakers>
 		<wildPlants>
-			<GU_AlienTree>150</GU_AlienTree>
+			<AB_AlienTree>150</AB_AlienTree>
 			<AB_TentacularPlant>50</AB_TentacularPlant>
 			<AB_GlobularPlant>5</AB_GlobularPlant>
 			<AB_BloodBouquet>18</AB_BloodBouquet>
-			<GU_AlienGrass>300</GU_AlienGrass>
-			<GU_RedLeaves>50</GU_RedLeaves>
-			<GU_RedPlantsTall>50</GU_RedPlantsTall>
+			<AB_AlienGrass>300</AB_AlienGrass>
+			<AB_RedLeaves>50</AB_RedLeaves>
+			<AB_RedPlantsTall>50</AB_RedPlantsTall>
 
 
 		</wildPlants>

@@ -32,7 +32,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>AB_Gomphoeria</defName>
 		<label>gomphoeria</label>
-		<description>An unusually tall plant with bright, pink nodules.</description>
+		<description>An unusually tall plant with bright, pink nodules. Its nodules are slightly toxic for humans, and it produces a strange, rotten fruit smell, so it is considered absolutely inedible.</description>
 		<statBases>
 			<Beauty>2</Beauty>
 		</statBases>
@@ -59,9 +59,9 @@
 	<ThingDef ParentName="BushBase">
 		<defName>AB_Aaklac</defName>
 		<label>aaklac</label>
-		<description>A rare, huge flower which can be found in the deepest jungles.</description>
+		<description>A rare, huge flower which can be found in the deepest jungles. Its quite striking colour and nice smell make it popular in gardening, if it can be extracted from the deep jungle, of course.</description>
 		<statBases>
-			<Beauty>3</Beauty>
+			<Beauty>10</Beauty>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_Aaklac</texPath>

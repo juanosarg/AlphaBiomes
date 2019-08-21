@@ -3,7 +3,7 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>GU_AlienGrass</defName>
+		<defName>AB_AlienGrass</defName>
 		<label>alien grass</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures.</description>
 		<statBases>
@@ -33,7 +33,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>GU_RedLeaves</defName>
+		<defName>AB_RedLeaves</defName>
 		<label>alien plant</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures.</description>
 		<statBases>
@@ -63,7 +63,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>GU_RedPlantsTall</defName>
+		<defName>AB_RedPlantsTall</defName>
 		<label>alien plant</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures.</description>
 		<statBases>
@@ -94,9 +94,9 @@
 	<!--============================ Trees ============================-->
 
   <ThingDef ParentName="PlantBase">
-    <defName>GU_AlienTree</defName>
+    <defName>AB_AlienTree</defName>
     <label>alien tree</label>
-    <description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow by being exposed to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps it can be somehow useful?</description>
+    <description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow by being exposed to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps its wood can be somehow useful.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	   <Flammability>0.8</Flammability>
@@ -145,7 +145,7 @@
    <ThingDef ParentName="PlantBase">
     <defName>AB_TentacularPlant</defName>
     <label>tentacular aberration</label>
-    <description>This tree is completely alien.</description>
+    <description>This tree is completely alien. The blue nodules at the end of each branch / tentacle produce an eerie rattling sound from time to time.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	   <Flammability>0.8</Flammability>
@@ -187,7 +187,7 @@
    <ThingDef ParentName="PlantBase">
     <defName>AB_GlobularPlant</defName>
     <label>globular aberration</label>
-    <description>This tree is completely alien.</description>
+    <description>A sickly pink orb supported by a network of gnarled branches. A reddish sap constantly drips from its wood, and seems to keep insects at bay.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	   <Flammability>0.8</Flammability>
@@ -232,7 +232,7 @@
    <ThingDef ParentName="PlantBase">
     <defName>AB_BloodBouquet</defName>
     <label>blood bouquet</label>
-    <description>This tree is completely alien.</description>
+    <description>A spiny plant with some kind of fruit hanging from its top. The fruit seems to be as hard as the trunk itself, and equally covered in spines.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	   <Flammability>0.8</Flammability>
