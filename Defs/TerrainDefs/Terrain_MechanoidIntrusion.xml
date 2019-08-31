@@ -108,6 +108,7 @@
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <affordances>
+	  <li>Bridgeable</li>
       <li>Light</li>
      
     </affordances>

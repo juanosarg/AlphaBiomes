@@ -122,6 +122,7 @@
 			<AB_Bryolux>10</AB_Bryolux>
 			<AB_GlowingAgarilux>1</AB_GlowingAgarilux>
 			<AB_GiantAgarilux>2</AB_GiantAgarilux>
+			<AB_ArbuscularMycorrhiza>0.2</AB_ArbuscularMycorrhiza>
 
 
 
@@ -136,8 +137,13 @@
 			<Cobra>0.15</Cobra>
 			<Warg>0.07</Warg>
 			<Raccoon>0.5</Raccoon>
-			
+
 		</wildAnimals>
+		<allowedPackAnimals>
+			<li>Muffalo</li>
+			<li>Elephant</li>
+			<li>Alpaca</li>
+		</allowedPackAnimals>
 	</BiomeDef>
 
 

@@ -238,7 +238,7 @@
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
 			<growDays>60</growDays>
-			<dieIfLeafless>true</dieIfLeafless>
+			<dieIfLeafless>false</dieIfLeafless>
 			<harvestYield>35</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_MushroomWoodLog</harvestedThingDef>
@@ -246,6 +246,50 @@
 			<visualSizeRange>
 				<min>3.5</min>
 				<max>6</max>
+			</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+
+			<purpose>Food</purpose>
+		</plant>
+
+	</ThingDef>
+	
+	<ThingDef ParentName="AB_CavePlantBase">
+		<defName>AB_ArbuscularMycorrhiza</defName>
+		<label>arbuscular mycorrhiza</label>
+		<description>A mycorrhiza is a symbiotic association between a fungus and a plant. This particular organism is highly advanced, and the two symbionts have almost fused into a single creature that keeps the supporting structures of the original tree (the trunk) and the caps and mycellium of the original fungus. A small quantity of wood can be harvested from its trunk.</description>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Beauty>6</Beauty>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_ArbuscularMycorrhiza</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.4, 0.6, 0.26)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<blockLight>true</blockLight>
+
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>25</pathCost>
+		<ingestible />
+		<plant>
+			<fertilityMin>0.95</fertilityMin>
+			<fertilitySensitivity>0.15</fertilitySensitivity>
+			<growDays>60</growDays>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestYield>35</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>WoodLog</harvestedThingDef>
+			<neverBlightable>true</neverBlightable>
+			<visualSizeRange>
+				<min>2</min>
+				<max>3.5</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
 

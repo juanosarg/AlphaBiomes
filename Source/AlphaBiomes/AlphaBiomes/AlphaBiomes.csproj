@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlphaBiomes_Settings.cs" />
+    <Compile Include="AlphaBiomes_SettingsController.cs" />
     <Compile Include="BiomeWorker_FeraliskInfestedJungle.cs" />
     <Compile Include="BiomeWorker_MechanoidIntrusion.cs" />
     <Compile Include="BiomeWorker_GelatinousSuperorganism.cs" />

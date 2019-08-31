@@ -32,9 +32,12 @@ Compatible with Alpha Animals (obviously)
 Compatible with Dinosauria
 Compatible with Megafauna
 Compatible with Animal Collab Project
+Compatible with Vanilla Animals Expanded
 Compatible with Rim of Madness - Bones
 Uses Harmony (no need to download)
 Uses ModCheck (no need to download)
+
+Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
 
 &lt;size=24&gt;Credit&lt;/size&gt;
 Bone planet: Hyptosis https://opengameart.org/content/bone-planet 
@@ -43,6 +46,7 @@ Some sounds by Mike Koenig at http://soundbible.com
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.01: Added compat with Vanilla Animals Expanded (the 4 modules released so far). Many small bugfixes (31/08/19)
 v1.0: Rimworld 1.0 version (21/08/19)
 v0.1: Prerelease
 

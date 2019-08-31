@@ -7,7 +7,9 @@ namespace AlphaBiomes
 {
     public class Gas_Mycotic : Gas
     {
-        private int tickerInterval = 60;
+        private int tickerInterval = 0;
+        private int tickerMax = 60;
+
 
 
 
@@ -17,7 +19,7 @@ namespace AlphaBiomes
             base.Tick();
             try
             {
-                if (tickerInterval >= 30)
+                if (tickerInterval >= tickerMax)
                 {
 
                     HashSet<Thing> hashSet = new HashSet<Thing>(this.Position.GetThingList(this.Map));

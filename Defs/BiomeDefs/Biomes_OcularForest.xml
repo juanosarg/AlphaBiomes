@@ -20,7 +20,7 @@
 		</soundsAmbient>
 		<diseaseMtbDays>30</diseaseMtbDays>
 		<diseases>
-		<li>
+			<li>
 				<diseaseInc>AB_Disease_SporesAllergy</diseaseInc>
 				<commonality>100</commonality>
 			</li>
@@ -122,6 +122,7 @@
 			<AB_AlienGrass>300</AB_AlienGrass>
 			<AB_RedLeaves>50</AB_RedLeaves>
 			<AB_RedPlantsTall>50</AB_RedPlantsTall>
+			<AB_HalfAlienTree>5</AB_HalfAlienTree>
 
 
 		</wildPlants>
@@ -131,6 +132,10 @@
 			<Iguana>0.7</Iguana>
 			<Fox_Fennec>0.15</Fox_Fennec>
 		</wildAnimals>
+		<allowedPackAnimals>
+			
+			<li>Alpaca</li>
+		</allowedPackAnimals>
 	</BiomeDef>
 
 
