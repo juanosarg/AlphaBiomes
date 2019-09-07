@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<BiomeDef>
+		<defName>AB_PropaneLakes</defName>
+		<label>propane lakes</label>
+		<description>Permanent ice sheets floating on water. There is no soil for plants to grow, no minerals to mine, and almost no animal life.</description>
+		<workerClass>AlphaBiomes.BiomeWorker_PropaneLakes</workerClass>
+		<canAutoChoose>false</canAutoChoose>
+		<allowRoads>false</allowRoads>
+		<allowRivers>false</allowRivers>
+		<animalDensity>0.1</animalDensity>
+		<plantDensity>0</plantDensity>
+		<hasVirtualPlants>false</hasVirtualPlants>
+		
+		<settlementSelectionWeight>0.01</settlementSelectionWeight>
+		<movementDifficulty>1.5</movementDifficulty>
+		<texture>Biomes/AB_PropaneLakes</texture>
+		<forageability>0</forageability>
+		<soundsAmbient>
+			<li>Ambient_Wind_Desolate</li>
+		</soundsAmbient>
+		<diseaseMtbDays>90</diseaseMtbDays>
+		<diseases>
+			<li>
+				<diseaseInc>Disease_Flu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Plague</diseaseInc>
+				<commonality>80</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+
+			<li>
+				<diseaseInc>Disease_AnimalFlu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_AnimalPlague</diseaseInc>
+				<commonality>80</commonality>
+			</li>
+		</diseases>
+		<terrainsByFertility>
+			<li>
+				<terrain>AB_PackedSnow</terrain>
+				<min>-999</min>
+				<max>0.87</max>
+			</li>
+			<li>
+				<terrain>AB_PackedIce</terrain>
+				<min>0.87</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.04</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_SnowOverRocks</terrain>
+						<min>0.8</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_SolidPropane</terrain>
+						<min>0.56</min>
+						<max>0.76</max>
+					</li>
+					<li>
+						<terrain>AB_PropaneLake</terrain>
+						<min>0.76</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		<baseWeatherCommonalities>
+			<Clear>12</Clear>
+			<Fog>0</Fog>
+			<Rain>0</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>0</FoggyRain>
+			<SnowGentle>20</SnowGentle>
+			<SnowHard>30</SnowHard>
+		</baseWeatherCommonalities>
+		<wildAnimals>
+			<Snowhare>2</Snowhare>
+			<Muffalo>0.1</Muffalo>
+			<Bear_Polar>0.1</Bear_Polar>
+			<Wolf_Arctic>0.1</Wolf_Arctic>
+			<Fox_Arctic>0.1</Fox_Arctic>
+		</wildAnimals>
+		<allowedPackAnimals>
+			<li>Muffalo</li>
+		</allowedPackAnimals>
+	</BiomeDef>
+
+</Defs>
