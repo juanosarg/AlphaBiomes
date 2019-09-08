@@ -35,7 +35,7 @@
     <texturePath>Terrain/Surfaces/AB_WhiteIce</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>352</renderPrecedence>
-    <pathCost>12</pathCost>
+    <pathCost>6</pathCost>
     <statBases>
       <Beauty>-1</Beauty>
     </statBases>

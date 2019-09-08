@@ -64,6 +64,7 @@
     <Compile Include="Gas_Mycotic.cs" />
     <Compile Include="HarmonyPatchers.cs" />
     <Compile Include="MapComponentExtender.cs" />
+    <Compile Include="Plant_Cold.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecialSpawnsDef.cs" />
     <Compile Include="WeatherOverlay_RedFog.cs" />

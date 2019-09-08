@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--============================ Flowers =============================-->
+
+	<ThingDef ParentName="BushBase">
+		<defName>AB_CrystalHorn</defName>
+		<label>crystal horn</label>
+		<thingClass>AlphaBiomes.Plant_Cold</thingClass>
+		<description>This strange flower seems to be only partially organic. Part of its structure is clearly crystalline, and it appears to be unaffected, or even bolstered, by the extremely cold climate. It might even be edible.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_CrystalHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+
+			<shadowData>
+				<volume>(0.55, 0.17, 0.15)</volume>
+				<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<plant>
+			<neverBlightable>true</neverBlightable>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<fertilityMin>0.25</fertilityMin>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>7.5</wildClusterWeight>
+			<visualSizeRange>
+				<min>0.8</min>
+				<max>1.2</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="BushBase">
+		<defName>AB_CrystalFlower</defName>
+		<label>crystal flower</label>
+		<thingClass>AlphaBiomes.Plant_Cold</thingClass>
+		<description>A tall, translucent flower that seems to be partially inorganic.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_CrystalFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+
+
+			<shadowData>
+				<volume>(0.55, 0.17, 0.15)</volume>
+				<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<statBases>
+			<MaxHitPoints>650</MaxHitPoints>
+			<Beauty>5</Beauty>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<plant>
+			<neverBlightable>true</neverBlightable>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<fertilityMin>0.25</fertilityMin>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>7.5</wildClusterWeight>
+			<visualSizeRange>
+				<min>2</min>
+				<max>2.5</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+
+
+
+</Defs>

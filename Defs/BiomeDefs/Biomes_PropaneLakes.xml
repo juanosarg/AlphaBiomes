@@ -6,13 +6,13 @@
 	<BiomeDef>
 		<defName>AB_PropaneLakes</defName>
 		<label>propane lakes</label>
-		<description>Permanent ice sheets floating on water. There is no soil for plants to grow, no minerals to mine, and almost no animal life.</description>
+		<description>Huge liquid propane lakes fill this desolate frozen landscape. Since propane is a compound that doesn't occur naturally, this is probably the remnant of some weird ecological or industrial experiment gone awry. Expect extremely cold temperatures, very little wood, and no rocks, but surprisingly some strange flora has adapted to these circumstances, attracting also all kinds of unusual animals.</description>
 		<workerClass>AlphaBiomes.BiomeWorker_PropaneLakes</workerClass>
 		<canAutoChoose>false</canAutoChoose>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
-		<animalDensity>0.1</animalDensity>
-		<plantDensity>0</plantDensity>
+		<animalDensity>0.5</animalDensity>
+		<plantDensity>0.5</plantDensity>
 		<hasVirtualPlants>false</hasVirtualPlants>
 		
 		<settlementSelectionWeight>0.01</settlementSelectionWeight>
@@ -22,7 +22,7 @@
 		<soundsAmbient>
 			<li>Ambient_Wind_Desolate</li>
 		</soundsAmbient>
-		<diseaseMtbDays>90</diseaseMtbDays>
+		<diseaseMtbDays>110</diseaseMtbDays>
 		<diseases>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>
@@ -99,8 +99,15 @@
 			<SnowGentle>20</SnowGentle>
 			<SnowHard>30</SnowHard>
 		</baseWeatherCommonalities>
+		<wildPlants>
+			<AB_CrystalHorn>10</AB_CrystalHorn>
+			<AB_CrystalFlower>5</AB_CrystalFlower>
+			
+
+
+		</wildPlants>
 		<wildAnimals>
-			<Snowhare>2</Snowhare>
+			<Snowhare>0.5</Snowhare>
 			<Muffalo>0.1</Muffalo>
 			<Bear_Polar>0.1</Bear_Polar>
 			<Wolf_Arctic>0.1</Wolf_Arctic>
