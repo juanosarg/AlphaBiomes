@@ -75,6 +75,62 @@
 			</visualSizeRange>
 		</plant>
 	</ThingDef>
+	
+<ThingDef>
+    <defName>AB_FlashFrozenTree</defName>
+    <label>flash frozen tree</label>
+    <description>This tree, which probably started growing in a rare period of summer heat, has been frozen in place by the extreme temperatures, its leaves crystallized by the toxic propane compounds. A small amount of wood can be extracted from it, but it is likely that more of them won't appear as time passes.</description>
+    <category>Plant</category>
+    <thingClass>AlphaBiomes.Plant_Cold</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      
+      <Beauty>-8</Beauty>
+    </statBases>
+    <tickerType>Long</tickerType>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <neverMultiSelect>True</neverMultiSelect>
+    <drawerType>MapMeshOnly</drawerType>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <startingHpRange><min>0.5</min><max>1</max></startingHpRange>
+    <passability>PassThroughOnly</passability>
+    <pathCost>90</pathCost>
+    <graphicData>
+      <texPath>Things/Plants/AB_FlashFrozenTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+      <shadowData>
+        <volume>(0.2, 0.15, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>WoodLog</harvestedThingDef>
+      <harvestYield>25</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <fertilityMin>0</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <topWindExposure>0.05</topWindExposure>
+      <blockAdjacentSow>true</blockAdjacentSow>
+     
+      <harvestFailable>false</harvestFailable>
+     
+      <growDays>0.0001</growDays>
+      <growMinGlow>0</growMinGlow>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <visualSizeRange>
+        <min>1.5</min>
+        <max>2.2</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
 
 
 

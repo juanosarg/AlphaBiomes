@@ -134,4 +134,16 @@
 
    </AlphaBiomes.SpecialSpawnsDef>
    
+    <AlphaBiomes.SpecialSpawnsDef>
+      <defName>AB_SpawnFrozenTrees</defName>
+      <thingDef>AB_FlashFrozenTree</thingDef>
+      <allowOnWater>false</allowOnWater>
+	  <numberToSpawn>30</numberToSpawn>
+      <terrainValidationDisallowed/>
+      <terrainValidationAllowed/>
+      
+      <allowedBiome>AB_PropaneLakes</allowedBiome>
+
+   </AlphaBiomes.SpecialSpawnsDef>
+   
 </Defs>
