@@ -44,19 +44,19 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_ArcticLion"]/race/wildBiomes</xpath>
 				<value>
 
 					<AB_PropaneLakes>0.1</AB_PropaneLakes>
-					
+
 				</value>
 			</li>
 
-			
-			
-							
+
+
+
 
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/race/wildBiomes</xpath>
@@ -68,13 +68,13 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_Blizzarisk"]/race/wildBiomes</xpath>
 				<value>
 
 					<AB_PropaneLakes>0.05</AB_PropaneLakes>
-					
+
 				</value>
 			</li>
 
@@ -161,13 +161,30 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_Frostmite"]/race/wildBiomes</xpath>
 				<value>
 
 					<AB_PropaneLakes>1</AB_PropaneLakes>
-					
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_FrostboundBehemoth"]/race</xpath>
+				<value>
+					<wildBiomes>
+						<AB_PropaneLakes>1</AB_PropaneLakes>
+					</wildBiomes>					
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Frostling"]/race</xpath>
+				<value>
+					<wildBiomes>
+						<AB_PropaneLakes>0.5</AB_PropaneLakes>
+					</wildBiomes>					
 				</value>
 			</li>
 
@@ -250,7 +267,7 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_MammothWorm"]/race/wildBiomes</xpath>
 				<value>
@@ -260,7 +277,7 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_Mantrap"]/race/wildBiomes</xpath>
 				<value>
@@ -291,7 +308,7 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_OvergrownColossus"]/race/wildBiomes</xpath>
 				<value>
@@ -302,7 +319,7 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_PebbleMit"]/race/wildBiomes</xpath>
 				<value>
@@ -317,7 +334,7 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_RaptorShrimp"]/race/wildBiomes</xpath>
 				<value>
@@ -387,19 +404,19 @@
 
 				</value>
 			</li>
-			
 
 
 
 
 
-			
-
-			
 
 
 
-			
+
+
+
+
+
 
 		</operations>
 	</Operation>

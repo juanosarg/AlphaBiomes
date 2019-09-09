@@ -4,7 +4,7 @@
   <BiomeDef>
     <defName>AB_GallatrossGraveyard</defName>
     <label>gallatross graveyard</label>
-    <description>These parched mudflats are littered with the ancient bones of colossal Gallatrosses. Apparently the highly intelligent beasts are coming here to die, and to mourn their fallen relatives.</description>
+    <description>These parched mudflats are littered with the ancient bones of colossal Gallatrosses. Apparently the highly intelligent beasts are coming here to die, and to mourn their fallen relatives.\n\n&lt;color=#33d733&gt;NOTE: don't mess with the Gallatross unless you are very sure you are prepared.&lt;/color&gt;</description>
     <workerClass>AlphaBiomes.BiomeWorker_GallatrossGraveyard</workerClass>
     <animalDensity>1.8</animalDensity>
     <plantDensity>0.05</plantDensity>

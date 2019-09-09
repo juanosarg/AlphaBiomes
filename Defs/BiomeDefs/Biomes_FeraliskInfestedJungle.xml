@@ -4,7 +4,7 @@
 	<BiomeDef>
 		<defName>AB_FeraliskInfestedJungle</defName>
 		<label>feralisk infested jungle</label>
-		<description>An incredibly thick jungle, completely infested with spiders. Infested jungles such as these sometimes start expanding in a planet's biosphere, if the conditions are right. These worlds usually have to be bombarded from orbit with atomic weapons, to avoid the spiders being unwittingly (or worse, on purpose) transported to other inhabited planets. (NOTE: this is a VERY hostile biome. Don't start your base here unless you know very well what you are doing).</description>
+		<description>An incredibly thick jungle, completely infested with spiders. Infested jungles such as these sometimes start expanding in a planet's biosphere, if the conditions are right. These worlds usually have to be bombarded from orbit with atomic weapons, to avoid the spiders being unwittingly (or worse, on purpose) transported to other inhabited planets.\n\n&lt;color=#33d733&gt;NOTES: this is a VERY hostile biome. Don't start your base here unless you know very well what you are doing. Build a walled compound, leave it as seldom as possible, and USE the spiders in your advantage.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_FeraliskInfestedJungle</workerClass>
 		<animalDensity>5.4</animalDensity>
 		<plantDensity>0.90</plantDensity>

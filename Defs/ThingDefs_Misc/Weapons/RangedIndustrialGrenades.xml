@@ -63,7 +63,7 @@
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
-			<damageDef>Bullet</damageDef>
+			<damageDef>AB_ParalysingSting</damageDef>
 			<damageAmountBase>10</damageAmountBase>
 			<speed>55</speed>
 		</projectile>

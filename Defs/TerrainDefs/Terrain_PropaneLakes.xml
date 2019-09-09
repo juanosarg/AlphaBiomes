@@ -25,7 +25,7 @@
       <li>Diggable</li>
     </affordances>
     <generatedFilth>Filth_Dirt</generatedFilth>
-    <fertility>0.00</fertility>
+    <fertility>0.05</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
   
@@ -36,6 +36,7 @@
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>352</renderPrecedence>
     <pathCost>6</pathCost>
+	 <holdSnow>false</holdSnow>
     <statBases>
       <Beauty>-1</Beauty>
     </statBases>
@@ -58,6 +59,7 @@
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>352</renderPrecedence>
     <pathCost>12</pathCost>
+	 <holdSnow>false</holdSnow>
     <statBases>
       <Beauty>-1</Beauty>
     </statBases>
@@ -80,6 +82,7 @@
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>353</renderPrecedence>
     <pathCost>20</pathCost>
+	 <holdSnow>false</holdSnow>
     <statBases>
       <Beauty>-5</Beauty>
     </statBases>

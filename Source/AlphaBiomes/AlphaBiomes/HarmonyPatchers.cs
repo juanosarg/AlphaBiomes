@@ -49,6 +49,31 @@ namespace AlphaBiomes
 
     }
 
+
+    /*This Harmony Postfix allows us to regrow plants in a cold biome
+*/
+    [HarmonyPatch(typeof(WildPlantSpawner))]
+    [HarmonyPatch("CanRegrowAt")]
+    public static class WildPlantSpawner_CanRegrowAt_Patch
+    {
+        [HarmonyPostfix]
+        public static void RegrowOnCold(IntVec3 c, ref bool __result, ref WildPlantSpawner __instance)
+
+        {
+           Map map = (Map)typeof(WildPlantSpawner).GetField("map", AccessTools.all).GetValue(__instance);
+            //Log.Message(__result.defName);
+            if (map.Biome.defName == "AB_PropaneLakes")
+            {
+                //Log.Message("Detectado e intentando cambiar");
+                __result = !c.Roofed(map);
+            }
+
+          
+
+        }
+
+    }
+
     /*This Harmony Prefix allows us to remove rock filth
  */
     [HarmonyPatch(typeof(GenStep_RockChunks))]

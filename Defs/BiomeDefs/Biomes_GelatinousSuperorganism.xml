@@ -4,7 +4,7 @@
  <BiomeDef>
 		<defName>AB_GelatinousSuperorganism</defName>
 		<label>gelatinous superorganism</label>
-		<description>A huge mold-like organism has grown in this area, basically destroying the previous existing ecosystem, and replacing it with an alien landscape of its own creation. Its strange biology seems to be compatible with this planet's biosphere. Expect to find no useable rocky materials to build here, and very little wood.</description>
+		<description>A huge mold-like organism has grown in this area, basically destroying the previous existing ecosystem, and replacing it with an alien landscape of its own creation. Its strange biology seems to be compatible with this planet's biosphere.\n\n&lt;color=#33d733&gt;Expect to find no useable rocky materials to build here, and very little wood.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_GelatinousSuperorganism</workerClass>
 		<animalDensity>2</animalDensity>
 		<plantDensity>0.2</plantDensity>

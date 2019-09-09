@@ -141,6 +141,63 @@
     </stages>
   </HediffDef>
 
+  <HediffDef ParentName="DiseaseBase">
+    <defName>AB_Paralysis</defName>
+    <label>neurotoxin paralysis</label>
+    <makesSickThought>true</makesSickThought>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>3000</min>
+          <max>3000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+	    <label>initial</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+        </capMods>
+      </li>
+	   <li>
+	    <label>stunned</label>
+		<minSeverity>0.2</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.45</setMax>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <label>very stunned</label>
+		<minSeverity>0.4</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.2</setMax>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <label>paralysed</label>
+		<minSeverity>0.6</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.05</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
  
 
 </Defs>

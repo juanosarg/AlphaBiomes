@@ -6,15 +6,15 @@
 	<BiomeDef>
 		<defName>AB_PropaneLakes</defName>
 		<label>propane lakes</label>
-		<description>Huge liquid propane lakes fill this desolate frozen landscape. Since propane is a compound that doesn't occur naturally, this is probably the remnant of some weird ecological or industrial experiment gone awry. Expect extremely cold temperatures, very little wood, and no rocks, but surprisingly some strange flora has adapted to these circumstances, attracting also all kinds of unusual animals.</description>
+		<description>Huge liquid propane lakes fill this desolate frozen landscape. Since propane is a compound that doesn't occur naturally, this is probably the remnant of some weird ecological or industrial experiment gone awry.\n\n&lt;color=#33d733&gt;Expect extremely cold temperatures, constant snowing, very little and non-renewable wood, and usually no rocks, but surprisingly some strange flora has adapted to these circumstances, attracting also all kinds of unusual animals.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_PropaneLakes</workerClass>
 		<canAutoChoose>false</canAutoChoose>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
 		<animalDensity>0.5</animalDensity>
-		<plantDensity>0.5</plantDensity>
-		<hasVirtualPlants>false</hasVirtualPlants>
+		<plantDensity>0.75</plantDensity>
 		
+		<wildPlantRegrowDays>1</wildPlantRegrowDays>
 		<settlementSelectionWeight>0.01</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
 		<texture>Biomes/AB_PropaneLakes</texture>
@@ -102,6 +102,8 @@
 		<wildPlants>
 			<AB_CrystalHorn>10</AB_CrystalHorn>
 			<AB_CrystalFlower>5</AB_CrystalFlower>
+			<AB_FrostLeaf>10</AB_FrostLeaf>
+			<AB_RimeNodules>8</AB_RimeNodules>
 			
 
 

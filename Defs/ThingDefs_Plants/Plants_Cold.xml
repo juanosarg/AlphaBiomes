@@ -3,7 +3,6 @@
 
 
 	<!--============================ Flowers =============================-->
-
 	<ThingDef ParentName="BushBase">
 		<defName>AB_CrystalHorn</defName>
 		<label>crystal horn</label>
@@ -29,6 +28,74 @@
 			<growMinGlow>0</growMinGlow>
 			<growOptimalGlow>0</growOptimalGlow>
 			<fertilityMin>0.25</fertilityMin>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>7.5</wildClusterWeight>
+			<visualSizeRange>
+				<min>0.8</min>
+				<max>1.2</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="BushBase">
+		<defName>AB_FrostLeaf</defName>
+		<label>frost leaf</label>
+		<thingClass>AlphaBiomes.Plant_Cold</thingClass>
+		<description>These translucent plants seem to be able to grow almost anywhere, even in some snow covered areas.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_FrostLeaf</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+
+			<shadowData>
+				<volume>(0.55, 0.17, 0.15)</volume>
+				<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<plant>
+			<neverBlightable>true</neverBlightable>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<fertilityMin>0</fertilityMin>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>7.5</wildClusterWeight>
+			<visualSizeRange>
+				<min>0.8</min>
+				<max>1.2</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="BushBase">
+		<defName>AB_RimeNodules</defName>
+		<label>rime nodules</label>
+		<thingClass>AlphaBiomes.Plant_Cold</thingClass>
+		<description>A very strange plant, partly inorganic, that seems to extract propane from the surrounding landscape and store it as an energy source in rime-bound chemical sacs.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_RimeNodules</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+
+			<shadowData>
+				<volume>(0.55, 0.17, 0.15)</volume>
+				<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<plant>
+			<neverBlightable>true</neverBlightable>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<fertilityMin>0</fertilityMin>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>7.5</wildClusterWeight>
 			<visualSizeRange>
@@ -75,6 +142,8 @@
 			</visualSizeRange>
 		</plant>
 	</ThingDef>
+	
+	
 	
 <ThingDef>
     <defName>AB_FlashFrozenTree</defName>
