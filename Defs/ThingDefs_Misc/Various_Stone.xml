@@ -241,6 +241,62 @@
 	</RecipeDef>
 	
 	
+	 <!-- ================ Cragstone ================ -->
+	 
+	<ThingDef ParentName="GU_RockBase" Name="AB_Cragstone">
+  
+
+    <defName>AB_Cragstone</defName>
+    <label>cragstone</label>
+	<generateCommonality>0</generateCommonality>
+    <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
+	<graphicData>
+      <texPath>Things/Building/AB_Cragstone</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <linkType>None</linkType>
+	  <color>(164,138,106)</color>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+  
+    <statBases>
+	 
+      <MaxHitPoints>550</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>AB_ChunkMudstone</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+	  <mineableYieldWasteable>false</mineableYieldWasteable>
+	  <smoothedThing>AB_SmoothedCragstone</smoothedThing>
+    </building>
+  </ThingDef>
+  
+      <ThingDef ParentName="AB_Cragstone">
+    <defName>AB_SmoothedCragstone</defName>
+    <label>smoothed cragstone</label>
+    <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Rock</li>
+        <li>MapEdge</li>
+      </linkFlags>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+	
+	
 	  <!-- ================ Mudstone ================ -->
   
   <ThingDef ParentName="GU_RockBase" Name="AB_MudstoneBase">

@@ -59,6 +59,7 @@
     <Compile Include="BiomeWorker_MycoticJungle.cs" />
     <Compile Include="BiomeWorker_OcularForest.cs" />
     <Compile Include="BiomeWorker_PropaneLakes.cs" />
+    <Compile Include="BiomeWorker_RockyCrags.cs" />
     <Compile Include="CompGasProducer.cs" />
     <Compile Include="CompProperties_GasProducer.cs" />
     <Compile Include="Gas_Mycotic.cs" />
