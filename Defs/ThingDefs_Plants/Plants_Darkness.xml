@@ -46,7 +46,7 @@
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
-			    <overlightRadius>7.0</overlightRadius>
+			    
 				<glowRadius>10</glowRadius>
 				<glowColor>(242,221,37,0)</glowColor>
 			</li>
@@ -143,8 +143,41 @@
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<overlightRadius>3.0</overlightRadius>
+				
 				<glowRadius>4</glowRadius>
+				<glowColor>(242,221,37,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="BushBase">
+		<defName>AB_GiantGamma</defName>
+		<label>giant gamma</label>
+		<description>Like many other flora from the Forsakens native planet, this huge globular plant is bioluminiscent. Smaller specimens can be used as a decorative light source, whereas this wild exemplar emits so much light that it can be used as a natural sunlamp to grow regular plants. Note that light-sensitive plants such as domesticated Stikehr and mushrooms should be kept far away from them.</description>
+		<pathCost>10</pathCost>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantGamma</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+
+			
+			<shadowData>
+				<volume>(0.55, 0.17, 0.15)</volume>
+				<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<plant>
+			
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>7.5</wildClusterWeight>
+			<visualSizeRange>
+				<min>1.5</min>
+				<max>2</max>
+			</visualSizeRange>
+		</plant>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<overlightRadius>7</overlightRadius>
+				<glowRadius>10</glowRadius>
 				<glowColor>(242,221,37,0)</glowColor>
 			</li>
 		</comps>
