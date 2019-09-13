@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThoughtDef>
+    <defName>AB_ForsakenNight</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+	<nullifyingTraits>
+		<li>Psychopath</li>
+		<li>NightOwl</li>
+	</nullifyingTraits>
+    <stages>
+      <li>
+        <label>preternatural darkness</label>
+        <description>It is as if the sun itself was being drowned in despair. I hate it.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>AB_ForsakenThunderstorm</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+	<nullifyingTraits>
+		<li>Psychopath</li>
+		<li>NightOwl</li>
+	</nullifyingTraits>
+    <stages>
+      <li>
+        <label>preternatural storm</label>
+        <description>It is dark as the void, and now lightning is falling everywhere. We are doomed.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>AB_RedFogThought</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+	<nullifyingTraits>
+		<li>Psychopath</li>
+		
+	</nullifyingTraits>
+    <stages>
+      <li>
+        <label>unnatural weather</label>
+        <description>This fog tastes weird. It looks weird. It FEELS wrong, as if it wasn't of this world.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+	
+
+</Defs>

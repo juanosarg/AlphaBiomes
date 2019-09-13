@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
+using UnityEngine;
 using RimWorld.Planet;
 
 namespace AlphaBiomes
@@ -13,8 +14,7 @@ namespace AlphaBiomes
 
         public bool verifyFirstTime = true;
         public int spawnCounter = 0;
-
-
+       
         public MapComponentExtender(Map map) : base(map)
         {
 
@@ -37,6 +37,14 @@ namespace AlphaBiomes
             if (verifyFirstTime)
             {
                 this.doMapSpawns();
+                if (map.Biome.defName == "AB_RockyCrags")
+                {
+                    map.weatherManager.curWeather = WeatherDef.Named("AB_ForsakenNight");
+                    map.weatherManager.TransitionTo(WeatherDef.Named("AB_ForsakenNight"));
+                   
+                    
+                }
+
             }
             
         }

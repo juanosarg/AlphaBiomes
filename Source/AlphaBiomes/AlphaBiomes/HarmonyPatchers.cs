@@ -74,6 +74,32 @@ namespace AlphaBiomes
 
     }
 
+    /*This Harmony Postfix allows us to reduce the amount of light that reaches the Forsaken Crags
+*/
+    [HarmonyPatch(typeof(GenCelestial))]
+    [HarmonyPatch("CelestialSunGlow")]
+    public static class GenCelestial_CelestialSunGlow_Patch
+    {
+        [HarmonyPostfix]
+        public static void AvoidTheLight(ref Map map, ref float __result)
+
+        {
+           
+            if (map.Biome.defName == "AB_RockyCrags")
+            {
+
+
+               // Log.Message("I have detected the biome, and light should be "+ __result);
+               
+                __result= __result*0.4f;
+            }
+
+
+
+        }
+
+    }
+
     /*This Harmony Prefix allows us to remove rock filth
  */
     [HarmonyPatch(typeof(GenStep_RockChunks))]

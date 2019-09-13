@@ -254,7 +254,7 @@
       <texPath>Things/Building/AB_Cragstone</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <linkType>None</linkType>
-	  <color>(164,138,106)</color>
+	  <color>(36,35,40)</color>
 	  <drawSize>(3,3)</drawSize>
     </graphicData>
   
@@ -263,7 +263,7 @@
       <MaxHitPoints>550</MaxHitPoints>
     </statBases>
     <building>
-      <mineableThing>AB_ChunkMudstone</mineableThing>
+      <mineableThing>AB_ChunkCragstone</mineableThing>
       <mineableDropChance>0.25</mineableDropChance>
 	  <mineableYieldWasteable>false</mineableYieldWasteable>
 	  <smoothedThing>AB_SmoothedCragstone</smoothedThing>
@@ -295,6 +295,81 @@
     <saveCompressible>false</saveCompressible>
     <repairEffect>Repair</repairEffect>
   </ThingDef>
+  
+   <ThingDef ParentName="GU_ChunkRockBase">
+    <defName>AB_ChunkCragstone</defName>
+    <label>cragstone chunk</label>
+    <graphicData>
+      <color>(36,35,40)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <AB_BlocksCragstone>20</AB_BlocksCragstone>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="GU_StoneBlocksBase">
+    <defName>AB_BlocksCragstone</defName>
+    <label>cragstone blocks</label>
+    <description>Blocks of solid cragstone.</description>
+    <graphicData>
+      <color>(36,35,40)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+    </statBases>
+	<tradeability>Sellable</tradeability>
+
+    <stuffProps>
+	      <commonality>0</commonality>
+
+      <color>(36,35,40)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>cragstone</stuffAdjective>
+      <statFactors>
+
+        <Beauty>1.1</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.5</MaxHitPoints>
+				<WorkToBuild>5.0</WorkToBuild>
+				<WorkToMake>1.1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>AB_MakeStoneBlocksCragstone</defName>
+		<label>make cragstone blocks</label>
+		<description>Cuts cragstone chunks into usable blocks.</description>
+		<recipeUsers>
+				<li>TableStonecutter</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AB_ChunkCragstone</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_ChunkCragstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AB_BlocksCragstone>20</AB_BlocksCragstone>
+		</products>
+	</RecipeDef>
 	
 	
 	  <!-- ================ Mudstone ================ -->
