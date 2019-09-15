@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
+<!-- Rose Quartz -->
 
 	<TerrainDef ParentName="TileStoneBase">
 		<defName>AB_TileRoseQuartz</defName>
@@ -12,8 +12,6 @@
 		</costList>
 	</TerrainDef>
 
-
-
 	<TerrainDef ParentName="FlagstoneBase">
 		<defName>AB_FlagstoneRoseQuartz</defName>
 		<label>rose quartz flagstone</label>
@@ -22,6 +20,8 @@
 			<GU_BlocksRoseQuartz>4</GU_BlocksRoseQuartz>
 		</costList>
 	</TerrainDef>
+
+<!-- Mudstone -->
 	
 	<TerrainDef ParentName="TileStoneBase">
 		<defName>AB_TileMudstone</defName>
@@ -32,8 +32,6 @@
 		</costList>
 	</TerrainDef>
 
-
-
 	<TerrainDef ParentName="FlagstoneBase">
 		<defName>AB_FlagstoneMudstone</defName>
 		<label>mudstone flagstone</label>
@@ -42,7 +40,25 @@
 			<AB_BlocksMudstone>4</AB_BlocksMudstone>
 		</costList>
 	</TerrainDef>
+	
+<!-- Cragstone -->
 
+	<TerrainDef ParentName="TileStoneBase">
+		<defName>AB_TileCragstone</defName>
+		<label>cragstone tile</label>
+		<color>(36,35,40)</color>
+		<costList>
+			<AB_BlocksCragstone>4</AB_BlocksCragstone>
+		</costList>
+	</TerrainDef>
 
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>AB_FlagstoneCragstone</defName>
+		<label>cragstone flagstone</label>
+		<color>(36,35,40)</color>
+		<costList>
+			<AB_BlocksCragstone>4</AB_BlocksCragstone>
+		</costList>
+	</TerrainDef>
 
 </Defs>

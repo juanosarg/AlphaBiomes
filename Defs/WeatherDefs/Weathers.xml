@@ -67,7 +67,7 @@
 	
     <!-- Colors are Super Dark -->
     <skyColorsDay>
-      <sky>(0.35,0.40,0.45)</sky>
+      <sky>(0.45,0.50,0.55)</sky>
       <shadow>(0.92,0.92,0.92)</shadow>
       <overlay>(0.5,0.5,0.5)</overlay>
       <saturation>0.9</saturation>
