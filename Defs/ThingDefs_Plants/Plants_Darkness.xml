@@ -27,6 +27,7 @@
 		<pathCost>25</pathCost>
 		<ingestible />
 		<plant>
+			<growMinGlow>0</growMinGlow>
 			<fertilityMin>0.7</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
 			<growDays>60</growDays>
@@ -71,6 +72,7 @@
 			<Nutrition>2.5</Nutrition>
 		</statBases>
 		<plant>
+			<growMinGlow>0</growMinGlow>
 			<growDays>14</growDays>
 			<harvestWork>1200</harvestWork>
 			<harvestYield>10</harvestYield>
@@ -102,6 +104,7 @@
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
 		<ingestible />
 		<plant>
+			<growMinGlow>0</growMinGlow>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<growDays>2.5</growDays>
@@ -133,7 +136,7 @@
 			</shadowData>
 		</graphicData>
 		<plant>
-			
+			<growMinGlow>0</growMinGlow>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>7.5</wildClusterWeight>
 			<visualSizeRange>
@@ -166,7 +169,7 @@
 			</shadowData>
 		</graphicData>
 		<plant>
-			
+			<growMinGlow>0</growMinGlow>
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>7.5</wildClusterWeight>
 			<visualSizeRange>
