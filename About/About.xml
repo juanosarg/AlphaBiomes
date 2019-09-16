@@ -6,7 +6,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 7 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
+Adds 8 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
 
 - The Mycotic Jungle: a warm and humid biome filled with HUGE mushrooms. Home to the Wildpod and some weird mushroom varieties of usual creatures.
 - The Gallatross Graveyard: an arid temperate biome, littered with the skeletal remains of ancient beasts.
@@ -15,6 +15,7 @@ Adds 7 new diverse biomes to your Rimworlds. The mod has been designed with the 
 - The Gelatinous Superorganism: a swampy biome that is actually the upper surface of an extraordinarily large mold-like creature. No rocks to be found, but plenty of food.
 - The Mechanoid Intrusion: a desolate temperate biome with mechanical ruins. Apparently an ancient mechanoid attempt at turning the planet into a megastructure.
 - The Propane Lakes: a frozen wasteland, colder than the most inhospitable Sea Ice, but teaming with aberrant flora and fauna.
+- The Forsaken Crags: permanently clouded by a preternatural darkness, light is the most valuable commodity in this desertic landscape. Inspired by (and compatible with) the Forsakens mod.
 
 The biomes have been tweaked so they don't take too much space in the world map, and you might have to generate a planet again if some biome is not appearing, since they have different temperature and humidity characteristics.
 
@@ -36,6 +37,7 @@ Compatible with Animal Collab Project
 Compatible with Vanilla Animals Expanded
 Compatible with Rim of Madness - Bones
 Compatible with Fish Industry
+Compatible with Forsakens
 Uses Harmony (no need to download)
 Uses ModCheck (no need to download)
 
@@ -45,9 +47,9 @@ Mods that modify the way the world is generated MAY cause some weird results. Us
 Bone planet: Hyptosis https://opengameart.org/content/bone-planet 
 Some sounds by Mike Koenig at http://soundbible.com
 
-
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.3: Added a new arid biome: the Forsaken Crags (16/09/19)
 v1.02: Added compatibility with Fish Industry mod, and six new biome-specific fish (10/09/19)
 v1.1: Added a new cold biome: the Propane Lakes. (09/09/19)
 v1.01: Added compat with Vanilla Animals Expanded (the 4 modules released so far). Many small bugfixes (31/08/19)

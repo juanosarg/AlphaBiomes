@@ -121,13 +121,13 @@
 		
     </wildPlants>
     <wildAnimals>
-      <Rat>1</Rat>
+      <Rat>0.05</Rat>
      
     </wildAnimals>
     <allowedPackAnimals>
      
       <li>Dromedary</li>
-      <li>Elephant</li>
+     
      
     </allowedPackAnimals>
   </BiomeDef>
