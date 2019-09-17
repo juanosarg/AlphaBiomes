@@ -96,7 +96,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>AB_AlienTree</defName>
     <label>alien tree</label>
-    <description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow by being exposed to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps its wood can be somehow useful.</description>
+    <description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow from exposure to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps its wood can be somehow useful.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	   <Flammability>0.8</Flammability>
@@ -145,7 +145,7 @@
     <ThingDef ParentName="PlantBase">
     <defName>AB_HalfAlienTree</defName>
     <label>half transformed alien tree</label>
-    <description>A strange infection seems to be transforming this regular oak into an alien tree. It still retains its trunk and its leaves, though they are beginning to transform into pulsating red structures that don't seem to be able to survive in this universe. This tree might be useful to harvest a little amount of real wood.</description>
+    <description>A strange infection seems to be transforming this regular oak into an alien tree. It still retains its trunk and its leaves, though they are beginning to transform into pulsating red structures that don't seem to be able to survive in this universe. This tree might be useful to harvest a small amount of real wood.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
 	   <Flammability>0.8</Flammability>

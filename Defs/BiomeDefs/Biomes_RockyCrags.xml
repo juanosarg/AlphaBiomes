@@ -4,7 +4,7 @@
   <BiomeDef>
     <defName>AB_RockyCrags</defName>
     <label>forsaken crags</label>
-    <description>This desertic landscape appears to be perpetually covered in an unnatural fog that seeps all light from the sun. In the ancient past it was partly terraformed by a mysterious humanoid alien race simply known as Forsakens. A plethora of nocturnal alien creatures roam the desert, feeding on bioluminiscent plants and fungi that are the only available and reliant source of light.\n\n&lt;color=#33d733&gt;Luminosity in this biome doesn't reach high enough levels to grow plants, so you'll have to use the flora as natural sunlamps. Nights are DARK, and most creatures are nocturnal. Those who aren't, won't last long.&lt;/color&gt;</description>
+    <description>This desertic landscape appears to be perpetually covered in an unnatural fog that seeps all light from the sun. In the ancient past it was partly terraformed by a mysterious humanoid alien race simply known as Forsakens. A plethora of nocturnal alien creatures roam the desert, feeding on bioluminescent plants and fungi that are the only available and reliable source of light.\n\n&lt;color=#33d733&gt;Luminosity in this biome doesn't reach high enough levels to grow plants, so you'll have to use the flora as natural sunlamps. Nights are DARK, and most creatures are nocturnal. Those which aren't, won't last long.&lt;/color&gt;</description>
     <workerClass>AlphaBiomes.BiomeWorker_RockyCrags</workerClass>
     <animalDensity>1.8</animalDensity>
     <plantDensity>0.085</plantDensity>

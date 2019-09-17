@@ -249,7 +249,7 @@
     <defName>AB_Cragstone</defName>
     <label>cragstone</label>
 	<generateCommonality>0</generateCommonality>
-    <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
+    <description>A dark-hued, homogeneous metamorphic rock. These rocks seem to be attracting the darkness surrounding them.</description>
 	<graphicData>
       <texPath>Things/Building/AB_Cragstone</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -273,7 +273,7 @@
       <ThingDef ParentName="AB_Cragstone">
     <defName>AB_SmoothedCragstone</defName>
     <label>smoothed cragstone</label>
-    <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
+    <description>A dark-hued, homogeneous metamorphic rock. These rocks seem to be attracting the darkness surrounding them.</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_GiantStikehr</defName>
 		<label>giant stikehr</label>
-		<description>A giant alien mushroom that glows in the strange darkening mist. Contrary to the domesticated strands, the giant Stikehr can grow in light environments, as long as it is protected by the Forsaken mists. It's stalk is so hardened that it can be considered wood for all intents and purposes.</description>
+		<description>A giant alien mushroom that glows in the strange darkening mist. Contrary to the domesticated strands, the giant Stikehr can grow in light environments, as long as it is protected by the Forsaken mists. Its stalk is so hardened that it can be considered wood for all intents and purposes.</description>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -156,7 +156,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>AB_GiantGamma</defName>
 		<label>giant gamma</label>
-		<description>Like many other flora from the Forsakens native planet, this huge globular plant is bioluminiscent. Smaller specimens can be used as a decorative light source, whereas this wild exemplar emits so much light that it can be used as a natural sunlamp to grow regular plants. Note that light-sensitive plants such as domesticated Stikehr and mushrooms should be kept far away from them.</description>
+		<description>Like many other flora from the Forsakens native planet, this huge globular plant is bioluminescent. Smaller specimens can be used as a decorative light source, whereas this wild exemplar emits so much light that it can be used as a natural sunlamp to grow regular plants. Note that light-sensitive plants such as domesticated Stikehr and mushrooms should be kept far away from them.</description>
 		<pathCost>10</pathCost>
 		<graphicData>
 			<texPath>Things/Plants/AB_GiantGamma</texPath>

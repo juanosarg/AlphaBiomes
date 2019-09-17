@@ -7,7 +7,7 @@
 	  <ThingDef ParentName="TreeBase">
 		<defName>AB_SessileMechanoid</defName>
 		<label>sessile mechanoid tree</label>
-		<description>This thing was once a tree. Mechanoids repurposed its cells into a half-tree, half-mechanoid abomination, serving an unknown prupose. Perhaps a bit of wood could be extracted from it.</description>
+		<description>This thing was once a tree. Mechanoids repurposed its cells into a half-tree, half-mechanoid abomination, serving an unknown purpose. Perhaps a bit of wood could be extracted from it.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_SessileMechanoid</texPath>
 			<graphicClass>Graphic_Random</graphicClass>

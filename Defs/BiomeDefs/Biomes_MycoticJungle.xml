@@ -4,7 +4,7 @@
 	<BiomeDef>
 		<defName>AB_MycoticJungle</defName>
 		<label>Mycotic Jungle</label>
-		<description>The Mycotic Jungle is a super dense overgrowth of massive giant mushrooms, covered in a coat of mycellium. Giant mushrooms can be used as a poor substitute for wood, and the smaller ones will provide some sustenance. Beware of the bigger mushrooms, though, as they create a cloud of dangerous spores that can quickly suffocate any organic life.\n\n&lt;color=#33d733&gt;Rains are VERY common in this biome. There is a plant that produces renewable wood, but most of the flora produces mushroom stalks.&lt;/color&gt;</description>
+		<description>The Mycotic Jungle is a super dense overgrowth of massive giant mushrooms, covered in a coat of mycelium. Giant mushrooms can be used as a poor substitute for wood, and the smaller ones will provide some sustenance. Beware of the bigger mushrooms, though, as they create a cloud of dangerous spores that can quickly suffocate any organic life.\n\n&lt;color=#33d733&gt;Rains are VERY common in this biome. There is a plant that produces renewable wood, but most of the flora produces mushroom stalks.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_MycoticJungle</workerClass>
 		<animalDensity>1.9</animalDensity>
 		<plantDensity>0.2</plantDensity>

@@ -257,7 +257,7 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_ArbuscularMycorrhiza</defName>
 		<label>arbuscular mycorrhiza</label>
-		<description>A mycorrhiza is a symbiotic association between a fungus and a plant. This particular organism is highly advanced, and the two symbionts have almost fused into a single creature that keeps the supporting structures of the original tree (the trunk) and the caps and mycellium of the original fungus. A small quantity of wood can be harvested from its trunk.</description>
+		<description>A mycorrhiza is a symbiotic association between a fungus and a plant. This particular organism is highly advanced, and the two symbionts have almost fused into a single creature that keeps the supporting structures of the original tree (the trunk) and the caps and mycelium of the original fungus. A small quantity of wood can be harvested from its trunk.</description>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>6</Beauty>

@@ -59,7 +59,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>AB_Aaklac</defName>
 		<label>aaklac</label>
-		<description>A rare, huge flower which can be found in the deepest jungles. Its quite striking colour and nice smell make it popular in gardening, if it can be extracted from the deep jungle, of course.</description>
+		<description>A rare, huge flower which can be found in the deepest jungles. Its quite striking colour and nice smell makes it popular in gardening, if it can be extracted from the deep jungle, of course.</description>
 		<statBases>
 			<Beauty>10</Beauty>
 		</statBases>
@@ -86,7 +86,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>AB_JungleTree</defName>
 		<label>deep jungle tree</label>
-		<description>This jungle tree is not of terrestrial origins, originating from the deepest crevases of an alien jungle.</description>
+		<description>This jungle tree is not of terrestrial origins, originating from the deepest crevices of an alien jungle.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_JungleTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
