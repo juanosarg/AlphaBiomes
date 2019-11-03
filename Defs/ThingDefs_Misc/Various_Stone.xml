@@ -204,7 +204,7 @@
       <stuffAdjective>rose quartz</stuffAdjective>
       <statFactors>
 
-        <Beauty>1.1</Beauty>  
+        <Beauty>1.35</Beauty>  
         <MarketValue>0.4</MarketValue>
         <MaxHitPoints>1.4</MaxHitPoints>
 				<WorkToBuild>5.0</WorkToBuild>
@@ -586,7 +586,7 @@
   
 
     <defName>GU_AncientMetals</defName>
-    <label>ancient metal walls</label>
+    <label>ancient metal</label>
 	<generateCommonality>0</generateCommonality>
     <description>These ancient metal walls have been here for a while. They can be mined to acquire steel chunks.</description>
     <graphicData>
@@ -603,14 +603,14 @@
       <mineableThing>ChunkSlagSteel</mineableThing>
       <mineableDropChance>0.75</mineableDropChance>
 	  <mineableYieldWasteable>false</mineableYieldWasteable>
-
+      <smoothedThing>AB_SmoothedAncientMetals</smoothedThing>
     </building>
   </ThingDef>
   
   
    <ThingDef ParentName="GU_AncientMetals">
     <defName>AB_SmoothedAncientMetals</defName>
-    <label>smoothed ancient metals</label>
+    <label>smoothed ancient metal</label>
     <description>These ancient metal walls have been here for a while. They can be mined to acquire steel chunks.</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>

@@ -108,6 +108,7 @@
 	  <Clear>0</Clear>
       <AB_ForsakenNight>20</AB_ForsakenNight>
 	  <AB_ForsakenThunderstorm>1</AB_ForsakenThunderstorm>
+	  <AB_ForsakenRainyNight>1</AB_ForsakenRainyNight>
  
       
     </baseWeatherCommonalities>

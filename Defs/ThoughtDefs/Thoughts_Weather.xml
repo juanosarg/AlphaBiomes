@@ -20,6 +20,22 @@
     </stages>
   </ThoughtDef>
   
+  <ThoughtDef>
+    <defName>AB_ForsakenRain</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+	<nullifyingTraits>
+		<li>NightOwl</li>
+	</nullifyingTraits>
+    <stages>
+      <li>
+        <label>soaking wet and dark</label>
+        <description>I'm soaking wet, and I can't see anything.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
     <ThoughtDef>
     <defName>AB_ForsakenThunderstorm</defName>
     <durationDays>0.1</durationDays>

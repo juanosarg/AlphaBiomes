@@ -79,7 +79,7 @@
 		<baseWeatherCommonalities>
 			<Clear>12</Clear>
 			<Fog>0</Fog>
-			<Rain>0</Rain>
+			<Rain>1</Rain>
 			<DryThunderstorm>2</DryThunderstorm>
 			<RainyThunderstorm>0</RainyThunderstorm>
 			<FoggyRain>0</FoggyRain>

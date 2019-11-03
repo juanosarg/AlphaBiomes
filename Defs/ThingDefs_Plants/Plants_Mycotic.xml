@@ -46,6 +46,10 @@
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>5</wildClusterWeight>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -85,6 +89,13 @@
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>5</wildClusterWeight>
 			<purpose>Food</purpose>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -124,6 +135,13 @@
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>5</wildClusterWeight>
 			<purpose>Food</purpose>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -153,6 +171,7 @@
 			<harvestYield>1</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_PsychotropicFungus</harvestedThingDef>
+      <blockAdjacentSow>true</blockAdjacentSow>
 
 			<neverBlightable>true</neverBlightable>
 			<visualSizeRange>
@@ -163,6 +182,13 @@
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>5</wildClusterWeight>
 			<purpose>Food</purpose>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -199,13 +225,21 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_PurpleRawFungus</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<visualSizeRange>
 				<min>0.9</min>
 				<max>1.5</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -240,6 +274,8 @@
 			<growDays>60</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestYield>35</harvestYield>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_MushroomWoodLog</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
@@ -248,12 +284,18 @@
 				<max>6</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_ArbuscularMycorrhiza</defName>
 		<label>arbuscular mycorrhiza</label>
@@ -285,6 +327,8 @@
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestYield>35</harvestYield>
 			<harvestTag>Standard</harvestTag>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<harvestedThingDef>WoodLog</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
 			<visualSizeRange>
@@ -292,8 +336,14 @@
 				<max>3.5</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -332,13 +382,21 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_WeaponPoisonDart</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<visualSizeRange>
 				<min>3.5</min>
 				<max>5</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -376,13 +434,21 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_MushroomWoodLog</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<visualSizeRange>
 				<min>3.5</min>
 				<max>5</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 		</plant>
 
 	</ThingDef>
@@ -417,6 +483,8 @@
 			<fertilitySensitivity>0.15</fertilitySensitivity>
 			<growDays>60</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<harvestYield>10</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_BlueRawFungus</harvestedThingDef>
@@ -426,7 +494,14 @@
 				<max>5</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
 
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
 			<purpose>Food</purpose>
 		</plant>
 
@@ -460,6 +535,8 @@
 			<fertilitySensitivity>0.15</fertilitySensitivity>
 			<growDays>60</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
+			      <blockAdjacentSow>true</blockAdjacentSow>
+
 			<harvestYield>6</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_PurpleRawFungus</harvestedThingDef>
@@ -469,9 +546,14 @@
 				<max>2</max>
 			</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
 			<purpose>Food</purpose>
+			<sowTags>
+				<li>Ground</li>
 
+			</sowTags>
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">
@@ -513,6 +595,7 @@
 			<topWindExposure>0.02</topWindExposure>
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>5</wildClusterWeight>
+			
 		</plant>
 
 	</ThingDef>

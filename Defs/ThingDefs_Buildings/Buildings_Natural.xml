@@ -228,7 +228,7 @@
 		<repairEffect>ConstructMetal</repairEffect>
 		<forceDebugSpawnable>true</forceDebugSpawnable>
 		<building>
-			<claimable>false</claimable>
+			<claimable>true</claimable>
 			<soundAmbient>CrashedShipPart_Ambience</soundAmbient>
 			<roofCollapseDamageMultiplier>0.2</roofCollapseDamageMultiplier>
 		</building>

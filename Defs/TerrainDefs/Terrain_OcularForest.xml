@@ -59,6 +59,7 @@
       <Beauty>-1</Beauty>
       <Cleanliness>-1</Cleanliness>
     </statBases>
+	<driesTo>GU_AlienSand</driesTo>
     <affordances>
       <li>Light</li>
       
