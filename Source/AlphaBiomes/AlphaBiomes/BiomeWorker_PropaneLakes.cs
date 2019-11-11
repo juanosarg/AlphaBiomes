@@ -11,6 +11,10 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
+            if (!AlphaBiomes_Settings.AB_SpawnPropaneLakes)
+            {
+                return -100f;
+            }
             if (tile.temperature > -35f)
             {
                 return 0f;

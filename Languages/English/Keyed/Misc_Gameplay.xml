@@ -2,6 +2,15 @@
 <LanguageData>
 
 <AB_UseAgariluxParticles>Agarilux Prime produces harmful gas</AB_UseAgariluxParticles>
+<AB_SpawnMycoticJungle>Create Mycotic Jungle on planet generation</AB_SpawnMycoticJungle>
+<AB_SpawnFeraliskInfestedJungle>Create Feralisk Jungle on planet generation</AB_SpawnFeraliskInfestedJungle>
+<AB_SpawnGallatrossGraveyard>Create Gallatross Graveyard on planet generation</AB_SpawnGallatrossGraveyard>
+<AB_SpawnGelatinousSuperorganism>Create Gelatinous Superorganism on planet generation</AB_SpawnGelatinousSuperorganism>
+<AB_SpawnMechanoidIntrusion>Create Mechanoid Intrusion on planet generation</AB_SpawnMechanoidIntrusion>
+<AB_SpawnOcularForest>Create Ocular Forest on planet generation</AB_SpawnOcularForest>
+<AB_SpawnPropaneLakes>Create Propane Lakes on planet generation</AB_SpawnPropaneLakes>
+<AB_SpawnRockyCrags>Create Forsaken Crags on planet generation</AB_SpawnRockyCrags>
+
 
 
 </LanguageData>

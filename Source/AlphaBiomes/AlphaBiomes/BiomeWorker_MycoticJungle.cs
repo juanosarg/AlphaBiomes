@@ -8,6 +8,10 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
+            if (!AlphaBiomes_Settings.AB_SpawnMycoticJungle)
+            {
+                return -100f;
+            }
             if (tile.WaterCovered)
             {
                 return -100f;

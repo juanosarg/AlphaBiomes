@@ -8,6 +8,10 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
+            if (!AlphaBiomes_Settings.AB_SpawnOcularForest)
+            {
+                return -100f;
+            }
             float result;
             if (tile.WaterCovered)
             {
