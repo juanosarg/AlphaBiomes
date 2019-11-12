@@ -9,7 +9,7 @@ namespace AlphaBiomes
     {
 
         private int gasProgress = 0;
-        private int gasTickMax = 128;
+        private int gasTickMax = 512;
         private System.Random rand = new System.Random();
 
 

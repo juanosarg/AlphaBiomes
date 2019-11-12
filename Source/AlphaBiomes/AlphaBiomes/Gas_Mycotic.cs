@@ -8,7 +8,7 @@ namespace AlphaBiomes
     public class Gas_Mycotic : Gas
     {
         private int tickerInterval = 0;
-        private int tickerMax = 60;
+        private int tickerMax = 120;
 
 
 

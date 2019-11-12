@@ -652,8 +652,8 @@
 
 			<li Class="AlphaBiomes.CompProperties_GasProducer">
 				<gasType>AB_MycoticSpores</gasType>
-				<rate>0.5</rate>
-				<radius>10</radius>
+				<rate>0.4</rate>
+				<radius>8</radius>
 
 			</li>
 
