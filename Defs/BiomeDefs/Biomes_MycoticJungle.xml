@@ -16,8 +16,8 @@
 		<movementDifficulty>1</movementDifficulty>
 		<wildPlantRegrowDays>25</wildPlantRegrowDays>
 		<soundsAmbient>
-			<li>Ambient_NightInsects_Jungle</li>
-			<li>Ambient_DayInsects_Jungle</li>
+			<li>AB_Ambient_NightInsects_Mycotic</li>
+			<li>AB_Ambient_DayInsects_Mycotic</li>
 		</soundsAmbient>
 		<diseaseMtbDays>35</diseaseMtbDays>
 		<diseases>
