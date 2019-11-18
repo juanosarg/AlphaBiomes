@@ -20,7 +20,9 @@ namespace AlphaBiomes
         public static bool AB_SpawnOcularForest = true;
         public static bool AB_SpawnPropaneLakes = true;
         public static bool AB_SpawnRockyCrags = true;
-    
+
+        public static bool AB_RemoveVanillaBiomes = false;
+
 
 
 
@@ -40,6 +42,8 @@ namespace AlphaBiomes
             Scribe_Values.Look(ref AB_SpawnOcularForest, "AB_SpawnOcularForest", true, true);
             Scribe_Values.Look(ref AB_SpawnPropaneLakes, "AB_SpawnPropaneLakes", true, true);
             Scribe_Values.Look(ref AB_SpawnRockyCrags, "AB_SpawnRockyCrags", true, true);
+            Scribe_Values.Look(ref AB_RemoveVanillaBiomes, "AB_RemoveVanillaBiomes", false, true);
+
 
 
 
@@ -62,6 +66,7 @@ namespace AlphaBiomes
             ls.CheckboxLabeled("AB_SpawnOcularForest".Translate(), ref AB_SpawnOcularForest, null);
             ls.CheckboxLabeled("AB_SpawnPropaneLakes".Translate(), ref AB_SpawnPropaneLakes, null);
             ls.CheckboxLabeled("AB_SpawnRockyCrags".Translate(), ref AB_SpawnRockyCrags, null);
+            ls.CheckboxLabeled("AB_RemoveVanillaBiomes".Translate(), ref AB_RemoveVanillaBiomes, null);
 
 
 

@@ -8,7 +8,7 @@
 		<workerClass>AlphaBiomes.BiomeWorker_MycoticJungle</workerClass>
 		<animalDensity>1.9</animalDensity>
 		<plantDensity>0.2</plantDensity>
-		<settlementSelectionWeight>0.0</settlementSelectionWeight>
+		<settlementSelectionWeight>0.25</settlementSelectionWeight>
 		<texture>Biomes/AB_MycoticJungle</texture>
 		<forageability>0.5</forageability>
 		<foragedFood>RawFungus</foragedFood>

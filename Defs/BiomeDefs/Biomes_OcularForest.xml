@@ -8,7 +8,7 @@
 		<workerClass>AlphaBiomes.BiomeWorker_OcularForest</workerClass>
 		<animalDensity>3</animalDensity>
 		<plantDensity>0.35</plantDensity>
-		<settlementSelectionWeight>0.0</settlementSelectionWeight>
+		<settlementSelectionWeight>0.1</settlementSelectionWeight>
 		<texture>Biomes/AB_OcularForest</texture>
 		<forageability>0.1</forageability>
 		<foragedFood>RawBerries</foragedFood>

@@ -10,6 +10,7 @@
 <AB_SpawnOcularForest>Create Ocular Forest on planet generation</AB_SpawnOcularForest>
 <AB_SpawnPropaneLakes>Create Propane Lakes on planet generation</AB_SpawnPropaneLakes>
 <AB_SpawnRockyCrags>Create Forsaken Crags on planet generation</AB_SpawnRockyCrags>
+<AB_RemoveVanillaBiomes>Remove all vanilla biomes</AB_RemoveVanillaBiomes>
 
 
 
