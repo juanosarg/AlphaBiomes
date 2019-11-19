@@ -1,6 +1,8 @@
 ﻿using System;
 using RimWorld.Planet;
 using RimWorld;
+using UnityEngine;
+using Verse;
 
 namespace AlphaBiomes
 {
@@ -16,7 +18,7 @@ namespace AlphaBiomes
             {
                 return -100f;
             }
-            if ((tile.temperature < 20.5f)|| (tile.temperature > 21f))
+            if ((tile.temperature < 17f)|| (tile.temperature > 25f))
             {
                 return 0f;
             }
@@ -24,7 +26,24 @@ namespace AlphaBiomes
             {
                 return 0f;
             }
-            return 16f + (tile.temperature - 7f) + (tile.rainfall - 600f) / 180f;
+            Vector3 tileCenter = Find.WorldGrid.GetTileCenter(tileID);
+            if (Find.World.GetComponent<WorldComponentExtender>() == null)
+            {
+                WorldComponent item = (WorldComponent)Activator.CreateInstance(typeof(WorldComponentExtender), new object[]
+               {
+                        Find.World
+               });
+                Find.World.components.Add(item);
+            }
+
+            float tileRadiation = Find.World.GetComponent<WorldComponentExtender>().noiseRadiation.GetValue(tileCenter);
+           // Log.Message(tileRadiation.ToString());
+            if (tileRadiation > 0.75f)
+            {
+                return 101f;
+            }
+            else return 0f;
+            //return 16f + (tile.temperature - 7f) + (tile.rainfall - 600f) / 180f;
         }
     }
 }

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <TerrainDef>
+    <defName>AB_LushGrass</defName>
+    <label>lush grass</label>
+    <texturePath>Terrain/Surfaces/AB_LushGrass</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  
+   <TerrainDef>
+    <defName>AB_GrassySand</defName>
+    <label>grassy sand</label>
+    <texturePath>Terrain/Surfaces/AB_GrassySand</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>350</renderPrecedence>
+    <pathCost>15</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Sand</generatedFilth>
+    <fertility>0.10</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>sand</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>SandInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  
+   
+  
+      <TerrainDef>
+    <defName>AB_ParchedEarth</defName>
+    <label>parched mud</label>
+    <texturePath>Terrain/Surfaces/AB_ParchedEarth</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>320</renderPrecedence>
+    <pathCost>30</pathCost>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <affordances>
+	  <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+     
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0.70</fertility>
+    <takeFootprints>True</takeFootprints>
+    <acceptFilth>false</acceptFilth>
+    
+    
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  
+    <TerrainDef>
+    <defName>AB_TarMud</defName>
+    <label>tarred mud</label>
+    <texturePath>Terrain/Surfaces/AB_TarMud</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>330</renderPrecedence>
+    <pathCost>50</pathCost>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <affordances>
+	<li>Light</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <acceptFilth>false</acceptFilth>
+    <avoidWander>true</avoidWander>
+    <driesTo>AB_ParchedEarth</driesTo>
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  
+    <TerrainDef ParentName="WaterDeepBase">
+    <defName>AB_Tar</defName>
+	<texturePath>Terrain/Surfaces/AB_Tar</texturePath>
+    <label>tar pit</label>
+    <renderPrecedence>395</renderPrecedence>
+  </TerrainDef>
+  
+</Defs>

@@ -44,6 +44,11 @@ namespace AlphaBiomes
                 //Log.Message("Detectado e intentando cambiar");
                 __result = TerrainDef.Named("AB_SoilOnCrackedMetal");
             }
+            if ((__result == TerrainDefOf.Gravel) && (map.Biome.defName == "AB_PyroclasticConflagration"))
+            {
+                //Log.Message("Detectado e intentando cambiar");
+                __result = TerrainDef.Named("AB_HardenedGrass");
+            }
 
         }
 
@@ -197,6 +202,15 @@ namespace AlphaBiomes
                 ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_Mudstone");
                 replacedList.Add(item);
                 replacedList.Add(ThingDefOf.Sandstone);
+
+                __result = replacedList;
+            }
+            else if (__instance.grid.tiles[tile].biome.defName == "AB_PyroclasticConflagration")
+            {
+                List<ThingDef> replacedList = new List<ThingDef>();
+                ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_Obsidianstone");
+                replacedList.Add(item);
+                replacedList.Add(DefDatabase<ThingDef>.GetNamed("Slate"));
 
                 __result = replacedList;
             }

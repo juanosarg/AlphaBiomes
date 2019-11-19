@@ -60,5 +60,25 @@
 			<AB_BlocksCragstone>4</AB_BlocksCragstone>
 		</costList>
 	</TerrainDef>
+	
+	<!-- Obsidian -->
+
+	<TerrainDef ParentName="TileStoneBase">
+		<defName>AB_TileObsidian</defName>
+		<label>obsidian tile</label>
+	  <color>(50,50,50)</color>
+		<costList>
+			<AB_BlocksObsidian>4</AB_BlocksObsidian>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>AB_FlagstoneObsidian</defName>
+		<label>obsidian flagstone</label>
+	  <color>(50,50,50)</color>
+		<costList>
+			<AB_BlocksObsidian>4</AB_BlocksObsidian>
+		</costList>
+	</TerrainDef>
 
 </Defs>

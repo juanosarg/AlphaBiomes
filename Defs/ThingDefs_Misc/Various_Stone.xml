@@ -371,6 +371,136 @@
 		</products>
 	</RecipeDef>
 	
+	<!-- ================ Obsidian ================ -->
+	 
+	<ThingDef ParentName="GU_RockBase" Name="AB_Obsidianstone">
+  
+
+    <defName>AB_Obsidianstone</defName>
+    <label>obsidian</label>
+	<generateCommonality>0</generateCommonality>
+    <description>Obsidian is a naturally occurring volcanic glass formed as an extrusive igneous rock, produced when lava from a volcano cools rapidly with minimal crystal growth. Obsidian is hard, brittle, and amorphous; it therefore fractures with very sharp edges.</description>
+	<graphicData>
+      <texPath>Things/Building/AB_Cragstone</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <linkType>None</linkType>
+	  <color>(50,50,50)</color>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+  
+    <statBases>
+	 
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>AB_ChunkObsidian</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+	  <mineableYieldWasteable>false</mineableYieldWasteable>
+	  <smoothedThing>AB_SmoothedObsidian</smoothedThing>
+    </building>
+  </ThingDef>
+  
+      <ThingDef ParentName="AB_Obsidianstone">
+    <defName>AB_SmoothedObsidian</defName>
+    <label>smoothed obsidian</label>
+    <description>Obsidian is a naturally occurring volcanic glass formed as an extrusive igneous rock, produced when lava from a volcano cools rapidly with minimal crystal growth. Obsidian is hard, brittle, and amorphous; it therefore fractures with very sharp edges.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Rock</li>
+        <li>MapEdge</li>
+      </linkFlags>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+   <ThingDef ParentName="GU_ChunkRockBase">
+    <defName>AB_ChunkObsidian</defName>
+    <label>obsidian chunk</label>
+    <graphicData>
+	  <color>(50,50,50)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <AB_BlocksObsidian>20</AB_BlocksObsidian>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="GU_StoneBlocksBase">
+    <defName>AB_BlocksObsidian</defName>
+    <label>obsidian blocks</label>
+    <description>Blocks of solid obsidian.</description>
+    <graphicData>
+	  <color>(50,50,50)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+    </statBases>
+	<tradeability>Sellable</tradeability>
+
+    <stuffProps>
+	      <commonality>0</commonality>
+
+	  <color>(50,50,50)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>obsidian</stuffAdjective>
+      <statFactors>
+
+        <Beauty>1.1</Beauty>  
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.5</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1.5</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>AB_MakeStoneBlocksObsidian</defName>
+		<label>make obsidian blocks</label>
+		<description>Cuts obsidian chunks into usable blocks.</description>
+		<recipeUsers>
+				<li>TableStonecutter</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AB_ChunkObsidian</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_ChunkObsidian</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AB_BlocksObsidian>20</AB_BlocksObsidian>
+		</products>
+	</RecipeDef>
+	
 	
 	  <!-- ================ Mudstone ================ -->
   
