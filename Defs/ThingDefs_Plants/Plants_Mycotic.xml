@@ -65,7 +65,7 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_LilacBeacon</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
@@ -307,7 +307,7 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_ArbuscularMycorrhiza</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.4, 0.6, 0.26)</volume>
 				<offset>(-0.03,0,-0.44)</offset>
@@ -360,7 +360,7 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_DribblingCap</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.4, 0.6, 0.26)</volume>
 				<offset>(-0.03,0,-0.44)</offset>
@@ -465,7 +465,7 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_SlimyPholiota</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.4, 0.6, 0.26)</volume>
 				<offset>(-0.03,0,-0.44)</offset>

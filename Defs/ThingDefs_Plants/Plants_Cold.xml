@@ -44,7 +44,7 @@
 		<description>These translucent plants seem to be able to grow almost anywhere, even in some snow covered areas.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_FrostLeaf</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 
 
 			<shadowData>
