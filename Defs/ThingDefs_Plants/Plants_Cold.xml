@@ -78,7 +78,7 @@
 		<description>A very strange plant, partly inorganic, that seems to extract propane from the surrounding landscape and store it as an energy source in rime-bound chemical sacs.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_RimeNodules</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 
 
 			<shadowData>
