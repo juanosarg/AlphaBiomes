@@ -10,7 +10,7 @@
 		<description>This strange flower seems to be only partially organic. Part of its structure is clearly crystalline, and it appears to be unaffected, or even bolstered, by the extremely cold climate. It might even be edible.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_CrystalHorn</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 
 
 			<shadowData>
