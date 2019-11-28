@@ -40,7 +40,7 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_EuphorbiaRimworldia</texPath>
-									<graphicClass>Graphic_Single</graphicClass>
+									<graphicClass>Graphic_Random</graphicClass>
 
 			
 			<shadowData>
@@ -70,7 +70,7 @@
 		<description>Despite its common name, the dead bower tree is not truly dead, just exceptionally adapted to survival in arid weather. The tree produces huge leaves every few decades. These leaves harness energy via photosynthesis, and this chemical energy is stored in brown coloured chemical postules that act as natural batteries. The tree then uses that energy slowly over the following years, only producing more leaves when it is depleted.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_DeadBowerTree</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
 			</shadowData>
