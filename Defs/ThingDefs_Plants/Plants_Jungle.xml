@@ -10,7 +10,7 @@
 		<description>One of the weirdest plants from Earth, genetically modified to thrive in wet, warm environments.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_RedBugloss</texPath>
-									<graphicClass>Graphic_Single</graphicClass>
+									<graphicClass>Graphic_Random</graphicClass>
 
 			
 			<shadowData>
