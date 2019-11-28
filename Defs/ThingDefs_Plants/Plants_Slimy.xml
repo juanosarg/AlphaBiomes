@@ -83,7 +83,7 @@
 		<description>Although at first sight this seems to be an independent plant, its roots are intricately interconnected with the rest of the gelatinous superorganism.</description>
 		<graphicData>
 			<texPath>Things/Plants/AB_Slimecasia</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>Transparent</shaderType>
 			<color>(255, 255, 255, 120)</color>
 			<drawSize>2</drawSize>
