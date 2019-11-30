@@ -10,13 +10,17 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
-            return 0f;
-            /*
+            //return 0f;
+           
             if (!AlphaBiomes_Settings.AB_SpawnTarPits)
             {
                 return -100f;
             }
             if (tile.WaterCovered)
+            {
+                return -100f;
+            }
+            if (tile.hilliness != Hilliness.Flat)
             {
                 return -100f;
             }
@@ -44,7 +48,7 @@ namespace AlphaBiomes
             {
                 return 100f;
             }
-            else return 0f;*/
+            else return 0f;
         }
     }
 }

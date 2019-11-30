@@ -242,7 +242,9 @@ namespace AlphaBiomes
                 Rand.PushState();
                 Rand.Seed = tile;
                 List<ThingDef> list = (from d in DefDatabase<ThingDef>.AllDefs
-                                       where d.category == ThingCategory.Building && d.building.isNaturalRock && !d.building.isResourceRock && !d.IsSmoothed && d.defName!= "GU_RoseQuartz" && d.defName != "AB_Mudstone" && d.defName != "AB_SlimeStone" && d.defName != "GU_AncientMetals" && d.defName != "AB_Cragstone"
+                                       where d.category == ThingCategory.Building && d.building.isNaturalRock && !d.building.isResourceRock && 
+                                       !d.IsSmoothed && d.defName!= "GU_RoseQuartz" && d.defName != "AB_Mudstone" && d.defName != "AB_SlimeStone" && 
+                                       d.defName != "GU_AncientMetals" && d.defName != "AB_Cragstone" && d.defName != "AB_Obsidianstone"
                                        select d).ToList<ThingDef>();
                 int num = Rand.RangeInclusive(2, 3);
                 if (num > list.Count)

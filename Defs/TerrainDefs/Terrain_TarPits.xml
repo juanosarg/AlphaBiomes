@@ -142,7 +142,7 @@
   
     <TerrainDef ParentName="WaterDeepBase">
     <defName>AB_Tar</defName>
-	<texturePath>Terrain/Surfaces/AB_Tar</texturePath>
+	<texturePath>Terrain/Surfaces/AB_TarDeepRamp</texturePath>
     <label>tar pit</label>
     <renderPrecedence>395</renderPrecedence>
   </TerrainDef>

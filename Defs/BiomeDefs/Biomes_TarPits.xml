@@ -7,7 +7,7 @@
     <description>These parched mudflats are littered with the ancient bones of colossal Gallatrosses. Apparently the highly intelligent beasts are coming here to die, and to mourn their fallen relatives.\n\n&lt;color=#33d733&gt;NOTE: don't mess with the Gallatross unless you are very sure you are prepared.&lt;/color&gt;</description>
     <workerClass>AlphaBiomes.BiomeWorker_TarPits</workerClass>
     <animalDensity>1.8</animalDensity>
-    <plantDensity>0.05</plantDensity>
+    <plantDensity>0.25</plantDensity>
     <settlementSelectionWeight>0.95</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>Biomes/AB_TarPits</texture>
@@ -96,6 +96,27 @@
 					</li>
 				</thresholds>
 			</li>
+			
+			<li>
+				<perlinFrequency>0.04</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_ParchedEarth</terrain>
+						<min>0.0</min>
+						<max>0.56</max>
+					</li>
+					<li>
+						<terrain>AB_TarMud</terrain>
+						<min>0.56</min>
+						<max>0.76</max>
+					</li>
+					<li>
+						<terrain>AB_Tar</terrain>
+						<min>0.76</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
 		</terrainPatchMakers>
     <baseWeatherCommonalities>
       <Clear>18</Clear>
@@ -109,12 +130,12 @@
     </baseWeatherCommonalities>
     <wildPlants>
 			<Plant_Grass>7.0</Plant_Grass>
-			<AB_TangleTea>0.8</AB_TangleTea>
-			<Plant_Bush>0.7</Plant_Bush>
-			<AB_EuphorbiaRimworldia>0.6</AB_EuphorbiaRimworldia>
-			<Plant_Agave>0.2</Plant_Agave>
-			<AB_DeadBowerTree>0.46</AB_DeadBowerTree>
-			<Plant_Berry>0.10</Plant_Berry>
+			<AB_GreenRockFern>3</AB_GreenRockFern>
+			<AB_Iashiphus>1</AB_Iashiphus>
+			<AB_SugarFamewort>1</AB_SugarFamewort>
+			<AB_RavenNettle>7</AB_RavenNettle>
+			<AB_FanPalm>6</AB_FanPalm>
+			<AB_KeeningCordax>1</AB_KeeningCordax>
     </wildPlants>
     <wildAnimals>
       <Rat>1.3</Rat>
