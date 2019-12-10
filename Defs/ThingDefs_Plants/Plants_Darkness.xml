@@ -30,7 +30,7 @@
 			<growMinGlow>0</growMinGlow>
 			<fertilityMin>0.7</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>25</harvestYield>
 			<harvestTag>Standard</harvestTag>

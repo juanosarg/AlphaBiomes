@@ -31,7 +31,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>40</growDays>
+			<growDays>10</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>10</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -74,7 +74,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.05</fertilitySensitivity>
-			<growDays>20</growDays>
+			<growDays>10</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>10</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -120,7 +120,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>40</growDays>
+			<growDays>5</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>10</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -166,7 +166,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>40</growDays>
+			<growDays>10</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>1</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -219,7 +219,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>10</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -271,7 +271,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestYield>35</harvestYield>
 			      <blockAdjacentSow>true</blockAdjacentSow>
@@ -323,7 +323,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestYield>35</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -376,7 +376,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>1</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -428,7 +428,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestYield>15</harvestYield>
 			<harvestTag>Standard</harvestTag>
@@ -481,7 +481,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			      <blockAdjacentSow>true</blockAdjacentSow>
 
@@ -533,7 +533,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>15</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			      <blockAdjacentSow>true</blockAdjacentSow>
 
@@ -584,7 +584,7 @@
 		<plant>
 			<fertilityMin>0.95</fertilityMin>
 			<fertilitySensitivity>0.15</fertilitySensitivity>
-			<growDays>60</growDays>
+			<growDays>5</growDays>
 			<dieIfLeafless>true</dieIfLeafless>
 			<maxMeshCount>4</maxMeshCount>
 			<neverBlightable>true</neverBlightable>
