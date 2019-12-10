@@ -91,7 +91,7 @@
     <useHitPoints>false</useHitPoints>
     <statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>1.9</MarketValue>
+      <MarketValue>0.9</MarketValue>
       <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
 			<Beauty>-12</Beauty>
@@ -188,7 +188,7 @@
       <color>(120,50,50)</color>
     </graphicData>
     <statBases>
-      <MarketValue>5</MarketValue>
+      <MarketValue>1.2</MarketValue>
       <Mass>1</Mass>
       <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
     </statBases>
@@ -319,7 +319,7 @@
       <color>(36,35,40)</color>
     </graphicData>
     <statBases>
-      <MarketValue>5</MarketValue>
+      <MarketValue>0.9</MarketValue>
       <Mass>1</Mass>
       <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
     </statBases>
@@ -449,7 +449,7 @@
 	  <color>(50,50,50)</color>
     </graphicData>
     <statBases>
-      <MarketValue>5</MarketValue>
+      <MarketValue>0.9</MarketValue>
       <Mass>1</Mass>
       <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
     </statBases>
@@ -569,7 +569,7 @@
       <color>(49,31,15)</color>
     </graphicData>
     <statBases>
-      <MarketValue>5</MarketValue>
+      <MarketValue>0.75</MarketValue>
       <Mass>1</Mass>
       <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
     </statBases>
