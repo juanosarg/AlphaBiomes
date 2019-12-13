@@ -4,7 +4,7 @@
 		<success>Always</success>
 		<operations>
 			<li Class="ModCheck.isModLoaded">
-				<modName>Passive Camouflage</modName>
+				<modName>Camouflage and Stealth</modName>
 				<yourMod>Alpha Biomes</yourMod>
 			</li>
 

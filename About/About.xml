@@ -40,7 +40,7 @@ Compatible with Rim of Madness - Bones
 Compatible with Vanilla Fishing Expanded (adds 19 new fish)
 Compatible with Fish Industry
 Compatible with Forsakens
-Compatible with Passive Camouflage
+Compatible with Camouflage and Stealth
 Uses Harmony (no need to download)
 Uses ModCheck (no need to download)
 
@@ -52,6 +52,7 @@ Some sounds by Mike Koenig at http://soundbible.com
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.408: Fixed Camouflage and Stealth compat (13/12/19)
 v1.407: Added Forsakens Fauna Module compatibility for the Forsaken Crags. Reduced mushroom and Stikehr growth times considerably (10/12/19)
 v1.406: Plant variation update: added new graphic variants for most plants in the mod, to break visual monotony (29/11/19)
 v1.405: Added extra noise overlays to planet to spawn biomes independently from vanilla ones. Fixed fish graphical glitches (27/11/19)
