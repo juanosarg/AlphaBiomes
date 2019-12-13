@@ -10,7 +10,7 @@
 
 			<!-- Arctic Desert Jungle Stone Urban Woodland -->
 
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_MetalFloor1"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -19,7 +19,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_MetalFloor2"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -28,7 +28,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_MetalFloor3"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -37,7 +37,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_SoilOnCrackedMetal"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -46,7 +46,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_Piping"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -55,7 +55,7 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_TileRoseQuartz"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -63,7 +63,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_FlagstoneRoseQuartz"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -71,7 +71,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_TileMudstone"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -79,7 +79,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_FlagstoneMudstone"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -87,7 +87,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_TileCragstone"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -95,7 +95,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_FlagstoneCragstone"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -103,7 +103,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_MycoticSoil"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -111,7 +111,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_MycoticSoilRich"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -119,7 +119,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_MycoticGrass"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -127,7 +127,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_ForsakenSand"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -135,7 +135,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_FineForsakenSand"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -143,7 +143,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_ForsakenRock"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -151,7 +151,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_DarkMud"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -159,7 +159,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_CrackedMud"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -167,7 +167,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_RichCrackedMud"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -175,7 +175,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_FineSand"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -183,7 +183,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_Slime"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -191,7 +191,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_RichSlime"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -199,7 +199,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_SlimeGrass"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -207,7 +207,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_SlimyMud"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -215,7 +215,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_LiquidSlime"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -223,7 +223,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_DenseMud"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -231,7 +231,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_DenseGrass"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -239,7 +239,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_WebbedMarshyTerrain"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -247,7 +247,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_AlienSand"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -255,7 +255,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_RichAlienSand"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -263,7 +263,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_AlienSandFine"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -271,7 +271,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="GU_MossyRed"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -279,7 +279,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_PackedSnow"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -287,7 +287,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_PackedIce"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -295,7 +295,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_SolidPropane"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
@@ -303,7 +303,7 @@
 					</li>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> 
+			<li Class="PatchOperationAddModExtension"> 
 				<xpath>/Defs/TerrainDef[defName="AB_SnowOverRocks"]</xpath>
 				<value>
 					<li Class="CompCamo.CompCamoDefs"> 
