@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+
+
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Extreme Desert</li>
+				</mods> 
+				<match Class="PatchOperationAdd">  
+					<xpath>/Defs/ThingDef[defName="AEXP_Camel"]/race</xpath>
+					<value>
+
+						<wildBiomes>
+							<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
+						</wildBiomes>
+
+
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Extreme Desert</li>
+				</mods> 
+				<match Class="PatchOperationAdd">  
+					<xpath>/Defs/ThingDef[defName="AEXP_Rattlesnake"]/race/wildBiomes</xpath>
+					<value>
+
+
+						<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
+
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Extreme Desert</li>
+				</mods> 
+				<match Class="PatchOperationAdd">  
+					<xpath>/Defs/ThingDef[defName="AEXP_Megascorpion"]/race/wildBiomes</xpath>
+					<value>
+
+
+						<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
+						<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
+						<AB_FeraliskInfestedJungle>0.01</AB_FeraliskInfestedJungle>
+					</value>
+				</match>
+			</li>
+
+
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>

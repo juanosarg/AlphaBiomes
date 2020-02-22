@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+
+
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Ice Sheet</li>
+				</mods> 
+				<match Class="PatchOperationAdd">   
+					<xpath>/Defs/ThingDef[defName="AEXP_Penguin"]/race/wildBiomes</xpath>
+					<value>
+
+						<AB_PropaneLakes>0.3</AB_PropaneLakes>
+
+
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Ice Sheet</li>
+				</mods> 
+				<match Class="PatchOperationAdd">    
+					<xpath>/Defs/ThingDef[defName="AEXP_Seal"]/race/wildBiomes</xpath>
+					<value>
+
+
+						<AB_PropaneLakes>0.2</AB_PropaneLakes>
+
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Animals Expanded — Ice Sheet</li>
+				</mods> 
+				<match Class="PatchOperationAdd">   
+					<xpath>/Defs/ThingDef[defName="AEXP_Walrus"]/race/wildBiomes</xpath>
+					<value>
+
+
+						<AB_PropaneLakes>0.1</AB_PropaneLakes>
+
+					</value>
+				</match>
+			</li>
+
+
+
+
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>

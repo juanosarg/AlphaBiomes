@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_PinkRawFungus</defName>
+		<label>pink raw fungus</label>
+		<description>Raw fungus. This variety lasts a longer time without rotting, making it more valuable.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_PinkRawFungus</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_BlueRawFungus</defName>
+		<label>blue raw fungus</label>
+		<description>Even though these mushrooms look weird, they are very nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_BlueRawFungus</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.45</MarketValue>
+			<Mass>0.027</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_PurpleRawFungus</defName>
+		<label>purple raw fungus</label>
+		<description>Raw fungus. These particular fungi are more nutritive than usual, but there is a greater chance for them to cause food poisoning.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_PurpleRawFungus</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.075</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawSlime</defName>
+		<label>raw slime</label>
+		<description>Raw slime. This thing is edible. Barely.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawSlime</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+</Defs>

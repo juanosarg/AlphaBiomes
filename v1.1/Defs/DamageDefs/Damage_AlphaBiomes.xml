@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<DamageDef ParentName="Bite">
+		<defName>AB_ParalysingSting</defName>
+		<label>paralysing sting</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AB_Paralysis</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	
+
+
+
+</Defs>
