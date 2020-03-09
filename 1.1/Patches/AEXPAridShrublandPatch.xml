@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Arid Shrubland</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
 
 
 
-
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Arid Shrubland</li>
-				</mods> 
-				<match Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AEXP_Coyote"]/race/wildBiomes</xpath>
 					<value>
 
@@ -19,14 +19,9 @@
 
 
 					</value>
-				</match>
-			</li>
+				</li>
 
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Arid Shrubland</li>
-				</mods> 
-				<match Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AEXP_Giraffe"]/race/wildBiomes</xpath>
 					<value>
 
@@ -34,14 +29,9 @@
 						<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
 
 					</value>
-				</match>
-			</li>
+				</li>
 
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Arid Shrubland</li>
-				</mods> 
-				<match Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AEXP_Hippopotamus"]/race/wildBiomes</xpath>
 					<value>
 
@@ -50,14 +40,9 @@
 						<AB_GelatinousSuperorganism>0.05</AB_GelatinousSuperorganism>
 						<AB_FeraliskInfestedJungle>0.07</AB_FeraliskInfestedJungle>
 					</value>
-				</match>
-			</li>
+				</li>
 
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Arid Shrubland</li>
-				</mods> 
-				<match Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AEXP_Zebra"]/race/wildBiomes</xpath>
 					<value>
 
@@ -65,13 +50,8 @@
 						<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
 
 					</value>
-				</match>
-			</li>
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Arid Shrubland</li>
-				</mods> 
-				<match Class="PatchOperationAdd"> 
+				</li>
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AEXP_Wildebeest"]/race/wildBiomes</xpath>
 					<value>
 
@@ -80,13 +60,8 @@
 						<AB_FeraliskInfestedJungle>0.005</AB_FeraliskInfestedJungle>
 
 					</value>
-				</match>
-			</li>
-			<li Class="PatchOperationFindMod">
-				<mods>
-					<li>Vanilla Animals Expanded — Arid Shrubland</li>
-				</mods> 
-				<match Class="PatchOperationAdd"> 
+				</li>
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AEXP_Crocodile"]/race/wildBiomes</xpath>
 					<value>
 
@@ -96,13 +71,13 @@
 						<AB_GelatinousSuperorganism>0.1</AB_GelatinousSuperorganism>
 
 					</value>
-				</match>
-			</li>
+				</li>
 
 
 
 
-		</operations>
+			</operations>
+		</match>
 	</Operation>
 
 

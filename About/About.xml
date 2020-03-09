@@ -5,7 +5,14 @@
       <li>1.0</li>
       <li>1.1</li>
    </supportedVersions>
-	
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
 	
 		<packageId>sarg.alphabiomes</packageId>
 	<description>Adds multiple unique new biomes to Rimworld.
@@ -58,6 +65,7 @@ Some sounds by Mike Koenig at http://soundbible.com
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.02: 1.1 version (09/03/20)
 v1.408: Fixed Camouflage and Stealth compat (13/12/19)
 v1.407: Added Forsakens Fauna Module compatibility for the Forsaken Crags. Reduced mushroom and Stikehr growth times considerably (10/12/19)
 v1.406: Plant variation update: added new graphic variants for most plants in the mod, to break visual monotony (29/11/19)
