@@ -77,6 +77,17 @@
 
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_BloodShrimp"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.01</AB_FeraliskInfestedJungle>
+					<AB_OcularForest>0.07</AB_OcularForest>
+					<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
+					
+				</value>
+			</li>
 
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_BoulderMit"]/race/wildBiomes</xpath>
@@ -115,6 +126,17 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Cinderlisk"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.07</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.07</AB_MycoticJungle>
+					<AB_OcularForest>0.01</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.07</AB_GelatinousSuperorganism>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_CrepuscularBeetle"]/race</xpath>
 				<value>
 					<wildBiomes>
@@ -123,6 +145,20 @@
 
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_CrystalMit"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.03</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.03</AB_MycoticJungle>
+					<AB_OcularForest>0.01</AB_OcularForest>
+					<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
+					<AB_PropaneLakes>0.01</AB_PropaneLakes>
+
+				</value>
+			</li>
+			
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_DecayDrake"]/race/wildBiomes</xpath>
 				<value>
@@ -254,6 +290,17 @@
 					<butcherProducts>
 						<AB_RawSlime>35</AB_RawSlime>
 					</butcherProducts>
+
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Helixien"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.02</AB_FeraliskInfestedJungle>
+					<AB_OcularForest>0.1</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.15</AB_GelatinousSuperorganism>
+
 
 				</value>
 			</li>
@@ -400,6 +447,44 @@
 
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Razorjack"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.03</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.03</AB_MycoticJungle>
+					<AB_OcularForest>0.07</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.07</AB_GallatrossGraveyard>
+					
+
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_RipperHound"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.07</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.03</AB_MycoticJungle>
+					<AB_OcularForest>0.01</AB_OcularForest>
+					<AB_GallatrossGraveyard>0.07</AB_GallatrossGraveyard>
+					
+
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_RoughPlatedMonitor"]/race/wildBiomes</xpath>
+				<value>
+
+					
+					<AB_MycoticJungle>0.03</AB_MycoticJungle>
+					<AB_OcularForest>0.20</AB_OcularForest>
+					<AB_GallatrossGraveyard>0.07</AB_GallatrossGraveyard>
+					
+
+				</value>
+			</li>
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AA_RedGoo"]/race</xpath>
 				<value>
@@ -426,6 +511,19 @@
 					<AB_PropaneLakes>0.01</AB_PropaneLakes>
 
 
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AA_Swarmling"]/race/wildBiomes</xpath>
+				<value>
+
+					<AB_FeraliskInfestedJungle>0.07</AB_FeraliskInfestedJungle>
+					<AB_MycoticJungle>0.07</AB_MycoticJungle>
+					<AB_OcularForest>0.15</AB_OcularForest>
+					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
+					<AB_GallatrossGraveyard>0.1</AB_GallatrossGraveyard>
+					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
+					<AB_PropaneLakes>0.01</AB_PropaneLakes>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd"> 

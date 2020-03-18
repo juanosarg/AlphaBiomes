@@ -54,8 +54,8 @@ Compatible with Vanilla Fishing Expanded (adds 19 new fish)
 Compatible with Fish Industry
 Compatible with Forsakens
 Compatible with Camouflage and Stealth
-Uses Harmony (no need to download)
-Uses ModCheck (no need to download)
+Uses Harmony (dependency)
+
 
 Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
 
@@ -65,6 +65,7 @@ Some sounds by Mike Koenig at http://soundbible.com
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.03: Added compat for the 8 new animals added in Alpha Animals (18/03/20)
 v2.02: 1.1 version (09/03/20)
 v1.408: Fixed Camouflage and Stealth compat (13/12/19)
 v1.407: Added Forsakens Fauna Module compatibility for the Forsaken Crags. Reduced mushroom and Stikehr growth times considerably (10/12/19)
