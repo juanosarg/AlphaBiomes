@@ -10,8 +10,8 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
-            return 0f;
-            /*
+            //return 0f;
+            
             if (!AlphaBiomes_Settings.AB_SpawnPyroclasticConflagration)
             {
                 return -100f;
@@ -44,7 +44,7 @@ namespace AlphaBiomes
             }
             else return 0f;
             //return 15f + (tile.temperature - 7f) + (tile.rainfall - 600f) / 180f + tile.swampiness * 10f;
-            */
+            
         }
     }
 }

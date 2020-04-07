@@ -72,8 +72,8 @@ namespace AlphaBiomes
             ls.CheckboxLabeled("AB_SpawnOcularForest".Translate(), ref AB_SpawnOcularForest, null);
             ls.CheckboxLabeled("AB_SpawnPropaneLakes".Translate(), ref AB_SpawnPropaneLakes, null);
             ls.CheckboxLabeled("AB_SpawnRockyCrags".Translate(), ref AB_SpawnRockyCrags, null);
-           // ls.CheckboxLabeled("AB_SpawnPyroclasticConflagration".Translate(), ref AB_SpawnPyroclasticConflagration, null);
-           // ls.CheckboxLabeled("AB_SpawnTarPits".Translate(), ref AB_SpawnTarPits, null);
+            ls.CheckboxLabeled("AB_SpawnPyroclasticConflagration".Translate(), ref AB_SpawnPyroclasticConflagration, null);
+            ls.CheckboxLabeled("AB_SpawnTarPits".Translate(), ref AB_SpawnTarPits, null);
 
 
             ls.CheckboxLabeled("AB_RemoveVanillaBiomes".Translate(), ref AB_RemoveVanillaBiomes, null);

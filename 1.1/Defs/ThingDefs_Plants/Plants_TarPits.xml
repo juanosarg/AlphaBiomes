@@ -112,7 +112,7 @@
 			<leaflessGraphicPath>Things/Plants/AB_RavenNettleLeafless</leaflessGraphicPath>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
 			<topWindExposure>0.15</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterRadius>8</wildClusterRadius>
 			<wildClusterWeight>350</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
