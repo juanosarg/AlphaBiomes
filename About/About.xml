@@ -13,6 +13,10 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
+	<loadAfter>
+		<li>BiomesTeam.BiomesIslands</li>
+		
+	</loadAfter>
 	
 		<packageId>sarg.alphabiomes</packageId>
 	<description>Adds multiple unique new biomes to Rimworld.

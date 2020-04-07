@@ -188,7 +188,7 @@ namespace AlphaBiomes
         public static void MakeRocksAccordingToBiome(int tile, ref World __instance, ref IEnumerable<ThingDef> __result)
 
         {
-            if ((__instance.grid.tiles[tile].biome.defName=="BiomesIslands_Atoll")|| (__instance.grid.tiles[tile].biome.defName == "BiomesIslands_TropicalIsland")) {
+            if ((__instance.grid.tiles[tile].biome.defName=="BiomesIslands_Atoll")) {
                 return;
             }
 
