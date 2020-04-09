@@ -127,6 +127,15 @@
 			<harvestFailable>false</harvestFailable>
 			<visualSizeRange>2.3~3</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+		 <mustBeWildToSow>true</mustBeWildToSow>
+			<sowTags>
+				<li>Ground</li>
+
+			</sowTags>
+			 <blockAdjacentSow>true</blockAdjacentSow>
 		</plant>
   </ThingDef>
   

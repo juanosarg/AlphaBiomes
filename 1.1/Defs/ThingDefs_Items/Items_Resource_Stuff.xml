@@ -104,7 +104,7 @@
       <stuffAdjective>red wooden</stuffAdjective>
 	  
       <categories>
-        <li>Woody</li>
+        <li>AB_ExoticWooden</li>
       </categories>
       <commonality>0</commonality>
       <color>(193,97,67)</color>
@@ -173,7 +173,7 @@
       <stuffAdjective>mushroom stalk</stuffAdjective>
 	  
       <categories>
-        <li>Woody</li>
+        <li>AB_ExoticWooden</li>
       </categories>
       <commonality>0</commonality>
       <color>(200,200,200)</color>

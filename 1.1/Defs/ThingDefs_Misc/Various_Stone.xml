@@ -101,7 +101,7 @@
     </thingCategories>
     <stuffProps>
       <categories>
-        <li>Stony</li>
+        <li>AB_Exotic</li>
       </categories>
       <commonality>0.20</commonality> <!-- because there are so many stone types -->
       <appearance>Bricks</appearance>
@@ -680,7 +680,7 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts>
-      <Steel>20</Steel>
+      <AB_SlimeMeal>1</AB_SlimeMeal>
     </butcherProducts>
   </ThingDef>
   

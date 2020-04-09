@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StuffCategoryDef>
+    <defName>AB_Exotic</defName>
+    <label>exotic</label>
+  </StuffCategoryDef>
+  
+    <StuffCategoryDef>
+    <defName>AB_ExoticWooden</defName>
+    <label>exotic woods</label>
+  </StuffCategoryDef>
+
+
+  
+
+</Defs>

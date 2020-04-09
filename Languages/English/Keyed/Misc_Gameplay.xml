@@ -14,6 +14,7 @@
 <AB_SpawnTarPits>Create Tar Pits on planet generation</AB_SpawnTarPits>
 <AB_RemoveVanillaBiomes>Remove all vanilla biomes</AB_RemoveVanillaBiomes>
 
+<AB_TerrainCannotSupport_Propane>The pump needs to be built on a solid propane ground</AB_TerrainCannotSupport_Propane>
 
 
 </LanguageData>
