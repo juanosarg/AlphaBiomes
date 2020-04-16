@@ -5,7 +5,7 @@
 
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_PinkRawFungus</defName>
-		<label>pink raw fungus</label>
+		<label>pink fungus</label>
 		<description>Raw fungus. This variety lasts a longer time without rotting, making it more valuable.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AB_PinkRawFungus</texPath>
@@ -26,7 +26,7 @@
 
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_BlueRawFungus</defName>
-		<label>blue raw fungus</label>
+		<label>blue fungus</label>
 		<description>Even though these mushrooms look weird, they are very nice to eat, even when raw.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AB_BlueRawFungus</texPath>
@@ -43,14 +43,14 @@
 		</comps>
 		<ingestible>
 			<preferability>RawTasty</preferability>
-			<tasteThought></tasteThought>
+			<tasteThought/>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>
 	</ThingDef>
 
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_PurpleRawFungus</defName>
-		<label>purple raw fungus</label>
+		<label>purple fungus</label>
 		<description>Raw fungus. These particular fungi are more nutritive than usual, but there is a greater chance for them to cause food poisoning.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AB_PurpleRawFungus</texPath>
@@ -60,7 +60,7 @@
 			<FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
 			<MarketValue>1.5</MarketValue>
 		</statBases>
-		
+
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>
@@ -71,10 +71,10 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<ThingDef ParentName="PlantFoodRawBase">
+
+	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_RawSlime</defName>
-		<label>raw slime</label>
+		<label>slime</label>
 		<description>Raw slime. This thing is edible. Barely.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AB_RawSlime</texPath>
@@ -93,6 +93,98 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawCrystalHorn</defName>
+		<label>crystal horn</label>
+		<description>Raw Crystal Horn. Only partially organic: part of its structure is clearly crystalline. Edible, but uncomfortably crunchy.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawCrystalHorn</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>45</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AB_RawFrostLeaf</defName>
+		<label>frost leaf</label>
+		<description>These translucent plants seem to be able to grow almost anywhere, even in some snow covered areas. They can be dried in a fire and used to feed herbivore animals efficiently.</description>
+		<stackLimit>75</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawFrostLeaf</texPath>
+			
+		</graphicData>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>1.5</Flammability>
+			<Nutrition>0.025</Nutrition>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawTentacularFruit</defName>
+		<label>tentacular fruit</label>
+		<description>The blue nodules grow at the end of each branch / tentacle of a tentacular plant, and they produce an eerie rattling sound from time to time.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawTentacularFruit</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>1.5</Flammability>			
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="AB_RawMeatBase">
+		<defName>AB_RawBloodBouquet</defName>
+		<label>blood bouquet</label>
+		<description>These fruit seem to be as hard as the trunk of the plant they are harvested from, and equally covered in spines. The inner flesh of the fruit tastes like blood-drenched meat, and herbivore animals will refuse to consume it.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawBloodBouquet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.01</Mass>
+			<MarketValue>2</MarketValue>
+		</statBases>
+		<ingestible>
+			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
+		</ingestible>
+	</ThingDef>
+
+
 
 
 

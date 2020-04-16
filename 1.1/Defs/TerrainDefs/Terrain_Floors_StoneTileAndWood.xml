@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<TerrainDef Name="FloorBase" Abstract="True">
+<TerrainDef Name="AB_FloorBase" Abstract="True">
     <layerable>true</layerable>
     <affordances>
       <li>Light</li>
@@ -11,7 +11,7 @@
     <tags>
       <li>Floor</li>
     </tags>
-    <designationCategory>Floors</designationCategory>
+    <designationCategory>AB_AlphaBiomesBuildings</designationCategory>
     <fertility>0</fertility>
     <constructEffect>ConstructDirt</constructEffect>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -20,7 +20,7 @@
 
 	<!-- Exotic Tilestones -->
 
-	<TerrainDef Abstract="True" ParentName="FloorBase" Name="AB_ExoticTileStoneBase">
+	<TerrainDef Abstract="True" ParentName="AB_FloorBase" Name="AB_ExoticTileStoneBase">
 		<renderPrecedence>220</renderPrecedence>
 		<description>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. These were built using exotic materials.</description>
 		<texturePath>Terrain/Surfaces/TileStone</texturePath>
@@ -74,7 +74,7 @@
 
 	<!-- Exotic Flagstones -->
 
-	<TerrainDef Abstract="True" ParentName="FloorBase" Name="AB_ExoticFlagstoneBase">
+	<TerrainDef Abstract="True" ParentName="AB_FloorBase" Name="AB_ExoticFlagstoneBase">
 		<renderPrecedence>220</renderPrecedence>
 		<description>Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. These were built using exotic materials.</description>
 		<texturePath>Terrain/Surfaces/Flagstone</texturePath>
@@ -134,7 +134,7 @@
 
 	<!-- Exotic Woods -->
 
-	<TerrainDef Abstract="True" ParentName="FloorBase" Name="AB_AlienWoodFloorsBase">
+	<TerrainDef Abstract="True" ParentName="AB_FloorBase" Name="AB_AlienWoodFloorsBase">
 		<renderPrecedence>249</renderPrecedence>
 		<description>Wood floors crafted with exotic, alien wood or other unusual materials.</description>
 
@@ -167,6 +167,14 @@
 		</costList>
 	</TerrainDef>
 
+	<TerrainDef ParentName="AB_AlienWoodFloorsBase">
+		<defName>AB_CrystalWoodFloors_RedWood</defName>
+		<label>crystalline wood planks</label>
+		<texturePath>Terrain/Surfaces/AB_CrystalWoodPlanks</texturePath>
 
+		<costList>
+			<AB_CrystalWood>3</AB_CrystalWood>
+		</costList>
+	</TerrainDef>
 
 </Defs>

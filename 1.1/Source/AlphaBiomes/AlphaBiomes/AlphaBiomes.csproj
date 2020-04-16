@@ -298,6 +298,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comps\CompAlcyoniteSolar.cs" />
+    <Compile Include="Comps\CompCauseThoughtIfThoughtFound.cs" />
+    <Compile Include="Comps\CompProperties_CauseThoughtIfThoughtFound.cs" />
+    <Compile Include="GraphicsCache.cs" />
+    <Compile Include="ITab_BillsInherit.cs" />
     <Compile Include="Options\AlphaBiomes_Settings.cs" />
     <Compile Include="Options\AlphaBiomes_SettingsController.cs" />
     <Compile Include="BiomeWorkers\BiomeWorker_FeraliskInfestedJungle.cs" />
@@ -315,7 +320,8 @@
     <Compile Include="Gas_Mycotic.cs" />
     <Compile Include="Harmony\HarmonyPatchers.cs" />
     <Compile Include="MapExtender\MapComponentExtender.cs" />
-    <Compile Include="PlaceWorker_PropanePump.cs" />
+    <Compile Include="Placeworkers\PlaceWorker_OcularOnly.cs" />
+    <Compile Include="Placeworkers\PlaceWorker_PropanePump.cs" />
     <Compile Include="Plant_Cold.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecialSpawnsDef.cs" />

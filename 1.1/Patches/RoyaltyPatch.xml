@@ -11,7 +11,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs</xpath>
 					<value>
-						<TerrainDef Abstract="True" ParentName="FloorBase" Name="AB_ExoticFineTileStoneBase">
+						<TerrainDef Abstract="True" ParentName="AB_FloorBase" Name="AB_ExoticFineTileStoneBase">
 							<renderPrecedence>220</renderPrecedence>
 							<description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. These were built using exotic materials.</description>
 							<texturePath>Terrain/Surfaces/TileStoneFine</texturePath>

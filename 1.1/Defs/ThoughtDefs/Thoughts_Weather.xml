@@ -69,6 +69,23 @@
       </li>
     </stages>
   </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AB_RedFogThoughtPositive</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+	<nullifyingTraits>
+		<li>Psychopath</li>
+		
+	</nullifyingTraits>
+    <stages>
+      <li>
+        <label>i love unnatural weather</label>
+        <description>Actually... I love this fog. This fog is my friend. I would kiss the fog if I could. Obey. Consume. Caress an ocular jelly. Wait, what?</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 
 	
 

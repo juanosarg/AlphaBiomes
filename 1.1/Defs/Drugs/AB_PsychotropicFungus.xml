@@ -17,7 +17,7 @@
       <Mass>0.1</Mass>
 	  <DeteriorationRate>4</DeteriorationRate>
       <Nutrition>0.05</Nutrition>
-	  <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+	  <FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
 
     </statBases>
     <techLevel>Neolithic</techLevel>

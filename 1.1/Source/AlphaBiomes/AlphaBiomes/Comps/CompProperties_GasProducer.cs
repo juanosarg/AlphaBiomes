@@ -9,6 +9,7 @@ namespace AlphaBiomes
         public string gasType = "";
         public float rate = 0f;
         public int radius = 0;
+        public bool needsElectricity = false;
        
 
         public CompProperties_GasProducer()

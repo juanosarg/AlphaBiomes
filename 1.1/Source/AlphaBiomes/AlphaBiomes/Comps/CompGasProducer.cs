@@ -33,17 +33,21 @@ namespace AlphaBiomes
                     if (this.parent.Map != null)
                     {
 
-                        int num = GenRadial.NumCellsInRadius(Props.radius);
-                        for (int i = 0; i < num; i++)
-                        {
-                            IntVec3 current = this.parent.Position + GenRadial.RadialPattern[i];
-                            if (current.InBounds(this.parent.Map) && rand.NextDouble() < Props.rate)
+                        if (!Props.needsElectricity || (Props.needsElectricity && this.parent.GetComp<CompPowerTrader>().PowerOn)) {
+                            int num = GenRadial.NumCellsInRadius(Props.radius);
+                            for (int i = 0; i < num; i++)
                             {
-                                Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
+                                IntVec3 current = this.parent.Position + GenRadial.RadialPattern[i];
+                                if (current.InBounds(this.parent.Map) && rand.NextDouble() < Props.rate)
+                                {
+                                    Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
 
-                                GenSpawn.Spawn(thing, current, this.parent.Map);
+                                    GenSpawn.Spawn(thing, current, this.parent.Map);
+                                }
                             }
+
                         }
+                        
 
 
 

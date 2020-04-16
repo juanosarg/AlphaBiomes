@@ -16,5 +16,9 @@
     <DesignatorDropdownGroupDef>
     <defName>AB_Floor_Finestone</defName>
   </DesignatorDropdownGroupDef>
+  
+      <DesignatorDropdownGroupDef>
+    <defName>AB_Smelters</defName>
+  </DesignatorDropdownGroupDef>
 
 </Defs>

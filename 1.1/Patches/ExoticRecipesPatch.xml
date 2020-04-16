@@ -7,6 +7,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -15,6 +16,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 
@@ -23,6 +25,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -31,6 +34,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -39,6 +43,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -47,6 +52,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -55,6 +61,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -63,6 +70,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -71,6 +79,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -79,6 +88,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	
@@ -87,6 +97,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -94,6 +105,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -101,6 +113,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -122,6 +135,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -129,6 +143,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -136,6 +151,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -143,6 +159,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -192,6 +209,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -206,6 +224,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -213,6 +232,7 @@
 		<value>
 			<li>AB_Exotic</li>
 			<li>AB_ExoticWooden</li>
+			<li>AB_ExoticMetals</li>
 		</value>
 	</Operation>
 

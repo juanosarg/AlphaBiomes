@@ -14,7 +14,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_Glowstool</defName>
 		<label>glowstool</label>
-		<description>A small brown mushroom typically found in caves. It smells like an old, dirty rag pulled from the stomach of a rotting muffalo - but it tastes surprisingly good when cooked. This glowstool variant has adapted to outside life, but produces very few edible caps when harvested.</description>
+		<description>A small brown mushroom typically found in caves. It smells like an old, dirty rag pulled from the stomach of a rotting muffalo - but it tastes surprisingly good when cooked. This glowstool variant has adapted to outside life, but produces very few edible caps when harvested.\n\nPlant details: Glowstool is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for raw fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -55,7 +58,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_LilacBeacon</defName>
 		<label>lilac beacon</label>
-		<description>The lilac beacon is a tall mushroom with a bright purple cap. It is much more nutritive than other fungi, but it has a greater risk of being hard on the stomach. This variant has adapted to outside life, but produces very few edible caps when harvested.</description>
+		<description>The lilac beacon is a tall mushroom with a bright purple cap. It is much more nutritive than other fungi, but it has a greater risk of being hard on the stomach. This variant has adapted to outside life, but produces very few edible caps when harvested.\n\nPlant details: Lilac beacon is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for purple raw fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_PurpleRawFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -99,7 +105,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_WitchesOyster</defName>
 		<label>witches' oyster</label>
-		<description>A small, ramified fungal colony with a pungent aroma. A witches' oyster produces caps that take quite a long time to deteriorate.</description>
+		<description>A small, ramified fungal colony with a pungent aroma. A witches' oyster produces caps that take quite a long time to deteriorate.\n\nPlant details: Witches' Oyster is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for pink raw fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_PinkRawFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -143,7 +152,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_AgaricusDomeCap</defName>
 		<label>agaricus domecap</label>
-		<description>Everything about this fungus screams "I'm toxic, stay away from me". Of course this doesn't stop some enterprising individuals from consuming it as a drug. The agaricus domecap is a psychotropic fungus, and should be consumed with extreme precaution, if at all.</description>
+		<description>Everything about this fungus screams "I'm toxic, stay away from me". Of course this doesn't stop some enterprising individuals from consuming it as a drug. The agaricus domecap is a psychotropic fungus, and should be consumed with extreme precaution, if at all.\n\nPlant details: Agaricus domecap is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for psychotropic fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_PsychotropicFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -188,7 +200,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_Agarilux</defName>
 		<label>agarilux</label>
-		<description>An enormous purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. This agarilux variant has adapted to outside life, but produces very few edible caps when harvested.</description>
+		<description>An enormous purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. This agarilux variant has adapted to outside life, but produces very few edible caps when harvested.\n\nPlant details: Agarilux is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for purple raw fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_PurpleRawFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -236,7 +251,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_GiantAgarilux</defName>
 		<label>giant agarilux</label>
-		<description>A colossal purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Its stalk has been hardened, giving it a firmness similar to a weak wood.</description>
+		<description>A colossal purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Its stalk has been hardened, giving it a firmness similar to a weak wood.\n\nPlant details: Giant Agarilux is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for mushroom stalks.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_MushroomWoodLog</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -262,9 +280,8 @@
 			<fertilitySensitivity>0.15</fertilitySensitivity>
 			<growDays>15</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
+			<blockAdjacentSow>true</blockAdjacentSow>
 			<harvestYield>35</harvestYield>
-			      <blockAdjacentSow>true</blockAdjacentSow>
-
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_MushroomWoodLog</harvestedThingDef>
 			<neverBlightable>true</neverBlightable>
@@ -287,7 +304,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_ArbuscularMycorrhiza</defName>
 		<label>arbuscular mycorrhiza</label>
-		<description>A mycorrhiza is a symbiotic association between a fungus and a plant. This particular organism is highly advanced, and the two symbionts have almost fused into a single creature that keeps the supporting structures of the original tree (the trunk) and the caps and mycelium of the original fungus. A small quantity of wood can be harvested from its trunk.</description>
+		<description>A mycorrhiza is a symbiotic association between a fungus and a plant. This particular organism is highly advanced, and the two symbionts have almost fused into a single creature that keeps the supporting structures of the original tree (the trunk) and the caps and mycelium of the original fungus. A small quantity of wood can be harvested from its trunk.\n\nPlant details: Arbuscular mycorrhiza is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for normal wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>6</Beauty>
@@ -338,7 +358,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_DribblingCap</defName>
 		<label>dribbling cap</label>
-		<description>A huge pink mushroom, constantly dribbling a pungent, resin-like substance. This substance is a potent neurotoxin that could potentially be extracted and used as a weapon.</description>
+		<description>A huge pink mushroom, constantly dribbling a pungent, resin-like substance. This substance is a potent neurotoxin that could potentially be extracted and used as a weapon.\n\nPlant details: Dribbling cap is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for powerful single use poison darts.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_WeaponPoisonDart</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -387,7 +410,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_RecurvedStropharia</defName>
 		<label>recurved stropharia</label>
-		<description>A big greyish mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Its stalk has been hardened, giving it a firmness similar to a weak wood.</description>
+		<description>A big greyish mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Its stalk has been hardened, giving it a firmness similar to a weak wood.\n\nPlant details: Recurved stropharia is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for mushroom stalks.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_MushroomWoodLog</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -437,7 +463,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_SlimyPholiota</defName>
 		<label>slimy pholiota</label>
-		<description>A blueish-pink mushroom, secreting a slimy substance that attracts insects. This substance paralyzes the insects, and eventually kills them, being used by the fungus as fertilizer. Strangely enough, the slimy substance gives this fungus a very rich taste, and it can even be consumed raw.</description>
+		<description>A blueish-pink mushroom, secreting a slimy substance that attracts insects. This substance paralyzes the insects, and eventually kills them, being used by the fungus as fertilizer. Strangely enough, the slimy substance gives this fungus a very rich taste, and it can even be consumed raw.\n\nPlant details: Slimy pholiota is a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.95. Can be harvested for blue raw fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_BlueRawFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -487,7 +516,10 @@
 	<ThingDef ParentName="AB_CavePlantBase">
 		<defName>AB_GlowingAgarilux</defName>
 		<label>glowing agarilux</label>
-		<description>An enormous purple mushroom, glowing in darkness with a faint purple luminiscence. Its size and glowing protrusions make this fungus beautiful to look at. This agarilux variant has adapted to outside life, but produces very few edible caps when harvested.</description>
+		<description>An enormous purple mushroom, glowing in darkness with a faint purple luminiscence. Its size and glowing protrusions make this fungus beautiful to look at. This agarilux variant has adapted to outside life, but produces very few edible caps when harvested.\n\nPlant details: Glowing agarilux is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.95. Can be harvested for raw purple fungus.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AB_PurpleRawFungus</ThingDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -520,15 +552,9 @@
 			<neverBlightable>true</neverBlightable>
 			<visualSizeRange>1.3~2</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
-			<sowResearchPrerequisites>
-				<li>TreeSowing</li>
-			</sowResearchPrerequisites>
+			
 			<purpose>Food</purpose>
-			<sowTags>
-				<li>Ground</li>
-
-			</sowTags>
-			 <mustBeWildToSow>true</mustBeWildToSow>
+			
 		</plant>
 		<comps>
 			<li Class="CompProperties_Glower">

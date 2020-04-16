@@ -10,6 +10,11 @@
     <defName>AB_ExoticWooden</defName>
     <label>exotic woods</label>
   </StuffCategoryDef>
+  
+    <StuffCategoryDef>
+    <defName>AB_ExoticMetals</defName>
+    <label>exotic metals</label>
+  </StuffCategoryDef>
 
 
   

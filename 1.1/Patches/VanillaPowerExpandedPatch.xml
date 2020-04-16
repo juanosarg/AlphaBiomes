@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Power</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]/terrainValidationDisallowed</xpath>
+				<value>
+						<li>AB_DarkMud</li>
+						<li>AB_SlimyMud</li>
+						<li>AB_LiquidSlime</li>
+						<li>GU_Piping</li>
+						<li>GU_RedWaterShallow</li>
+						<li>GU_RedWaterDeep</li>
+						<li>AB_PropaneLake</li>
+						<li>AB_LiquidLava</li>
+						<li>AB_Tar</li>
+
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnChemfuelPonds"]/terrainValidationDisallowed</xpath>
+				<value>
+						<li>AB_DarkMud</li>
+						<li>AB_SlimyMud</li>
+						<li>AB_LiquidSlime</li>
+						<li>GU_Piping</li>
+						<li>GU_RedWaterShallow</li>
+						<li>GU_RedWaterDeep</li>
+						<li>AB_PropaneLake</li>
+						<li>AB_LiquidLava</li>
+						<li>AB_Tar</li>
+
+				</value>
+			</li>
+			
+
+		
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
