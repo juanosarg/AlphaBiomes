@@ -58,6 +58,7 @@ Compatible with Vanilla Fishing Expanded (adds 19 new fish)
 Compatible with Fish Industry
 Compatible with Forsakens
 Compatible with Camouflage and Stealth
+Compatible with Fertile Fields
 Uses Harmony (dependency)
 
 Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
@@ -69,6 +70,7 @@ Alien planet sound modified from Speedenza: https://freesound.org/people/Speeden
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.2: Terrain texture desaturation. Added biome-specific buildings (Ocular Forest and Propane Lakes for now) (17/04/20)
 v2.03: Added compat for the 8 new animals added in Alpha Animals (18/03/20)
 v2.02: 1.1 version (09/03/20)
 v1.408: Fixed Camouflage and Stealth compat (13/12/19)
