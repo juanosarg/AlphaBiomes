@@ -21,6 +21,24 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 	
+	<WorkGiverDef>
+    <defName>AB_DoBillsCook</defName>
+    <label>cook meals at propane stove</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>AB_PropaneStove</li>
+      
+    </fixedBillGiverDefs>
+    <verb>cook</verb>
+    <gerund>cooking at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+	
 	
 
 
