@@ -298,6 +298,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bill Inheritance\NonPublicFields.cs" />
+    <Compile Include="Bill Inheritance\StaticConstructorClass.cs" />
+    <Compile Include="Bill Inheritance\ThingDefExtension.cs" />
     <Compile Include="Comps\CompAlcyoniteSolar.cs" />
     <Compile Include="Comps\CompCauseThoughtIfThoughtFound.cs" />
     <Compile Include="Comps\CompProperties_CauseThoughtIfThoughtFound.cs" />

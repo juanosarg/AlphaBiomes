@@ -124,7 +124,7 @@
     <surfaceType>Item</surfaceType>
    
     <inspectorTabs>
-      <li>AlphaBiomes.ITab_BillsInherit</li>
+      <li>ITab_Bills</li>
     </inspectorTabs>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -146,11 +146,22 @@
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
+	<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
     <building>
       <isMealSource>true</isMealSource>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
     </building>
+	<modExtensions>
+			<li Class="AlphaBiomes.ThingDefExtension">
+				<inheritRecipesFrom>
+					<li>FueledStove</li>
+				</inheritRecipesFrom>
+
+			</li>
+		</modExtensions>
   </ThingDef>
   
     <ThingDef ParentName="BuildingBase">

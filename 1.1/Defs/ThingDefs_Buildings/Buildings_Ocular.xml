@@ -182,7 +182,9 @@
     <specialDisplayRadius>14.9</specialDisplayRadius>
     <tradeability>Sellable</tradeability>
     <tickerType>Normal</tickerType>
-   
+   <researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
 	<placeWorkers>
 			<li>AlphaBiomes.PlaceWorker_OcularOnly</li>
 		</placeWorkers>
