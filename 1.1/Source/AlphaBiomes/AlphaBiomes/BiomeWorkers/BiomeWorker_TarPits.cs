@@ -10,7 +10,7 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
-            return 0f;
+           // return 0f;
            
             if (!AlphaBiomes_Settings.AB_SpawnTarPits)
             {

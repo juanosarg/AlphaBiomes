@@ -186,7 +186,7 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<thingClass>Building</thingClass>
-				<defName>AB_AbandonedShipPart</defName>
+		<defName>AB_AbandonedShipPart</defName>
 
 		<label>long abandoned ship part</label>
 		<description>A mysterious crashed piece of a spaceship. This was probably full of mechanoids once, but it seems to have been left abandoned for a while. Perhaps it could be salvaged for raw materials.</description>
@@ -238,7 +238,110 @@
 		</comps>
 	</ThingDef>
 
-	
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>AB_TarHole</defName>
+		<label>tar hole</label>
+		<description>A natural hole in the mud connecting to an underground tar reservoir. This will periodically spray fresh tar in the vicinity.</description>
+		<thingClass>AlphaBiomes.Building_TarHole</thingClass>
+		<graphicData>
+			<texPath>Things/Building/AB_TarHole</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<altitudeLayer>Floor</altitudeLayer>
+		<rotatable>false</rotatable>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<size>(4,4)</size>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<blockPlants>true</blockPlants>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>AB_BumbledroneHive</defName>
+		<label>bumbledrone hive</label>
+		<description>A huge mound of hardened organic matter that communicates with an extensive underground hive. Bumbledrones will periodically exit this hive to gather food for the bumbledrone colony. Bumbledrones surrounding a hive are particularly aggressive, so it's best to give them some space.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/AB_BumbledroneHive</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2.6</drawSize>
+		</graphicData>
+		<uiIconScale>0.65</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<Flammability>2.0</Flammability>
+		</statBases>
+		<pathCost>50</pathCost>
+		<receivesSignals>true</receivesSignals>
+		<blockWind>true</blockWind>
+		<tickerType>Normal</tickerType>
+		<passability>PassThroughOnly</passability>
+		<killedLeavings>
+			<InsectJelly>30</InsectJelly>
+		</killedLeavings>
+		<comps>
+			
+			
+			<li Class="AlphaBiomes.CompProperties_SpawnerPawnCustom">
+				<spawnablePawnKinds>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneHierophant</li>
+					<li>AA_BumbledroneHierophant</li>
+					<li>AA_BumbledroneHierophant</li>
+					<li>AA_BumbledroneQueen</li>
+				</spawnablePawnKinds>
+				<pawnSpawnIntervalDays>0.5~1</pawnSpawnIntervalDays>
+				<spawnSound>Hive_Spawn</spawnSound>
+				<initialPawnsCount>5</initialPawnsCount>
+				
+			</li>
+			<li Class="CompProperties_SelfhealHitpoints">
+				<ticksPerHeal>600</ticksPerHeal>
+				<!-- 60k ticks = 1 day, 10 hp per day -->
+			</li>
+			
+			
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>GlowPod</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<spawnIntervalRange>30000~60000</spawnIntervalRange>
+				<spawnMaxAdjacent>1</spawnMaxAdjacent>
+				<saveKeysPrefix>pod</saveKeysPrefix>
+				<inheritFaction>true</inheritFaction>
+			</li>
+		
+			
+		</comps>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+		</building>
+	</ThingDef>
+
+
 
 
 

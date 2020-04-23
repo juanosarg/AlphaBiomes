@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+<!--     Options     -->
+
 <AB_UseAgariluxParticles>Agarilux Prime produces harmful gas</AB_UseAgariluxParticles>
 <AB_SpawnMycoticJungle>Create Mycotic Jungle on planet generation</AB_SpawnMycoticJungle>
 <AB_SpawnFeraliskInfestedJungle>Create Feralisk Jungle on planet generation</AB_SpawnFeraliskInfestedJungle>
@@ -14,9 +16,16 @@
 <AB_SpawnTarPits>Create Tar Pits on planet generation</AB_SpawnTarPits>
 <AB_RemoveVanillaBiomes>Remove all vanilla biomes</AB_RemoveVanillaBiomes>
 
-<AB_TerrainCannotSupport_Propane>The pump needs to be built on a solid propane ground</AB_TerrainCannotSupport_Propane>
 
+<!--     Buildings     -->
+
+<AB_TerrainCannotSupport_Propane>The pump needs to be built on a solid propane ground</AB_TerrainCannotSupport_Propane>
 <AB_OcularForestOnly>This device will only work in an ocular forest</AB_OcularForestOnly>
+<AB_SpawningNextBumbledrone>Spawning a new Bumbledrone in {0}</AB_SpawningNextBumbledrone>
+
+<!--     Misc     -->
+
+<AB_NotReallyAPlant>This is just a disgusting puddle of smelly tar</AB_NotReallyAPlant>
 
 
 </LanguageData>

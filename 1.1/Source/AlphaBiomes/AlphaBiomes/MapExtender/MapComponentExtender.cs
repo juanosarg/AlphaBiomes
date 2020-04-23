@@ -57,15 +57,31 @@ namespace AlphaBiomes
             if (map.Biome.defName.Contains("AB_")) {
                 foreach (SpecialSpawnsDef element in DefDatabase<SpecialSpawnsDef>.AllDefs.Where(element => element.allowedBiome == map.Biome.defName))
                 {
+
+                    int extraGeneration = 0;
+                    foreach (string biome in element.biomesWithExtraGeneration)
+                    {
+                        if (map.Biome.defName == biome)
+                        {
+                            extraGeneration = element.extraGeneration;
+                        }
+
+                    }
+
                     bool canSpawn = true;
                     if (spawnCounter == 0)
                     {
-                        spawnCounter = element.numberToSpawn;
+                        spawnCounter = Rand.RangeInclusive(element.numberToSpawn.min, element.numberToSpawn.max) + extraGeneration;
                     }
                     foreach (IntVec3 c in tmpTerrain)
                     {
-                        
+
+                       
+
+
                         TerrainDef terrain = c.GetTerrain(map);
+                       
+                            
 
                             foreach (string allowed in element.terrainValidationAllowed)
                             {
@@ -85,9 +101,25 @@ namespace AlphaBiomes
                                 }
                             }
 
+                            if (!element.allowOnWater && terrain.IsWater)
+                            {
+                                canSpawn = false;
+                               
+                            }
+
+                            if (element.findCellsOutsideColony)
+                            {
+                                if (!OutOfCenter(c, map, 50))
+                                {
+                                    canSpawn = false;
+
+                                }
+
+                            }
+
                             if (canSpawn)
                             {
-
+                           
                                 Thing thing = (Thing)ThingMaker.MakeThing(element.thingDef, null);
                                 CellRect occupiedRect = GenAdj.OccupiedRect(c, thing.Rotation, thing.def.Size);
                                 if (occupiedRect.InBounds(map))
@@ -95,6 +127,8 @@ namespace AlphaBiomes
                                     GenSpawn.Spawn(thing, c, map);
                                     spawnCounter--;
                                 }
+                            
+                         
                                
                             }
                         if (canSpawn && spawnCounter <= 0)
@@ -117,5 +151,13 @@ namespace AlphaBiomes
 
         }
 
+        public static bool OutOfCenter(IntVec3 c, Map map, int centerDist)
+        {
+            IntVec3 CenterPoint = map.Center;
+            return c.x < CenterPoint.x-centerDist || c.z < CenterPoint.z - centerDist || c.x >= CenterPoint.x + centerDist || c.z >= CenterPoint.z + centerDist;
+        }
+
     }
+
+    
 }

@@ -33,7 +33,7 @@ namespace AlphaBiomes
    */
     [HarmonyPatch(typeof(BaseGenUtility))]
     [HarmonyPatch("TryRandomInexpensiveFloor")]
-    public static class BaseGenUtility_TryRandomInexpensiveFloor_Patch
+    public static class AlphaBiomes_BaseGenUtility_TryRandomInexpensiveFloor_Patch
     {
         [HarmonyPostfix]
         public static void RemoveAlphaBiomesFloorsFromRuins(ref bool __result, ref TerrainDef floor)
@@ -49,10 +49,27 @@ namespace AlphaBiomes
                     vanillaTiles.Add(TerrainDef.Named("TileMarble"));
                     floor = vanillaTiles.RandomElement();
                 }
-                
+          
 
-            
-           
+        }
+
+    }
+
+    /*This Harmony Postfix tries to remove the plant cut gizmo from tar puddles
+*/
+    [HarmonyPatch(typeof(Designator_PlantsCut))]
+    [HarmonyPatch("AffectsThing")]
+    public static class AlphaBiomes_Designator_PlantsCut_AffectsThing_Patch
+    {
+        [HarmonyPostfix]
+        public static void RemovePlantCutGizmo(ref bool __result, ref Thing t)
+
+        {
+
+            if (t.def.defName== "AB_TarPuddle") {
+                __result = false;
+            }
+
 
         }
 
@@ -63,7 +80,7 @@ namespace AlphaBiomes
     */
     [HarmonyPatch(typeof(GenStep_Terrain))]
     [HarmonyPatch("TerrainFrom")]
-    public static class GenStep_Terrain_TerrainFrom_Patch
+    public static class AlphaBiomes_GenStep_Terrain_TerrainFrom_Patch
     {
         [HarmonyPostfix]
         public static void RemoveGravel(Map map,ref TerrainDef __result)
@@ -90,7 +107,7 @@ namespace AlphaBiomes
 */
     [HarmonyPatch(typeof(WildPlantSpawner))]
     [HarmonyPatch("CanRegrowAt")]
-    public static class WildPlantSpawner_CanRegrowAt_Patch
+    public static class AlphaBiomes_WildPlantSpawner_CanRegrowAt_Patch
     {
         [HarmonyPostfix]
         public static void RegrowOnCold(IntVec3 c, ref bool __result, ref WildPlantSpawner __instance)
@@ -114,7 +131,7 @@ namespace AlphaBiomes
 */
     [HarmonyPatch(typeof(IncidentWorker_MakeGameCondition))]
     [HarmonyPatch("CanFireNowSub")]
-    public static class IncidentWorker_MakeGameCondition_CanFireNowSub_Patch
+    public static class AlphaBiomes_IncidentWorker_MakeGameCondition_CanFireNowSub_Patch
     {
         [HarmonyPostfix]
         public static void DisableEclipse(ref bool __result, ref IncidentWorker_MakeGameCondition __instance, IncidentParms parms)
@@ -138,7 +155,7 @@ namespace AlphaBiomes
 */
     [HarmonyPatch(typeof(GenCelestial))]
     [HarmonyPatch("CelestialSunGlow")]
-    public static class GenCelestial_CelestialSunGlow_Patch
+    public static class AlphaBiomes_GenCelestial_CelestialSunGlow_Patch
     {
         [HarmonyPostfix]
         public static void AvoidTheLight(ref Map map, ref float __result)
@@ -164,7 +181,7 @@ namespace AlphaBiomes
  */
     [HarmonyPatch(typeof(GenStep_RockChunks))]
     [HarmonyPatch("GrowLowRockFormationFrom")]
-    public static class GenStep_RockChunks_GrowLowRockFormationFrom_Patch
+    public static class AlphaBiomes_GenStep_RockChunks_GrowLowRockFormationFrom_Patch
     {
         [HarmonyPrefix]
         public static bool RemoveRockFilth(ref IntVec3 root, ref Map map)
@@ -234,7 +251,7 @@ namespace AlphaBiomes
     */
     [HarmonyPatch(typeof(World))]
     [HarmonyPatch("NaturalRockTypesIn")]
-    public static class World_NaturalRockTypesIn_Patch
+    public static class AlphaBiomes_World_NaturalRockTypesIn_Patch
     {
 
         public static string[] vanillaRockTypes = { "Marble", "Sandstone", "Limestone", "Granite", "Slate" };

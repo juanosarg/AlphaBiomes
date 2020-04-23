@@ -112,7 +112,7 @@
     <texturePath>Terrain/Surfaces/AB_TarMud</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>330</renderPrecedence>
-    <pathCost>50</pathCost>
+    <pathCost>100</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
       <Cleanliness>-2</Cleanliness>

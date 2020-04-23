@@ -168,7 +168,7 @@
     <defName>AB_PropaneHeater</defName>
     <label>propane heater</label>
     <description>A device that burns propane fuel and turns it into heat. It can automatically turn itself on or off to reach a specific target temperature.</description>
-    <thingClass>Building_Heater</thingClass>
+    <thingClass>AlphaBiomes.Building_PropaneHeater</thingClass>
     <graphicData>
       <texPath>Things/Building/AB_PropaneHeater</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -225,7 +225,7 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_TempControl">
-        <energyPerSecond>21</energyPerSecond>
+        <energyPerSecond>10</energyPerSecond>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>3</glowRadius>
@@ -233,7 +233,7 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <designationCategory>Temperature</designationCategory>
+    <designationCategory>AB_AlphaBiomesBuildings</designationCategory>
     <designationHotKey>Misc2</designationHotKey>
     <researchPrerequisites>
       <li>Electricity</li>

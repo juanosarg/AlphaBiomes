@@ -512,7 +512,7 @@
 	<generateCommonality>0</generateCommonality>
     <description>Mudstone, a type of mudrock, is a fine-grained sedimentary rock whose original constituents were clays or muds. Mudstone looks like hardened clay and, depending upon the circumstances under which it was formed, it may show cracks or fissures, like a sun-baked clay deposit.</description>
     <graphicData>
-      <color>(49,31,15)</color>
+      <color>(31,25,21)</color>
     </graphicData>
     <statBases>
 	 
@@ -550,7 +550,7 @@
     <defName>AB_ChunkMudstone</defName>
     <label>mudstone chunk</label>
     <graphicData>
-      <color>(49,31,15)</color>
+      <color>(31,25,21)</color>
     </graphicData>
     <statBases>
       <Mass>20</Mass>
@@ -566,7 +566,7 @@
     <label>mudstone blocks</label>
     <description>Blocks of solid mudstone.</description>
     <graphicData>
-      <color>(49,31,15)</color>
+      <color>(31,25,21)</color>
     </graphicData>
     <statBases>
       <MarketValue>0.75</MarketValue>
@@ -578,7 +578,7 @@
     <stuffProps>
 	      <commonality>0</commonality>
 
-      <color>(49,31,15)</color>
+      <color>(31,25,21)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>

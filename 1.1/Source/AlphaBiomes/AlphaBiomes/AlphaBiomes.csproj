@@ -301,11 +301,15 @@
     <Compile Include="Bill Inheritance\NonPublicFields.cs" />
     <Compile Include="Bill Inheritance\StaticConstructorClass.cs" />
     <Compile Include="Bill Inheritance\ThingDefExtension.cs" />
+    <Compile Include="Buildings\Building_PropaneHeater.cs" />
+    <Compile Include="Buildings\Building_TarHole.cs" />
+    <Compile Include="Buildings\TarSprayer.cs" />
     <Compile Include="Comps\CompAlcyoniteSolar.cs" />
     <Compile Include="Comps\CompCauseThoughtIfThoughtFound.cs" />
     <Compile Include="Comps\CompProperties_CauseThoughtIfThoughtFound.cs" />
+    <Compile Include="Comps\CompProperties_SpawnerPawnsCustom.cs" />
+    <Compile Include="Comps\CompSpawnerPawnCustom.cs" />
     <Compile Include="GraphicsCache.cs" />
-    <Compile Include="ITab_BillsInherit.cs" />
     <Compile Include="Options\AlphaBiomes_Settings.cs" />
     <Compile Include="Options\AlphaBiomes_SettingsController.cs" />
     <Compile Include="BiomeWorkers\BiomeWorker_FeraliskInfestedJungle.cs" />
@@ -325,9 +329,10 @@
     <Compile Include="MapExtender\MapComponentExtender.cs" />
     <Compile Include="Placeworkers\PlaceWorker_OcularOnly.cs" />
     <Compile Include="Placeworkers\PlaceWorker_PropanePump.cs" />
-    <Compile Include="Plant_Cold.cs" />
+    <Compile Include="Plant Classes\Plant_Cold.cs" />
+    <Compile Include="Plant Classes\Plant_Tar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpecialSpawnsDef.cs" />
+    <Compile Include="MapExtender\SpecialSpawnsDef.cs" />
     <Compile Include="WeatherOverlay_RedFog.cs" />
     <Compile Include="MapExtender\WorldComponentExtender.cs" />
   </ItemGroup>
