@@ -20,6 +20,7 @@
 					<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 					<AB_RockyCrags>0.01</AB_RockyCrags>
+					<AB_TarPits>0.01</AB_TarPits>
 
 				</value>
 			</li>
@@ -33,6 +34,7 @@
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 					<AB_GallatrossGraveyard>0.07</AB_GallatrossGraveyard>
 					<AB_RockyCrags>0.05</AB_RockyCrags>
+					<AB_TarPits>0.07</AB_TarPits>
 
 				</value>
 			</li>
@@ -45,6 +47,7 @@
 					<AB_OcularForest>0.005</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.07</AB_GelatinousSuperorganism>
 					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
+					<AB_TarPits>0.005</AB_TarPits>
 					
 				</value>
 			</li>
@@ -57,7 +60,7 @@
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 					<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
-					
+					<AB_TarPits>0.05</AB_TarPits>
 
 				</value>
 			</li>
@@ -73,6 +76,7 @@
 					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.005</AB_PropaneLakes>
 					<AB_RockyCrags>0.005</AB_RockyCrags>
+					<AB_TarPits>0.07</AB_TarPits>
 
 				</value>
 			</li>
@@ -88,6 +92,7 @@
 					<AB_MechanoidIntrusion>0.001</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.001</AB_PropaneLakes>
 					<AB_RockyCrags>0.001</AB_RockyCrags>
+					<AB_TarPits>0.001</AB_TarPits>
 
 				</value>
 			</li>
@@ -100,6 +105,7 @@
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 					<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
+					<AB_TarPits>0.05</AB_TarPits>
 
 				</value>
 			</li>
@@ -115,6 +121,7 @@
 					<AB_MechanoidIntrusion>0.001</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.001</AB_PropaneLakes>
 					<AB_RockyCrags>0.001</AB_RockyCrags>
+					<AB_TarPits>0.001</AB_TarPits>
 
 
 				</value>
@@ -131,6 +138,7 @@
 					<AB_MechanoidIntrusion>0.001</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.001</AB_PropaneLakes>
 					<AB_RockyCrags>0.001</AB_RockyCrags>
+					<AB_TarPits>0.001</AB_TarPits>
 
 
 				</value>
@@ -147,6 +155,7 @@
 					<AB_MechanoidIntrusion>0.001</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.001</AB_PropaneLakes>
 					<AB_RockyCrags>0.001</AB_RockyCrags>
+					<AB_TarPits>0.001</AB_TarPits>
 
 
 				</value>
@@ -163,6 +172,7 @@
 					<AB_MechanoidIntrusion>0.001</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.001</AB_PropaneLakes>
 					<AB_RockyCrags>0.001</AB_RockyCrags>
+					<AB_TarPits>0.001</AB_TarPits>
 
 				</value>
 			</li>
@@ -175,6 +185,7 @@
 					<AB_GallatrossGraveyard>0.001</AB_GallatrossGraveyard>
 					<AB_MechanoidIntrusion>0.1</AB_MechanoidIntrusion>
 					<AB_PropaneLakes>0.1</AB_PropaneLakes>
+					<AB_TarPits>0.001</AB_TarPits>
 					
 				</value>
 			</li>

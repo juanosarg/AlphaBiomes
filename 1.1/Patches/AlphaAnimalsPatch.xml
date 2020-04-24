@@ -18,7 +18,7 @@
 						<AB_OcularForest>0.1</AB_OcularForest>
 						<AB_GelatinousSuperorganism>0.1</AB_GelatinousSuperorganism>
 						<AB_GallatrossGraveyard>0.1</AB_GallatrossGraveyard>
-
+						<AB_TarPits>0.1</AB_TarPits>
 
 					</value>
 				</li>
@@ -50,7 +50,7 @@
 						<AB_FeraliskInfestedJungle>0.05</AB_FeraliskInfestedJungle>
 						<AB_MycoticJungle>0.05</AB_MycoticJungle>
 						<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
-
+						<AB_TarPits>0.02</AB_TarPits>
 
 					</value>
 				</li>
@@ -74,7 +74,7 @@
 
 
 						<AB_GallatrossGraveyard>0.1</AB_GallatrossGraveyard>
-
+						<AB_TarPits>0.02</AB_TarPits>
 
 					</value>
 				</li>
@@ -110,6 +110,7 @@
 						<AB_GallatrossGraveyard>0.1</AB_GallatrossGraveyard>
 						<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 						<AB_PropaneLakes>0.01</AB_PropaneLakes>
+						<AB_TarPits>0.01</AB_TarPits>
 					</value>
 				</li>
 
@@ -120,7 +121,7 @@
 						<AB_FeraliskInfestedJungle>0.05</AB_FeraliskInfestedJungle>
 						<AB_MycoticJungle>0.07</AB_MycoticJungle>
 						<AB_GelatinousSuperorganism>0.07</AB_GelatinousSuperorganism>
-
+						<AB_TarPits>0.07</AB_TarPits>
 
 					</value>
 				</li>
@@ -165,7 +166,7 @@
 						<AB_OcularForest>0.01</AB_OcularForest>
 						<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
 						<AB_PropaneLakes>0.01</AB_PropaneLakes>
-
+						<AB_TarPits>0.01</AB_TarPits>
 					</value>
 				</li>
 
@@ -224,7 +225,7 @@
 						<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 						<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
 						<AB_MechanoidIntrusion>0.07</AB_MechanoidIntrusion>
-
+						<AB_TarPits>0.01</AB_TarPits>
 					</value>
 				</li>
 
@@ -310,7 +311,7 @@
 						<AB_FeraliskInfestedJungle>0.02</AB_FeraliskInfestedJungle>
 						<AB_OcularForest>0.1</AB_OcularForest>
 						<AB_GelatinousSuperorganism>0.15</AB_GelatinousSuperorganism>
-
+						<AB_TarPits>0.01</AB_TarPits>
 
 					</value>
 				</li>
@@ -333,6 +334,18 @@
 
 					</value>
 				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AA_LarvalAtispec"]/race/wildBiomes</xpath>
+					<value>
+						
+							<AB_TarPits>0.3</AB_TarPits>
+							<AB_OcularForest>0.03</AB_OcularForest>
+							<AB_MycoticJungle>0.03</AB_MycoticJungle>
+							
+						
+					</value>
+				</li>
 
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AA_Lockjaw"]/race/wildBiomes</xpath>
@@ -350,7 +363,7 @@
 					<value>
 
 						<AB_GallatrossGraveyard>0.03</AB_GallatrossGraveyard>
-
+						<AB_TarPits>0.01</AB_TarPits>
 
 					</value>
 				</li>
@@ -390,6 +403,7 @@
 					<value>
 
 						<AB_RockyCrags>0.4</AB_RockyCrags>
+						<AB_TarPits>0.01</AB_TarPits>
 
 					</value>
 				</li>
@@ -443,7 +457,19 @@
 						<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
 						<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 						<AB_PropaneLakes>0.01</AB_PropaneLakes>
+						<AB_TarPits>0.01</AB_TarPits>
 
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AA_Plasmorph"]/race/wildBiomes</xpath>
+					<value>
+						
+							<AB_TarPits>0.3</AB_TarPits>
+							<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
+							<AB_OcularForest>0.03</AB_OcularForest>
+						
 					</value>
 				</li>
 
@@ -467,7 +493,7 @@
 						<AB_OcularForest>0.07</AB_OcularForest>
 						<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 						<AB_GallatrossGraveyard>0.07</AB_GallatrossGraveyard>
-
+						<AB_TarPits>0.01</AB_TarPits>
 
 					</value>
 				</li>
@@ -479,7 +505,7 @@
 						<AB_MycoticJungle>0.03</AB_MycoticJungle>
 						<AB_OcularForest>0.01</AB_OcularForest>
 						<AB_GallatrossGraveyard>0.07</AB_GallatrossGraveyard>
-
+						<AB_TarPits>0.01</AB_TarPits>
 
 					</value>
 				</li>
@@ -519,7 +545,7 @@
 
 						<AB_MechanoidIntrusion>0.2</AB_MechanoidIntrusion>
 						<AB_PropaneLakes>0.01</AB_PropaneLakes>
-
+						<AB_TarPits>0.01</AB_TarPits>
 
 					</value>
 				</li>
@@ -534,6 +560,16 @@
 						<AB_GallatrossGraveyard>0.1</AB_GallatrossGraveyard>
 						<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 						<AB_PropaneLakes>0.01</AB_PropaneLakes>
+						<AB_TarPits>0.01</AB_TarPits>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AA_TarGuzzler"]/race</xpath>
+					<value>
+						<wildBiomes>
+							<AB_TarPits>1.5</AB_TarPits>
+							
+						</wildBiomes>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -547,6 +583,7 @@
 						<AB_GallatrossGraveyard>0.001</AB_GallatrossGraveyard>
 						<AB_MechanoidIntrusion>0.001</AB_MechanoidIntrusion>
 						<AB_PropaneLakes>0.001</AB_PropaneLakes>
+						<AB_TarPits>0.001</AB_TarPits>
 
 					</value>
 				</li>

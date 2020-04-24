@@ -14,7 +14,7 @@ namespace AlphaBiomes
 
         public bool verifyFirstTime = true;
         public int spawnCounter = 0;
-       
+
         public MapComponentExtender(Map map) : base(map)
         {
 
@@ -26,12 +26,12 @@ namespace AlphaBiomes
 
             Scribe_Values.Look<bool>(ref this.verifyFirstTime, "verifyFirstTime", true, true);
 
-          
+
         }
 
         public override void FinalizeInit()
         {
-           
+
             base.FinalizeInit();
 
             if (verifyFirstTime)
@@ -41,22 +41,25 @@ namespace AlphaBiomes
                 {
                     map.weatherManager.curWeather = WeatherDef.Named("AB_ForsakenNight");
                     map.weatherManager.TransitionTo(WeatherDef.Named("AB_ForsakenNight"));
-                   
-                    
+
+
                 }
 
             }
-            
+
         }
 
         public void doMapSpawns()
         {
 
-            IEnumerable<IntVec3> tmpTerrain = map.AllCells.InRandomOrder(); 
 
-            if (map.Biome.defName.Contains("AB_")) {
+
+            if (map.Biome.defName.Contains("AB_"))
+            {
                 foreach (SpecialSpawnsDef element in DefDatabase<SpecialSpawnsDef>.AllDefs.Where(element => element.allowedBiome == map.Biome.defName))
                 {
+                    IEnumerable<IntVec3> tmpTerrain = map.AllCells.InRandomOrder();
+
 
                     int extraGeneration = 0;
                     foreach (string biome in element.biomesWithExtraGeneration)
@@ -72,79 +75,86 @@ namespace AlphaBiomes
                     if (spawnCounter == 0)
                     {
                         spawnCounter = Rand.RangeInclusive(element.numberToSpawn.min, element.numberToSpawn.max) + extraGeneration;
+                        //Log.Message(spawnCounter.ToString());
                     }
                     foreach (IntVec3 c in tmpTerrain)
                     {
 
-                       
+
 
 
                         TerrainDef terrain = c.GetTerrain(map);
-                       
-                            
 
-                            foreach (string allowed in element.terrainValidationAllowed)
+
+                        bool flagAllowed = true;
+                        foreach (string allowed in element.terrainValidationAllowed)
+                        {
+                            if (terrain.defName == allowed)
                             {
-                                if (terrain.defName == allowed)
-                                {
-                                    canSpawn = true;
-                                    break;
-                                }
-                                canSpawn = false;
-                            }
-                            foreach (string notAllowed in element.terrainValidationDisallowed)
-                            {
-                                if (terrain.HasTag(notAllowed))
-                                {
-                                    canSpawn = false;
-                                    break;
-                                }
-                            }
-
-                            if (!element.allowOnWater && terrain.IsWater)
-                            {
-                                canSpawn = false;
-                               
-                            }
-
-                            if (element.findCellsOutsideColony)
-                            {
-                                if (!OutOfCenter(c, map, 50))
-                                {
-                                    canSpawn = false;
-
-                                }
-
-                            }
-
-                            if (canSpawn)
-                            {
+                                break;
+                            } else flagAllowed = false;
                            
-                                Thing thing = (Thing)ThingMaker.MakeThing(element.thingDef, null);
-                                CellRect occupiedRect = GenAdj.OccupiedRect(c, thing.Rotation, thing.def.Size);
-                                if (occupiedRect.InBounds(map))
-                                {
-                                    GenSpawn.Spawn(thing, c, map);
-                                    spawnCounter--;
-                                }
-                            
-                         
-                               
+                        }
+                        bool flagDisallowed = true;
+                        foreach (string notAllowed in element.terrainValidationDisallowed)
+                        {
+                            if (terrain.HasTag(notAllowed))
+                            {
+                                flagDisallowed = false;
+                                break;
                             }
+                        }
+                        bool flagWater = true;
+                        if (!element.allowOnWater && terrain.IsWater)
+                        {
+                            flagWater = false;
+
+                        }
+                        bool flagCenter = true;
+                        if (element.findCellsOutsideColony)
+                        {
+                            if (!OutOfCenter(c, map, 60))
+                            {
+                                flagCenter = false;
+
+                            }
+
+                        }
+                        canSpawn = flagAllowed & flagDisallowed & flagWater & flagCenter;
+                        if (canSpawn)
+                        {
+                           // Log.Message("Sucesful c was " + c.ToString());
+                            Thing thing = (Thing)ThingMaker.MakeThing(element.thingDef, null);
+                            CellRect occupiedRect = GenAdj.OccupiedRect(c, thing.Rotation, thing.def.Size);
+                            if (occupiedRect.InBounds(map))
+                            {
+                               // Log.Message("Prior to " + element.defName + " .Spawncounter was " + spawnCounter);
+                                GenSpawn.Spawn(thing, c, map);
+                                spawnCounter--;
+                               // Log.Message("Spawning " + element.defName + " .Spawncounter was " + spawnCounter);
+
+
+
+                            }
+
+
+
+                        }
                         if (canSpawn && spawnCounter <= 0)
                         {
+                            //Log.Message("Spawn counter is " + spawnCounter + " So I'm getting out");
                             spawnCounter = 0;
                             break;
                         }
                     }
-                    
+
 
                 }
 
 
 
             }
-            
+
 
 
             this.verifyFirstTime = false;
@@ -154,10 +164,15 @@ namespace AlphaBiomes
         public static bool OutOfCenter(IntVec3 c, Map map, int centerDist)
         {
             IntVec3 CenterPoint = map.Center;
-            return c.x < CenterPoint.x-centerDist || c.z < CenterPoint.z - centerDist || c.x >= CenterPoint.x + centerDist || c.z >= CenterPoint.z + centerDist;
+
+            /*  Log.Message("Tamaño mapa :"+map.Size.ToString());
+              Log.Message("Centro mapa :" + CenterPoint.ToString());
+              Log.Message("Punto a evaluar :" + c.ToString());
+              Log.Message((c.x < CenterPoint.x - centerDist || c.z < CenterPoint.z - centerDist || c.x >= CenterPoint.x + centerDist || c.z >= CenterPoint.z + centerDist).ToString());*/
+            return c.x < CenterPoint.x - centerDist || c.z < CenterPoint.z - centerDist || c.x >= CenterPoint.x + centerDist || c.z >= CenterPoint.z + centerDist;
         }
 
     }
 
-    
+
 }

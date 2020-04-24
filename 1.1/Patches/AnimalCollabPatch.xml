@@ -64,6 +64,7 @@
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
+					<AB_TarPits>0.02</AB_TarPits>
 
 				</value>
 			</li>
@@ -77,6 +78,7 @@
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 					<AB_MechanoidIntrusion>0.005</AB_MechanoidIntrusion>
+					<AB_TarPits>0.07</AB_TarPits>
 
 
 				</value>
@@ -88,7 +90,7 @@
 
 
 					<AB_GallatrossGraveyard>0.05</AB_GallatrossGraveyard>
-
+					<AB_TarPits>0.07</AB_TarPits>
 
 				</value>
 			</li>
@@ -147,7 +149,7 @@
 				<value>
 					
 						<AB_GallatrossGraveyard>0.01</AB_GallatrossGraveyard>
-					
+						<AB_TarPits>0.03</AB_TarPits>
 
 				</value>
 			</li>
@@ -166,6 +168,7 @@
 
 					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
+					<AB_TarPits>0.07</AB_TarPits>
 
 				</value>
 			</li>

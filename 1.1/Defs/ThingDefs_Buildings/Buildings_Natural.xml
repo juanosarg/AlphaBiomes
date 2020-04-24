@@ -293,8 +293,8 @@
 			<InsectJelly>30</InsectJelly>
 		</killedLeavings>
 		<comps>
-			
-			
+
+
 			<li Class="AlphaBiomes.CompProperties_SpawnerPawnCustom">
 				<spawnablePawnKinds>
 					<li>AA_Bumbledrone</li>
@@ -313,16 +313,16 @@
 					<li>AA_BumbledroneQueen</li>
 				</spawnablePawnKinds>
 				<pawnSpawnIntervalDays>0.5~1</pawnSpawnIntervalDays>
-				<spawnSound>Hive_Spawn</spawnSound>
+				<spawnSound>AB_Hive_Spawn</spawnSound>
 				<initialPawnsCount>5</initialPawnsCount>
-				
+
 			</li>
 			<li Class="CompProperties_SelfhealHitpoints">
 				<ticksPerHeal>600</ticksPerHeal>
 				<!-- 60k ticks = 1 day, 10 hp per day -->
 			</li>
-			
-			
+
+
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>GlowPod</thingToSpawn>
 				<spawnCount>1</spawnCount>
@@ -331,8 +331,17 @@
 				<saveKeysPrefix>pod</saveKeysPrefix>
 				<inheritFaction>true</inheritFaction>
 			</li>
-		
-			
+
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>InsectJelly</thingToSpawn>
+				<spawnCount>40</spawnCount>
+				<spawnIntervalRange>26000~30000</spawnIntervalRange>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>true</spawnForbidden>
+				<saveKeysPrefix>jelly</saveKeysPrefix>
+			</li>
+
+
 		</comps>
 		<building>
 			<isEdifice>false</isEdifice>

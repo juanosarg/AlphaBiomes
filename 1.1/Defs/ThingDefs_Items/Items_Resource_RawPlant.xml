@@ -167,6 +167,56 @@
 		
 	</ThingDef>
 	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawIashiphus</defName>
+		<label>iashiphus fruit</label>
+		<description>The fleshy bright red fruit of an iashiphus plant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawIashiphus</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawSugarFamewort</defName>
+		<label>sugar famewort</label>
+		<description>These soft bulbs are exceptionally sweet, an ideal condiment for any dish.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawSugarFamewort</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+		
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.05</joy>
+			<joyKind>Gluttonous</joyKind>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		
+		
+	</ThingDef>
+	
 	<ThingDef ParentName="AB_RawMeatBase">
 		<defName>AB_RawBloodBouquet</defName>
 		<label>blood bouquet</label>

@@ -81,6 +81,7 @@
 			</statFactors>
 
 		</stuffProps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
 
 
@@ -150,6 +151,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceVerbBase">
@@ -214,6 +216,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceVerbBase">
@@ -282,6 +285,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">

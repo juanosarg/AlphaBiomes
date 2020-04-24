@@ -22,6 +22,7 @@
 <AB_TerrainCannotSupport_Propane>The pump needs to be built on a solid propane ground</AB_TerrainCannotSupport_Propane>
 <AB_OcularForestOnly>This device will only work in an ocular forest</AB_OcularForestOnly>
 <AB_SpawningNextBumbledrone>Spawning a new Bumbledrone in {0}</AB_SpawningNextBumbledrone>
+<AB_AlphaAnimalsNotInstalled>Since Alpha Animals is not installed, this hive is inactive</AB_AlphaAnimalsNotInstalled>
 
 <!--     Misc     -->
 

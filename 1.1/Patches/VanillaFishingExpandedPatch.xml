@@ -33,7 +33,7 @@
 						<biomes>
 							<li>AB_RockyCrags</li>
 							<li>AB_GallatrossGraveyard</li>
-
+							<li>AB_TarPits</li>
 						</biomes>      
 					</VCE_Fishing.BiomeTempDef>
 				</value>

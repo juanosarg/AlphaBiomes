@@ -18,7 +18,7 @@ namespace AlphaBiomes
 
         public bool canSpawnPawns = true;
 
-      
+
 
         private CompProperties_SpawnerPawnCustom Props
         {
@@ -59,36 +59,39 @@ namespace AlphaBiomes
 
         public void CalculateNextPawnSpawnTick(float delayTicks)
         {
-           
+
             this.nextPawnSpawnTick = Find.TickManager.TicksGame + (int)(delayTicks / (1 * Find.Storyteller.difficulty.enemyReproductionRateFactor));
         }
 
-        private bool TrySpawnPawn(out Pawn pawn)
-        {
-            if (!this.canSpawnPawns)
-            {
-                pawn = null;
-                return false;
-            }
-
-            int totalCount = 0;
-
-            IEnumerable<string> listUnique = Props.spawnablePawnKinds.Distinct();
-            foreach (string pawnkindInList in listUnique)
-            {
-                totalCount += this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named(pawnkindInList)).Count;
-            }
-
-          
-            if (totalCount < 25) {
-
-                PawnKindDef pawnkind = PawnKindDef.Named(this.Props.spawnablePawnKinds.RandomElement());
-                if (pawnkind != null)
+        private bool TrySpawnPawn(out Pawn pawn) { 
+      
+            if (ModLister.HasActiveModWithName("Alpha Animals")) {
+                if (!this.canSpawnPawns)
                 {
-                    Pawn pawnToCreate = PawnGenerator.GeneratePawn(pawnkind, Faction.OfInsects);
-                    GenSpawn.Spawn(pawnToCreate, CellFinder.RandomClosewalkCellNear(this.parent.Position, this.parent.Map, this.Props.pawnSpawnRadius, null), this.parent.Map, WipeMode.Vanish);
-                    
-                        if (this.parent.Map != null) {
+                    pawn = null;
+                    return false;
+                }
+
+                int totalCount = 0;
+
+                IEnumerable<string> listUnique = Props.spawnablePawnKinds.Distinct();
+                foreach (string pawnkindInList in listUnique)
+                {
+                    totalCount += this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named(pawnkindInList)).Count;
+                }
+
+
+                if (totalCount < 25)
+                {
+                    PawnKindDef pawnkind = null;
+                    pawnkind = DefDatabase<PawnKindDef>.GetNamed(this.Props.spawnablePawnKinds.RandomElement(), false);
+                    if (pawnkind != null)
+                    {
+                        Pawn pawnToCreate = PawnGenerator.GeneratePawn(pawnkind, Faction.OfInsects);
+                        GenSpawn.Spawn(pawnToCreate, CellFinder.RandomClosewalkCellNear(this.parent.Position, this.parent.Map, this.Props.pawnSpawnRadius, null), this.parent.Map, WipeMode.Vanish);
+
+                        if (this.parent.Map != null)
+                        {
                             Lord lord = null;
                             if (this.parent.Map.mapPawns.SpawnedPawnsInFaction(Faction.OfInsects).Any((Pawn p) => p != pawnToCreate))
                             {
@@ -101,16 +104,24 @@ namespace AlphaBiomes
                             }
                             lord.AddPawn(pawnToCreate);
                         }
-                        
 
 
-                    pawn = pawnToCreate;
-                    if (this.Props.spawnSound != null)
+
+                        pawn = pawnToCreate;
+                        if (this.Props.spawnSound != null)
+                        {
+                            this.Props.spawnSound.PlayOneShot(this.parent);
+                        }
+
+                        return true;
+                    }
+                    else
                     {
-                        this.Props.spawnSound.PlayOneShot(this.parent);
+                        pawn = null;
+                        return false;
                     }
 
-                    return true;
+
                 }
                 else
                 {
@@ -119,12 +130,14 @@ namespace AlphaBiomes
                 }
 
 
+
             }
             else
             {
                 pawn = null;
                 return false;
             }
+
 
 
 
@@ -184,8 +197,11 @@ namespace AlphaBiomes
 
         public override string CompInspectStringExtra()
         {
-           
-            return (this.Props.nextSpawnInspectStringKey ?? "AB_SpawningNextBumbledrone").Translate((this.nextPawnSpawnTick - Find.TickManager.TicksGame).ToStringTicksToDays("F1"));
+            if (ModLister.HasActiveModWithName("Alpha Animals"))
+            {
+                return (this.Props.nextSpawnInspectStringKey ?? "AB_SpawningNextBumbledrone").Translate((this.nextPawnSpawnTick - Find.TickManager.TicksGame).ToStringTicksToDays("F1"));
+            }
+            else return "AB_AlphaAnimalsNotInstalled".Translate();
         }
 
         public override void PostExposeData()

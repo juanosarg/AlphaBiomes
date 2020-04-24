@@ -4,16 +4,16 @@
   <BiomeDef>
     <defName>AB_TarPits</defName>
     <label>tar pits</label>
-    <description>These parched mudflats are littered with the ancient bones of colossal Gallatrosses. Apparently the highly intelligent beasts are coming here to die, and to mourn their fallen relatives.\n\n&lt;color=#33d733&gt;NOTE: don't mess with the Gallatross unless you are very sure you are prepared.&lt;/color&gt;</description>
+    <description>Sun-baked mud, interspersed with patches of fertile grassy terrain. And, of course, the tar lakes themselves. Tar pits are usually infested with extensive subterranean bumbledrone hives.\n\n&lt;color=#33d733&gt;This biome is arid, but rich in animal and vegetal life. Wood is not a problem, and neither are foreageable plants. Stone is scarce due to the pits being always a flat terrain. Also, beware of aggressive bumbledrones surrounding their hive entrances!&lt;/color&gt;</description>
     <workerClass>AlphaBiomes.BiomeWorker_TarPits</workerClass>
-    <animalDensity>1.8</animalDensity>
+    <animalDensity>3.5</animalDensity>
     <plantDensity>0.25</plantDensity>
     <settlementSelectionWeight>0.95</settlementSelectionWeight>
-    <movementDifficulty>1</movementDifficulty>
+    <movementDifficulty>4</movementDifficulty>
     <texture>Biomes/AB_TarPits</texture>
-    <forageability>0.5</forageability>
-    <foragedFood>RawAgave</foragedFood>
-    <wildPlantRegrowDays>27</wildPlantRegrowDays>
+    <forageability>0.8</forageability>
+    <foragedFood>AB_RawIashiphus</foragedFood>
+    <wildPlantRegrowDays>20</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
@@ -119,7 +119,7 @@
 			</li>
 		</terrainPatchMakers>
     <baseWeatherCommonalities>
-      <Clear>18</Clear>
+      <Clear>22</Clear>
       <Fog>1</Fog>
       <Rain>2</Rain>
       <DryThunderstorm>1</DryThunderstorm>

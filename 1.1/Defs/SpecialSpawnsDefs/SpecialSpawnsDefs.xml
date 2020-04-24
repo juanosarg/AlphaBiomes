@@ -166,7 +166,7 @@
       <defName>AB_SpawnBumbledroneHives</defName>
       <thingDef>AB_BumbledroneHive</thingDef>
       <allowOnWater>false</allowOnWater>
-	  <numberToSpawn>2~3</numberToSpawn>
+	  <numberToSpawn>2~4</numberToSpawn>
       <terrainValidationDisallowed/>
       <terrainValidationAllowed/>
 	  <biomesWithExtraGeneration/>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Furniture [1.1]</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+		
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2SquarePlantPot"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2OrnatePlantPot"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2Dresser"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2EndTable"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2RoyalEndTable"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2EndTableLight"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2RoyalEndTableLight"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2FileCabinet"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2SquareDiningChair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2CounterA"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "Anon2CounterAFull"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticMetals</li>
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				
+				
+				
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
