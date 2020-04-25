@@ -23,7 +23,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 8 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
+Adds 9 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
 
 - The Mycotic Jungle: a warm and humid biome filled with HUGE mushrooms. Home to the Wildpod and some weird mushroom varieties of usual creatures.
 - The Gallatross Graveyard: an arid temperate biome, littered with the skeletal remains of ancient beasts.
@@ -33,6 +33,7 @@ Adds 8 new diverse biomes to your Rimworlds. The mod has been designed with the 
 - The Mechanoid Intrusion: a desolate temperate biome with mechanical ruins. Apparently an ancient mechanoid attempt at turning the planet into a megastructure.
 - The Propane Lakes: a frozen wasteland, colder than the most inhospitable Sea Ice, but teaming with aberrant flora and fauna.
 - The Forsaken Crags: permanently clouded by a preternatural darkness, light is the most valuable commodity in this desertic landscape. Inspired by (and compatible with) the Forsakens mod.
+- The Tar Pits: an arid biome rich in vegetation, filled with treacherous tar pits that make movement quite difficult. Beware the Bumbledrone hives! 
 
 The biomes have been tweaked so they don't take too much space in the world map, and you might have to generate a planet again if some biome is not appearing, since they have different temperature and humidity characteristics.
 
@@ -59,6 +60,7 @@ Compatible with Fish Industry
 Compatible with Forsakens
 Compatible with Camouflage and Stealth
 Compatible with Fertile Fields
+Compatible with most furniture mods regarding exotic materials
 Uses Harmony (dependency)
 
 Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
@@ -70,6 +72,7 @@ Alien planet sound modified from Speedenza: https://freesound.org/people/Speeden
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.3: Added a new biome, the Tar Pits. Added compat for many furniture mods for exotic materials (25/04/20)
 v2.2: Terrain texture desaturation. Added biome-specific buildings (Ocular Forest and Propane Lakes for now) (17/04/20)
 v2.03: Added compat for the 8 new animals added in Alpha Animals (18/03/20)
 v2.02: 1.1 version (09/03/20)

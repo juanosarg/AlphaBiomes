@@ -40,7 +40,7 @@ namespace AlphaBiomes
 
         {
            
-                if (floor.defName.Contains("AB_")) {
+                if (floor != null && floor.defName.Contains("AB_")) {
                     List<TerrainDef> vanillaTiles = new List<TerrainDef>();
                     vanillaTiles.Add(TerrainDef.Named("TileSandstone"));
                     vanillaTiles.Add(TerrainDef.Named("TileGranite"));
