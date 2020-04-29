@@ -122,7 +122,7 @@
 		<stackLimit>75</stackLimit>
 		<graphicData>
 			<texPath>Things/Item/Resource/AB_RawFrostLeaf</texPath>
-			
+
 		</graphicData>
 		<statBases>
 			<MarketValue>0.1</MarketValue>
@@ -139,9 +139,9 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
-		
+
 	</ThingDef>
-	
+
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_RawTentacularFruit</defName>
 		<label>tentacular fruit</label>
@@ -163,10 +163,10 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		
-		
+
+
 	</ThingDef>
-	
+
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_RawIashiphus</defName>
 		<label>iashiphus fruit</label>
@@ -176,7 +176,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>0.5</MarketValue>
-		
+
 		</statBases>
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
@@ -187,10 +187,10 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		
-		
+
+
 	</ThingDef>
-	
+
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_RawSugarFamewort</defName>
 		<label>sugar famewort</label>
@@ -200,7 +200,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1.5</MarketValue>
-		
+
 		</statBases>
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
@@ -213,10 +213,10 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		
-		
+
+
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AB_RawMeatBase">
 		<defName>AB_RawBloodBouquet</defName>
 		<label>blood bouquet</label>
@@ -230,6 +230,24 @@
 			<MarketValue>2</MarketValue>
 		</statBases>
 		<ingestible>
+			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_BumbledroneFood</defName>
+		<label>bumbledrone jelly</label>
+		<description>This blob of organic matter is produced by bumbledrone caretakers, a caste of bumbledrones that never leaves the subterranean part of the hives. It provides sustenance for bumbledrones who need to leave the hive for any reason, such as foraging or hunting.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/InsectJelly</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.01</Mass>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
 			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
 		</ingestible>
 	</ThingDef>

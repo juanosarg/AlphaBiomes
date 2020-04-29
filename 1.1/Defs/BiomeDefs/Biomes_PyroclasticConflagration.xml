@@ -57,11 +57,16 @@
 			<li>
 				<terrain>AB_BlackPebbles</terrain>
 				<min>-999</min>
-				<max>0.87</max>
+				<max>0.7</max>
 			</li>
 			<li>
 				<terrain>AB_HardenedGrass</terrain>
-				<min>0.87</min>
+				<min>0.7</min>
+				<max>0.9</max>
+			</li>
+			<li>
+				<terrain>AB_HardenedGrassFertile</terrain>
+				<min>0.9</min>
 				<max>999</max>
 			</li>
 		</terrainsByFertility>

@@ -9,7 +9,7 @@
 
   <TerrainDef ParentName="NaturalTerrainBase">
     <defName>AB_BlackPebbles</defName>
-    <label>lava sand</label>
+    <label>black volcanic sand</label>
     <texturePath>Terrain/Surfaces/AB_BlackPebbles</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>350</renderPrecedence>
@@ -98,6 +98,31 @@
     <fertility>0.7</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
+  
+  <TerrainDef ParentName="NaturalTerrainBase">
+    <defName>AB_HardenedGrassFertile</defName>
+    <label>fertile volcanic soil</label>
+	<color>(160,140,140)</color>
+    <texturePath>Terrain/Surfaces/AB_HardenedGrass</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>352</renderPrecedence>
+    <pathCost>20</pathCost>
+	 
+    <statBases>
+      <Beauty>-5</Beauty>
+    </statBases>
+    <scatterType>SoftGray</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.5</fertility>
+    <takeFootprints>True</takeFootprints>
+  </TerrainDef>
+  
   
   <TerrainDef ParentName="WaterDeepBase">
     <defName>AB_LiquidLava</defName>

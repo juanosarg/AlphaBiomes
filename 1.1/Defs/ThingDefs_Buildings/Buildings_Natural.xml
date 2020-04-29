@@ -333,9 +333,9 @@
 			</li>
 
 			<li Class="CompProperties_Spawner">
-				<thingToSpawn>InsectJelly</thingToSpawn>
+				<thingToSpawn>AB_BumbledroneFood</thingToSpawn>
 				<spawnCount>40</spawnCount>
-				<spawnIntervalRange>26000~30000</spawnIntervalRange>
+				<spawnIntervalRange>4000~10000</spawnIntervalRange>
 				<spawnMaxAdjacent>40</spawnMaxAdjacent>
 				<spawnForbidden>true</spawnForbidden>
 				<saveKeysPrefix>jelly</saveKeysPrefix>
