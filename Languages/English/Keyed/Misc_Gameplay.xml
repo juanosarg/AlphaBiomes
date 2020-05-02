@@ -28,5 +28,22 @@
 
 <AB_NotReallyAPlant>This is just a disgusting puddle of smelly tar</AB_NotReallyAPlant>
 
+<!-- Core Sample Drill -->
+
+<AB_ChunkMarbleMine>Drill for Marble Chunks</AB_ChunkMarbleMine>
+<AB_ChunkSandstoneMine>Drill for Sandstone Chunks</AB_ChunkSandstoneMine>
+<AB_ChunkLimestoneMine>Drill for Limestone Chunks</AB_ChunkLimestoneMine>
+<AB_ChunkGraniteMine>Drill for Granite Chunks</AB_ChunkGraniteMine>
+<AB_ChunkSlateMine>Drill for Slate Chunks</AB_ChunkSlateMine>
+
+<AB_ChunkRandomMine>Drill for Random Chunks</AB_ChunkRandomMine>
+
+<AB_ChooseMine>Choose chunk type to drill</AB_ChooseMine>
+<AB_ChooseMineDesc>Choose chunk type to drill. You can choose any of the base game rock types, or random</AB_ChooseMineDesc>
+<AB_DrillingStoneType>Drilling stone type: </AB_DrillingStoneType>
+<AB_DrillingStoneTypeRandom>Drilling stone type: Random</AB_DrillingStoneTypeRandom>
+<AB_ProgressToNextPortion>Progress to next chunk</AB_ProgressToNextPortion>
+
+
 
 </LanguageData>

@@ -38,6 +38,19 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
+  
+    <WorkGiverDef>
+    <defName>AB_CoreDrill</defName>
+    <label>drill at core sample drill</label>
+    <giverClass>AlphaBiomes.WorkGiver_CoreSampleDrill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>50</priorityInType>
+    <verb>drill</verb>
+    <gerund>drilling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 	
 	
 
