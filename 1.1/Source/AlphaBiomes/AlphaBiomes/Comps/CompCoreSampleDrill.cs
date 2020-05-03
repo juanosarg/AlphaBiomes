@@ -18,7 +18,7 @@ namespace AlphaBiomes
 
         private int lastUsedTick = -99999;
 
-        private const float WorkPerPortionBase = 1200f;
+        private const float WorkPerPortionBase = 6000f;
 
         public float ProgressToNextPortionPercent
         {

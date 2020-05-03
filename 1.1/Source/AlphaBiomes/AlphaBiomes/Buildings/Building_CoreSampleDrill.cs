@@ -14,6 +14,7 @@ namespace AlphaBiomes
 
         public override void ExposeData()
         {
+            base.ExposeData();
             Scribe_Values.Look<string>(ref this.RockTypeToMine, "RockTypeToMine", "Random", false);
 
 
