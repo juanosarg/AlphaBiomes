@@ -145,7 +145,7 @@
 		<statBases>
 			<MaxHitPoints>650</MaxHitPoints>
 			<Beauty>5</Beauty>
-			<Nutrition>0.5</Nutrition>
+			<Nutrition>1.7</Nutrition>
 		</statBases>
 		<plant>
 			<sowResearchPrerequisites>
