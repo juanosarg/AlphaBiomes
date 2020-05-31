@@ -20,14 +20,14 @@ namespace AlphaBiomes
 
 
    
-    /*This Harmony Postfix disables the eclipse event in Forsaken Crags
+    /*This Harmony Postfix disables the eclipse event in Forsaken Crags. It also disables the Acid Rain event everywhere except in the Pyroclastic Conflagration
 */
     [HarmonyPatch(typeof(IncidentWorker_MakeGameCondition))]
     [HarmonyPatch("CanFireNowSub")]
     public static class AlphaBiomes_IncidentWorker_MakeGameCondition_CanFireNowSub_Patch
     {
         [HarmonyPostfix]
-        public static void DisableEclipse(ref bool __result, ref IncidentWorker_MakeGameCondition __instance, IncidentParms parms)
+        public static void DisableEclipseAndAcidRain(ref bool __result, ref IncidentWorker_MakeGameCondition __instance, IncidentParms parms)
 
         {
             Map map = Find.AnyPlayerHomeMap;
@@ -35,6 +35,12 @@ namespace AlphaBiomes
             if (map.Biome.defName == "AB_RockyCrags")
             {
               
+                __result = false;
+            }
+
+            if (map.Biome.defName != "AB_PyroclasticConflagration" && __instance.def.gameCondition==GameConditionDef.Named("AB_AcidRainCondition"))
+            {
+
                 __result = false;
             }
 
