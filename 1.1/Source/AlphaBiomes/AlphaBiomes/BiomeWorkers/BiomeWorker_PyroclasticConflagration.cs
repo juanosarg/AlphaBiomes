@@ -10,7 +10,7 @@ namespace AlphaBiomes
     {
         public override float GetScore(Tile tile, int tileID)
         {
-            return 0f;
+           // return 0f;
             
             if (!AlphaBiomes_Settings.AB_SpawnPyroclasticConflagration)
             {
@@ -38,7 +38,7 @@ namespace AlphaBiomes
             
             float tileVolcanic = Find.World.GetComponent<WorldComponentExtender>().noiseVolcanic.GetValue(tileCenter);
             //Log.Message(tileWeirdness.ToString());
-            if (tileVolcanic > 0.85f)
+            if (tileVolcanic > 0.75f)
             {
                 return 100f;
             }

@@ -23,6 +23,7 @@
 				<value>
 					<li>AB_MycoticJungle</li>
 					<li>AB_OcularForest</li>
+					<li>AB_PyroclasticConflagration</li>
 
 				</value>
 			</li>
@@ -32,6 +33,7 @@
 					<li>AB_MycoticJungle</li>
 					<li>AB_OcularForest</li>
 					<li>AB_GelatinousSuperorganism</li>
+					
 
 				</value>
 			</li>
@@ -51,6 +53,7 @@
 				<xpath>/Defs/PawnKindDef[defName="PawnKindDefFishTailteeth"]/naturalBiomes</xpath>
 				<value>
 					<li>AB_FeraliskInfestedJungle</li>
+					<li>AB_PyroclasticConflagration</li>
 
 
 				</value>

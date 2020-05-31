@@ -190,6 +190,30 @@
 
 
 	</ThingDef>
+	
+		<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawBrownBarrelCactus</defName>
+		<label>brown barrel cactus</label>
+		<description>The water-filled bulbs of a brown barrel cactus. Quite tasteless.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RawBrownBarrelCactus</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+
+
+	</ThingDef>
 
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_RawSugarFamewort</defName>

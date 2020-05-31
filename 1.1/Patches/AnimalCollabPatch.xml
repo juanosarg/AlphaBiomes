@@ -140,6 +140,7 @@
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
 					
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
+					<AB_PyroclasticConflagration>0.05</AB_PyroclasticConflagration>
 
 				</value>
 			</li>
@@ -169,6 +170,8 @@
 					<AB_GallatrossGraveyard>0.005</AB_GallatrossGraveyard>
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 					<AB_TarPits>0.07</AB_TarPits>
+					<AB_PyroclasticConflagration>0.05</AB_PyroclasticConflagration>
+
 
 				</value>
 			</li>

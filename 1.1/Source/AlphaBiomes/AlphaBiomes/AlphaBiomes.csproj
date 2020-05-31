@@ -24,17 +24,17 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\..\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.0.0.9, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Harmony.2.0.0.9\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.1\lib\net472\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -315,7 +315,18 @@
     <Compile Include="Comps\CompSpawnerPawnCustom.cs" />
     <Compile Include="Comps\StoneTypeSettableUtility.cs" />
     <Compile Include="GraphicsCache.cs" />
+    <Compile Include="Harmony\BaseGenUtility_TryRandomInexpensiveFloor.cs" />
+    <Compile Include="Harmony\Designator_PlantsCut_AffectsThing.cs" />
+    <Compile Include="Harmony\GenStep_Terrain_TerrainFrom.cs" />
+    <Compile Include="Harmony\GenCelestial_CelestialSunGlow.cs" />
+    <Compile Include="Harmony\GenStep_RockChunks_GrowLowRockFormationFrom.cs" />
+    <Compile Include="Harmony\Pawn_PathFollower_SetupMoveIntoNextCell.cs" />
+    <Compile Include="Harmony\Vanilla_BiomeWorker_GetScore.cs" />
+    <Compile Include="Harmony\World_NaturalRockTypesIn.cs" />
+    <Compile Include="Harmony\IncidentWorker_MakeGameCondition_CanFireNowSub.cs" />
+    <Compile Include="Harmony\WildPlantSpawner_CanRegrowAt.cs" />
     <Compile Include="Jobs\JobDriver_OperateCoreSampleDrill.cs" />
+    <Compile Include="Jobs\MentalState_CoveredInLava.cs" />
     <Compile Include="Jobs\WorkGiver_CoreSampleDrill.cs" />
     <Compile Include="Options\AlphaBiomes_Settings.cs" />
     <Compile Include="Options\AlphaBiomes_SettingsController.cs" />
@@ -340,7 +351,8 @@
     <Compile Include="Plant Classes\Plant_Tar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MapExtender\SpecialSpawnsDef.cs" />
-    <Compile Include="WeatherOverlay_RedFog.cs" />
+    <Compile Include="Weathers and Conditions\GameCondition_AcidRain.cs" />
+    <Compile Include="Weathers and Conditions\WeatherOverlay_RedFog.cs" />
     <Compile Include="MapExtender\WorldComponentExtender.cs" />
   </ItemGroup>
   <ItemGroup>
