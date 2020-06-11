@@ -11,17 +11,18 @@
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<workAmount>1600</workAmount>
 		<recipeUsers>
-				<li>AB_ExoticSmelterOcular</li>	  
-				<li>AB_ExoticSmelterPropane</li>
+			<li>AB_ExoticSmelterOcular</li>	  
+			<li>AB_ExoticSmelterPropane</li>
+			<li>AB_ExoticSmelterTar</li>
 		</recipeUsers>	
-		 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+
 		<ingredients>
 			<li>
 				<filter>
-				  <thingDefs>
-					<li>GU_ChunkRoseQuartz</li>
-				  </thingDefs>
+					<thingDefs>
+						<li>GU_ChunkRoseQuartz</li>
+					</thingDefs>
 				</filter>
 				<count>1</count>
 			</li>
@@ -31,12 +32,12 @@
 				<li>GU_ChunkRoseQuartz</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		
+
 		<products>
 			<AB_AlcyoniteChunk>10</AB_AlcyoniteChunk>
 		</products>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>AB_CrystalWoodToMatrix</defName>
 		<label>refine crystal wood into matrix</label>
@@ -46,25 +47,27 @@
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<workAmount>1600</workAmount>
 		<recipeUsers>
-				<li>AB_ExoticSmelterOcular</li>	  
-				<li>AB_ExoticSmelterPropane</li>
+			<li>AB_ExoticSmelterOcular</li>	  
+			<li>AB_ExoticSmelterPropane</li>
+			<li>AB_ExoticSmelterTar</li>
+
 		</recipeUsers>	
-		 <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+
 		<ingredients>
 			<li>
 				<filter>
-				  <thingDefs>
-					<li>AB_CrystalWood</li>
-				  </thingDefs>
+					<thingDefs>
+						<li>AB_CrystalWood</li>
+					</thingDefs>
 				</filter>
 				<count>10</count>
 			</li>
 			<li>
 				<filter>
-				  <thingDefs>
-					<li>Steel</li>
-				  </thingDefs>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
 				</filter>
 				<count>10</count>
 			</li>
@@ -75,12 +78,58 @@
 				<li>Steel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		
+
 		<products>
 			<AB_CrystallineMatrix>1</AB_CrystallineMatrix>
 		</products>
 	</RecipeDef>
-	
-	
+
+	<RecipeDef>
+		<defName>AB_ResinToProcessed</defName>
+		<label>refine cordax resin into processed resin</label>
+		<description>Refines raw cordax resin into a thick paste that can be used as a sealant to build tar-related buildings.</description>
+		<jobString>refining cordax resin into processed resin.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>1600</workAmount>
+		<recipeUsers>
+			<li>AB_ExoticSmelterOcular</li>	  
+			<li>AB_ExoticSmelterPropane</li>
+			<li>AB_ExoticSmelterTar</li>
+
+		</recipeUsers>	
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AB_CordaxResin</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_CordaxResin</li>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<AB_ProcessedResin>1</AB_ProcessedResin>
+		</products>
+	</RecipeDef>
+
+
 
 </Defs>

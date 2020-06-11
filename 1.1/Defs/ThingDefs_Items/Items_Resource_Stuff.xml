@@ -131,7 +131,7 @@
 				<WorkToMake>1</WorkToMake>
 				<WorkToBuild>0.8</WorkToBuild>
 				<DoorOpenSpeed>1.0</DoorOpenSpeed>
-				
+
 			</statFactors>
 		</stuffProps>
 		<thingCategories>
@@ -287,7 +287,7 @@
 		</tools>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="ResourceBase">
 		<defName>AB_CrystallineMatrix</defName>
 		<label>crystalline matrix</label>
@@ -314,43 +314,124 @@
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="ResourceBase">
-    <defName>AB_Propane</defName>
-    <label>propane fuel tank</label>
-    <description>A versatile fuel. Can be converted into chemfuel at a refinery, or used as fuel for propane specific buildings, such as heaters or stoves. Insert inane and trite King of the Hill joke here (yes, I have heard them all, you are not original).</description>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <texPath>Things/Item/Resource/AB_PropaneTank</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.85</drawSize>
-    </graphicData>
-    <stackLimit>150</stackLimit>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <MarketValue>2.3</MarketValue>
-      <Mass>0.05</Mass>
-      <Flammability>2.0</Flammability>
-      <DeteriorationRate>1.0</DeteriorationRate>
-    </statBases>
-    <thingCategories>
-      <li>Manufactured</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>1.1</explosiveRadius>
-        <explosiveDamageType>Flame</explosiveDamageType>
-        <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
-        <startWickOnDamageTaken>
-          <li>Flame</li>
-        </startWickOnDamageTaken>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
-        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-        <preExplosionSpawnChance>1</preExplosionSpawnChance>
-        <wickTicks>70~150</wickTicks>
-      </li>
-    </comps>
-  </ThingDef>
+		<defName>AB_CordaxResin</defName>
+		<label>cordax resin</label>
+		<description>Dried chunks of cordax resin. A viscous slurry of organic compounds, this nectar-like liquid is used by the carnivorous Keening Cordax plant to trap insects. It is extremely sticky and can be processed into a very efficient sealant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_CordaxResin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_ProcessedResin</defName>
+		<label>processed resin</label>
+		<description>This resin has been processed from raw Keening Cordax resin. It is extremely sticky and can be used as a very efficient sealant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_ProcessedResin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>45</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_AsphaltBucket</defName>
+		<label>asphalt bucket</label>
+		<description>Asphalt, or bitumen, is a sticky, black and highly viscous liquid or semi-solid, composed almost entirely of petroleum. It is present in most crude petroleums and in some natural deposits, such as tar pits.\n\nAsphalt can be used to build tarmac roads, greatly increasing movement in difficult terrains.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_Asphalt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>15</MaxHitPoints>
+			<Mass>1</Mass>
+			<DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_Propane</defName>
+		<label>propane fuel tank</label>
+		<description>A versatile fuel. Can be converted into chemfuel at a refinery, or used as fuel for propane specific buildings, such as heaters or stoves. Insert inane and trite King of the Hill joke here (yes, I have heard them all, you are not original).</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_PropaneTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>2.3</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>2.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
 
 </Defs>

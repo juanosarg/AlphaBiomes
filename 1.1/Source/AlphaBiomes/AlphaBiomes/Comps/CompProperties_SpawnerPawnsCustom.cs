@@ -26,5 +26,7 @@ namespace AlphaBiomes
 
         public string nextSpawnInspectStringKey;
 
+        
+
     }
 }

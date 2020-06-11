@@ -175,7 +175,7 @@
 			<neverBlightable>true</neverBlightable>
 			<growDays>14</growDays>
 			<harvestWork>1200</harvestWork>
-			<harvestYield>35</harvestYield>
+			<harvestYield>40</harvestYield>
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>11</wildClusterWeight>
 			<visualSizeRange>3.8~5</visualSizeRange>
@@ -186,9 +186,9 @@
 	<ThingDef ParentName="AB_FertileTreeBase">
 		<defName>AB_KeeningCordax</defName>
 		<label>keening cordax</label>
-		<description>The keening cordax is a carnivore plant so called for the high-pitched sound that it makes during the day. Its huge openings are filled with a smelly, sticky substance that attracts all kinds of small insects. These insects get stuck to this organic glue, and inevitably perish, serving as food for the plant.\n\nPlant details: Keening cordax is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7. Can be harvested for very small amounts of normal wood.</description>
+		<description>The keening cordax is a carnivore plant so called for the high-pitched sound that it makes during the day. Its huge openings are filled with a smelly, sticky substance that attracts all kinds of small insects. These insects get stuck to this organic glue, and inevitably perish, serving as food for the plant.\n\nThis sticky substance, known as cordax resin, can be used as a very efficient sealant.\n\nPlant details: Keening cordax is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7. Can be harvested for cordax resin.</description>
 		<descriptionHyperlinks>
-			<ThingDef>WoodLog</ThingDef>
+			<ThingDef>AB_CordaxResin</ThingDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Plants/AB_KeeningCordax</texPath>
@@ -206,8 +206,10 @@
 		<plant>
 			<growDays>14</growDays>
 			<harvestWork>250</harvestWork>
-			<harvestYield>4</harvestYield>
+			<harvestYield>15</harvestYield>
+			<harvestedThingDef>AB_CordaxResin</harvestedThingDef>
 			<wildClusterRadius>10</wildClusterRadius>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
 			<wildClusterWeight>11</wildClusterWeight>
 			<visualSizeRange>2~3</visualSizeRange>
 		</plant>

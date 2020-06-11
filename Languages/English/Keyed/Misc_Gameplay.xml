@@ -23,6 +23,8 @@
 <AB_OcularForestOnly>This device will only work in an ocular forest</AB_OcularForestOnly>
 <AB_SpawningNextBumbledrone>Spawning a new Bumbledrone in {0}</AB_SpawningNextBumbledrone>
 <AB_AlphaAnimalsNotInstalled>Since Alpha Animals is not installed, this hive is inactive</AB_AlphaAnimalsNotInstalled>
+<AB_MustPlaceOnTarPit>The pump must be built on top of tarred mud or a tar hole</AB_MustPlaceOnTarPit>
+<AB_WarningLowEfficiency>Pump acting in low efficiency mode due to absence of Tar Hole</AB_WarningLowEfficiency>
 
 <!--     Misc     -->
 

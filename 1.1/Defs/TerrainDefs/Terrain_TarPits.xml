@@ -119,7 +119,8 @@
     </statBases>
     <affordances>
 	<li>Light</li>
-      <li>Bridgeable</li>
+     
+	   <li>AB_TarAffordance</li>
     </affordances>
     <generatedFilth>Filth_Dirt</generatedFilth>
     <fertility>0</fertility>
@@ -139,10 +140,37 @@
     </tools>
   </TerrainDef>
   
+      <TerrainDef ParentName="NaturalTerrainBase">
+    <defName>AB_ArtificialTar</defName>
+    <label>tar puddles</label>
+	 <layerable>true</layerable>
+    <texturePath>Terrain/Surfaces/AB_TarDeepRamp</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>400</renderPrecedence>
+    <pathCost>200</pathCost>
+    <statBases>
+      <Beauty>-10</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <affordances>
+	<li>Light</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <avoidWander>true</avoidWander> 
+  </TerrainDef>
+  
     <TerrainDef ParentName="WaterDeepBase">
     <defName>AB_Tar</defName>
 	<texturePath>Terrain/Surfaces/AB_TarDeepRamp</texturePath>
     <label>tar pit</label>
+	 <affordances>
+	  <li>AB_TarAffordance</li>
+     
+    </affordances>
+	    <changeable>true</changeable>
+
     <renderPrecedence>395</renderPrecedence>
   </TerrainDef>
   

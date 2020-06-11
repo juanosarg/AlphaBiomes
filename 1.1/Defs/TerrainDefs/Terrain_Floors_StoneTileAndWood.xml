@@ -176,5 +176,23 @@
 			<AB_CrystalWood>3</AB_CrystalWood>
 		</costList>
 	</TerrainDef>
+	
+	<TerrainDef ParentName="AB_AlienWoodFloorsBase">
+		<defName>AB_TarmacFloor</defName>
+		<label>tarmac road</label>
+		<statBases>
+			<WorkToBuild>80</WorkToBuild>
+			<Flammability>0</Flammability>
+
+		</statBases>
+		<texturePath>Terrain/Surfaces/AB_Tarmac</texturePath>
+		<pathCost>0.75</pathCost>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		 <edgeType>FadeRough</edgeType>
+		<costList>
+			<AB_AsphaltBucket>3</AB_AsphaltBucket>
+		</costList>
+		 <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</TerrainDef>
 
 </Defs>
