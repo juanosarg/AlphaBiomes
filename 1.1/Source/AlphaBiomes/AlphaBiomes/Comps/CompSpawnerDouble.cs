@@ -228,14 +228,14 @@ namespace AlphaBiomes
             Thing thingHole = this.parent.Map.thingGrid.ThingAt(this.parent.Position, ThingDef.Named("AB_TarHole"));
             if (thingHole == null || thingHole.Position != this.parent.Position)
             {
-                txt += "AB_WarningLowEfficiency".Translate()+"\n";
+                txt += "AB_WarningLowEfficiency".Translate();
                 holeHere = false;
             }
 
             if (this.PropsSpawner.writeTimeLeftToSpawn && (!this.PropsSpawner.requiresPower || this.PowerOn))
             {
                 if (!holeHere) {
-                    txt += "NextSpawnedItemIn".Translate(GenLabel.ThingLabel(this.PropsSpawner.thingToSpawn, null, (int)(this.PropsSpawner.spawnCount/3))) + ": " + this.ticksUntilSpawn.ToStringTicksToPeriod(true, false, true, true) +
+                    txt += "\n"+ "NextSpawnedItemIn".Translate(GenLabel.ThingLabel(this.PropsSpawner.thingToSpawn, null, (int)(this.PropsSpawner.spawnCount/3))) + ": " + this.ticksUntilSpawn.ToStringTicksToPeriod(true, false, true, true) +
                    "\n" + "NextSpawnedItemIn".Translate(GenLabel.ThingLabel(this.PropsSpawner.SecondaryThingToSpawn, null, (int)(this.PropsSpawner.secondarySpawnCount / 3))) + ": " + this.ticksUntilSpawn.ToStringTicksToPeriod(true, false, true, true);
 
                 } else
