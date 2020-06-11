@@ -207,6 +207,7 @@
 			<growDays>14</growDays>
 			<harvestWork>250</harvestWork>
 			<harvestYield>15</harvestYield>
+				<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>AB_CordaxResin</harvestedThingDef>
 			<wildClusterRadius>10</wildClusterRadius>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
