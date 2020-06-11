@@ -58,7 +58,7 @@
     <texturePath>Terrain/Surfaces/AB_LavaTexture</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>352</renderPrecedence>
-    <pathCost>12</pathCost>
+    <pathCost>100</pathCost>
 	 <holdSnow>false</holdSnow>
     <statBases>
       <Beauty>-1</Beauty>
