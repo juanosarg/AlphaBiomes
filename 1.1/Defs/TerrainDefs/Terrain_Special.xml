@@ -13,7 +13,7 @@
     <affordances>
       <li>Light</li>
     </affordances>
-    <designationCategory>Structure</designationCategory>
+    <designationCategory>AB_AlphaBiomesBuildings</designationCategory>
     <fertility>0</fertility>
     <constructEffect>ConstructWood</constructEffect>
     <terrainAffordanceNeeded>AB_TarAffordance</terrainAffordanceNeeded>
