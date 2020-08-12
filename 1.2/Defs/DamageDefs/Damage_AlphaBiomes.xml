@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<DamageDef ParentName="Bite">
+		<defName>AB_ParalysingSting</defName>
+		<label>paralysing sting</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AB_Paralysis</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>AB_Tar</defName>
+		<label>tar</label>
+		<canInterruptJobs>false</canInterruptJobs>
+		<makesBlood>false</makesBlood>
+		<defaultDamage>0</defaultDamage>
+		<explosionCellMote>Mote_BlastExtinguisher</explosionCellMote>
+		<explosionColorEdge>(0, 0, 0, 0.05)</explosionColorEdge>
+		<harmsHealth>false</harmsHealth>
+		<soundExplosion>Explosion_Smoke</soundExplosion>
+		<combatLogRules>AB_Damage_Tar</combatLogRules>
+	</DamageDef>
+
+
+
+
+
+</Defs>

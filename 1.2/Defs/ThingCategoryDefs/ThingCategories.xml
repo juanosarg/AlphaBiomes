@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+    <ThingCategoryDef>
+      <defName>AB_RawFishCategory</defName>
+      <label>alien raw fish</label>
+      <parent>MeatRaw</parent>
+	  <iconPath>Things/Item/Resource/Fish/VCEF_MudSplasherCarp/VCEF_MudSplasherCarp_a</iconPath>
+      
+    </ThingCategoryDef>
+
+
+
+</Defs>

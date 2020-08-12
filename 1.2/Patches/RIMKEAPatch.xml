@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RIMkea</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "WODENTable"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+						
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "FEERSTELL"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "BUMRESTStool"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SITEGGArmchair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "CHILLEGGCouch"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SNOREGGSingle"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SNOREGGDouble"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "POTBLUM"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SITTSLABChair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "STAMMRESTChair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "STAMMFLATTTable"]/stuffCategories</xpath>
+					<value>						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SLABFLATTTable"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "KRUDNEPPSingle"]/stuffCategories</xpath>
+					<value>
+					
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SLABNEPPDouble"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "BOLTASKLamp"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "KAROMUF"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "SMOERTIGE"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "LORDOKI"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "BLUMTASK"]/stuffCategories</xpath>
+					<value>
+						<li>AB_Exotic</li>
+						<li>AB_ExoticWooden</li>
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

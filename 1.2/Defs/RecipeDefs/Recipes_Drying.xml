@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>AB_FrostleafToHay</defName>
+		<label>dry frost leaf into hay</label>
+		<description>Dry frost leaf into hay.</description>
+		<jobString>drying frost leaf into hay.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+			<li>Campfire</li>	  
+		</recipeUsers>	
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AB_RawFrostLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_RawFrostLeaf</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+
+		<products>
+			<Hay>25</Hay>
+		</products>
+	</RecipeDef>
+
+
+</Defs>
