@@ -42,6 +42,7 @@
       <isNaturalRock>true</isNaturalRock>
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
       <deconstructible>false</deconstructible>
+	  <destroyShakeAmount>0</destroyShakeAmount>
     </building>
   </ThingDef>
   
