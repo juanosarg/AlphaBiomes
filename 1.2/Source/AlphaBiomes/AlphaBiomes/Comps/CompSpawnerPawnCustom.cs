@@ -99,7 +99,7 @@ namespace AlphaBiomes
                             }
                             if (lord == null)
                             {
-                                LordJob_DefendPoint lordJob = new LordJob_DefendPoint(this.parent.Position, 15f, false, true);
+                                LordJob_DefendPoint lordJob = new LordJob_DefendPoint(this.parent.Position, 10f, false, true);
                                 lord = LordMaker.MakeNewLord(Faction.OfInsects, lordJob, this.parent.Map, null);
 
 
