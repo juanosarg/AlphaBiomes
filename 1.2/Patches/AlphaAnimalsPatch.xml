@@ -267,7 +267,7 @@
 				</li>
 
 				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/ThingDef[defName="AA_Gallatross"]/race</xpath>
+					<xpath>/Defs/ThingDef[defName="AA_GallatrossMoribund"]/race</xpath>
 					<value>
 						<wildBiomes>
 							<AB_GallatrossGraveyard>1</AB_GallatrossGraveyard>
