@@ -17,7 +17,7 @@
 		<statBases>
 			<Nutrition>0.05</Nutrition>
 			<Flammability>0.5</Flammability>
-			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
 
 		</statBases>
 		<ingestible>
