@@ -37,6 +37,11 @@ namespace AlphaBiomes
                 return;
             }
 
+            if ((__instance.grid.tiles[tile].biome.defName == "RG_AnimaForest"))
+            {
+                return;
+            }
+
             else if (__instance.grid.tiles[tile].biome.defName == "AB_OcularForest")
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
@@ -93,6 +98,7 @@ namespace AlphaBiomes
                                        where d.category == ThingCategory.Building && d.building.isNaturalRock && !d.building.isResourceRock && 
                                        !d.IsSmoothed && d.defName!= "GU_RoseQuartz" && d.defName != "AB_Mudstone" && d.defName != "AB_SlimeStone" && 
                                        d.defName != "GU_AncientMetals" && d.defName != "AB_Cragstone" && d.defName != "AB_Obsidianstone" && d.defName != "BiomesIslands_CoralRock"
+                                       && d.defName != "RG_Jadeite"
                                        select d).ToList<ThingDef>();
                 int num = Rand.RangeInclusive(2, 3);
                 if (num > list.Count)
