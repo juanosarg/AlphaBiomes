@@ -1,11 +1,12 @@
 <ModMetaData>
 	<name>Alpha Biomes</name>
 	<author>Sarg</author>
-		<supportedVersions>
-      <li>1.0</li>
-      <li>1.1</li>
-	   <li>1.2</li>
-   </supportedVersions>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
@@ -13,15 +14,22 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>BiomesTeam.BiomesIslands</li>
-		
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+
 	</loadAfter>
-	
-		<packageId>sarg.alphabiomes</packageId>
+
+	<packageId>sarg.alphabiomes</packageId>
 	<description>Adds multiple unique new biomes to Rimworld.
-	
+
 &lt;size=24&gt;Features&lt;/size&gt;
 
 Adds 10 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
@@ -74,6 +82,7 @@ Alien planet sound modified from Speedenza: https://freesound.org/people/Speeden
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.6: RimWorld 1.3 update. (05/07/21)
 v2.4: Added a new biome, the Pyroclastic Conflagration. (31/05/20)
 v2.3: Added a new biome, the Tar Pits. Added compat for many furniture mods for exotic materials (25/04/20)
 v2.2: Terrain texture desaturation. Added biome-specific buildings (Ocular Forest and Propane Lakes for now) (17/04/20)
@@ -98,5 +107,5 @@ v1.0: Rimworld 1.0 version (21/08/19)
 v0.1: Prerelease
 
 
-		</description>
+	</description>
 </ModMetaData>

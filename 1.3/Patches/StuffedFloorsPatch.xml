@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+	  <operations>
+			<li Class="PatchOperationTest">
+			  <xpath>*/StuffedFloors.FloorTypeDef[defName = "StuffedFloorsStoneBase"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/StuffedFloors.FloorTypeDef[defName = "StuffedFloorsStoneBase"]/stuffCategories</xpath>				
+				  <value>
+						<li>AB_Exotic</li>
+				  </value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

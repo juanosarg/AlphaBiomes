@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>GloomyFurniture</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+		
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_bedSingle"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_bedSingleB"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_bedDouble"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_bedDoubleB"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_ClassyDoubleBed"]/stuffCategories</xpath>
+					<value>
+					
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_Dresser"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_EndTable"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_EndTableWithLamp"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_EndTableWithLampE"]/stuffCategories</xpath>
+					<value>
+						
+					
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_bucketr"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_orc"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_SimpleChair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_Chair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGKDiningChair"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_Bench"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableA"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableC"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableB"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableD"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableE"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableF"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableG"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_TableH"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_MiniTableA"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li><li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_MiniTableB"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RKGWineRackB"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "WardrobeA"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "WardrobeB"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_Bookshelf"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_Cupboard"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_TablewareShelf"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_Manger"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_Shelf"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li><li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_DogBowl"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticMetals</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_Locker"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_Teaset"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_window"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_WoodFence"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_DoorFrame"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_BoundaryWood"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_BoundaryStone"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_BoundaryWoodCorner"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_BoundaryStoneCorner"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_Fireplace"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_FireplaceE"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "JukeBox"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_SimpleResearchBench"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_TableButcher"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RGK_FueledStove"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_ElectricStove"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_Bonfire"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_Exotic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_HandTailoringBench"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_ElectricTailoringBench"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_FueledSmithy"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "GL_ElectricSmithy"]/stuffCategories</xpath>
+					<value>
+						
+						<li>AB_ExoticWooden</li>
+					</value>
+				</li>
+				
+				
+				
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
