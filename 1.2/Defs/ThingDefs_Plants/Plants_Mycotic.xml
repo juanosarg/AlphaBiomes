@@ -556,7 +556,12 @@
 			<purpose>Food</purpose>
 			
 		</plant>
-		
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(5,5,25,0)</glowColor>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="AB_CavePlantBase">
