@@ -37,8 +37,16 @@ namespace AlphaBiomes
             }
 
             float tileRadiation = Find.World.GetComponent<WorldComponentExtender>().noiseRadiation.GetValue(tileCenter);
-           // Log.Message(tileRadiation.ToString());
-            if (tileRadiation > 0.75f)
+            // Log.Message(tileRadiation.ToString());
+
+            
+            float calculatedInterval = 0;
+            if (AlphaBiomes_Settings.mechanoidIntrusionMultiplier != 1)
+            {
+                calculatedInterval = (AlphaBiomes_Settings.mechanoidIntrusionMultiplier - 0.1f) * (0.9f / 1.9f) - 0.2f;
+            }
+
+            if (tileRadiation > (0.75f-calculatedInterval))
             {
                 return 101f;
             }

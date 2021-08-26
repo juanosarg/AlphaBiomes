@@ -24,7 +24,7 @@ namespace AlphaBiomes
             {
                 return 0f;
             }
-            return 22.5f + (tile.temperature - 20f) * 2.2f + (tile.rainfall - 600f) / 100f;
+            return (22.5f + (tile.temperature - 20f) * 2.2f + (tile.rainfall - 600f) / 100f)* AlphaBiomes_Settings.gallatrossGraveyardMultiplier;
         }
     }
 }

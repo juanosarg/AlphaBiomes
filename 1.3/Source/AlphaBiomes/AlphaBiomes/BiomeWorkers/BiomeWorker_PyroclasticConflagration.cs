@@ -37,8 +37,14 @@ namespace AlphaBiomes
              }
             
             float tileVolcanic = Find.World.GetComponent<WorldComponentExtender>().noiseVolcanic.GetValue(tileCenter);
+           
+            float calculatedInterval = 0;
+            if (AlphaBiomes_Settings.pyroclasticConflagrationMultiplier != 1)
+            {
+                calculatedInterval = (AlphaBiomes_Settings.pyroclasticConflagrationMultiplier - 0.1f) * (0.9f / 1.9f) - 0.2f;
+            }
             //Log.Message(tileWeirdness.ToString());
-            if (tileVolcanic > 0.75f)
+            if (tileVolcanic > (0.75f - calculatedInterval))
             {
                 return 100f;
             }

@@ -24,7 +24,7 @@ namespace AlphaBiomes
 
         public static float PermaIceScore(Tile tile)
         {
-            return -19f + -tile.temperature * 2f;
+            return (-19f + -tile.temperature * 2f)*AlphaBiomes_Settings.propaneLakesMultiplier;
         }
     }
 }

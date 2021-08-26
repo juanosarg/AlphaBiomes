@@ -8,18 +8,11 @@ using System.Linq;
 using System;
 using RimWorld.BaseGen;
 
-// So, let's comment this code, since it uses Harmony and has moderate complexity
 
 namespace AlphaBiomes
 {
 
-    
 
-
-
-   
-
-  
 
     /*This Harmony Prefix allows us to remove rock filth
  */

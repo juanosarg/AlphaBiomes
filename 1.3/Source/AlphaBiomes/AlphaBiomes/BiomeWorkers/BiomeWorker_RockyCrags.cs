@@ -20,7 +20,7 @@ namespace AlphaBiomes
             {
                 return 0f;
             }
-            return tile.temperature * 2.7f - 13f - tile.rainfall * 0.14f + 20f;
+            return (tile.temperature * 2.7f - 13f - tile.rainfall * 0.14f + 20f)*AlphaBiomes_Settings.rockyCragsMultiplier;
         }
     }
 }

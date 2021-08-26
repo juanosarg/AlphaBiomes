@@ -11,20 +11,23 @@ namespace AlphaBiomes.Settings
    
     public class AlphaBiomes_Mod : Mod
     {
-
+        public static AlphaBiomes_Settings settings;
 
         public AlphaBiomes_Mod(ModContentPack content) : base(content)
         {
-            GetSettings<AlphaBiomes_Settings>();
+            settings = GetSettings<AlphaBiomes_Settings>();
         }
         public override string SettingsCategory() => "Alpha Biomes";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            AlphaBiomes_Settings.DoWindowContents(inRect);
-
-
+            settings.DoWindowContents(inRect);
         }
+
+
+
+
+      
     }
 }
 

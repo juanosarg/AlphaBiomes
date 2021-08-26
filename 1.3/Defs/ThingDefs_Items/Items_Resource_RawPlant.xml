@@ -14,8 +14,15 @@
 			<MarketValue>1.5</MarketValue>
 		</statBases>
 		<ingestible>
-			<foodType>VegetableOrFruit</foodType>
+			<foodType>Fungus</foodType>
 		</ingestible>
+
+
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>60</daysToRotStart>
@@ -35,6 +42,11 @@
 			<MarketValue>1.45</MarketValue>
 			<Mass>0.027</Mass>
 		</statBases>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>30</daysToRotStart>
@@ -44,7 +56,7 @@
 		<ingestible>
 			<preferability>RawTasty</preferability>
 			<tasteThought/>
-			<foodType>VegetableOrFruit</foodType>
+			<foodType>Fungus</foodType>
 		</ingestible>
 	</ThingDef>
 
@@ -60,9 +72,13 @@
 			<FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
 			<MarketValue>1.5</MarketValue>
 		</statBases>
-
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 		<ingestible>
-			<foodType>VegetableOrFruit</foodType>
+			<foodType>Fungus</foodType>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">
@@ -81,7 +97,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>0.5</MarketValue>
-			<Nutrition>0.01</Nutrition>
+			<Nutrition>0.025</Nutrition>
 		</statBases>
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
@@ -190,8 +206,8 @@
 
 
 	</ThingDef>
-	
-		<ThingDef ParentName="PlantFoodRawBase">
+
+	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AB_RawBrownBarrelCactus</defName>
 		<label>brown barrel cactus</label>
 		<description>The water-filled bulbs of a brown barrel cactus. Quite tasteless.</description>

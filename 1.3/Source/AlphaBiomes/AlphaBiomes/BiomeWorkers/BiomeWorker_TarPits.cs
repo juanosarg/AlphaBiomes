@@ -43,8 +43,13 @@ namespace AlphaBiomes
             }
 
             float tileWeirdness = Find.World.GetComponent<WorldComponentExtender>().noiseWeirdness.GetValue(tileCenter);
+            float calculatedInterval = 0;
+            if (AlphaBiomes_Settings.tarPitsMultiplier != 1) { 
+                calculatedInterval = (AlphaBiomes_Settings.tarPitsMultiplier - 0.1f) * (0.7f / 1.9f) - 0.2f;
+            }
+            
             //Log.Message(tileWeirdness.ToString());
-            if (tileWeirdness > 0.7f)
+            if (tileWeirdness > (0.7f- calculatedInterval))
             {
                 return 100f;
             }

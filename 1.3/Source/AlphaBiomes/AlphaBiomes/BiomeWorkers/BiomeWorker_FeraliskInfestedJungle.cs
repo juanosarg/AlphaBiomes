@@ -24,7 +24,7 @@ namespace AlphaBiomes
             {
                 return 0f;
             }
-            return 29f + (tile.temperature - 20f) * 1.5f + (tile.rainfall - 600f) / 165f;
+            return (29f + (tile.temperature - 20f) * 1.5f + (tile.rainfall - 600f) / 165f)*AlphaBiomes_Settings.feraliskInfestedJungleMultiplier;
         }
     }
 }

@@ -46,6 +46,14 @@
 <AB_DrillingStoneTypeRandom>Drilling stone type: Random</AB_DrillingStoneTypeRandom>
 <AB_ProgressToNextPortion>Progress to next chunk</AB_ProgressToNextPortion>
 
+<!-- Biome commonality -->
+
+<AB_BiomeMultiplier>{0} commonality multiplier</AB_BiomeMultiplier>
+<AB_MultiplierTooltip>This multiplier will affect the spawn changes (commonality) of the {0} when creating a world. Bear in mind that commonalities in biomes are not linear, so you will have to experiment and tweak until you get a biome density that suits your needs. Bear in mind too that this could be affected by other mods that either add new biomes or modify the way the game creates a world.</AB_MultiplierTooltip>
+
+
+
+<AB_Reset>Reset {0}</AB_Reset>
 
 
 </LanguageData>

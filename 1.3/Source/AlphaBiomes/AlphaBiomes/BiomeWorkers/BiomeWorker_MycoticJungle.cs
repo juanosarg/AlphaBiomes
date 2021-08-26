@@ -24,7 +24,7 @@ namespace AlphaBiomes
             {
                 return 0f;
             }
-            return 28f + (tile.temperature - 20f) * 1f + (tile.rainfall - 600f) / 165f +tile.swampiness/3 ;
+            return (28f + (tile.temperature - 20f) * 1f + (tile.rainfall - 600f) / 165f +tile.swampiness/3)*AlphaBiomes_Settings.mycoticJungleMultiplier ;
         }
     }
 }

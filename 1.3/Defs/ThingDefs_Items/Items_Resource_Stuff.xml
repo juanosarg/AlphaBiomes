@@ -40,7 +40,8 @@
 
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
-
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
 		<statBases>
 			<MarketValue>5</MarketValue>
 			<Mass>1</Mass>
@@ -58,7 +59,7 @@
 		<stackLimit>75</stackLimit>
 		<stuffProps>
 			<categories>
-				<li>AB_ExoticMetals</li>
+				<li>Metallic</li>
 			</categories>
 			<color>(140,30,30)</color>
 			<commonality>0</commonality>
@@ -97,6 +98,8 @@
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
 		<statBases>
 			<MarketValue>0.7</MarketValue>
 			<MaxHitPoints>70</MaxHitPoints>
@@ -115,7 +118,7 @@
 			<stuffAdjective>crystalline</stuffAdjective>
 
 			<categories>
-				<li>AB_ExoticWooden</li>
+				<li>Woody</li>
 			</categories>
 			<commonality>0</commonality>
 			<color>(63,209,161)</color>
@@ -162,6 +165,8 @@
 			<texPath>Things/Item/Resource/GU_RedWood</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
 		<tradeability>Sellable</tradeability>
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<soundInteract>Wood_Drop</soundInteract>
@@ -179,7 +184,7 @@
 			<stuffAdjective>red wooden</stuffAdjective>
 
 			<categories>
-				<li>AB_ExoticWooden</li>
+				<li>Woody</li>
 			</categories>
 			<commonality>0</commonality>
 			<color>(193,97,67)</color>
@@ -231,6 +236,8 @@
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
 		<statBases>
 			<MarketValue>1</MarketValue>
 			<MaxHitPoints>120</MaxHitPoints>
@@ -249,7 +256,7 @@
 			<stuffAdjective>mushroom stalk</stuffAdjective>
 
 			<categories>
-				<li>AB_ExoticWooden</li>
+				<li>Woody</li>
 			</categories>
 			<commonality>0</commonality>
 			<color>(200,200,200)</color>

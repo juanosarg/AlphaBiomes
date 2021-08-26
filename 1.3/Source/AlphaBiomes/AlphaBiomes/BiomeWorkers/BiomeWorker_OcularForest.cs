@@ -41,7 +41,16 @@ namespace AlphaBiomes
 
                 float tileWeirdness = Find.World.GetComponent<WorldComponentExtender>().noiseWeirdness.GetValue(tileCenter);
                 //Log.Message(tileWeirdness.ToString());
-                if (tileWeirdness < 0.15f)
+
+                float calculatedInterval = 0;
+                if (AlphaBiomes_Settings.ocularForestMultiplier != 1)
+                {
+                    calculatedInterval = (AlphaBiomes_Settings.ocularForestMultiplier - 0.1f) * (0.3f / 1.9f) - 0.1f;
+                }
+                
+
+
+                if (tileWeirdness < (0.15f+ calculatedInterval))
                 {
                     result = 100f;
                 }
