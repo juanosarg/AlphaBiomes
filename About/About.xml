@@ -22,6 +22,10 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>brrainz.harmony</li>
 		<li>BiomesTeam.BiomesIslands</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 
@@ -70,8 +74,6 @@ Compatible with Fish Industry
 Compatible with Forsakens
 Compatible with Camouflage and Stealth
 Compatible with Fertile Fields
-Compatible with most furniture mods regarding exotic materials
-Uses Harmony (dependency)
 
 Mods that modify the way the world is generated MAY cause some weird results. Use at your own risk.
 
@@ -83,28 +85,7 @@ Alien planet sound modified from Speedenza: https://freesound.org/people/Speeden
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
 v2.5: RimWorld 1.3 update. (05/07/21)
-v2.4: Added a new biome, the Pyroclastic Conflagration. (31/05/20)
-v2.3: Added a new biome, the Tar Pits. Added compat for many furniture mods for exotic materials (25/04/20)
-v2.2: Terrain texture desaturation. Added biome-specific buildings (Ocular Forest and Propane Lakes for now) (17/04/20)
-v2.03: Added compat for the 8 new animals added in Alpha Animals (18/03/20)
-v2.02: 1.1 version (09/03/20)
-v1.408: Fixed Camouflage and Stealth compat (13/12/19)
-v1.407: Added Forsakens Fauna Module compatibility for the Forsaken Crags. Reduced mushroom and Stikehr growth times considerably (10/12/19)
-v1.406: Plant variation update: added new graphic variants for most plants in the mod, to break visual monotony (29/11/19)
-v1.405: Added extra noise overlays to planet to spawn biomes independently from vanilla ones. Fixed fish graphical glitches (27/11/19)
-v1.404: Added options toggle to remove all vanilla biomes on planet generation (18/11/19)
-v1.403: Tweaked sound volume of insects in Mycotic Jungle (13/11/19)
-v1.402: Reduced lagginess of Agarilux Primer (12/11/19)
-v1.401: Added compat for upcoming Passive Camouflage mod. Added Night Ave to the Forsaken Crags biome (11/11/19)
-v1.4: Added options toggle for all biomes on planet generation. Added full Vanilla Animals Expanded compat. Added compat for upcoming Vanilla Fishing Expanded mod (11/11/19)
-v1.302: Bugfixes and Magical Menagerie compatibility (3/11/19)
-v1.301: Typos, lots of typos. More then to of them (17/09/19)
-v1.3: Added a new arid biome: the Forsaken Crags (16/09/19)
-v1.02: Added compatibility with Fish Industry mod, and six new biome-specific fish (10/09/19)
-v1.1: Added a new cold biome: the Propane Lakes. (09/09/19)
-v1.01: Added compat with Vanilla Animals Expanded (the 4 modules released so far). Many small bugfixes (31/08/19)
-v1.0: Rimworld 1.0 version (21/08/19)
-v0.1: Prerelease
+Full changelog on GitHub
 
 
 	</description>

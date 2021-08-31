@@ -12,7 +12,7 @@
 		<workAmount>1600</workAmount>
 		<recipeUsers>
 			<li>AB_ExoticSmelterOcular</li>	  
-			<li>AB_ExoticSmelterPropane</li>
+			
 			<li>AB_ExoticSmelterTar</li>
 		</recipeUsers>	
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -48,7 +48,7 @@
 		<workAmount>1600</workAmount>
 		<recipeUsers>
 			<li>AB_ExoticSmelterOcular</li>	  
-			<li>AB_ExoticSmelterPropane</li>
+			
 			<li>AB_ExoticSmelterTar</li>
 
 		</recipeUsers>	
@@ -94,7 +94,7 @@
 		<workAmount>1600</workAmount>
 		<recipeUsers>
 			<li>AB_ExoticSmelterOcular</li>	  
-			<li>AB_ExoticSmelterPropane</li>
+			
 			<li>AB_ExoticSmelterTar</li>
 
 		</recipeUsers>	

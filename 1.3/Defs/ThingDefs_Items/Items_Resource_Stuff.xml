@@ -60,6 +60,7 @@
 		<stuffProps>
 			<categories>
 				<li>Metallic</li>
+				<li>AB_ExoticMetals</li>
 			</categories>
 			<color>(140,30,30)</color>
 			<commonality>0</commonality>
@@ -119,6 +120,7 @@
 
 			<categories>
 				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
 			</categories>
 			<commonality>0</commonality>
 			<color>(63,209,161)</color>
@@ -185,6 +187,7 @@
 
 			<categories>
 				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
 			</categories>
 			<commonality>0</commonality>
 			<color>(193,97,67)</color>
@@ -257,6 +260,7 @@
 
 			<categories>
 				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
 			</categories>
 			<commonality>0</commonality>
 			<color>(200,200,200)</color>

@@ -87,7 +87,7 @@
 		</costList>
 	</ThingDef>
 	
-	<ThingDef ParentName="AB_SmelterBase">
+	<!--<ThingDef ParentName="AB_SmelterBase">
 		<defName>AB_ExoticSmelterPropane</defName>
 		<label>exotic smelter (propane lakes)</label>
 		<graphicData>
@@ -99,7 +99,7 @@
 			<AB_CrystalWood>75</AB_CrystalWood>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
-	</ThingDef>
+	</ThingDef>-->
 	
 	<ThingDef ParentName="AB_SmelterBase">
 		<defName>AB_ExoticSmelterTar</defName>

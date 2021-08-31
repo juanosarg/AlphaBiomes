@@ -176,4 +176,18 @@
 
    </AlphaBiomes.SpecialSpawnsDef>
    
+   <!--<AlphaBiomes.SpecialSpawnsDef>
+      <defName>AB_SpawnGeyser</defName>
+      <thingDef>AB_TarHole</thingDef>
+      <allowOnWater>true</allowOnWater>
+	  <numberToSpawn>100</numberToSpawn>
+      <terrainValidationDisallowed/>
+      <terrainValidationAllowed>
+		<li>AB_LiquidLava</li>
+	  </terrainValidationAllowed>
+      <biomesWithExtraGeneration/>
+      <allowedBiome>AB_PyroclasticConflagration</allowedBiome>
+
+   </AlphaBiomes.SpecialSpawnsDef>-->
+   
 </Defs>

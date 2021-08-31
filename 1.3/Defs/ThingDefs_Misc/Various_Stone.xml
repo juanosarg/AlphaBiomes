@@ -103,6 +103,7 @@
 		</thingCategories>
 		<stuffProps>
 			<categories>
+				<li>AB_Exotic</li>
 				<li>Stony</li>
 			</categories>
 			<commonality>0.20</commonality>
@@ -639,7 +640,7 @@
 		<description>This is a hardened slime deposit. Not very useful... This "rock" produces chunks, but they can't be turned into blocks like other types of rock.</description>
 		<graphicData>
 			<texPath>Things/Building/Linked/AB_SlimeAtlas</texPath>
-			<color>(24,69,5)</color>
+			<color>(45,66,36)</color>
 
 		</graphicData>
 		<statBases>

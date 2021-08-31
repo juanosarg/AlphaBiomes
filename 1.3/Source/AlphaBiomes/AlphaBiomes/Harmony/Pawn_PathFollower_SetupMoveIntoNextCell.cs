@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace AlphaBiomes
 {
-
+    /*
 
     [HarmonyPatch(typeof(Pawn_PathFollower), "SetupMoveIntoNextCell")]
     public static class AlphaBiomes_Pawn_PathFollower_SetupMoveIntoNextCell_Patch
@@ -57,7 +57,7 @@ namespace AlphaBiomes
         }
     }
 
-
+    */
 
 
 }

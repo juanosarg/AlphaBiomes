@@ -4,7 +4,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_AlienGrass</defName>
-		<label>alien grass</label>
+		<label>ocular grass</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -31,7 +31,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_RedLeaves</defName>
-		<label>alien plant</label>
+		<label>ocular plant</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -58,7 +58,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_RedPlantsTall</defName>
-		<label>alien plant</label>
+		<label>ocular plant</label>
 		<description>This grass is completely alien, probably not even 100% carbon based. Not very edible for terrestrial creatures.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -86,8 +86,8 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_AlienTree</defName>
-		<label>alien tree</label>
-		<description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow from exposure to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps its wood can be somehow useful.\n\nPlant details: Alien Trees are a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.05. Can be harvested for Red Wood.</description>
+		<label>ocular tree</label>
+		<description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow from exposure to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps it can be somehow useful.\n\nPlant details: Ocular Trees are a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.05. Can be harvested for Red Wood. Tree lover ideologies don't much care about chopping down these weird trees.</description>
 		<descriptionHyperlinks>
 			<ThingDef>GU_RedWood</ThingDef>
 		</descriptionHyperlinks>
@@ -95,6 +95,7 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>0.8</Flammability>
 			<Nutrition>0.1</Nutrition>
+			<Mass>150</Mass>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/GU_AlienTree</texPath>
@@ -107,8 +108,11 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<selectable>true</selectable>
 		<fillPercent>0.35</fillPercent>
+		<minifiedDef>MinifiedTree</minifiedDef>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
+		
+		<rotatable>false</rotatable>
 		<blockWind>true</blockWind>
 		<ingestible>
 			<foodType>Tree</foodType>
@@ -119,7 +123,7 @@
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
 			<growDays>5</growDays>
-
+<treeCategory>Full</treeCategory>
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
 			<harvestWork>300</harvestWork>
@@ -144,8 +148,8 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_HalfAlienTree</defName>
-		<label>half transformed alien tree</label>
-		<description>A strange infection seems to be transforming this regular oak into an alien tree. It still retains its trunk and its leaves, though they are beginning to transform into pulsating red structures that don't seem to be able to survive in this universe. This tree might be useful to harvest a small amount of real wood.\n\nPlant details: Half transformed alien trees are a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.05. Can be harvested for normal wood.</description>
+		<label>half transformed ocular tree</label>
+		<description>A strange infection seems to be transforming this regular oak into an ocular tree. It still retains its trunk and its leaves, though they are beginning to transform into pulsating red structures that don't seem to be able to survive in this universe. This tree might be useful to harvest a small amount of real wood.\n\nPlant details: Half transformed alien trees are a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.05. Can be harvested for normal wood.</description>
 		<descriptionHyperlinks>
 			<ThingDef>WoodLog</ThingDef>
 		</descriptionHyperlinks>
@@ -153,6 +157,7 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>0.8</Flammability>
 			<Nutrition>0.1</Nutrition>
+			<Mass>150</Mass>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/AB_HalfAlienTree</texPath>
@@ -162,21 +167,27 @@
 				<offset>(0,0,-0.38)</offset>
 			</shadowData>
 		</graphicData>
+		
 		<altitudeLayer>Building</altitudeLayer>
 		<selectable>true</selectable>
 		<fillPercent>0.35</fillPercent>
+		<minifiedDef>MinifiedTree</minifiedDef>
 		<passability>PassThroughOnly</passability>
 		<pathCost>130</pathCost>
+		
 		<blockWind>true</blockWind>
+		<rotatable>false</rotatable>
 		<ingestible>
 			<foodType>Tree</foodType>
 			<preferability>RawBad</preferability>
 
 		</ingestible>
 		<plant>
+		<treeCategory>Full</treeCategory>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
 			<growDays>5</growDays>
+			<treeLoversCareIfChopped>true</treeLoversCareIfChopped>
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
 			<harvestWork>300</harvestWork>
@@ -194,7 +205,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_TentacularPlant</defName>
 		<label>tentacular aberration</label>
-		<description>This tree is completely alien. The blue nodules at the end of each branch / tentacle produce an eerie rattling sound from time to time.\n\nPlant details: Tentacular aberrations are a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.05. Can be harvested for tentacular fruit.</description>
+		<description>This plant is completely alien. The blue nodules at the end of each branch / tentacle produce an eerie rattling sound from time to time.\n\nPlant details: Tentacular aberrations are a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.05. Can be harvested for tentacular fruit.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AB_RawTentacularFruit</ThingDef>
 		</descriptionHyperlinks>

@@ -8,7 +8,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
-				<li Class="PatchOperationAdd"> 
+				<!--<li Class="PatchOperationAdd"> 
 					<xpath>/Defs</xpath>
 					<value>
 						<TerrainDef Abstract="True" ParentName="AB_FloorBase" Name="AB_ExoticFineTileStoneBase">
@@ -30,12 +30,12 @@
 							<resourcesFractionWhenDeconstructed>0.15</resourcesFractionWhenDeconstructed>
 						</TerrainDef>
 					</value>
-				</li>
+				</li>-->
 
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs</xpath>
 					<value>
-						<TerrainDef ParentName="AB_ExoticFineTileStoneBase">
+						<TerrainDef ParentName="FineTileStoneBase">
 							<defName>AB_FinestoneRoseQuartz</defName>
 							<label>fine rose quartz tile</label>
 							<color>(120,50,50)</color>
@@ -49,7 +49,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs</xpath>
 					<value>
-						<TerrainDef ParentName="AB_ExoticFineTileStoneBase">
+						<TerrainDef ParentName="FineTileStoneBase">
 							<defName>AB_FinestoneMudstone</defName>
 							<label>fine mudstone tile</label>
 							<color>(49,31,15)</color>
@@ -63,7 +63,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs</xpath>
 					<value>
-						<TerrainDef ParentName="AB_ExoticFineTileStoneBase">
+						<TerrainDef ParentName="FineTileStoneBase">
 							<defName>AB_FinestoneCragstone</defName>
 							<label>fine cragstone tile</label>
 							<color>(36,35,40)</color>
@@ -77,7 +77,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs</xpath>
 					<value>
-						<TerrainDef ParentName="AB_ExoticFineTileStoneBase">
+						<TerrainDef ParentName="FineTileStoneBase">
 							<defName>AB_FinestoneObsidian</defName>
 							<label>fine obsidian tile</label>
 							<color>(50,50,50)</color>

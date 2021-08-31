@@ -298,6 +298,7 @@
     <Compile Include="Bill Inheritance\StaticConstructorClass.cs" />
     <Compile Include="Bill Inheritance\ThingDefExtension.cs" />
     <Compile Include="Buildings\Building_CoreSampleDrill.cs" />
+    <Compile Include="Buildings\Building_FastDoor.cs" />
     <Compile Include="Buildings\Building_PropaneHeater.cs" />
     <Compile Include="Buildings\Building_TarHole.cs" />
     <Compile Include="Buildings\TarSprayer.cs" />
