@@ -43,7 +43,7 @@
     <defName>AB_RawRimeNodulesHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>raw rime nodules high</label>
-    <description>Raw rime nodules are filled with a naturally processed propane compound that is mildy euphoric for humans, similar to ethanol. Chemically speaking, this is unlikely, hinting at a non-natural origin for these strange alien flora.</description>
+    <description>Raw rime nodules are filled with a naturally processed propane compound that is mildy euphoric for humans, similar to ethanol. Chemically speaking, this is unlikely, hinting at a non-natural origin for these strange flora.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
