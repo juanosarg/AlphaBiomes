@@ -13,7 +13,6 @@
 		<recipeUsers>
 			<li>AB_ExoticSmelterOcular</li>	  
 			
-			<li>AB_ExoticSmelterTar</li>
 		</recipeUsers>	
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 
@@ -49,7 +48,6 @@
 		<recipeUsers>
 			<li>AB_ExoticSmelterOcular</li>	  
 			
-			<li>AB_ExoticSmelterTar</li>
 
 		</recipeUsers>	
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -95,8 +93,6 @@
 		<recipeUsers>
 			<li>AB_ExoticSmelterOcular</li>	  
 			
-			<li>AB_ExoticSmelterTar</li>
-
 		</recipeUsers>	
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 

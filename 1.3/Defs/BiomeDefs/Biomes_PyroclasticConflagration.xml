@@ -4,7 +4,7 @@
   <BiomeDef>
     <defName>AB_PyroclasticConflagration</defName>
     <label>pyroclastic conflagration</label>
-    <description>A desolate expanse of obsidian and solidified lava, with several active calderas bubbling menacingly. A few scraggy trees cling to the mostly unfertile soil.\n\n&lt;color=#33d733&gt;This is a HARD biome. Things will catch on fire. People will catch on fire, and maybe get stuck in the lava and burn to death if you don't restrict them properly. Acid rain will fall every few quadrums, which might be a welcome respite from the constant volcanic ash, if it weren't burning your colonists with acid. Ravenous exotic animals will set your stuff on fire. Fire, fire everywhere. You have been warned!&lt;/color&gt;</description>
+    <description>A desolate expanse of obsidian and solidified lava, with several active calderas bubbling menacingly. A few scraggy trees cling to the mostly unfertile soil.\n\n&lt;color=#33d733&gt;This is a hard biome. A permanent heat wave will raise temperature permanently by 30ºC. Acid rain will fall every few quadrums, which might be a welcome respite from the constant volcanic ash, if it weren't burning your colonists with acid. Ravenous exotic animals will set your stuff on fire. Fire, fire everywhere. You have been warned!&lt;/color&gt;</description>
     <workerClass>AlphaBiomes.BiomeWorker_PyroclasticConflagration</workerClass>
     <animalDensity>1.2</animalDensity>
     <plantDensity>0.4</plantDensity>

@@ -124,7 +124,7 @@
 		<defName>AB_CrystalFlower</defName>
 		<label>crystal flower</label>
 		<thingClass>AlphaBiomes.Plant_Cold</thingClass>
-		<description>A tall, translucent flower that seems to be partially inorganic.\n\nPlant details: Crystal flowers are a cultivated plant that also appears in the wild, and it needs minimum terrain fertility of 0.25. It grows in low temperatures (above -70ºC) and needs no light. Can be harvested for crystalline wood.</description>
+		<description>A tall, translucent flower that seems to be partially inorganic.\n\nPlant details: Crystal flowers are a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.25. It grows in low temperatures (above -70ºC) and needs no light. Can be harvested for crystalline wood.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AB_CrystalWood</ThingDef>
 		</descriptionHyperlinks>
@@ -148,14 +148,7 @@
 			<Nutrition>1.7</Nutrition>
 		</statBases>
 		<plant>
-			<sowResearchPrerequisites>
-				<li>TreeSowing</li>
-			</sowResearchPrerequisites>
-			<mustBeWildToSow>true</mustBeWildToSow>
-			<sowTags>
-				<li>Ground</li>
-
-			</sowTags>
+			
 			<neverBlightable>true</neverBlightable>
 			<growMinGlow>0</growMinGlow>
 			<growOptimalGlow>0</growOptimalGlow>

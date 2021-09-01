@@ -6,6 +6,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>AB_BrownBarrelCactus</defName>
 		<label>brown barrel cactus</label>
+		<thingClass>AlphaBiomes.Plant_Heat</thingClass>
 		<description>The brown barrel cactus, Ferocactus Brunetus, is an extremophile plant that thrives in low-water and poor sunlight conditions. Its strange brown colour is derived from an almost complete lack of chlorophyll. Instead, the plant extracts much of its sustenance from mineral deposits.\n\nPlant details: brown barrel cactus is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.05. It needs no light. It is non-flammable. Can be harvested for raw brown barrel cactus, edible but almost tasteless.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AB_RawBrownBarrelCactus</ThingDef>
@@ -45,6 +46,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>AB_TinkleGrass</defName>
 		<label>tinkle grass</label>
+		<thingClass>AlphaBiomes.Plant_Heat</thingClass>
 		<description>Wild grass. Grows anywhere there is a little light and minimally fertile ground.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -80,6 +82,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>AB_FirevineTree</defName>
 		<label>firevine tree</label>
+		<thingClass>AlphaBiomes.Plant_Heat</thingClass>
 		<description>Firevine trees are pyrophitic plants that are able to survive wildfires due to a clever layer of thermal insulation provided by their fire retardant bark. They can be directly burned without sustaining damage to their vital tissues. In fact, their seeds require fire to sprout, so they are only found in fire-prone areas, such as active volcanic zones.\n\nPlant details: Firevine trees are a cultivated plant that also appear in the wild, and they need minimum terrain fertility of 0.05. They are non-flammable. Can be harvested for normal wood.</description>
 		<descriptionHyperlinks>
 			<ThingDef>WoodLog</ThingDef>

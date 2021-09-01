@@ -14,6 +14,19 @@
     <letterDef>NegativeEvent</letterDef>
     <canBePermanent>true</canBePermanent>
   </GameConditionDef>
+  
+  <GameConditionDef>
+    <defName>AB_VolcanicHeatWave</defName>
+    <conditionClass>AlphaBiomes.GameCondition_VolcanicHeatWave</conditionClass>
+    <label>volcanic heat wave</label>
+    <description>The extreme heat produced by the magma lakes bakes this region. Large plumes of superheated air rise from the lava, heating their surroundings and making them barely inhabitable.</description>
+   
+    <exclusiveConditions>
+      <li>ColdSnap</li>
+      <li>VolcanicWinter</li>
+    </exclusiveConditions>
+   <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
 
 
 

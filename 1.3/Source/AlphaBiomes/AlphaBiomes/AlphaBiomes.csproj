@@ -351,6 +351,7 @@
     <Compile Include="Placeworkers\PlaceWorker_OcularOnly.cs" />
     <Compile Include="Placeworkers\PlaceWorker_TarPump.cs" />
     <Compile Include="Placeworkers\PlaceWorker_PropanePump.cs" />
+    <Compile Include="Plant Classes\Plant_Heat.cs" />
     <Compile Include="Plant Classes\Plant_Cold.cs" />
     <Compile Include="Plant Classes\Plant_Tar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -358,6 +359,7 @@
     <Compile Include="SectionLayers\SectionLayer_AsphaltBridges.cs" />
     <Compile Include="Weathers and Conditions\GameCondition_AcidRain.cs" />
     <Compile Include="MapExtender\WorldComponentExtender.cs" />
+    <Compile Include="Weathers and Conditions\GameCondition_VolcanicHeatWave.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

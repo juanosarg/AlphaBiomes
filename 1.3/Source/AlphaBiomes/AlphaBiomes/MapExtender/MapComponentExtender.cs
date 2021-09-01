@@ -45,6 +45,17 @@ namespace AlphaBiomes
 
                 }
 
+                if (map.Biome.defName == "AB_PyroclasticConflagration")
+                {
+                    GameCondition gameCondition = GameConditionMaker.MakeCondition(GameConditionDef.Named("AB_VolcanicHeatWave"), -1);
+                    gameCondition.Duration = gameCondition.TransitionTicks;
+                    gameCondition.Permanent = true;
+                    gameCondition.conditionCauser = null;
+                    map.gameConditionManager.RegisterCondition(gameCondition);
+                   
+
+                }
+
             }
 
         }

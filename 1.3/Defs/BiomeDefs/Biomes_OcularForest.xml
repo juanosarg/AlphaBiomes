@@ -22,11 +22,11 @@
 		<diseases>
 			<li>
 				<diseaseInc>AB_Disease_SporesAllergy</diseaseInc>
-				<commonality>100</commonality>
+				<commonality>50</commonality>
 			</li>
 			<li>
 				<diseaseInc>AB_Disease_AnimalSporesAllergy</diseaseInc>
-				<commonality>100</commonality>
+				<commonality>50</commonality>
 			</li>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>

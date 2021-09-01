@@ -30,7 +30,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<size>(3,1)</size>
-		<designatorDropdown>AB_Smelters</designatorDropdown>
+		
 		<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
@@ -75,45 +75,18 @@
 
 	<ThingDef ParentName="AB_SmelterBase">
 		<defName>AB_ExoticSmelterOcular</defName>
-		<label>exotic smelter (ocular forest)</label>
+		<label>exotic smelter</label>
 		<graphicData>
 			<texPath>Things/Building/AB_ExoticSmelter</texPath>
 			
 		</graphicData>
 		<costList>
-			<Steel>100</Steel>
-			<GU_BlocksRoseQuartz>75</GU_BlocksRoseQuartz>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>100</Steel>			
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 	</ThingDef>
 	
-	<!--<ThingDef ParentName="AB_SmelterBase">
-		<defName>AB_ExoticSmelterPropane</defName>
-		<label>exotic smelter (propane lakes)</label>
-		<graphicData>
-			<texPath>Things/Building/AB_ExoticSmelterBlue</texPath>
-			
-		</graphicData>
-		<costList>
-			<Steel>100</Steel>
-			<AB_CrystalWood>75</AB_CrystalWood>
-			<ComponentIndustrial>2</ComponentIndustrial>
-		</costList>
-	</ThingDef>-->
 	
-	<ThingDef ParentName="AB_SmelterBase">
-		<defName>AB_ExoticSmelterTar</defName>
-		<label>exotic smelter (tar pits)</label>
-		<graphicData>
-			<texPath>Things/Building/AB_ExoticSmelterGrey</texPath>
-			
-		</graphicData>
-		<costList>
-			<Steel>100</Steel>
-			<AB_CordaxResin>45</AB_CordaxResin>
-			<ComponentIndustrial>2</ComponentIndustrial>
-		</costList>
-	</ThingDef>
 
 
 </Defs>

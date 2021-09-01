@@ -41,10 +41,12 @@ namespace AlphaBiomes
                     {
                         this.GetRoom().Temperature += num2;
                         //this.compPowerTrader.PowerOutput = -props.basePowerConsumption;
+                        compRefuelable.ConsumeFuel(30f/300);
                     }
                     else
                     {
                         //this.compPowerTrader.PowerOutput = -props.basePowerConsumption * this.compTempControl.Props.lowPowerConsumptionFactor;
+                        compRefuelable.ConsumeFuel(10f / 300);
                     }
                     this.compTempControl.operatingAtHighPower = flag;
                 }

@@ -11,8 +11,7 @@
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
 			<li>AB_ExoticSmelterOcular</li>
-			<li>AB_ExoticSmelterPropane</li>
-			<li>AB_ExoticSmelterTar</li>
+			
 		</fixedBillGiverDefs>
 		<verb>work at</verb>
 		<gerund>working at</gerund>

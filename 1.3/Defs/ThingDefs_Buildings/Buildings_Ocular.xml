@@ -128,6 +128,7 @@
     <defName>AB_AlienComplianceCenter</defName>
     <label>alien compliance center</label>
     <description>An experimental device that emmanates strange waves making everyone love the truly alien weather.</description>
+	<uiIconScale>0.6</uiIconScale>
     <graphicData>
       <texPath>Things/Building/AB_AlienComplianceCenter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -140,7 +141,7 @@
         <rect>(0,0.75,1.0,0.5)</rect>
       </damageData>
     </graphicData>
-    <uiIconScale>0.85</uiIconScale>
+   
     <thingCategories>
       <li>BuildingsSpecial</li>
     </thingCategories>

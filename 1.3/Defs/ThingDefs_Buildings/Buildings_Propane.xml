@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_PropanePump</defName>
 		<label>propane pump</label>
@@ -64,7 +61,6 @@
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
-
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<rotatable>true</rotatable>
@@ -77,168 +73,164 @@
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
-
 		<researchPrerequisites>
 			<li>BiofuelRefining</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
-	
 	<ThingDef ParentName="BenchBase">
-    <defName>AB_PropaneStove</defName>
-    <label>propane stove</label>
-    <description>A propane-fueled stove with an attached countertop for preparing meals.</description>
-    <thingClass>Building_WorkTable_HeatPush</thingClass>
-    <graphicData>
-      <texPath>Things/Building/AB_PropaneStove</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3.5,1.5)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <constructEffect>ConstructMetal</constructEffect>
-    <costList>
-      <Steel>60</Steel>
-	  <AB_CrystallineMatrix>3</AB_CrystallineMatrix>
-    </costList>
-    <altitudeLayer>Building</altitudeLayer>
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <WorkToBuild>2000</WorkToBuild>
-      <MaxHitPoints>180</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <size>(3,1)</size>
-    <designationCategory>AB_AlphaBiomesBuildings</designationCategory>
-    <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-   
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-    <comps>
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>160.0</fuelConsumptionRate>
-        <fuelCapacity>50.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>AB_Propane</li>
-          </thingDefs>
-        </fuelFilter>
-        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-      </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>4</heatPerSecond>
-      </li>
-    </comps>
-    <placeWorkers>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
-	<researchPrerequisites>
+		<defName>AB_PropaneStove</defName>
+		<label>propane stove</label>
+		<description>A propane-fueled stove with an attached countertop for preparing meals.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<graphicData>
+			<texPath>Things/Building/AB_PropaneStove</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<costList>
+			<Steel>60</Steel>
+			<AB_CrystallineMatrix>3</AB_CrystallineMatrix>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>4</heatPerSecond>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
 			<li>Electricity</li>
 		</researchPrerequisites>
-    <building>
-      <isMealSource>true</isMealSource>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
-    </building>
-	<modExtensions>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+		</building>
+		<modExtensions>
 			<li Class="AlphaBiomes.ThingDefExtension">
 				<inheritRecipesFrom>
 					<li>FueledStove</li>
 				</inheritRecipesFrom>
-
 			</li>
 		</modExtensions>
-  </ThingDef>
-  
-    <ThingDef ParentName="BuildingBase">
-    <defName>AB_PropaneHeater</defName>
-    <label>propane heater</label>
-    <description>A device that burns propane fuel and turns it into heat. It can automatically turn itself on or off to reach a specific target temperature.</description>
-    <thingClass>AlphaBiomes.Building_PropaneHeater</thingClass>
-    <graphicData>
-      <texPath>Things/Building/AB_PropaneHeater</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.5,0.3,0.7)</volume>
-        <offset>(0,0,-0.15)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0.234375,0,0.515625,0.984375)</rect>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>40</pathCost>
-    <blockWind>true</blockWind>
-    <rotatable>false</rotatable>
-    <fillPercent>0.4</fillPercent>
-    <thingCategories>
-      <li>BuildingsTemperature</li>
-    </thingCategories>
-    <statBases>
-      <WorkToBuild>1000</WorkToBuild>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Mass>6</Mass>
-      <Flammability>0.5</Flammability>
-    </statBases>
-    <tickerType>Normal</tickerType>
-    <costList>
-      <Steel>30</Steel>
-	  <AB_CrystallineMatrix>2</AB_CrystallineMatrix>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <placeWorkers>
-      <li>PlaceWorker_Heater</li>
-    </placeWorkers>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <comps>
-       <li Class="CompProperties_Refuelable">
-         <fuelConsumptionRate>10.0</fuelConsumptionRate>
-        <fuelCapacity>25.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>AB_Propane</li>
-          </thingDefs>
-        </fuelFilter>
-       
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_TempControl">
-        <energyPerSecond>10</energyPerSecond>
-      </li>
-      <li Class="CompProperties_Glower">
-        <glowRadius>3</glowRadius>
-        <glowColor>(255,150,100,0)</glowColor>
-      </li>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <designationCategory>AB_AlphaBiomesBuildings</designationCategory>
-    <designationHotKey>Misc2</designationHotKey>
-    <researchPrerequisites>
-      <li>Electricity</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-  </ThingDef>
-	
-	</Defs>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_PropaneHeater</defName>
+		<label>propane heater</label>
+		<description>A device that burns propane fuel and turns it into heat. The propane heater wastes a lot of fuel when attempting to reach temperatures too different from ambient ones, but it's quite fuel conservative if configured carefully.</description>
+		<thingClass>AlphaBiomes.Building_PropaneHeater</thingClass>
+		<graphicData>
+			<texPath>Things/Building/AB_PropaneHeater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.5,0.3,0.7)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.234375,0,0.515625,0.984375)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<blockWind>true</blockWind>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Steel>30</Steel>
+			<AB_CrystallineMatrix>2</AB_CrystallineMatrix>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>10.0</fuelConsumptionRate>
+				<fuelCapacity>25.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
+				<consumeFuelOnlyWhenPowered>false</consumeFuelOnlyWhenPowered>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>10</energyPerSecond>
+			</li>
+		
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(255,150,100,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+</Defs>
