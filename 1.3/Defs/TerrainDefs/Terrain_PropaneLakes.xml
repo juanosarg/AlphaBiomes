@@ -15,7 +15,8 @@
     <renderPrecedence>350</renderPrecedence>
     <pathCost>12</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+       <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
     </statBases>
     <scatterType>SoftGray</scatterType>
     <affordances>
@@ -38,7 +39,8 @@
     <pathCost>6</pathCost>
 	 <holdSnow>false</holdSnow>
     <statBases>
-      <Beauty>-1</Beauty>
+       <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
     </statBases>
     <scatterType>SoftGray</scatterType>
     <affordances>
@@ -61,7 +63,8 @@
     <pathCost>12</pathCost>
 	 <holdSnow>false</holdSnow>
     <statBases>
-      <Beauty>-1</Beauty>
+       <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
     </statBases>
     <scatterType>SoftGray</scatterType>
     <affordances>
@@ -84,7 +87,8 @@
     <pathCost>20</pathCost>
 	 <holdSnow>false</holdSnow>
     <statBases>
-      <Beauty>-5</Beauty>
+       <Beauty>-5</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
     </statBases>
     <scatterType>SoftGray</scatterType>
     <affordances>

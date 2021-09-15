@@ -9,7 +9,8 @@
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <scatterType>Rocky</scatterType>
@@ -34,7 +35,8 @@
     <renderPrecedence>335</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <affordances>
@@ -58,7 +60,8 @@
     <renderPrecedence>315</renderPrecedence>
     <pathCost>3</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <generatedFilth>Filth_Slime</generatedFilth>
@@ -83,7 +86,8 @@
     <renderPrecedence>330</renderPrecedence>
     <pathCost>12</pathCost>
     <statBases>
-      <Beauty>-2</Beauty>
+      <Beauty>-4</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-2</Cleanliness>
     </statBases>
     <affordances>

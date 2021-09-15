@@ -9,7 +9,8 @@
 		<renderPrecedence>350</renderPrecedence>
 		<pathCost>4</pathCost>
 		<statBases>
-			<Beauty>-1</Beauty>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
 			<Cleanliness>-1</Cleanliness>
 		</statBases>
 		<scatterType>SoftDry</scatterType>
@@ -34,7 +35,8 @@
 		<renderPrecedence>335</renderPrecedence>
 		<pathCost>4</pathCost>
 		<statBases>
-			<Beauty>-1</Beauty>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
 			<Cleanliness>-1</Cleanliness>
 		</statBases>
 		<scatterType>SoftDry</scatterType>
@@ -58,7 +60,8 @@
 		<renderPrecedence>335</renderPrecedence>
 		<pathCost>2</pathCost>
 		<statBases>
-			<Beauty>-1</Beauty>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
 			<Cleanliness>-1</Cleanliness>
 		</statBases>
 		<driesTo>GU_AlienSand</driesTo>
@@ -103,7 +106,8 @@
 		<renderPrecedence>315</renderPrecedence>
 		<pathCost>3</pathCost>
 		<statBases>
-			<Beauty>-1</Beauty>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
 			<Cleanliness>-1</Cleanliness>
 		</statBases>
 		<generatedFilth>Filth_Dirt</generatedFilth>
@@ -129,7 +133,8 @@
 		<renderPrecedence>315</renderPrecedence>
 		<pathCost>3</pathCost>
 		<statBases>
-			<Beauty>-1</Beauty>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
 			<Cleanliness>-1</Cleanliness>
 		</statBases>
 		<generatedFilth>Filth_Dirt</generatedFilth>

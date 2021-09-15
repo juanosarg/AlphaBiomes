@@ -181,6 +181,11 @@
 			<DeteriorationRate>1</DeteriorationRate>
 			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			 <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			  <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			  <StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+			  <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			  <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>red wooden</stuffAdjective>

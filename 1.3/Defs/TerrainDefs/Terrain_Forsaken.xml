@@ -9,7 +9,8 @@
     <renderPrecedence>340</renderPrecedence>
     <pathCost>4</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <scatterType>AB_DarkScatter</scatterType>
@@ -43,7 +44,8 @@
     <renderPrecedence>350</renderPrecedence>
     <pathCost>4</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+      <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <scatterType>AB_DarkScatter</scatterType>
@@ -77,6 +79,7 @@
     <pathCost>10</pathCost>
     <statBases>
       <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <scatterType>AB_DarkScatter</scatterType>
@@ -110,7 +113,8 @@
     <renderPrecedence>330</renderPrecedence>
     <pathCost>12</pathCost>
     <statBases>
-      <Beauty>-2</Beauty>
+     <Beauty>-3</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
       <Cleanliness>-2</Cleanliness>
     </statBases>
     <affordances>
