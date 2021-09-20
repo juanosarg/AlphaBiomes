@@ -14,6 +14,9 @@ namespace AlphaBiomes
 
         public bool verifyFirstTime = true;
         public int spawnCounter = 0;
+        public int tickInterval = 10000;
+        public int tickCounter = 0;
+
 
         public MapComponentExtender(Map map) : base(map)
         {
@@ -27,6 +30,34 @@ namespace AlphaBiomes
             Scribe_Values.Look<bool>(ref this.verifyFirstTime, "verifyFirstTime", true, true);
 
 
+        }
+
+        public override void MapComponentTick()
+        {
+            tickCounter++;
+            if (tickCounter > tickInterval)
+            {
+                if (map.Biome.defName == "AB_PyroclasticConflagration")
+                {
+                    if (!map.gameConditionManager.ConditionIsActive(GameConditionDef.Named("AB_VolcanicHeatWave")))
+                    {
+                        GameCondition gameCondition = GameConditionMaker.MakeCondition(GameConditionDef.Named("AB_VolcanicHeatWave"), -1);
+                        gameCondition.Duration = gameCondition.TransitionTicks;
+                        gameCondition.Permanent = true;
+                        gameCondition.conditionCauser = null;
+                        map.gameConditionManager.RegisterCondition(gameCondition);
+                    }
+                    
+
+
+                }
+
+                tickCounter = 0;
+            }
+
+
+
+            base.MapComponentTick();
         }
 
         public override void FinalizeInit()
