@@ -349,6 +349,7 @@
     <Compile Include="MapExtender\MapComponentExtender.cs" />
     <Compile Include="Options\SettingsHelper.cs" />
     <Compile Include="Placeworkers\PlaceWorker_OcularOnly.cs" />
+    <Compile Include="Placeworkers\PlaceWorker_ShowGammaRadius.cs" />
     <Compile Include="Placeworkers\PlaceWorker_TarPump.cs" />
     <Compile Include="Placeworkers\PlaceWorker_PropanePump.cs" />
     <Compile Include="Plant Classes\Plant_Heat.cs" />

@@ -189,6 +189,7 @@
 
 			</sowTags>
 		</plant>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Glower">
 				<overlightRadius>7</overlightRadius>
@@ -196,6 +197,7 @@
 				<glowColor>(242,221,37,0)</glowColor>
 			</li>
 		</comps>
+		<placeWorkers><li>AlphaBiomes.PlaceWorker_ShowGammaRadius</li></placeWorkers>
 	</ThingDef>
 
 
