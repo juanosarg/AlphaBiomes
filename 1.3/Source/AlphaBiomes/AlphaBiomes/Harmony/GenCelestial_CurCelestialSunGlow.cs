@@ -39,7 +39,7 @@ namespace AlphaBiomes
             }
             if (isRockyCrags)
             {
-                __result = __result * 0.4f;
+                __result = __result * 0.34f;
                 // Log.Message("I have detected the biome, and light should be "+ __result);
             }
         }
