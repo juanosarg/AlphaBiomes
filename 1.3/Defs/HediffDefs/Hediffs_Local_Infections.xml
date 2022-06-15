@@ -5,9 +5,9 @@
 
   <HediffDef ParentName="InfectionBase">
     <defName>AB_SporesAllergy</defName>
-    <label>spores allergy</label>
+    <label>allergy</label>
     <makesSickThought>true</makesSickThought>
-	<description>This person has developed a strong allergy to the airborne spores present in the Mycotic Jungle. This allergy will make breathing difficult, but it will go away (for now) if treated properly.</description>
+	<description>This person has developed a strong allergy to airborne spores and / or plant pollen. This allergy will make breathing difficult, but it will go away (for now) if treated properly.</description>
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
@@ -74,8 +74,8 @@
 
   <HediffDef ParentName="InfectionBase">
     <defName>AB_AnimalSporesAllergy</defName>
-    <label>spores allergy</label>
-		<description>This animal has developed a strong allergy to the airborne spores present in the Mycotic Jungle. This allergy will make breathing difficult, but it will go away (for now) if treated properly.</description>
+    <label>allergy</label>
+		<description>This animal has developed a strong allergy to airborne spores and / or`plant pollen. This allergy will make breathing difficult, but it will go away (for now) if treated properly.</description>
 
     <makesSickThought>true</makesSickThought>
     

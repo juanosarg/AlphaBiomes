@@ -37,11 +37,11 @@ namespace AlphaBiomes
             tickCounter++;
             if (tickCounter > tickInterval)
             {
-                if (map.Biome.defName == "AB_PyroclasticConflagration")
+                if (map.Biome == InternalDefOf.AB_PyroclasticConflagration)
                 {
-                    if (!map.gameConditionManager.ConditionIsActive(GameConditionDef.Named("AB_VolcanicHeatWave")))
+                    if (!map.gameConditionManager.ConditionIsActive(InternalDefOf.AB_VolcanicHeatWave))
                     {
-                        GameCondition gameCondition = GameConditionMaker.MakeCondition(GameConditionDef.Named("AB_VolcanicHeatWave"), -1);
+                        GameCondition gameCondition = GameConditionMaker.MakeCondition(InternalDefOf.AB_VolcanicHeatWave, -1);
                         gameCondition.Duration = gameCondition.TransitionTicks;
                         gameCondition.Permanent = true;
                         gameCondition.conditionCauser = null;

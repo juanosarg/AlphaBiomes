@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<!--============================ Grasses =============================-->
+
+
+<ThingDef ParentName="PlantBase">
+		<defName>AB_Flowers</defName>
+		<label>flowers</label>
+		<description>todo.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_Flowers</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<ingestible />
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.05</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+	<!--============================ Wild - Trees ============================-->
+
+	
+
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_GiantFlower</defName>
+		<label>giant flower</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>18</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>3.8~5</visualSizeRange>
+		</plant>
+		<ingestible />
+	</ThingDef>
+	
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_GiantSunflower</defName>
+		<label>giant sunflower</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantSunflower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>18</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>3.8~5</visualSizeRange>
+		</plant>
+		<ingestible />
+	</ThingDef>
+	
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_GiantTulip</defName>
+		<label>giant tulips</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantTulip</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>18</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>3.8~5</visualSizeRange>
+		</plant>
+		<ingestible />
+	</ThingDef>
+
+	
+
+</Defs>

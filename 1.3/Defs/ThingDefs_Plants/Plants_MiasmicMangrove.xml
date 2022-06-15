@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+
+	<!--============================ Wild - Trees ============================-->
+
+	
+
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_MangroveTree</defName>
+		<label>mangrove tree</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_Mangrove</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<plant>
+			<fertilityMin>1</fertilityMin>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>18</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>3.8~5</visualSizeRange>
+		</plant>
+		<ingestible />
+	</ThingDef>
+	
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_ParasiticMangrove</defName>
+		<label>parasitic mangrove</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_ParasiticMangrove</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<plant>
+			<fertilityMin>1</fertilityMin>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>18</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>1~2.5</visualSizeRange>
+		</plant>
+		<ingestible />
+	</ThingDef>
+	
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_MangrovePalm</defName>
+		<label>mangrove palm</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_PalmMangrove</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+				<altitudeLayer>BuildingOnTop</altitudeLayer>
+
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>1.2</Nutrition>
+		</statBases>
+		<plant>
+			<fertilityMin>1</fertilityMin>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>18</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>1.8~3</visualSizeRange>
+		</plant>
+		<ingestible />
+	</ThingDef>
+
+	
+
+</Defs>

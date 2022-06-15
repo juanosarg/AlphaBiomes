@@ -297,6 +297,8 @@
     <Compile Include="Bill Inheritance\NonPublicFields.cs" />
     <Compile Include="Bill Inheritance\StaticConstructorClass.cs" />
     <Compile Include="Bill Inheritance\ThingDefExtension.cs" />
+    <Compile Include="BiomeWorkers\BiomeWorker_IdyllicMeadows.cs" />
+    <Compile Include="BiomeWorkers\BiomeWorker_MiasmicMangrove.cs" />
     <Compile Include="Buildings\Building_CoreSampleDrill.cs" />
     <Compile Include="Buildings\Building_FastDoor.cs" />
     <Compile Include="Buildings\Building_PropaneHeater.cs" />
@@ -313,6 +315,7 @@
     <Compile Include="Comps\CompSpawnerDouble.cs" />
     <Compile Include="Comps\CompSpawnerPawnCustom.cs" />
     <Compile Include="Comps\StoneTypeSettableUtility.cs" />
+    <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Gas and Filth\Tar_Filth.cs" />
     <Compile Include="GraphicsCache.cs" />
     <Compile Include="Harmony\BaseGenUtility_TryRandomInexpensiveFloor.cs" />

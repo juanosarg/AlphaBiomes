@@ -19,6 +19,9 @@ namespace AlphaBiomes
         public ModuleBase noiseWeirdness;
         [Unsaved]
         public ModuleBase noiseVolcanic;
+        [Unsaved]
+        public ModuleBase noiseIdyllicity;
+
 
         private static readonly FloatRange RadMaxElevation = new FloatRange(650f, 750f);
 
@@ -36,6 +39,7 @@ namespace AlphaBiomes
             SetupRadiationNoise();
             SetupWeirdnessNoise();
             SetupVolcanicNoise();
+            SetupIdyllicNoise();
 
         }
 
@@ -74,6 +78,17 @@ namespace AlphaBiomes
             moduleBase2 = new ScaleBias(0.5, 0.5, moduleBase2);
             this.noiseVolcanic = new Multiply(moduleBase, moduleBase2);
             NoiseDebugUI.StorePlanetNoise(this.noiseVolcanic, "noiseVolcanic");
+        }
+
+        private void SetupIdyllicNoise()
+        {
+            float freqMultiplier = FreqMultiplier;
+            ModuleBase moduleBase = new Perlin((double)(0.09f * freqMultiplier), 2.0, 0.40000000596046448, 6, Rand.Range(0, int.MaxValue), QualityMode.High);
+            ModuleBase moduleBase2 = new RidgedMultifractal((double)(0.05f * freqMultiplier), 2.0, 6, Rand.Range(0, int.MaxValue), QualityMode.High);
+            moduleBase = new ScaleBias(0.5, 0.5, moduleBase);
+            moduleBase2 = new ScaleBias(0.5, 0.5, moduleBase2);
+            this.noiseIdyllicity = new Multiply(moduleBase, moduleBase2);
+            NoiseDebugUI.StorePlanetNoise(this.noiseIdyllicity, "noiseIdyllicity");
         }
 
     }

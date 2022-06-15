@@ -95,6 +95,9 @@
     </affordances>
     <fertility>0.45</fertility>
     <takeFootprints>false</takeFootprints>
+	<tags>
+      <li>Soil</li>
+    </tags>
   </TerrainDef>
   
  
