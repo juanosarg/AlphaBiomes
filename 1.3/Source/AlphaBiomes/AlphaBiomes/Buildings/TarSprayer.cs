@@ -48,7 +48,7 @@ namespace AlphaBiomes
 
         private static MoteThrown NewBaseAirPuff()
         {
-            MoteThrown moteThrown = (MoteThrown)ThingMaker.MakeThing(ThingDef.Named("AB_TarMote"), null);
+            MoteThrown moteThrown = (MoteThrown)ThingMaker.MakeThing(InternalDefOf.AB_TarMote, null);
             moteThrown.Scale = 1.5f;
             moteThrown.rotationRate = (float)Rand.RangeInclusive(-240, 240);
             return moteThrown;

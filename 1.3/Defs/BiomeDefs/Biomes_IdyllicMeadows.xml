@@ -3,13 +3,13 @@
 	<BiomeDef>
 		<defName>AB_IdyllicMeadows</defName>
 		<label>idyllic meadows</label>
-		<description>Product of ancient terraforming, these open grasslands were designed to be an utopian paradise: giant flowers provide both construction materials and sustenance, while an abundance of wildlife creates ample ranching and hunting possibilities. There are no extremes in these pristine fields, making them ideal for long term habitation.\n\n&lt;color=#33d733&gt;This biome is intended to be an even easier version of the temperate forest. Mild temperatures, abundance of resources and lack of serious diseases.&lt;/color&gt;</description>
+		<description>Product of ancient terraforming, these open grasslands were designed to be an utopian paradise: giant flowers provide both construction materials and sustenance, while an abundance of wildlife creates ample ranching and hunting possibilities. There are no extremes in these pristine fields, making them ideal for long term habitation.\n\n&lt;color=#33d733&gt;Biome difficulty: Very easy. This biome is intended to be an even easier version of the temperate forest. Mild temperatures, abundance of resources and lack of serious diseases.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_IdyllicMeadows</workerClass>
 		<animalDensity>3.7</animalDensity>
 		<plantDensity>0.2</plantDensity>
 		<settlementSelectionWeight>1</settlementSelectionWeight>
 		<texture>Biomes/AB_IdyllicMeadows</texture>
-		<foragedFood>RawBerries</foragedFood>
+		<foragedFood>AB_GiantSeeds</foragedFood>
 		<forageability>1.2</forageability>
 		<wildPlantRegrowDays>10</wildPlantRegrowDays>
 		<soundsAmbient>
@@ -117,6 +117,7 @@
 			<Plant_Brambles>1.0</Plant_Brambles>
 			<Plant_Dandelion>0.5</Plant_Dandelion>
 			<Plant_Bush>0.6</Plant_Bush>
+			<AB_GargantuanLithops>1</AB_GargantuanLithops>
 			<AB_GiantFlower>3</AB_GiantFlower>
 			<AB_GiantSunflower>3</AB_GiantSunflower>
 			<AB_GiantTulip>3</AB_GiantTulip>

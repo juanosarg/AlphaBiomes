@@ -25,16 +25,16 @@ namespace AlphaBiomes
         public static void RemoveGravel(Map map, ref TerrainDef __result)
 
         {
-            //Log.Message(__result.defName);
-            if ((__result == TerrainDefOf.Gravel) && (map.Biome.defName == "AB_MechanoidIntrusion"))
+          
+            if ((__result == TerrainDefOf.Gravel) && (map.Biome == InternalDefOf.AB_MechanoidIntrusion))
             {
-                //Log.Message("Detectado e intentando cambiar");
-                __result = TerrainDef.Named("AB_SoilOnCrackedMetal");
+              
+                __result = InternalDefOf.AB_SoilOnCrackedMetal;
             }
-            if ((__result == TerrainDefOf.Gravel) && (map.Biome.defName == "AB_PyroclasticConflagration"))
+            if ((__result == TerrainDefOf.Gravel) && (map.Biome == InternalDefOf.AB_PyroclasticConflagration))
             {
-                //Log.Message("Detectado e intentando cambiar");
-                __result = TerrainDef.Named("AB_HardenedGrass");
+              
+                __result = InternalDefOf.AB_HardenedGrass;
             }
 
         }

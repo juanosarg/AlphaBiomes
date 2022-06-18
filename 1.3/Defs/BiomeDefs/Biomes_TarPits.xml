@@ -4,7 +4,7 @@
   <BiomeDef>
     <defName>AB_TarPits</defName>
     <label>tar pits</label>
-    <description>Sun-baked mud, interspersed with patches of fertile grassy terrain. And, of course, the tar lakes themselves. Tar pits are usually infested with extensive subterranean bumbledrone hives.\n\n&lt;color=#33d733&gt;This biome is arid, but rich in animal and vegetal life. Wood is not a problem, and neither are foreageable plants. Stone is scarce due to the pits being always a flat terrain. The greatest hazard is the incredibly hard to cross terrain, specially around the pits. Also, beware of aggressive bumbledrones surrounding their hive entrances!&lt;/color&gt;</description>
+    <description>Sun-baked mud, interspersed with patches of fertile grassy terrain. And, of course, the tar lakes themselves. Tar pits are usually infested with extensive subterranean bumbledrone hives.\n\n&lt;color=#5CB033&gt;Biome difficulty: Easy. This biome is arid, but rich in animal and vegetal life. Wood is not a problem, and neither are foreageable plants. Stone is scarce due to the pits being always a flat terrain. The greatest hazard is the incredibly hard to cross terrain, specially around the pits. Also, beware of aggressive bumbledrones surrounding their hive entrances!&lt;/color&gt;</description>
     <workerClass>AlphaBiomes.BiomeWorker_TarPits</workerClass>
     <animalDensity>3.5</animalDensity>
     <plantDensity>0.25</plantDensity>

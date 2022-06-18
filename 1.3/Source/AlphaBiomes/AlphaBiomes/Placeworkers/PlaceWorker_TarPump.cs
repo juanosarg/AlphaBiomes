@@ -15,14 +15,14 @@ namespace AlphaBiomes
 
             foreach (IntVec3 c in GenAdj.CellsOccupiedBy(loc, rot, checkingDef.Size))
             {
-                if (map.terrainGrid.TerrainAt(c).defName != "AB_TarMud")
+                if (map.terrainGrid.TerrainAt(c) != InternalDefOf.AB_TarMud)
                 {
                     canPlaceTerrain = false;
                 }
             }
 
 
-            Thing thing2 = map.thingGrid.ThingAt(loc, ThingDef.Named("AB_TarHole"));
+            Thing thing2 = map.thingGrid.ThingAt(loc, InternalDefOf.AB_TarHole);
             if (thing2 == null || thing2.Position != loc)
             {
                 canPlaceHole = false;
@@ -32,7 +32,7 @@ namespace AlphaBiomes
 
         public override bool ForceAllowPlaceOver(BuildableDef otherDef)
         {
-            return otherDef == ThingDef.Named("AB_TarHole");
+            return otherDef == InternalDefOf.AB_TarHole;
         }
     }
 }

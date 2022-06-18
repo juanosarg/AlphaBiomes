@@ -23,7 +23,7 @@ namespace AlphaBiomes
 
         {
 
-            if (t.def.defName== "AB_TarPuddle") {
+            if (t.def== InternalDefOf.AB_TarPuddle) {
                 __result = false;
             }
 

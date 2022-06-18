@@ -68,17 +68,17 @@ namespace AlphaBiomes
             if (verifyFirstTime)
             {
                 this.doMapSpawns();
-                if (map.Biome.defName == "AB_RockyCrags")
+                if (map.Biome == InternalDefOf.AB_RockyCrags)
                 {
-                    map.weatherManager.curWeather = WeatherDef.Named("AB_ForsakenNight");
-                    map.weatherManager.TransitionTo(WeatherDef.Named("AB_ForsakenNight"));
+                    map.weatherManager.curWeather = InternalDefOf.AB_ForsakenNight;
+                    map.weatherManager.TransitionTo(InternalDefOf.AB_ForsakenNight);
 
 
                 }
 
-                if (map.Biome.defName == "AB_PyroclasticConflagration")
+                if (map.Biome == InternalDefOf.AB_PyroclasticConflagration)
                 {
-                    GameCondition gameCondition = GameConditionMaker.MakeCondition(GameConditionDef.Named("AB_VolcanicHeatWave"), -1);
+                    GameCondition gameCondition = GameConditionMaker.MakeCondition(InternalDefOf.AB_VolcanicHeatWave, -1);
                     gameCondition.Duration = gameCondition.TransitionTicks;
                     gameCondition.Permanent = true;
                     gameCondition.conditionCauser = null;

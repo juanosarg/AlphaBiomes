@@ -21,15 +21,14 @@ namespace AlphaBiomes
     public static class AlphaBiomes_WildPlantSpawner_CanRegrowAt_Patch
     {
         [HarmonyPostfix]
-        public static void RegrowOnCold(IntVec3 c, ref bool __result, ref WildPlantSpawner __instance)
+        public static void RegrowOnCold(IntVec3 c, Map ___map, ref bool __result, ref WildPlantSpawner __instance)
 
         {
-            Map map = (Map)typeof(WildPlantSpawner).GetField("map", AccessTools.all).GetValue(__instance);
-            //Log.Message(__result.defName);
-            if (map.Biome.defName == "AB_PropaneLakes")
+           
+            if (___map.Biome == InternalDefOf.AB_PropaneLakes)
             {
-                //Log.Message("Detectado e intentando cambiar");
-                __result = !c.Roofed(map);
+               
+                __result = !c.Roofed(___map);
             }
 
 

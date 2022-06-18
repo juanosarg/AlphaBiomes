@@ -12,7 +12,7 @@ namespace AlphaBiomes
         {
             get
             {
-                return ThingRequest.ForDef(ThingDef.Named("AB_CoreSampleDrill"));
+                return ThingRequest.ForDef(InternalDefOf.AB_CoreSampleDrill);
             }
         }
 
@@ -35,7 +35,7 @@ namespace AlphaBiomes
             for (int i = 0; i < allBuildingsColonist.Count; i++)
             {
                 Building building = allBuildingsColonist[i];
-                if (building.def == ThingDef.Named("AB_CoreSampleDrill"))
+                if (building.def == InternalDefOf.AB_CoreSampleDrill)
                 {
                     CompPowerTrader comp = building.GetComp<CompPowerTrader>();
                     if ((comp == null || comp.PowerOn) && building.Map.designationManager.DesignationOn(building, DesignationDefOf.Uninstall) == null)
@@ -59,7 +59,7 @@ namespace AlphaBiomes
 
         public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
-            return JobMaker.MakeJob(DefDatabase<JobDef>.GetNamed("AB_OperateCoreSampleDrill"), t, 1500, true);
+            return JobMaker.MakeJob(InternalDefOf.AB_OperateCoreSampleDrill, t, 1500, true);
         }
     }
 }

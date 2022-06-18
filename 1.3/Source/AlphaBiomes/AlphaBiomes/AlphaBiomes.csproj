@@ -308,10 +308,10 @@
     <Compile Include="Comps\CompAlcyoniteSolar.cs" />
     <Compile Include="Comps\CompCauseThoughtIfThoughtFound.cs" />
     <Compile Include="Comps\CompCoreSampleDrill.cs" />
-    <Compile Include="Comps\CompProperties_CauseThoughtIfThoughtFound.cs" />
-    <Compile Include="Comps\CompProperties_CoreSampleDrill.cs" />
-    <Compile Include="Comps\CompProperties_SpawnerDouble.cs" />
-    <Compile Include="Comps\CompProperties_SpawnerPawnsCustom.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_CauseThoughtIfThoughtFound.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_CoreSampleDrill.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_SpawnerDouble.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_SpawnerPawnsCustom.cs" />
     <Compile Include="Comps\CompSpawnerDouble.cs" />
     <Compile Include="Comps\CompSpawnerPawnCustom.cs" />
     <Compile Include="Comps\StoneTypeSettableUtility.cs" />
@@ -324,7 +324,6 @@
     <Compile Include="Harmony\GenCelestial_CurCelestialSunGlow.cs" />
     <Compile Include="Harmony\GenStep_RockChunks_GrowLowRockFormationFrom.cs" />
     <Compile Include="Harmony\BaseGenUtility_RandomCheapWallStuff.cs" />
-    <Compile Include="Harmony\Pawn_PathFollower_SetupMoveIntoNextCell.cs" />
     <Compile Include="Harmony\GenStuff_RandomStuffInexpensiveFor.cs" />
     <Compile Include="Harmony\Vanilla_BiomeWorker_GetScore.cs" />
     <Compile Include="Harmony\World_NaturalRockTypesIn.cs" />
@@ -346,7 +345,7 @@
     <Compile Include="BiomeWorkers\BiomeWorker_PropaneLakes.cs" />
     <Compile Include="BiomeWorkers\BiomeWorker_RockyCrags.cs" />
     <Compile Include="Comps\CompGasProducer.cs" />
-    <Compile Include="Comps\CompProperties_GasProducer.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_GasProducer.cs" />
     <Compile Include="Gas and Filth\Gas_Mycotic.cs" />
     <Compile Include="Harmony\HarmonyPatchers.cs" />
     <Compile Include="MapExtender\MapComponentExtender.cs" />

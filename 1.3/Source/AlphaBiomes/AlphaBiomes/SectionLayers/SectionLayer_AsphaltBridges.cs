@@ -67,7 +67,7 @@ namespace AlphaBiomes
         private bool ShouldDrawPropsBelow(IntVec3 c, TerrainGrid terrGrid)
         {
             TerrainDef terrainDef = terrGrid.TerrainAt(c);
-            if (terrainDef == null || terrainDef != TerrainDef.Named("AB_AsphaltBridge"))
+            if (terrainDef == null || terrainDef != InternalDefOf.AB_AsphaltBridge)
             {
                 return false;
             }
@@ -79,7 +79,7 @@ namespace AlphaBiomes
                 return false;
             }
             TerrainDef terrainDef2 = terrGrid.TerrainAt(c2);
-            return terrainDef2 != TerrainDef.Named("AB_AsphaltBridge") && (terrainDef2.passability == Traversability.Impassable || c2.SupportsStructureType(map, TerrainDef.Named("AB_AsphaltBridge").terrainAffordanceNeeded));
+            return terrainDef2 != InternalDefOf.AB_AsphaltBridge && (terrainDef2.passability == Traversability.Impassable || c2.SupportsStructureType(map, InternalDefOf.AB_AsphaltBridge.terrainAffordanceNeeded));
         }
 
         private static readonly Material PropsLoopMat = MaterialPool.MatFrom("Terrain/Surfaces/AB_BridgeProps_Loop", ShaderDatabase.Transparent);

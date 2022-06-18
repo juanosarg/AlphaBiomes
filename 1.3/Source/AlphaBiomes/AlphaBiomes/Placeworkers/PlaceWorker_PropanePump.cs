@@ -12,7 +12,7 @@ namespace AlphaBiomes
         {
             foreach (IntVec3 c in GenAdj.CellsOccupiedBy(loc,rot,checkingDef.Size))
             {
-                if (map.terrainGrid.TerrainAt(c).defName!= "AB_SolidPropane")
+                if (map.terrainGrid.TerrainAt(c)!= InternalDefOf.AB_SolidPropane)
                 {
                     return new AcceptanceReport("AB_TerrainCannotSupport_Propane".Translate());
                 }

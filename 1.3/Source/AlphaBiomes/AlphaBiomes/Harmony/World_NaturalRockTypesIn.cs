@@ -37,51 +37,51 @@ namespace AlphaBiomes
                 return;
             }
 
-            else if (__instance.grid.tiles[tile].biome.defName == "AB_OcularForest")
+            else if (__instance.grid.tiles[tile].biome == InternalDefOf.AB_OcularForest)
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
-                ThingDef item = DefDatabase<ThingDef>.GetNamed("GU_RoseQuartz");
+                ThingDef item = InternalDefOf.GU_RoseQuartz;
                 replacedList.Add(item);
                
                 __result = replacedList;
-            } else if (__instance.grid.tiles[tile].biome.defName == "AB_GallatrossGraveyard")
+            } else if (__instance.grid.tiles[tile].biome == InternalDefOf.AB_GallatrossGraveyard)
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
-                ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_Mudstone");
+                ThingDef item = InternalDefOf.AB_Mudstone;
                 replacedList.Add(item);
                 replacedList.Add(ThingDefOf.Sandstone);
 
                 __result = replacedList;
             }
-            else if (__instance.grid.tiles[tile].biome.defName == "AB_PyroclasticConflagration")
+            else if (__instance.grid.tiles[tile].biome == InternalDefOf.AB_PyroclasticConflagration)
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
-                ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_Obsidianstone");
+                ThingDef item = InternalDefOf.AB_Obsidianstone;
                 replacedList.Add(item);
-                replacedList.Add(DefDatabase<ThingDef>.GetNamed("Slate"));
+                replacedList.Add(DefDatabase<ThingDef>.GetNamed("Slate")); 
 
                 __result = replacedList;
             }
-            else if (__instance.grid.tiles[tile].biome.defName == "AB_GelatinousSuperorganism")
+            else if (__instance.grid.tiles[tile].biome == InternalDefOf.AB_GelatinousSuperorganism)
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
-                ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_SlimeStone");
+                ThingDef item = InternalDefOf.AB_SlimeStone;
                 replacedList.Add(item);
                
                 __result = replacedList;
             }
-            else if (__instance.grid.tiles[tile].biome.defName == "AB_MechanoidIntrusion")
+            else if (__instance.grid.tiles[tile].biome == InternalDefOf.AB_MechanoidIntrusion)
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
-                ThingDef item = DefDatabase<ThingDef>.GetNamed("GU_AncientMetals");
+                ThingDef item = InternalDefOf.GU_AncientMetals;
                 replacedList.Add(item);
 
                 __result = replacedList;
             }
-            else if (__instance.grid.tiles[tile].biome.defName == "AB_RockyCrags")
+            else if (__instance.grid.tiles[tile].biome == InternalDefOf.AB_RockyCrags)
             {
                 List<ThingDef> replacedList = new List<ThingDef>();
-                ThingDef item = DefDatabase<ThingDef>.GetNamed("AB_Cragstone");
+                ThingDef item = InternalDefOf.AB_Cragstone;
                 replacedList.Add(item);
 
                 __result = replacedList;
@@ -91,8 +91,8 @@ namespace AlphaBiomes
                 Rand.Seed = tile;
                 List<ThingDef> list = (from d in DefDatabase<ThingDef>.AllDefs
                                        where d.category == ThingCategory.Building && d.building.isNaturalRock && !d.building.isResourceRock && 
-                                       !d.IsSmoothed && d.defName!= "GU_RoseQuartz" && d.defName != "AB_Mudstone" && d.defName != "AB_SlimeStone" && 
-                                       d.defName != "GU_AncientMetals" && d.defName != "AB_Cragstone" && d.defName != "AB_Obsidianstone" && d.defName != "BiomesIslands_CoralRock"
+                                       !d.IsSmoothed && d != InternalDefOf.GU_RoseQuartz && d != InternalDefOf.AB_Mudstone && d != InternalDefOf.AB_SlimeStone && 
+                                       d != InternalDefOf.GU_AncientMetals && d != InternalDefOf.AB_Cragstone && d != InternalDefOf.AB_Obsidianstone && d.defName != "BiomesIslands_CoralRock"
                                        && d.defName != "RG_Jadeite"
                                        select d).ToList<ThingDef>();
                 int num = Rand.RangeInclusive(2, 3);

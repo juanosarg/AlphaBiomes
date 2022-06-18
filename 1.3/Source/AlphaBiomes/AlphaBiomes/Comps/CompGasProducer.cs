@@ -24,7 +24,7 @@ namespace AlphaBiomes
 
         public override void CompTick()
         {
-            if ((this.parent.def.defName != "AB_AgariluxPrime")||((this.parent.def.defName== "AB_AgariluxPrime") && (AlphaBiomes_Settings.AB_UseAgariluxParticles))) {
+            if (this.parent.def != InternalDefOf.AB_AgariluxPrime||((this.parent.def== InternalDefOf.AB_AgariluxPrime) && (AlphaBiomes_Settings.AB_UseAgariluxParticles))) {
 
                 this.gasProgress += 1;
                 if (this.gasProgress > gasTickMax)

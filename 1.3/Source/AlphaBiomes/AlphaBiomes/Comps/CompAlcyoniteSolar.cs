@@ -43,7 +43,7 @@ namespace AlphaBiomes
         {
             get
             {
-                if (parent.Map.weatherManager.curWeather.defName == "AB_RedFog")
+                if (parent.Map.weatherManager.curWeather == InternalDefOf.AB_RedFog)
                 {
                     return 1.5f;
                 }

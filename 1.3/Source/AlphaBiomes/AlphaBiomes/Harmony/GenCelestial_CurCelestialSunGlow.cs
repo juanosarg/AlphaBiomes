@@ -17,11 +17,7 @@ namespace AlphaBiomes
     /*This Harmony Postfix allows us to reduce the amount of light that reaches the Forsaken Crags
     */
 
-    [DefOf]
-    public static class AB_DefOf
-    {
-        public static BiomeDef AB_RockyCrags;
-    }
+   
 
     [HarmonyPatch(typeof(GenCelestial))]
     [HarmonyPatch("CurCelestialSunGlow")]
@@ -34,13 +30,13 @@ namespace AlphaBiomes
         {
             if (!isRockyCragsCache.TryGetValue(map, out bool isRockyCrags))
             {
-                isRockyCrags = map.Biome == AB_DefOf.AB_RockyCrags;
+                isRockyCrags = map.Biome == InternalDefOf.AB_RockyCrags;
                 isRockyCragsCache[map] = isRockyCrags;
             }
             if (isRockyCrags)
             {
                 __result = __result * 0.34f;
-                // Log.Message("I have detected the biome, and light should be "+ __result);
+             
             }
         }
     }

@@ -37,8 +37,8 @@ namespace AlphaBiomes
             for (int i = 0; i < affectedMaps.Count; i++)
             {
                
-                affectedMaps[i].weatherManager.curWeather = WeatherDef.Named("AB_AcidRainWeather");
-                affectedMaps[i].weatherManager.TransitionTo(WeatherDef.Named("AB_AcidRainWeather"));
+                affectedMaps[i].weatherManager.curWeather = InternalDefOf.AB_AcidRainWeather;
+                affectedMaps[i].weatherManager.TransitionTo(InternalDefOf.AB_AcidRainWeather);
             }
         }
 
@@ -50,8 +50,8 @@ namespace AlphaBiomes
                 for (int i = 0; i < affectedMaps.Count; i++)
                 {
                   
-                    affectedMaps[i].weatherManager.curWeather = WeatherDef.Named("AB_AcidRainWeather");
-                    affectedMaps[i].weatherManager.TransitionTo(WeatherDef.Named("AB_AcidRainWeather"));
+                    affectedMaps[i].weatherManager.curWeather = InternalDefOf.AB_AcidRainWeather;
+                    affectedMaps[i].weatherManager.TransitionTo(InternalDefOf.AB_AcidRainWeather);
                 }
             }
             if (Find.TickManager.TicksGame % CheckInterval == 0)

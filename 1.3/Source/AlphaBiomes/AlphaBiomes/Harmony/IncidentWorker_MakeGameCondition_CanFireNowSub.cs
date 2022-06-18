@@ -27,13 +27,13 @@ namespace AlphaBiomes
         {
             Map map = Find.AnyPlayerHomeMap;
            
-            if (map.Biome.defName == "AB_RockyCrags")
+            if (map.Biome == InternalDefOf.AB_RockyCrags)
             {
               
                 __result = false;
             }
 
-            if (map.Biome.defName != "AB_PyroclasticConflagration" && __instance.def.gameCondition==GameConditionDef.Named("AB_AcidRainCondition"))
+            if (map.Biome != InternalDefOf.AB_PyroclasticConflagration && __instance.def.gameCondition==InternalDefOf.AB_AcidRainCondition)
             {
 
                 __result = false;

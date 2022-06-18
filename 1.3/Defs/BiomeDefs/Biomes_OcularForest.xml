@@ -4,7 +4,7 @@
 	<BiomeDef>
 		<defName>AB_OcularForest</defName>
 		<label>ocular forest</label>
-		<description>This sickly looking forest seems to be completely alien, probably of an extra-dimensional origin. Natural plant life seems to be struggling to grow, and the very ground fights against the neighbouring lands. Strange lifeforms, perhaps not entirely alive, scurry around the sickening vegetation.\n\n&lt;color=#33d733&gt;There is a plant that produces renewable wood, but most of the flora produces red wood, a poor substitute.&lt;/color&gt;</description>
+		<description>This sickly looking forest seems to be completely alien, probably of an extra-dimensional origin. Natural plant life seems to be struggling to grow, and the very ground fights against the neighbouring lands. Strange lifeforms, perhaps not entirely alive, scurry around the sickening vegetation.\n\n&lt;color=#7C9233&gt;Biome difficulty: Intermediate. A strange red fog reduces ranged accuracy almost constantly and reduces colonists' mood. There is a plant that produces renewable wood, but most of the flora produces red wood, a poor substitute.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_OcularForest</workerClass>
 		<animalDensity>3</animalDensity>
 		<plantDensity>0.35</plantDensity>

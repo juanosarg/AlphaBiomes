@@ -37,7 +37,7 @@ namespace AlphaBiomes
             foreach (Thing thing in GenRadial.RadialDistinctThingsAround(this.Position, this.Map, 10, true))
             {
                 
-                if (thing.def.defName=="AB_TarPuddle")
+                if (thing.def== InternalDefOf.AB_TarPuddle)
                 {
                     Count++;
                 }
@@ -53,13 +53,13 @@ namespace AlphaBiomes
                         break;
                     }
                     Plant plant = intVec.GetPlant(this.Map);
-                    if (plant != null && plant.def.defName != "AB_TarPuddle")
+                    if (plant != null && plant.def != InternalDefOf.AB_TarPuddle)
                     {
                         plant.Destroy(DestroyMode.Vanish);
-                        Thing plantToSpawn = GenSpawn.Spawn(ThingDef.Named("AB_TarPuddle"), intVec, this.Map, WipeMode.Vanish);
+                        Thing plantToSpawn = GenSpawn.Spawn(InternalDefOf.AB_TarPuddle, intVec, this.Map, WipeMode.Vanish);
                     }else if (plant == null)
                     {
-                        Thing plantToSpawn = GenSpawn.Spawn(ThingDef.Named("AB_TarPuddle"), intVec, this.Map, WipeMode.Vanish);
+                        Thing plantToSpawn = GenSpawn.Spawn(InternalDefOf.AB_TarPuddle, intVec, this.Map, WipeMode.Vanish);
                     }
                         
 

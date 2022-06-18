@@ -24,7 +24,7 @@ namespace AlphaBiomes
         public static bool RemoveRockFilth(ref IntVec3 root, ref Map map)
 
         {
-            if ((map.Biome.defName == "AB_MechanoidIntrusion"))
+            if (map.Biome == InternalDefOf.AB_MechanoidIntrusion)
             {
                 ThingDef mineableThing = Find.World.NaturalRockTypesIn(map.Tile).RandomElement<ThingDef>().building.mineableThing;
                 Rot4 random = Rot4.Random;
@@ -69,7 +69,7 @@ namespace AlphaBiomes
                                     }
                                     if (!flag)
                                     {
-                                        FilthMaker.TryMakeFilth(c, map, DefDatabase<ThingDef>.GetNamed("AB_SlagRubble"), 1);
+                                        FilthMaker.TryMakeFilth(c, map, InternalDefOf.AB_SlagRubble, 1);
                                     }
                                 }
                             }

@@ -292,7 +292,32 @@
 		</ingestible>
 	</ThingDef>
 
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_GiantSeeds</defName>
+		<label>giant sunflower seeds</label>
+		<description>The seeds of the sunflower plant are more commonly eaten as a snack than as part of a meal. They can also be used as garnishes or ingredients in various recipes. These seeds are gigantic!</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>	
 
+		<graphicData>
+
+			<texPath>Things/Item/Resource/AB_GiantSeeds</texPath>
+
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>    
+	</ThingDef>
 
 
 

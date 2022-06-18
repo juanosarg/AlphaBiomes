@@ -97,23 +97,7 @@ namespace AlphaBiomes
         {
            Listing_Standard ls = new Listing_Standard();
 
-/*
-            ls.Begin(inRect);
-           
-            ls.CheckboxLabeled("AB_UseAgariluxParticles".Translate(), ref AB_UseAgariluxParticles, null);
-            ls.CheckboxLabeled("AB_SpawnFeraliskInfestedJungle".Translate(), ref AB_SpawnFeraliskInfestedJungle, null);
-            ls.CheckboxLabeled("AB_SpawnGallatrossGraveyard".Translate(), ref AB_SpawnGallatrossGraveyard, null);
-            ls.CheckboxLabeled("AB_SpawnGelatinousSuperorganism".Translate(), ref AB_SpawnGelatinousSuperorganism, null);
-            ls.CheckboxLabeled("AB_SpawnIdyllicMeadows".Translate(), ref AB_SpawnIdyllicMeadows, null);
-            ls.CheckboxLabeled("AB_SpawnMechanoidIntrusion".Translate(), ref AB_SpawnMechanoidIntrusion, null);
-            ls.CheckboxLabeled("AB_SpawnMycoticJungle".Translate(), ref AB_SpawnMycoticJungle, null);
-            ls.CheckboxLabeled("AB_SpawnOcularForest".Translate(), ref AB_SpawnOcularForest, null);
-            ls.CheckboxLabeled("AB_SpawnPropaneLakes".Translate(), ref AB_SpawnPropaneLakes, null);
-            ls.CheckboxLabeled("AB_SpawnRockyCrags".Translate(), ref AB_SpawnRockyCrags, null);
-            ls.CheckboxLabeled("AB_SpawnPyroclasticConflagration".Translate(), ref AB_SpawnPyroclasticConflagration, null);
-            ls.CheckboxLabeled("AB_SpawnTarPits".Translate(), ref AB_SpawnTarPits, null);
-            ls.CheckboxLabeled("AB_RemoveVanillaBiomes".Translate(), ref AB_RemoveVanillaBiomes, null);
-            ls.End();*/
+
 
             var scrollContainer = inRect.ContractedBy(10);
             scrollContainer.height -= ls.CurHeight;

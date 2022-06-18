@@ -112,7 +112,7 @@ namespace AlphaBiomes
                 Thing thing = ThingMaker.MakeThing(this.PropsSpawner.thingToSpawn, null);
                
                 Thing thing2 = ThingMaker.MakeThing(this.PropsSpawner.SecondaryThingToSpawn, null);
-                Thing thingHole = this.parent.Map.thingGrid.ThingAt(this.parent.Position, ThingDef.Named("AB_TarHole"));
+                Thing thingHole = this.parent.Map.thingGrid.ThingAt(this.parent.Position, InternalDefOf.AB_TarHole);
                 if (thingHole == null || thingHole.Position != this.parent.Position)
                 {
                     thing.stackCount = (int)(this.PropsSpawner.spawnCount / 3);

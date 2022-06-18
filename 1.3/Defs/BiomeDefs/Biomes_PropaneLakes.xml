@@ -6,7 +6,7 @@
 	<BiomeDef>
 		<defName>AB_PropaneLakes</defName>
 		<label>propane lakes</label>
-		<description>Huge liquid propane lakes fill this desolate frozen landscape. As propane is a compound that doesn't occur naturally, this is probably the remnant of some weird ecological or industrial experiment gone awry.\n\n&lt;color=#33d733&gt;Expect extremely cold temperatures, constant snowing, very little and non-renewable wood, and usually no rocks. Surprisingly some strange flora have adapted to these circumstances, attracting all kinds of unusual animals.&lt;/color&gt;</description>
+		<description>Huge liquid propane lakes fill this desolate frozen landscape. As propane is a compound that doesn't occur naturally, this is probably the remnant of some weird ecological or industrial experiment gone awry.\n\n&lt;color=#AE6233&gt;Biome difficulty: Hard, but not as hard as Sea Ice. Expect extremely cold temperatures, constant snowing, very little and non-renewable wood, and usually no rocks. Surprisingly, some strange flora have adapted to these circumstances, attracting all kinds of unusual animals.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_PropaneLakes</workerClass>
 		<canAutoChoose>false</canAutoChoose>
 		<allowRoads>false</allowRoads>

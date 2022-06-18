@@ -16,7 +16,7 @@ namespace AlphaBiomes
         {
             base.SpawnSetup(map, respawningAfterLoad);
           
-            this.Map.terrainGrid.SetTerrain(this.Position,TerrainDef.Named("AB_ArtificialTar"));
+            this.Map.terrainGrid.SetTerrain(this.Position,InternalDefOf.AB_ArtificialTar);
         }
 
      
