@@ -134,6 +134,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.2</Nutrition>
 		</statBases>
 		<plant>
@@ -170,6 +171,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<statBases>
 			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>1.2</Nutrition>
 		</statBases>
 		<plant>
