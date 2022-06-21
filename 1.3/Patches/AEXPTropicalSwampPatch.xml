@@ -18,7 +18,7 @@
 					<AB_MycoticJungle>0.05</AB_MycoticJungle>
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.10</AB_MiasmicMangrove>
 					
 				</value>
 			</li>
@@ -33,7 +33,7 @@
 					<AB_MycoticJungle>0.01</AB_MycoticJungle>
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.10</AB_MiasmicMangrove>
 					
 					
 				</value>
@@ -45,7 +45,7 @@
 					
 				
 					<AB_GelatinousSuperorganism>0.04</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.10</AB_MiasmicMangrove>
 					
 				</value>
 			</li>

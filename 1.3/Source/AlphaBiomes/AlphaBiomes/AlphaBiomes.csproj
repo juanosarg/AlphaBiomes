@@ -315,6 +315,7 @@
     <Compile Include="Comps\CompSpawnerDouble.cs" />
     <Compile Include="Comps\CompSpawnerPawnCustom.cs" />
     <Compile Include="Comps\StoneTypeSettableUtility.cs" />
+    <Compile Include="DefExtensions\PlantPropertiesExtension.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Gas and Filth\Tar_Filth.cs" />
     <Compile Include="GraphicsCache.cs" />
@@ -325,10 +326,13 @@
     <Compile Include="Harmony\GenStep_RockChunks_GrowLowRockFormationFrom.cs" />
     <Compile Include="Harmony\BaseGenUtility_RandomCheapWallStuff.cs" />
     <Compile Include="Harmony\GenStuff_RandomStuffInexpensiveFor.cs" />
+    <Compile Include="Harmony\PlantUtility_CanEverPlantAt.cs" />
     <Compile Include="Harmony\Vanilla_BiomeWorker_GetScore.cs" />
     <Compile Include="Harmony\World_NaturalRockTypesIn.cs" />
     <Compile Include="Harmony\IncidentWorker_MakeGameCondition_CanFireNowSub.cs" />
     <Compile Include="Harmony\WildPlantSpawner_CanRegrowAt.cs" />
+    <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_GangreneWounds.cs" />
+    <Compile Include="Hediff Comps\HediffComp_GangreneWounds.cs" />
     <Compile Include="Jobs\JobDriver_OperateCoreSampleDrill.cs" />
     <Compile Include="Jobs\MentalState_CoveredInLava.cs" />
     <Compile Include="Jobs\WorkGiver_CoreSampleDrill.cs" />

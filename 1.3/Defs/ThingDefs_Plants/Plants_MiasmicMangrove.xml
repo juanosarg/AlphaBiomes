@@ -32,7 +32,7 @@
 		</statBases>
 		<plant>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<fertilityMin>1</fertilityMin>
+			<fertilityMin>0.7</fertilityMin>
 			<growDays>14</growDays>
 			<harvestWork>1200</harvestWork>
 			<harvestYield>50</harvestYield>
@@ -41,6 +41,12 @@
 			<visualSizeRange>3.8~5</visualSizeRange>
 		</plant>
 		<ingestible />
+		<modExtensions>
+			<li Class="AlphaBiomes.PlantPropertiesExtension">
+				<fertilityMax>0.7</fertilityMax>
+				
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="BushBase">
@@ -58,8 +64,11 @@
 			<Beauty>-1</Beauty>
 			<Nutrition>0.7</Nutrition>
 		</statBases>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+		</ingestible>
 		<plant>
-			<fertilityMin>1</fertilityMin>
+			<fertilityMin>0.7</fertilityMin>
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>4</wildClusterWeight>
 			<visualSizeRange>1~2.5</visualSizeRange>
@@ -69,7 +78,12 @@
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
 			<harvestedThingDef>MedicineHerbal</harvestedThingDef>
 		</plant>
-		
+		<modExtensions>
+			<li Class="AlphaBiomes.PlantPropertiesExtension">
+				<fertilityMax>0.7</fertilityMax>
+				
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	
@@ -92,7 +106,7 @@
 			<Nutrition>1.2</Nutrition>
 		</statBases>
 		<plant>
-			<fertilityMin>1</fertilityMin>
+			<fertilityMin>0.7</fertilityMin>
 			<growDays>14</growDays>
 			<harvestWork>550</harvestWork>
 			<harvestYield>18</harvestYield>
@@ -101,6 +115,12 @@
 			<visualSizeRange>1.8~3</visualSizeRange>
 		</plant>
 		<ingestible />
+		<modExtensions>
+			<li Class="AlphaBiomes.PlantPropertiesExtension">
+				<fertilityMax>0.7</fertilityMax>
+				
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	

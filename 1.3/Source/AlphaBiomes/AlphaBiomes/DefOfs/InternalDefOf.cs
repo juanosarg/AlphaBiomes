@@ -55,5 +55,7 @@ namespace AlphaBiomes
 
 		public static JobDef AB_OperateCoreSampleDrill;
 
+		public static DamageDef AB_Gangrene;
+
 	}
 }

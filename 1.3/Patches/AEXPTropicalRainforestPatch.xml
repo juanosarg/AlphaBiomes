@@ -33,7 +33,7 @@
 					<AB_MycoticJungle>0.01</AB_MycoticJungle>
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.01</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.05</AB_MiasmicMangrove>
 					
 					
 				</value>
@@ -47,7 +47,7 @@
 					<AB_GelatinousSuperorganism>0.04</AB_GelatinousSuperorganism>
 					<AB_MechanoidIntrusion>0.01</AB_MechanoidIntrusion>
 					<AB_RockyCrags>0.07</AB_RockyCrags>
-
+					<AB_MiasmicMangrove>0.01</AB_MiasmicMangrove>
 
 					
 				</value>
@@ -61,7 +61,7 @@
 					<AB_MycoticJungle>0.05</AB_MycoticJungle>
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.03</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.01</AB_MiasmicMangrove>
 				</value>
 			</li>
 			
@@ -74,7 +74,7 @@
 					<AB_MycoticJungle>0.05</AB_MycoticJungle>
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.03</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.01</AB_MiasmicMangrove>
 				</value>
 			</li>
 			
@@ -86,7 +86,7 @@
 					<AB_MycoticJungle>0.05</AB_MycoticJungle>
 					<AB_OcularForest>0.01</AB_OcularForest>
 					<AB_GelatinousSuperorganism>0.03</AB_GelatinousSuperorganism>
-					
+					<AB_MiasmicMangrove>0.01</AB_MiasmicMangrove>
 					
 				</value>
 			</li>

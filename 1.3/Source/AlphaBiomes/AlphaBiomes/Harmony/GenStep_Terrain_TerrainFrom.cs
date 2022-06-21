@@ -37,6 +37,12 @@ namespace AlphaBiomes
                 __result = InternalDefOf.AB_HardenedGrass;
             }
 
+            if ((__result == TerrainDefOf.Gravel) && (map.Biome == InternalDefOf.AB_MiasmicMangrove))
+            {
+
+                __result = TerrainDef.Named("Mud");
+            }
+
         }
 
     }

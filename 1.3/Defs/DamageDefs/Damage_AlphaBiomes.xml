@@ -27,6 +27,17 @@
 		<combatLogRules>AB_Damage_Tar</combatLogRules>
 	</DamageDef>
 
+	<DamageDef>
+		<defName>AB_Gangrene</defName>
+		<label>gangrene</label>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to gangrene.</deathMessage>
+		<hediff>AB_Gangrene</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
+
 
 
 

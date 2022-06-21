@@ -3,15 +3,15 @@
 	<BiomeDef>
 		<defName>AB_MiasmicMangrove</defName>
 		<label>miasmic mangrove</label>
-		<description>todo\n\n&lt;color=#33d733&gt;.&lt;/color&gt;</description>
+		<description>Mangrove swamps, also known as mangals, are coastal wetlands found in tropical and subtropical regions. They are characterized by halophytic (salt loving) trees, shrubs and other plants growing in brackish to saline tidal waters. This mangrove swamp is plagued by parasites, tropical diseases and bio-engineered viruses, making it an inhospitable place.\n\n&lt;color=#AE6233&gt;Biome difficulty: Hard, harder than a tropical swamp. Diseases will strike very often, including some exotic ones that will test your skill.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_MiasmicMangrove</workerClass>
 		<animalDensity>6.5</animalDensity>
-		<plantDensity>0.2</plantDensity>
-		<settlementSelectionWeight>0.4</settlementSelectionWeight>
+		<plantDensity>0.7</plantDensity>
+		<settlementSelectionWeight>0.2</settlementSelectionWeight>
 		<campSelectionWeight>0.9</campSelectionWeight>
 		<movementDifficulty>4</movementDifficulty>
 		<texture>Biomes/AB_MiasmicMangrove</texture>
-		<forageability>0.75</forageability>
+		<forageability>1</forageability>
 		<foragedFood>RawBerries</foragedFood>
 		<wildPlantRegrowDays>13</wildPlantRegrowDays>
 		<soundsAmbient>
@@ -34,6 +34,18 @@
 			</li>
 			<li>
 				<diseaseInc>Disease_Plague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>AB_Disease_BacterialGangrene</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>AB_Disease_ViralAbasia</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>AB_Disease_RavagingIntestinalParasites</diseaseInc>
 				<commonality>100</commonality>
 			</li>
 			<li>
@@ -75,10 +87,10 @@
 		</terrainsByFertility>
 		<terrainPatchMakers>
 			<li>
-				<perlinFrequency>0.04</perlinFrequency>
+				<perlinFrequency>0.02</perlinFrequency>
 				<thresholds>
 					<li>
-						<terrain>MarshyTerrain</terrain>
+						<terrain>AB_FertileMarsh</terrain>
 						<min>0.35</min>
 						<max>999</max>
 					</li>
@@ -93,7 +105,7 @@
 						<max>0.32</max>
 					</li>
 					<li>
-						<terrain>Mud</terrain>
+						<terrain>MarshyTerrain</terrain>
 						<min>0.32</min>
 						<max>0.6</max>
 					</li>
@@ -105,16 +117,16 @@
 				</thresholds>
 			</li>
 			<li>
-				<perlinFrequency>0.07</perlinFrequency>
+				<perlinFrequency>0.015</perlinFrequency>
 				<thresholds>
 					<li>
 						<terrain>MarshyTerrain</terrain>
-						<min>0.24</min>
-						<max>0.48</max>
+						<min>0.15</min>
+						<max>0.3</max>
 					</li>
 					<li>
 						<terrain>AB_FertileMarsh</terrain>
-						<min>0.48</min>
+						<min>0.3</min>
 						<max>999</max>
 					</li>
 				</thresholds>
@@ -133,9 +145,9 @@
 		<wildPlants>
 			<Plant_TallGrass>4.8</Plant_TallGrass>
 			<Plant_ShrubLow>2.0</Plant_ShrubLow>
-			<AB_MangroveTree>8</AB_MangroveTree>
-			<AB_ParasiticMangrove>1</AB_ParasiticMangrove>
-			<AB_MangrovePalm>1.72</AB_MangrovePalm>
+			<AB_MangroveTree>25</AB_MangroveTree>
+			<AB_ParasiticMangrove>8</AB_ParasiticMangrove>
+			<AB_MangrovePalm>6</AB_MangrovePalm>
 			<Plant_Chokevine>0.8</Plant_Chokevine>
 			<Plant_Alocasia>0.8</Plant_Alocasia>
 			<Plant_Bush>0.15</Plant_Bush>

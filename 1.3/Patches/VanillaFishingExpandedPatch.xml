@@ -19,6 +19,7 @@
 							<li>AB_MycoticJungle</li>
 							<li>AB_GelatinousSuperorganism</li>
 							<li>AB_OcularForest</li>
+							<li>AB_MiasmicMangrove</li>
 						</biomes>      
 					</VCE_Fishing.BiomeTempDef>
 				</value>
@@ -54,6 +55,13 @@
 					</VCE_Fishing.BiomeTempDef>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/VCE_Fishing.BiomeTempDef[defName="VCEF_BiomeWarm"]/biomes</xpath>
+				<value>
+					<li>AB_IdyllicMeadows</li>
+				</value>
+			</li>
 
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
@@ -65,7 +73,7 @@
 						<allowedTerrains>
 							<li>AB_LiquidSlime</li>
 							<li>GU_RedWaterShallow</li>
-							
+							<li>AB_FertileMarsh</li>
 
 						</allowedTerrains>      
 					</VCE_Fishing.FishableTerrainDef>
