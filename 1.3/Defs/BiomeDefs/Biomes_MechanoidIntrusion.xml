@@ -6,7 +6,7 @@
 	<BiomeDef>
 		<defName>AB_MechanoidIntrusion</defName>
 		<label>mechanoid intrusion</label>
-		<description>A mechanoid hive was dismantling this biome, turning its mass into computronium, and hastily left it abandoned for unknown reasons. Almost no trace of its biological origins has been left untouched, with even the trees turned into mechanical contraptions destined for some nefarious purposes.\n\n&lt;color=#7C9233&gt;Biome difficulty: Intermediate. Animals rarely come to this biome, and thus finding food can be VERY difficult. Soild fertility is atrocious. Metals are incredibly common.&lt;/color&gt;</description>
+		<description>A mechanoid hive was dismantling this biome, turning its mass into computronium, and hastily left it abandoned for unknown reasons. Almost no trace of its biological origins has been left untouched, with even the trees turned into mechanical contraptions destined for some nefarious purposes.\n\n&lt;color=#7C9233&gt;Biome difficulty: Intermediate. Animals rarely come to this biome, and thus finding food can be VERY difficult. Soil fertility is atrocious. Metals are incredibly common.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_MechanoidIntrusion</workerClass>
 		<canAutoChoose>false</canAutoChoose>
 		<allowRoads>false</allowRoads>

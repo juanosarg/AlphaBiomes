@@ -3,7 +3,7 @@
 	<BiomeDef>
 		<defName>AB_IdyllicMeadows</defName>
 		<label>idyllic meadows</label>
-		<description>Product of ancient terraforming, these open grasslands were designed to be an utopian paradise: giant flowers provide both construction materials and sustenance, while an abundance of wildlife creates ample ranching and hunting possibilities. There are no extremes in these pristine fields, making them ideal for long term habitation.\n\n&lt;color=#33d733&gt;Biome difficulty: Very easy. This biome is intended to be an even easier version of the temperate forest. Mild temperatures, abundance of resources and lack of serious diseases.&lt;/color&gt;</description>
+		<description>Product of ancient terraforming, these open grasslands were designed to be an utopian paradise: giant flowers provide both construction materials and sustenance, while an abundance of wildlife creates ample ranching and hunting possibilities. There are no extremes in these pristine fields, making them ideal for long term habitation.\n\n&lt;color=#33d733&gt;Biome difficulty: Very easy. This biome is intended to be an even easier version of the temperate forest. Mild temperatures, very few predators, abundance of resources and lack of serious diseases.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_IdyllicMeadows</workerClass>
 		<animalDensity>3.7</animalDensity>
 		<plantDensity>0.2</plantDensity>
