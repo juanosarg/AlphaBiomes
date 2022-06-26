@@ -36,7 +36,7 @@
 
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 10 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
+Adds 12 new diverse biomes to your Rimworlds. The mod has been designed with the Alpha Animals mod in mind, although it is not a requirement.
 
 - The Mycotic Jungle: a warm and humid biome filled with HUGE mushrooms. Home to the Wildpod and some weird mushroom varieties of usual creatures.
 - The Gallatross Graveyard: an arid temperate biome, littered with the skeletal remains of ancient beasts.
@@ -48,6 +48,9 @@ Adds 10 new diverse biomes to your Rimworlds. The mod has been designed with the
 - The Forsaken Crags: permanently clouded by a preternatural darkness, light is the most valuable commodity in this desertic landscape. Inspired by (and compatible with) the Forsakens mod.
 - The Tar Pits: an arid biome rich in vegetation, filled with treacherous tar pits that make movement quite difficult. Beware the Bumbledrone hives! 
 - The Pyroclastic Conflagration: a volcanic expanse of unrelenting and brutal nature. Fire and lava are both your worst enemy and your best friend in this biome.
+- The Idyllic Meadows: a lush meadow of giant flowers. A super easy biome that provides tons of resources and few predators.
+- The Miasmic Mangrove: a dangerous tropical biome full of debilitating diseases.
+
 
 The biomes have been tweaked so they don't take too much space in the world map, and you might have to generate a planet again if some biome is not appearing, since they have different temperature and humidity characteristics.
 
@@ -57,7 +60,7 @@ Balance is obviously always a concern, although it has been playtested. Feel fre
 
 &lt;size=24&gt;Plans for the future&lt;/size&gt;
 
-The 10 biomes that were planned for the mod are finished, so in the future I'll just flesh them out further, adding biome specific buildings and resources.
+Maybe more biomes, who knows!
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 
@@ -84,7 +87,7 @@ Alien planet sound modified from Speedenza: https://freesound.org/people/Speeden
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
-v2.5: RimWorld 1.3 update. (05/07/21)
+v2.8: Added two new biomes. (26/06/22)
 Full changelog on GitHub
 
 
