@@ -1,4 +1,4 @@
-﻿// RimWorld.BiomeWorker_TropicalSwamp
+﻿
 using RimWorld;
 using RimWorld.Planet;
 
@@ -8,6 +8,10 @@ namespace AlphaBiomes
 	{
 		public override float GetScore(Tile tile, int tileID)
 		{
+			if (!AlphaBiomes_Settings.AB_SpawnMiasmicMangrove)
+			{
+				return -100f;
+			}
 			if (tile.WaterCovered)
 			{
 				return -100f;
@@ -24,7 +28,7 @@ namespace AlphaBiomes
 			{
 				return 0f;
 			}
-			return 30f + (tile.temperature - 20f) * 1.5f + (tile.rainfall - 600f) / 165f + tile.swampiness * 3f;
+			return (30f + (tile.temperature - 20f) * 1.5f + (tile.rainfall - 600f) / 165f + tile.swampiness * 3f)*AlphaBiomes_Settings.miasmicMangroveMultiplier;
 		}
 	}
 }

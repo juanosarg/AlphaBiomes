@@ -6,7 +6,7 @@
 		<description>Product of ancient terraforming, these open grasslands were designed to be an utopian paradise: giant flowers provide both construction materials and sustenance, while an abundance of wildlife creates ample ranching and hunting possibilities. There are no extremes in these pristine fields, making them ideal for long term habitation.\n\n&lt;color=#33d733&gt;Biome difficulty: Very easy. This biome is intended to be an even easier version of the temperate forest. Mild temperatures, very few predators, abundance of resources and lack of serious diseases.&lt;/color&gt;</description>
 		<workerClass>AlphaBiomes.BiomeWorker_IdyllicMeadows</workerClass>
 		<animalDensity>3.7</animalDensity>
-		<plantDensity>0.2</plantDensity>
+		<plantDensity>0.8</plantDensity>
 		<settlementSelectionWeight>1</settlementSelectionWeight>
 		<texture>Biomes/AB_IdyllicMeadows</texture>
 		<foragedFood>AB_GiantSeeds</foragedFood>
@@ -111,16 +111,16 @@
 			</li>
 		</terrainPatchMakers>
 		<wildPlants>
-			<AB_Flowers>20</AB_Flowers>
-			<Plant_Grass>7.0</Plant_Grass>
+			<AB_Flowers>10</AB_Flowers>
+			<Plant_Grass>20.0</Plant_Grass>
 			<Plant_TallGrass>2.0</Plant_TallGrass>
 			<Plant_Brambles>1.0</Plant_Brambles>
 			<Plant_Dandelion>0.5</Plant_Dandelion>
 			<Plant_Bush>0.6</Plant_Bush>
-			<AB_GargantuanLithops>1</AB_GargantuanLithops>
-			<AB_GiantFlower>3</AB_GiantFlower>
-			<AB_GiantSunflower>3</AB_GiantSunflower>
-			<AB_GiantTulip>3</AB_GiantTulip>
+			<AB_GargantuanLithops>0.5</AB_GargantuanLithops>
+			<AB_GiantFlower>1</AB_GiantFlower>
+			<AB_GiantSunflower>1</AB_GiantSunflower>
+			<AB_GiantTulip>1</AB_GiantTulip>
 		</wildPlants>
 		<wildAnimals>
 			<Donkey>0.20</Donkey>

@@ -131,6 +131,7 @@ namespace AlphaBiomes
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_GelatinousSuperorganism.LabelCap), ref AB_SpawnGelatinousSuperorganism, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_IdyllicMeadows.LabelCap), ref AB_SpawnIdyllicMeadows, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_MechanoidIntrusion.LabelCap), ref AB_SpawnMechanoidIntrusion, null);
+            ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_MiasmicMangrove.LabelCap), ref AB_SpawnMiasmicMangrove, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_MycoticJungle.LabelCap), ref AB_SpawnMycoticJungle, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_OcularForest.LabelCap), ref AB_SpawnOcularForest, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_PropaneLakes.LabelCap), ref AB_SpawnPropaneLakes, null);
