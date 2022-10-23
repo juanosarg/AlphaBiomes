@@ -10,7 +10,7 @@ namespace AlphaBiomes
         public override void DrawGhost(ThingDef def, IntVec3 center, Rot4 rot, Color ghostCol, Thing thing = null)
         {
 
-            GenDraw.DrawRadiusRing(center, 6);
+            GenDraw.DrawRadiusRing(center, 5.8f);
         }
     }
 }
