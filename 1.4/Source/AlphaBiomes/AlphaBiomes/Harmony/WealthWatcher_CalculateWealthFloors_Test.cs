@@ -31,7 +31,7 @@ namespace AlphaBiomes
 					if (___cachedTerrainMarketValue[topGrid[i].index] >0 )
 					{
 
-						Log.Message(___cachedTerrainMarketValue[topGrid[i].index].ToString());
+						//Log.Message(___cachedTerrainMarketValue[topGrid[i].index].ToString());
 					}
 					if (___cachedTerrainMarketValue[topGrid[i].index] < 1000){
 						
