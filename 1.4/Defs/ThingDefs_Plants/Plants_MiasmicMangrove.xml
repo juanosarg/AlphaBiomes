@@ -17,7 +17,7 @@
 			
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Plants/AB_Mangrove</texPath>
+			<texPath>Things/Plants/AB_MangroveTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
@@ -33,7 +33,7 @@
 		<plant>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<fertilityMin>0.7</fertilityMin>
-			<leaflessGraphicPath>Things/Plants/AB_MangroveLeafless</leaflessGraphicPath>
+			<leaflessGraphicPath>Things/Plants/AB_MangroveTreeLeafless</leaflessGraphicPath>
 			<growDays>14</growDays>
 			<harvestWork>1200</harvestWork>
 			<harvestYield>50</harvestYield>
@@ -94,7 +94,7 @@
 		<label>mangrove palm</label>
 		<description>A palm tree adapted to the mangrove conditions.\n\nBased on art by Tyson Roberts, https://www.artstation.com/tyson</description>
 		<graphicData>
-			<texPath>Things/Plants/AB_PalmMangrove</texPath>
+			<texPath>Things/Plants/AB_MangrovePalm</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.18, 0.3, 0.15)</volume>
@@ -107,7 +107,7 @@
 			<Nutrition>1.2</Nutrition>
 		</statBases>
 		<plant>
-		<leaflessGraphicPath>Things/Plants/AB_PalmMangroveLeafless</leaflessGraphicPath>
+		<leaflessGraphicPath>Things/Plants/AB_MangrovePalmLeafless</leaflessGraphicPath>
 			<fertilityMin>0.7</fertilityMin>
 			<growDays>14</growDays>
 			<harvestWork>550</harvestWork>
