@@ -94,6 +94,7 @@
 			<Mass>150</Mass>
 		</statBases>
 		<plant>
+		<leaflessGraphicPath>Things/Plants/AB_GiantFlower_Leafless</leaflessGraphicPath>
 			<growDays>14</growDays>
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>11</wildClusterWeight>
@@ -138,6 +139,7 @@
 			<Nutrition>1.2</Nutrition>
 		</statBases>
 		<plant>
+		<leaflessGraphicPath>Things/Plants/AB_GiantSunflower_Leafless</leaflessGraphicPath>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<growDays>14</growDays>
 			<harvestWork>550</harvestWork>
@@ -175,6 +177,7 @@
 			<Nutrition>1.2</Nutrition>
 		</statBases>
 		<plant>
+		<leaflessGraphicPath>Things/Plants/AB_GiantTulip_Leafless</leaflessGraphicPath>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<growDays>14</growDays>
 			<harvestWork>1800</harvestWork>

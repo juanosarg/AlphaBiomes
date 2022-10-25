@@ -10,6 +10,8 @@
 			<li>
 				<hediff>AB_Paralysis</hediff>
 				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
