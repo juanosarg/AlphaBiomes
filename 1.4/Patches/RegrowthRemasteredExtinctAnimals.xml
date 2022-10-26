@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>ReGrowth Remastered: Extinct Animals</li>
+			<li>ReGrowth: Extinct Animals</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -34,7 +34,7 @@
 					<xpath>/Defs/BiomeDef[defName="AB_IdyllicMeadows"]/wildAnimals
 					</xpath>
 					<value>
-						<RG_Protoceratidae>0.1</RG_Protoceratidae>
+						<RG_Synthetion>0.1</RG_Synthetion>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -55,7 +55,7 @@
 					<xpath>/Defs/BiomeDef[defName="AB_MycoticJungle"]/wildAnimals
 					</xpath>
 					<value>
-						<RG_Protoceratidae>0.1</RG_Protoceratidae>
+						<RG_Synthetion>0.1</RG_Synthetion>
 						<RG_TerrorBird>0.05</RG_TerrorBird>
 						<RG_Megalenhydris>0.1</RG_Megalenhydris>
 						<RG_Velociraptor>0.05</RG_Velociraptor>
@@ -77,7 +77,7 @@
 					<xpath>/Defs/BiomeDef[defName="AB_TarPits"]/wildAnimals
 					</xpath>
 					<value>
-						<RG_Protoceratidae>0.2</RG_Protoceratidae>
+						<RG_Synthetion>0.2</RG_Synthetion>
 						<RG_TerrorBird>0.3</RG_TerrorBird>
 						<RG_Thrinaxodon>0.1</RG_Thrinaxodon>
 						<RG_Velociraptor>0.1</RG_Velociraptor>

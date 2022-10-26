@@ -148,12 +148,7 @@
 						<li>Sand</li>
 					</value>
 				</li>
-				<li Class="PatchOperationAdd"> 
-					<xpath>Defs/TerrainDef[defName = "GU_RedQuartzBase"]/affordances</xpath>
-					<value>
-						<li>RoughStone</li>
-					</value>
-				</li>
+				
 				
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/TerrainDef[defName = "AB_SnowOverRocks"]/affordances</xpath>
