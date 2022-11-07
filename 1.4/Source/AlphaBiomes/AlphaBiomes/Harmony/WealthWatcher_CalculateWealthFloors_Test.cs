@@ -10,7 +10,7 @@ namespace AlphaBiomes
 {
 	//I don't know why this is needed, but sometimes terrain values skyrocket to millions
    
-    [HarmonyPatch(typeof(WealthWatcher))]
+   /* [HarmonyPatch(typeof(WealthWatcher))]
     [HarmonyPatch("CalculateWealthFloors")]
    
     public static class AlphaBiomes_ResetStaticData_Patch
@@ -44,7 +44,7 @@ namespace AlphaBiomes
 
 		}
 
-    }
+    }*/
 
 
 }
