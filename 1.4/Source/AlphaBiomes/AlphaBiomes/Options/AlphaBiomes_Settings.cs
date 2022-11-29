@@ -14,6 +14,8 @@ namespace AlphaBiomes
 
 
         public static bool AB_UseAgariluxParticles = true;
+        public static bool AB_BrighterCrags = true;
+
 
         public static bool AB_SpawnFeraliskInfestedJungle = true;
         public static bool AB_SpawnGallatrossGraveyard = true;
@@ -58,6 +60,8 @@ namespace AlphaBiomes
             base.ExposeData();
 
             Scribe_Values.Look(ref AB_UseAgariluxParticles, "AB_UseAgariluxParticles", true, true);
+            Scribe_Values.Look(ref AB_BrighterCrags, "AB_BrighterCrags", false, false);
+
             Scribe_Values.Look(ref AB_SpawnFeraliskInfestedJungle, "AB_SpawnFeraliskInfestedJungle", true, true);
             Scribe_Values.Look(ref AB_SpawnGallatrossGraveyard, "AB_SpawnGallatrossGraveyard", true, true);
             Scribe_Values.Look(ref AB_SpawnGelatinousSuperorganism, "AB_SpawnGelatinousSuperorganism", true, true);
@@ -118,7 +122,7 @@ namespace AlphaBiomes
                                                      where k.defName.Contains("AB_")
                                                      select k).Count();
 
-            contentRect.height = numberBiomes * 100f + 300f;
+            contentRect.height = numberBiomes * 100f + 380f;
 
             Listing_Standard ls2 = new Listing_Standard();
            
@@ -126,6 +130,8 @@ namespace AlphaBiomes
             ls2.Begin(contentRect.AtZero());
 
             ls2.CheckboxLabeled("AB_UseAgariluxParticles".Translate(), ref AB_UseAgariluxParticles, null);
+            ls2.CheckboxLabeled("AB_BrighterCrags".Translate(), ref AB_BrighterCrags, "AB_BrighterCragsDescription".Translate());
+
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_FeraliskInfestedJungle.LabelCap), ref AB_SpawnFeraliskInfestedJungle, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_GallatrossGraveyard.LabelCap), ref AB_SpawnGallatrossGraveyard, null);
             ls2.CheckboxLabeled("AB_SpawnBiome".Translate(InternalDefOf.AB_GelatinousSuperorganism.LabelCap), ref AB_SpawnGelatinousSuperorganism, null);

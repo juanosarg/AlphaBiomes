@@ -6,6 +6,8 @@
 <AB_UseAgariluxParticles>Agarilux Prime produces harmful gas</AB_UseAgariluxParticles>
 <AB_SpawnBiome>Create {0} on planet generation</AB_SpawnBiome>
 <AB_RemoveVanillaBiomes>Remove all vanilla biomes</AB_RemoveVanillaBiomes>
+<AB_BrighterCrags>Brighter Forsaken Crags</AB_BrighterCrags>
+<AB_BrighterCragsDescription>Makes the Forsaken Crags quite brighter, for those with a PC screen that makes the Crags WAY too dark. This change takes effect on the next weather change on the map, or on savegame reload.</AB_BrighterCragsDescription>
 
 
 <!--     Buildings     -->

@@ -6,6 +6,7 @@ using RimWorld;
 using Verse;
 using UnityEngine;
 using RimWorld.Planet;
+using AlphaBiomes.Settings;
 
 namespace AlphaBiomes
 {
@@ -70,8 +71,15 @@ namespace AlphaBiomes
                 this.doMapSpawns();
                 if (map.Biome == InternalDefOf.AB_RockyCrags)
                 {
-                    map.weatherManager.curWeather = InternalDefOf.AB_ForsakenNight;
-                    map.weatherManager.TransitionTo(InternalDefOf.AB_ForsakenNight);
+                    if (AlphaBiomes_Settings.AB_BrighterCrags) {
+                        map.weatherManager.curWeather = InternalDefOf.AB_ForsakenNight_Alternate;
+                        map.weatherManager.TransitionTo(InternalDefOf.AB_ForsakenNight_Alternate);
+
+                    } else
+                    {
+                        map.weatherManager.curWeather = InternalDefOf.AB_ForsakenNight;
+                        map.weatherManager.TransitionTo(InternalDefOf.AB_ForsakenNight);
+                    }
 
 
                 }

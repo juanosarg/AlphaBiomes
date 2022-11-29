@@ -30,7 +30,12 @@ namespace AlphaBiomes
 		public static GameConditionDef AB_AcidRainCondition;
 
 		public static WeatherDef AB_ForsakenNight;
-		public static WeatherDef AB_RedFog;
+        public static WeatherDef AB_ForsakenNight_Alternate;
+        public static WeatherDef AB_ForsakenRainyNight;
+        public static WeatherDef AB_ForsakenRainyNight_Alternate;
+        public static WeatherDef AB_ForsakenThunderstorm;
+        public static WeatherDef AB_ForsakenThunderstorm_Alternate;
+        public static WeatherDef AB_RedFog;
 		public static WeatherDef AB_AcidRainWeather;
 
 		public static ThingDef AB_TarPuddle;

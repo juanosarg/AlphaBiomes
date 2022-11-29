@@ -326,6 +326,7 @@
     <Compile Include="Harmony\GenStuff_RandomStuffInexpensiveFor.cs" />
     <Compile Include="Harmony\PlantUtility_CanEverPlantAt.cs" />
     <Compile Include="Harmony\Vanilla_BiomeWorker_GetScore.cs" />
+    <Compile Include="Harmony\WeatherManager_TransitionTo.cs" />
     <Compile Include="Harmony\World_NaturalRockTypesIn.cs" />
     <Compile Include="Harmony\IncidentWorker_MakeGameCondition_CanFireNowSub.cs" />
     <Compile Include="Harmony\WildPlantSpawner_CanRegrowAt.cs" />
