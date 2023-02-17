@@ -208,10 +208,18 @@
 		<statBases>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>0</Flammability>
+			<WorkToBuild>2500</WorkToBuild>
 			<Beauty>-200</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
-		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<costList>
+			<Steel>75</Steel>
+			<Plasteel>15</Plasteel>
+			<ChunkSlagSteel>8</ChunkSlagSteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
 		<killedLeavings>
 			<Steel>75</Steel>
 			<Plasteel>15</Plasteel>

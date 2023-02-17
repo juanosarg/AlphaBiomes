@@ -316,6 +316,8 @@
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Gas and Filth\Tar_Filth.cs" />
     <Compile Include="GraphicsCache.cs" />
+    <Compile Include="Harmony\SanguophageUtility_InSunlight.cs" />
+    <Compile Include="Harmony\ConditionalStatAffecter_InSunlight_Applies.cs" />
     <Compile Include="Harmony\WealthWatcher_CalculateWealthFloors_Test.cs" />
     <Compile Include="Harmony\BaseGenUtility_TryRandomInexpensiveFloor.cs" />
     <Compile Include="Harmony\Designator_PlantsCut_AffectsThing.cs" />

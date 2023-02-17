@@ -21,6 +21,9 @@
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
+		<nullifyingGenes>
+			
+		</nullifyingGenes>
 	</ThoughtDef>
 
 	<ThoughtDef>
@@ -40,6 +43,9 @@
 				<baseMoodEffect>-6</baseMoodEffect>
 			</li>
 		</stages>
+		<nullifyingGenes>
+			
+		</nullifyingGenes>
 	</ThoughtDef>
 
 	<ThoughtDef>
@@ -60,6 +66,9 @@
 				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
+		<nullifyingGenes>
+			
+		</nullifyingGenes>
 	</ThoughtDef>
 
 	<ThoughtDef>
