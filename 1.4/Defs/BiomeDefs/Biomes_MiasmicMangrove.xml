@@ -179,5 +179,15 @@
 			<li>Elephant</li>
 			<li>Alpaca</li>
 		</allowedPackAnimals>
+		<modExtensions>
+			<li Class="VFECore.BiomeExtension">
+				<terrainsToSwap>
+					<li>
+						<from>Gravel</from>
+						<to>Mud</to>
+					</li>
+				</terrainsToSwap>
+			</li>
+		</modExtensions>
 	</BiomeDef>
 </Defs>

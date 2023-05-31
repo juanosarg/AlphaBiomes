@@ -321,7 +321,6 @@
     <Compile Include="Harmony\WealthWatcher_CalculateWealthFloors_Test.cs" />
     <Compile Include="Harmony\BaseGenUtility_TryRandomInexpensiveFloor.cs" />
     <Compile Include="Harmony\Designator_PlantsCut_AffectsThing.cs" />
-    <Compile Include="Harmony\GenStep_Terrain_TerrainFrom.cs" />
     <Compile Include="Harmony\GenCelestial_CurCelestialSunGlow.cs" />
     <Compile Include="Harmony\GenStep_RockChunks_GrowLowRockFormationFrom.cs" />
     <Compile Include="Harmony\BaseGenUtility_RandomCheapWallStuff.cs" />
@@ -329,7 +328,6 @@
     <Compile Include="Harmony\PlantUtility_CanEverPlantAt.cs" />
     <Compile Include="Harmony\Vanilla_BiomeWorker_GetScore.cs" />
     <Compile Include="Harmony\WeatherManager_TransitionTo.cs" />
-    <Compile Include="Harmony\World_NaturalRockTypesIn.cs" />
     <Compile Include="Harmony\IncidentWorker_MakeGameCondition_CanFireNowSub.cs" />
     <Compile Include="Harmony\WildPlantSpawner_CanRegrowAt.cs" />
     <Compile Include="Hediff Comps\CompProperties\HediffCompProperties_GangreneWounds.cs" />
@@ -351,7 +349,7 @@
     <Compile Include="Comps\CompGasProducer.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_GasProducer.cs" />
     <Compile Include="Gas and Filth\Gas_Mycotic.cs" />
-    <Compile Include="Harmony\HarmonyPatchers.cs" />
+    <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="MapExtender\MapComponentExtender.cs" />
     <Compile Include="Options\SettingsHelper.cs" />
     <Compile Include="Placeworkers\PlaceWorker_OcularOnly.cs" />
