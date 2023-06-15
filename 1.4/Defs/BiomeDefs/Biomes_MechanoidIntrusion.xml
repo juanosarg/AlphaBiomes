@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
- 
-
 	<BiomeDef>
 		<defName>AB_MechanoidIntrusion</defName>
 		<label>mechanoid intrusion</label>
@@ -24,7 +21,6 @@
 		</soundsAmbient>
 		<diseaseMtbDays>90</diseaseMtbDays>
 		<diseases>
-			
 			<li>
 				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
 				<commonality>100</commonality>
@@ -33,8 +29,6 @@
 				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
 				<commonality>100</commonality>
 			</li>
-      
-     
 		</diseases>
 		<terrainsByFertility>
 			<li>
@@ -59,22 +53,21 @@
 					</li>
 				</thresholds>
 			</li>
-			 <li>
-		    <perlinFrequency>0.027</perlinFrequency>
-		    <thresholds>
-		     
-		      <li>
-		        <terrain>AB_SoilOnCrackedMetal</terrain>
-		        <min>0.32</min>
-		        <max>0.6</max>
-		      </li>
-		      <li>
-		        <terrain>GU_Piping</terrain>
-		        <min>0.6</min>
-		        <max>999</max>
-		      </li>
-		    </thresholds>
-		  </li>
+			<li>
+				<perlinFrequency>0.027</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_SoilOnCrackedMetal</terrain>
+						<min>0.32</min>
+						<max>0.6</max>
+					</li>
+					<li>
+						<terrain>GU_Piping</terrain>
+						<min>0.6</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
 		</terrainPatchMakers>
 		<baseWeatherCommonalities>
 			<Clear>12</Clear>
@@ -89,17 +82,27 @@
 		<wildPlants>
 			<AB_HardyGrass>1</AB_HardyGrass>
 			<AB_SessileMechanoid>1</AB_SessileMechanoid>
-			
-     
 		</wildPlants>
 		<wildAnimals>
 			<Rat>2</Rat>
 			<GuineaPig>0.15</GuineaPig>
-			
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>
 		</allowedPackAnimals>
+		<modExtensions>
+			<li Class="VFECore.BiomeExtension">
+				<terrainsToSwap>
+					<li>
+						<from>Gravel</from>
+						<to>AB_SoilOnCrackedMetal</to>
+					</li>
+				</terrainsToSwap>
+				<uniqueRockTypes>
+					<li>GU_AncientMetals</li>
+				</uniqueRockTypes>
+				
+			</li>
+		</modExtensions>
 	</BiomeDef>
-
 </Defs>

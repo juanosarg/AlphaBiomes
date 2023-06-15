@@ -137,5 +137,14 @@
 		<allowedPackAnimals>
 			<li>Alpaca</li>
 		</allowedPackAnimals>
+		<modExtensions>
+			<li Class="VFECore.BiomeExtension">
+				<fogColor>(1, 0.2, 0.2)</fogColor>
+				<uniqueRockTypes>
+					<li>GU_RoseQuartz</li>
+				</uniqueRockTypes>
+				
+			</li>
+		</modExtensions>
 	</BiomeDef>
 </Defs>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
- <BiomeDef>
+	<BiomeDef>
 		<defName>AB_GelatinousSuperorganism</defName>
 		<label>gelatinous superorganism</label>
 		<description>A huge mold-like organism has grown in this area, basically destroying the previous existing ecosystem, and replacing it with an alien landscape of its own creation. Its strange biology seems to be compatible with this planet's biosphere.\n\n&lt;color=#5CB033&gt;Biome difficulty: Easy. Expect to find no useable rocky materials to build here, and very little wood, but plenty of food.&lt;/color&gt;</description>
@@ -20,31 +19,31 @@
 		</soundsAmbient>
 		<diseaseMtbDays>30</diseaseMtbDays>
 		<diseases>
-      <li>
-        <diseaseInc>Disease_Malaria</diseaseInc>
-        <commonality>160</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_SleepingSickness</diseaseInc>
-        <commonality>140</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_Flu</diseaseInc>
-        <commonality>100</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_Plague</diseaseInc>
-        <commonality>100</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_GutWorms</diseaseInc>
-        <commonality>80</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_MuscleParasites</diseaseInc>
-        <commonality>80</commonality>
-      </li>
-      <li>
+			<li>
+				<diseaseInc>Disease_Malaria</diseaseInc>
+				<commonality>160</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_SleepingSickness</diseaseInc>
+				<commonality>140</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Flu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Plague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_GutWorms</diseaseInc>
+				<commonality>80</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_MuscleParasites</diseaseInc>
+				<commonality>80</commonality>
+			</li>
+			<li>
 				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
 				<commonality>30</commonality>
 			</li>
@@ -52,15 +51,14 @@
 				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
 				<commonality>30</commonality>
 			</li>
-      
-      <li>
-        <diseaseInc>Disease_AnimalFlu</diseaseInc>
-        <commonality>100</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_AnimalPlague</diseaseInc>
-        <commonality>100</commonality>
-      </li>
+			<li>
+				<diseaseInc>Disease_AnimalFlu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_AnimalPlague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
 		</diseases>
 		<terrainsByFertility>
 			<li>
@@ -85,23 +83,21 @@
 					</li>
 				</thresholds>
 			</li>
-		  <li>
-		    <perlinFrequency>0.027</perlinFrequency>
-		    <thresholds>
-		     
-		      <li>
-		        <terrain>AB_SlimyMud</terrain>
-		        <min>0.32</min>
-		        <max>0.6</max>
-		      </li>
-		      <li>
-		        <terrain>AB_LiquidSlime</terrain>
-		        <min>0.6</min>
-		        <max>999</max>
-		      </li>
-		    </thresholds>
-		  </li>
-			
+			<li>
+				<perlinFrequency>0.027</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_SlimyMud</terrain>
+						<min>0.32</min>
+						<max>0.6</max>
+					</li>
+					<li>
+						<terrain>AB_LiquidSlime</terrain>
+						<min>0.6</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
 		</terrainPatchMakers>
 		<baseWeatherCommonalities>
 			<Clear>18</Clear>
@@ -122,30 +118,35 @@
 			<Plant_TreePalm>0.05</Plant_TreePalm>
 			<AB_Slimecasia>0.5</AB_Slimecasia>
 			<AB_SlimyFern>0.5</AB_SlimyFern>
-     
 		</wildPlants>
 		<wildAnimals>
-      <Rat>1</Rat>
-      <Monkey>1</Monkey>
-      <Boomalope>0.5</Boomalope>
-      <Capybara>0.5</Capybara>
-      <Cassowary>0.5</Cassowary>
-      <Tortoise>0.5</Tortoise>
-      <Chinchilla>0.5</Chinchilla>
-      <WildBoar>0.5</WildBoar>
-      <Elephant>0.5</Elephant>
-      <Rhinoceros>0.5</Rhinoceros>
-      <Alpaca>0.5</Alpaca>
-      <Cobra>0.15</Cobra>
-      <Panther>0.15</Panther>
-	  <GuineaPig>0.02</GuineaPig>
-	  <Horse>0.01</Horse>
-    </wildAnimals>
+			<Rat>1</Rat>
+			<Monkey>1</Monkey>
+			<Boomalope>0.5</Boomalope>
+			<Capybara>0.5</Capybara>
+			<Cassowary>0.5</Cassowary>
+			<Tortoise>0.5</Tortoise>
+			<Chinchilla>0.5</Chinchilla>
+			<WildBoar>0.5</WildBoar>
+			<Elephant>0.5</Elephant>
+			<Rhinoceros>0.5</Rhinoceros>
+			<Alpaca>0.5</Alpaca>
+			<Cobra>0.15</Cobra>
+			<Panther>0.15</Panther>
+			<GuineaPig>0.02</GuineaPig>
+			<Horse>0.01</Horse>
+		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>
 			<li>Elephant</li>
 			<li>Alpaca</li>
 		</allowedPackAnimals>
+		<modExtensions>
+			<li Class="VFECore.BiomeExtension">
+				<uniqueRockTypes>
+					<li>AB_SlimeStone</li>
+				</uniqueRockTypes>
+			</li>
+		</modExtensions>
 	</BiomeDef>
-
 </Defs>
