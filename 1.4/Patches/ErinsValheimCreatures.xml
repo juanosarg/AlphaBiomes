@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Erin's Valheim Creatures</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="AB_PropaneLakes"]/wildAnimals
+					</xpath>
+					<value>
+						<ERN_FrostWolf>0.05</ERN_FrostWolf>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="AB_IdyllicMeadows" or defName="AB_TarPits"]/wildAnimals
+					</xpath>
+					<value>
+						<ERN_Lox>0.1</ERN_Lox>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="AB_GelatinousSuperorganism" or defName="AB_MiasmicMangrove"]/wildAnimals
+					</xpath>
+					<value>
+						<ERN_Neck>0.15</ERN_Neck>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="AB_GelatinousSuperorganism" or defName="AB_MycoticJungle"]/wildAnimals
+					</xpath>
+					<value>
+						<ERN_Valboar>0.1</ERN_Valboar>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
