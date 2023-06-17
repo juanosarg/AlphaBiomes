@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Erin's Amaro</li>
+			<li>Erin's Final Fantasy Animals</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -18,6 +18,12 @@
 					<xpath>/Defs/BiomeDef[defName="AB_IdyllicMeadows" or defName="AB_MycoticJungle"]/wildAnimals</xpath>
 					<value>
 						<ERN_Amaro>0.1</ERN_Amaro>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName="AB_IdyllicMeadows" or defName="AB_MycoticJungle"]/wildAnimals</xpath>
+					<value>
+						<ERN_Carbuncle>0.02</ERN_Carbuncle>
 					</value>
 				</li>
 			</operations>
