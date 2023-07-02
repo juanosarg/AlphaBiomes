@@ -80,7 +80,8 @@
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
-
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<researchPrerequisites>
 			<li>BiofuelRefining</li>
 		</researchPrerequisites>

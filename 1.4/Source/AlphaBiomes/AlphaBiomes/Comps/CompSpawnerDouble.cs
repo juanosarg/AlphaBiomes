@@ -140,7 +140,7 @@ namespace AlphaBiomes
                 Thing t;
                 GenPlace.TryPlaceThing(thing, center, this.parent.Map, ThingPlaceMode.Direct, out t, null, null, default(Rot4));
                 Thing t2;
-                GenPlace.TryPlaceThing(thing2, center, this.parent.Map, ThingPlaceMode.Direct, out t2, null, null, default(Rot4));
+                GenPlace.TryPlaceThing(thing2, this.parent.InteractionCell, this.parent.Map, ThingPlaceMode.Direct, out t2, null, null, default(Rot4));
 
                 if (this.PropsSpawner.spawnForbidden)
                 {
