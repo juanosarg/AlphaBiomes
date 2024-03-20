@@ -30,7 +30,7 @@
 		<selectable>true</selectable>
 		<size>(4,4)</size>
 
-		<blockPlants>true</blockPlants>
+	
 
 	</ThingDef>
 
@@ -60,7 +60,7 @@
 		<selectable>true</selectable>
 		<size>(2,2)</size>
 
-		<blockPlants>true</blockPlants>
+	
 
 	</ThingDef>
 
@@ -90,7 +90,7 @@
 		<selectable>true</selectable>
 		<size>(2,2)</size>
 
-		<blockPlants>true</blockPlants>
+		
 
 	</ThingDef>
 
@@ -120,7 +120,7 @@
 		<selectable>true</selectable>
 		<size>(1,1)</size>
 
-		<blockPlants>true</blockPlants>
+		
 
 	</ThingDef>
 
@@ -150,7 +150,7 @@
 		<selectable>true</selectable>
 		<size>(1,2)</size>
 
-		<blockPlants>true</blockPlants>
+		
 
 	</ThingDef>
 
@@ -180,7 +180,7 @@
 		<selectable>true</selectable>
 		<size>(8,4)</size>
 
-		<blockPlants>true</blockPlants>
+		
 
 	</ThingDef>
 
@@ -266,7 +266,7 @@
 		<selectable>true</selectable>
 		<size>(4,4)</size>
 		<neverOverlapFloors>true</neverOverlapFloors>
-		<blockPlants>true</blockPlants>
+	
 		<building>
 			<isEdifice>false</isEdifice>
 			<claimable>false</claimable>

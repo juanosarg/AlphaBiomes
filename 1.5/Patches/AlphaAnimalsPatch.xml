@@ -3,7 +3,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Alpha Animals</li>
+			<li>Alpha Memes</li>
 		</mods>
 
 		<match Class="PatchOperationFindMod">
@@ -21,7 +21,7 @@
 					<value>
 
 						<nullifyingPrecepts>
-							<li MayRequire="Ludeon.RimWorld.Ideology">AA_OcularTrees_Desired</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">AM_OcularTrees_Desired</li>
 						</nullifyingPrecepts>
 
 
