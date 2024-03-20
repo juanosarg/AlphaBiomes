@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Empire 1_4 (Continued)</li>
+			<li>Empire</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">

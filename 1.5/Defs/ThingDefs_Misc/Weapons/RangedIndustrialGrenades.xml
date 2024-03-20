@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<!-- ==================== Poison Dart ========================== -->
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>AB_WeaponPoisonDart</defName>
+		<label>dribbling cap poison dart</label>
+		<description>This small poison dart has been filled with the pungent resin flowing from a dribbling cap fungus. It is an extremely potent neurotoxin, causing immediate paralysis, and eventually, death.</description>
+		<tickerType>Normal</tickerType>
+		<tradeability>Sellable</tradeability>
+
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_PoisonDart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Grenade</soundInteract>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MarketValue>4</MarketValue>
+
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+
+		</statBases>
+
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+		<verbs>
+			<li>
+				<label>throw poison dart</label>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>20</range>
+				
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>false</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>AB_WeaponPoisonDartProjectile</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>AB_WeaponPoisonDartProjectile</defName>
+		<label>poison dart</label>
+
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_PoisonDart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>AB_ParalysingSting</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+
+
+</Defs>

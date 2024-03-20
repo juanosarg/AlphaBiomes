@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!-- <ThingDef ParentName="ResourceBase">
+    <defName>GU_RawRedMineral</defName>
+    <label>raw red mineral</label>
+    <description>This strange mineral is very hard and resilient. Perhaps you could find a way to extract useable materials from it.</description>
+    <graphicData>
+      <texPath>Things/Item/GU_RawRedMineral</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<tradeability>Sellable</tradeability>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.007</Mass>
+      
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    
+  </ThingDef>
+  -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_AlcyoniteChunk</defName>
+		<label>alcyonite chunk</label>
+		<description>Alcyonite is a very rare variation of the almandite gemstone. Really strong, able to easily cut steel, yet malleable and with interesting piezoelectric capabilities.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_RedMineral</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>1</Mass>
+			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.35</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.3</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+				<li>AB_ExoticMetals</li>
+			</categories>
+			<color>(140,30,30)</color>
+			<commonality>0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>7</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>3</MaxHitPoints>
+				<Flammability>0.2</Flammability>
+				<Beauty>1.75</Beauty>
+				<WorkToMake>2.5</WorkToMake>
+				<WorkToBuild>2.5</WorkToBuild>
+				<DoorOpenSpeed>0.75</DoorOpenSpeed>
+
+				<MeleeWeapon_CooldownMultiplier>1.4</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+
+		</stuffProps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>AB_CrystalWood</defName>
+		<label>crystalline wood</label>
+		<description>These brittle crystalline strands can be extracted from crystal flowers. Not flammable, but not strong at all.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_CrystalWood</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.35</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.5</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>crystalline</stuffAdjective>
+
+			<categories>
+				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(63,209,161)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<Beauty>0.7</Beauty>
+				<MaxHitPoints>0.25</MaxHitPoints>    
+				<Flammability>0</Flammability>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
+
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<tools>
+			<li>
+				<label>crystalline wood log</label>
+
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>GU_RedWood</defName>
+		<label>red wood</label>
+		<description>This red tinged wood is oddly strong, and a sweet scent emanates from it. Less flammable than terrestrial wood, but quite ugly.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/GU_RedWood</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<tradeability>Sellable</tradeability>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			 <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			  <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			  <StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+			  <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			  <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>red wooden</stuffAdjective>
+
+			<categories>
+				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(193,97,67)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<Beauty>0.45</Beauty>
+				<MaxHitPoints>0.75</MaxHitPoints>    
+				<Flammability>0.75</Flammability>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<tools>
+			<li>
+				<label>red wood log</label>
+
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>AB_MushroomWoodLog</defName>
+		<label>mushroom stalks</label>
+		<description>These mushroom stalks have been hardened by age until they are almost as firm as a low quality wood. Very flammable, and not very resistant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_MushroomWoodLog</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<Flammability>1.2</Flammability>
+			<DeteriorationRate>0.2</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>mushroom stalk</stuffAdjective>
+
+			<categories>
+				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(200,200,200)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<Beauty>0.3</Beauty>
+				<MaxHitPoints>0.32</MaxHitPoints>    
+				<Flammability>1.2</Flammability>
+				<WorkToMake>0.45</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<tools>
+			<li>
+				<label>mushroom stalk</label>
+
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_CrystallineMatrix</defName>
+		<label>crystalline matrix</label>
+		<description>A fine lattice of exotic alien crystals. This structure is incredibly good at maintaining a constant temperature.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_CrystallineMatrix</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_CordaxResin</defName>
+		<label>cordax resin</label>
+		<description>Dried chunks of cordax resin. A viscous slurry of organic compounds, this nectar-like liquid is used by the carnivorous Keening Cordax plant to trap insects. It is extremely sticky and can be processed into a very efficient sealant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_CordaxResin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_ProcessedResin</defName>
+		<label>processed resin</label>
+		<description>This resin has been processed from raw Keening Cordax resin. It is extremely sticky and can be used as a very efficient sealant.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_ProcessedResin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>45</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_AsphaltBucket</defName>
+		<label>asphalt bucket</label>
+		<description>Asphalt, or bitumen, is a sticky, black and highly viscous liquid or semi-solid, composed almost entirely of petroleum. It is present in most crude petroleums and in some natural deposits, such as tar pits.\n\nAsphalt can be used to build tarmac roads, greatly increasing movement in difficult terrains.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_Asphalt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>15</MaxHitPoints>
+			<Mass>1</Mass>
+			<DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_Propane</defName>
+		<label>propane fuel tank</label>
+		<description>A versatile fuel. Can be converted into chemfuel at a refinery, or used as fuel for propane specific buildings, such as heaters or stoves. Insert inane and trite King of the Hill joke here (yes, I have heard them all, you are not original).</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_PropaneTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>2.3</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>2.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
