@@ -2,10 +2,8 @@
 	<name>Alpha Biomes</name>
 	<author>Sarg</author>
 	<supportedVersions>
-
-
-		<li>1.5</li>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -29,9 +27,7 @@
 		<li>brrainz.harmony</li>
 		<li>BiomesTeam.BiomesIslands</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-
 	</loadAfter>
-
 	<packageId>sarg.alphabiomes</packageId>
 	<description>Adds multiple unique new biomes to Rimworld.
  
@@ -70,7 +66,6 @@ Compatible with Alpha Animals (obviously)
 Compatible with Magical Menagerie
 Compatible with Dinosauria
 Compatible with Megafauna
-Compatible with Animal Collab Project
 Compatible with Vanilla Animals Expanded
 Compatible with Rim of Madness - Bones
 Compatible with Vanilla Fishing Expanded (adds 19 new fish)
@@ -88,9 +83,6 @@ Alien planet sound modified from Speedenza: https://freesound.org/people/Speeden
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
-v2.8: Added two new biomes. (26/06/22)
 Full changelog on GitHub
-
-
 	</description>
 </ModMetaData>
