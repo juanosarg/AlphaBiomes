@@ -181,6 +181,7 @@
 			<li>AB_ExoticMetals</li>
 		</stuffCategories>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isInert>true</isInert>
 			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
