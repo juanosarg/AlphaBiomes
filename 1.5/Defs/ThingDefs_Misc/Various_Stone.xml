@@ -149,6 +149,7 @@
 			<MarketValue>18</MarketValue>
 		</statBases>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isNaturalRock>false</isNaturalRock>
 			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
 			<smoothedThing/>
@@ -271,6 +272,7 @@
 			<MarketValue>18</MarketValue>
 		</statBases>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isNaturalRock>false</isNaturalRock>
 			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
 			<smoothedThing/>
@@ -390,6 +392,7 @@
 			<MarketValue>18</MarketValue>
 		</statBases>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isNaturalRock>false</isNaturalRock>
 			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
 			<smoothedThing/>
@@ -499,6 +502,7 @@
 			<MarketValue>18</MarketValue>
 		</statBases>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isNaturalRock>false</isNaturalRock>
 			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
 			<smoothedThing/>
@@ -606,6 +610,7 @@
 			<MarketValue>18</MarketValue>
 		</statBases>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isNaturalRock>false</isNaturalRock>
 			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
 			<smoothedThing/>
@@ -686,6 +691,7 @@
 			<MarketValue>18</MarketValue>
 		</statBases>
 		<building>
+			<supportsWallAttachments>true</supportsWallAttachments>
 			<isNaturalRock>false</isNaturalRock>
 			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
 			<smoothedThing/>

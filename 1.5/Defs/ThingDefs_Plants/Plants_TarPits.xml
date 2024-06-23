@@ -225,7 +225,8 @@
 		<description>This is a puddle of fresh tar. No animal would eat this, right?</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Beauty>0</Beauty>
+			<Beauty>-5</Beauty>
+			<BeautyOutdoors>-5</BeautyOutdoors>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Nutrition>0</Nutrition>
 		</statBases>
