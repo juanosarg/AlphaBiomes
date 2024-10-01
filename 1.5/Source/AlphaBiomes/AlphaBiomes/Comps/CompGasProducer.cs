@@ -10,7 +10,6 @@ namespace AlphaBiomes
 
         private int gasProgress = 0;
         private int gasTickMax = 512;
-        private System.Random rand = new System.Random();
 
 
         public CompProperties_GasProducer Props
@@ -38,7 +37,7 @@ namespace AlphaBiomes
                             for (int i = 0; i < num; i++)
                             {
                                 IntVec3 current = this.parent.Position + GenRadial.RadialPattern[i];
-                                if (current.InBounds(this.parent.Map) && rand.NextDouble() < Props.rate)
+                                if (current.InBounds(this.parent.Map) && Rand.Value < Props.rate)
                                 {
                                     Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
 
