@@ -10,7 +10,7 @@ using Verse;
 
 namespace AlphaBiomes
 {
-    public class WITab_Image : WITab
+   /* public class WITab_Image : WITab
     {
       
         private static readonly Vector2 WinSize = new Vector2(440f, 540f);
@@ -44,5 +44,5 @@ namespace AlphaBiomes
             
 
         }
-    }
+    }*/
 }

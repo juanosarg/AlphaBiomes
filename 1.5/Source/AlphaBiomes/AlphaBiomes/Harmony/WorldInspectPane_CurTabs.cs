@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace AlphaBiomes
 {
-    [HarmonyPatch(typeof(WorldInspectPane))]
+   /* [HarmonyPatch(typeof(WorldInspectPane))]
     [HarmonyPatch("CurTabs", MethodType.Getter)]
     public static class AlphaBiomes_WorldInspectPane_CurTabs_Patch
     {
@@ -43,5 +43,5 @@ namespace AlphaBiomes
 
 
         }
-    }
+    }*/
 }
