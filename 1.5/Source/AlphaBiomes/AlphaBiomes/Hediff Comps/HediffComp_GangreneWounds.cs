@@ -12,8 +12,6 @@ namespace AlphaBiomes
     {
         public int checkDownCounter = 0;
 
-        private System.Random rand = new System.Random();
-
         public HediffCompProperties_GangreneWounds Props
         {
             get
@@ -34,7 +32,7 @@ namespace AlphaBiomes
             {
                 if (checkDownCounter > Props.mtbWoundsThirdStage)
                 {
-                    if (rand.NextDouble() < Props.chanceCutThirdStage)
+                    if (Rand.Value < Props.chanceCutThirdStage)
                     {
                         BodyPartRecord bodypart = this.parent.pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).
                                    FirstOrDefault((BodyPartRecord x) => x.def.defName=="Finger"|| x.def.defName == "Toe");
@@ -48,7 +46,7 @@ namespace AlphaBiomes
             {
                 if (checkDownCounter > Props.mtbWoundsSecondStage)
                 {
-                    if (rand.NextDouble() < Props.chanceCutSecondStage)
+                    if (Rand.Value < Props.chanceCutSecondStage)
                     {
                         BodyPartRecord bodypart = this.parent.pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).
                                    FirstOrDefault((BodyPartRecord x) => x.def.defName == "Finger" || x.def.defName == "Toe");
