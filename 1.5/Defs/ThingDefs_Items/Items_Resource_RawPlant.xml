@@ -318,6 +318,31 @@
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
+	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawRagadast</defName>
+		<label>ragadast</label>
+		<description>Raw ragadast fruit.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_Ragadast</texPath>
+		</graphicData>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>	
+		<statBases>
+			<Flammability>1.3</Flammability>
+			<MarketValue>1.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+	</ThingDef>
 
 
 

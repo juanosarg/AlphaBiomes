@@ -3,13 +3,11 @@
 	<ThingDef ParentName="PollutionTreeBase">
 		<defName>AB_ToxicGamma</defName>
 		<label>toxic gamma</label>
-		<description>A huge bioluminescent globular plant. Can be used as a natural sunlamp to grow regular plants, though the toxic environment it grows at might not be the best for cultivation. Note that light-sensitive plants such as domesticated Stikehr and mushrooms should be kept far away from them.\n\nPlant details: Toxic Gamma is a wild plant. It needs no light, and produces 100% light on its own, which is enough to grow other plants around it.</description>
+		<description>A huge bioluminescent globular plant. Can be used as a natural darklight sunlamp to grow regular plants, though the toxic environment it grows at might not be the best for cultivation. Note that light-sensitive plants such as domesticated Stikehr and mushrooms should be kept far away from them.\n\nPlant details: Toxic Gamma is a wild plant. It needs no light, and produces 100% darklight on its own, which is enough to grow other plants around it.</description>
 		<pathCost>10</pathCost>
 		<graphicData>
 			<texPath>Things/Plants/AB_ToxicGamma</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-
-
 			<shadowData>
 				<volume>(0.55, 0.17, 0.15)</volume>
 				<offset>(0,0,-0.2)</offset>
@@ -19,14 +17,21 @@
 			<growMinGlow>0</growMinGlow>
 			
 			<visualSizeRange>2~2.8</visualSizeRange>
-			
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+			<blockAdjacentSow>true</blockAdjacentSow>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
 		</plant>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Glower">
 				<overlightRadius>7</overlightRadius>
 				<glowRadius>10</glowRadius>
-				<glowColor>(192,228,191,0)</glowColor>
+				<glowColor>(78, 226, 229, 0)</glowColor>
 			</li>
 		</comps>
 		<placeWorkers><li>AlphaBiomes.PlaceWorker_ShowGammaRadius</li></placeWorkers>
@@ -37,7 +42,7 @@
 	<ThingDef ParentName="PollutionTreeBase">
 		<defName>AB_PollutedStikehr</defName>
 		<label>polluted stikehr</label>
-		<description>A giant alien mushroom that glows in the strange darkening mist. This stikehr has adapted to a very polluted environment, and produces a meager amount of wood. \n\nPlant details: Polluted Stikehr is a wild plant that can only grow in polluted terrains. It needs no light, and produces 50% light on its own, not enough to grow other plants around it. Can be harvested for normal wood.</description>
+		<description>A giant alien mushroom that glows in the strange darkening mist. This stikehr has adapted to a very polluted environment, and produces a meager amount of wood. \n\nPlant details: Polluted Stikehr is a wild plant that can only grow in polluted terrains. It needs no light, and produces 50% darklight on its own, not enough to grow other plants around it. Can be harvested for normal wood.</description>
 		<descriptionHyperlinks>
 			<ThingDef>WoodLog</ThingDef>
 		</descriptionHyperlinks>
@@ -80,7 +85,7 @@
 			<li Class="CompProperties_Glower">
 
 				<glowRadius>10</glowRadius>
-				<glowColor>(192,228,191,0)</glowColor>
+				<glowColor>(78, 226, 229, 0)</glowColor>
 			</li>
 		</comps>
 	</ThingDef>
