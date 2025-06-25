@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BenchBase">
+		<defName>AB_PropaneStove</defName>
+		<label>propane stove</label>
+		<description>A propane-fueled stove with an attached countertop for preparing meals.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/AB_PropaneStove</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<costList>
+			<Steel>90</Steel>
+			<AB_CrystalWood>30</AB_CrystalWood>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Furniture</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>4</heatPerSecond>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+		</building>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>FueledStove</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BenchBase">
+		<defName>AB_PropaneFueledSmithy</defName>
+		<label>propane smithy</label>
+		<description>A propane-fueled station for smithing non-mechanical weapons and tools.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/AB_Smithy_Propane</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.35, 0.59)</volume>
+				<offset>(0, 0, 0.08)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>100</Steel>
+			<AB_CrystalWood>30</AB_CrystalWood>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<uiOrder>2500</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>FueledSmithy</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BenchBase">
+		<defName>AB_PropaneSmelter</defName>
+		<label>propane smelter</label>
+		<description>Extracts usable metal from slag chunks and other mixed metal items.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/AB_Smelter_Propane</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<costList>
+			<Steel>170</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<AB_CrystalWood>50</AB_CrystalWood>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3500</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<uiOrder>2310</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>300.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<designationHotKey>Misc10</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>ElectricSmelter</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BenchBase">
+		<defName>AB_PropaneTableMachining</defName>
+		<label>propane machining table</label>
+		<description>A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/AB_TableMachining_Propane</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<AB_CrystalWood>35</AB_CrystalWood>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<uiOrder>2520</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>150.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(73,123,138,0)</glowColor>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>Machining</li>
+		</researchPrerequisites>
+		<designationHotKey>Misc7</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>TableMachining</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_PropaneHeater</defName>
+		<label>propane heater</label>
+		<description>A device that burns propane fuel and turns it into heat. The propane heater wastes a lot of fuel when attempting to reach temperatures too different from ambient ones, but it's quite fuel conservative if configured carefully.</description>
+		<thingClass>AlphaBiomes.Building_PropaneHeater</thingClass>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/AB_PropaneHeater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.5,0.3,0.7)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.234375,0,0.515625,0.984375)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<blockWind>true</blockWind>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Steel>50</Steel>
+			<AB_CrystalWood>20</AB_CrystalWood>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="PipeSystem.CompProperties_ResourceTrader">
+				<pipeNet>AB_PropaneNet</pipeNet>
+				<consumptionPerTick>0.2</consumptionPerTick>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>21</energyPerSecond>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(255,150,100,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<designationCategory>Furniture</designationCategory>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_Turret_Propane</defName>
+		<label>propane turret</label>
+		<description>A portable flamethrower turret fueled with propane. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/TurretMedium_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<uiIconPath>Things/Building/PropaneLakes/AB_PropaneTurret_MenuIcon</uiIconPath>
+		<uiIconScale>0.90</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>2</Flammability>
+			<WorkToBuild>3300</WorkToBuild>
+			<Mass>18</Mass>
+			<Beauty>-20</Beauty>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<!-- 1.9 explosive radius when empty; 5.9 when full -->
+				<explosiveRadius>1.9</explosiveRadius>
+				<explosiveExpandPerFuel>0.2</explosiveExpandPerFuel>
+				<!-- Factoring in square rooting -->
+				<explosiveDamageType>Flame</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Remaining fuel</fuelLabel>
+				<fuelGizmoLabel>Remaining fuel</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_Propane</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>40</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>1</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Needs propane</outOfFuelMessage>
+				<fuelIconPath>Things/Item/Resource/AB_PropaneTank</fuelIconPath>
+			</li>
+		</comps>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<costList>
+			<Steel>70</Steel>
+			<Chemfuel>40</Chemfuel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>AB_Turret_Propane_Gun</turretGunDef>
+			<turretBurstCooldownTime>6.6</turretBurstCooldownTime>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>AB_Turret_Propane_Gun</defName>
+		<label>propane turret gun</label>
+		<description>A propane flamethrower made to be mounted on a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/PropaneLakes/AB_PropaneTurret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<destroyOnDrop>true</destroyOnDrop>
+		<tradeability>None</tradeability>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<RangedWeapon_Cooldown>6.6</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<weaponTags Inherit="false">
+			<li>TurretGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AB_Turret_Propane_Bullet</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>10.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>AB_Turret_Propane_Sound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<consumeFuelPerShot>10</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	<VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>AB_Turret_Propane_Bullet</defName>
+		<label>flamethrower shot</label>
+		<thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Proj_FireStream</texPath>
+			<texPathFadeOut>Things/Projectiles/Proj_FireStreamFadeOut</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>50</speed>
+			<damageAmountBase>2</damageAmountBase>
+		</projectile>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VEF.Weapons.ExpandableProjectileDef>
+</Defs>

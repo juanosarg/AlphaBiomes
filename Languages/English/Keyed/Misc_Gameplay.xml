@@ -4,25 +4,75 @@
 <!--     Options     -->
 
 <AB_UseAgariluxParticles>Agarilux Prime produces harmful gas</AB_UseAgariluxParticles>
+<AB_UseAgariluxParticlesDesc>The Agarilux Prime mushroom in the Mycotic Jungle produces a cloud of brutally harmful spores that will damage anything. If you dislike this mechanic you can toggle it with this option.</AB_UseAgariluxParticlesDesc>
 <AB_SpawnBiome>Create {0} on planet generation</AB_SpawnBiome>
 <AB_RemoveVanillaBiomes>Remove all vanilla biomes</AB_RemoveVanillaBiomes>
+<AB_RemoveVanillaBiomesDesc>By enabling this option you can generate a completely alien planet, using only modded biomes.</AB_RemoveVanillaBiomesDesc>
+<AB_RemoveOdysseyBiomes>Remove all Odyssey biomes</AB_RemoveOdysseyBiomes>
+<AB_RemoveOdysseyBiomesDesc>By enabling this option you can remove the Odyssey biomes.</AB_RemoveOdysseyBiomesDesc>
 <AB_BrighterCrags>Brighter Forsaken Crags</AB_BrighterCrags>
 <AB_BrighterCragsDescription>Makes the Forsaken Crags quite brighter, for those with a PC screen that makes the Crags WAY too dark. This change takes effect on the next weather change on the map, or on savegame reload.</AB_BrighterCragsDescription>
+<AB_ShowBuildingsButton>Show "biome structures" button in Furniture</AB_ShowBuildingsButton>
+<AB_ShowBuildingsButtonDescription>By default, there will be a "build biome structures" button in the Furniture architect menu. You can use this to build biome specific buildings. But you can also hide it, because reeeee bloat, and then you won't see it. You also won't be able to build them. That's the price to pay.\n\nRequires game reload.</AB_ShowBuildingsButtonDescription>
+<AB_BiomeCommonalities>Biome commonalities. Set to 0 to disable the biome from generating:</AB_BiomeCommonalities>
+<AB_MutatorMultiplier>Map feature commonality (requires new world)</AB_MutatorMultiplier>
+<AB_MutatorMultiplierTooltip>The commonality of map features in a non-landmark map will be multiplied by this number (20 means a given map feature will be 20 times as common). Requires making a new planet!</AB_MutatorMultiplierTooltip>
+<AB_LandmarkMutatorMultiplier>Landmark feature commonality (requires new world)</AB_LandmarkMutatorMultiplier>
+<AB_LandmarkMutatorMultiplierTooltip>The commonality of map features in landmark maps will be multiplied by this number (20 means a given landmark feature will be 20 times as common). Requires making a new planet!</AB_LandmarkMutatorMultiplierTooltip>
+<AB_SpecificMutatorCommonalities>Specific mutator commonalities:</AB_SpecificMutatorCommonalities>
 
 
 <!--     Buildings     -->
 
 <AB_TerrainCannotSupport_Propane>The pump needs to be built on a solid propane ground</AB_TerrainCannotSupport_Propane>
+<AB_Distance_Propane>Porpane pumps need to be at least 12 tiles apart</AB_Distance_Propane>
 <AB_OcularForestOnly>This device will only work in an ocular forest</AB_OcularForestOnly>
 <AB_SpawningNextBumbledrone>Spawning a new Bumbledrone in {0}</AB_SpawningNextBumbledrone>
 <AB_AlphaAnimalsNotInstalled>Since Alpha Animals is not installed, this hive is inactive</AB_AlphaAnimalsNotInstalled>
 <AB_MustPlaceOnTarPit>The pump must be built on top of tarred mud or a tar hole</AB_MustPlaceOnTarPit>
 <AB_WarningLowEfficiency>Pump acting in low efficiency mode due to absence of Tar Hole</AB_WarningLowEfficiency>
+<AB_ConvertToAlcyonite>Convert solar panel</AB_ConvertToAlcyonite>
+<AB_ConvertToAlcyoniteDesc>Convert this solar panel to an Alcyonite solar panel that performs 50% better under the red fog weather.</AB_ConvertToAlcyoniteDesc>
+<AB_AlcyoniteSolarPanelsDescription>In this biome. you can convert solar panels to Alcyonite solar panels that perform 50% better under the red fog weather.</AB_AlcyoniteSolarPanelsDescription>
+<AB_AlcyoniteSolarPanels>Upgrade solar panels</AB_AlcyoniteSolarPanels>
+<AB_AlcyoniteSolarPanels_NotBuildable>To build these, make a solar panel and use the "Convert solar panel" button</AB_AlcyoniteSolarPanels_NotBuildable>
+<AB_PropaneValve>Switches propane flow on/off.</AB_PropaneValve>
+<AB_PropaneValveDesc>Switches propane flow on/off. A colonist will come open/close the valve.</AB_PropaneValveDesc>
+<AB_ExtractPropane>Extract 150 propane</AB_ExtractPropane>
+<AB_ExtractPropaneDesc>Extract 150 propane from the tank. A colonist will come to extract it.</AB_ExtractPropaneDesc>
+<AB_Distance_Generic_Fifteen>This building needs to be at least 15 tiles apart from a similar building</AB_Distance_Generic_Fifteen>
+
+<AB_AncientFreezingVentStartUp>The ancient freezing vents have become active, lowering temperatures.</AB_AncientFreezingVentStartUp>
+<AB_AncientFreezingVentShutdown>The ancient freezing vents are stopping.</AB_AncientFreezingVentShutdown>
+<AB_AncientFreezingVentActive>venting freezing air.</AB_AncientFreezingVentActive>
+
+<AB_AncientGreyPallVentStartUp>The ancient gray pall vents have become active, spewing a sickly looking smoke.</AB_AncientGreyPallVentStartUp>
+<AB_AncientGreyPallVentShutdown>The ancient gray pall vents are stopping.</AB_AncientGreyPallVentShutdown>
+<AB_AncientGreyPallVentActive>venting sickly looking smoke.</AB_AncientGreyPallVentActive>
+
+<AB_AncientBloodRainVentStartUp>The ancient blood rain vents have become active, spewing a thick blood-red vapor.</AB_AncientBloodRainVentStartUp>
+<AB_AncientBloodRainVentShutdown>The ancient blood rain vents are stopping.</AB_AncientBloodRainVentShutdown>
+<AB_AncientBloodRainVentActive>venting blood-red vapor.</AB_AncientBloodRainVentActive>
+
+<AB_AncientDeathPallVentStartUp>The ancient death pall vents have become active, spewing a rancid cloud of corpse reanimating archites.</AB_AncientDeathPallVentStartUp>
+<AB_AncientDeathPallVentShutdown>The ancient death pall vents are stopping.</AB_AncientDeathPallVentShutdown>
+<AB_AncientDeathPallVentActive>venting cloud of corpse reanimating archites.</AB_AncientDeathPallVentActive>
+
+<AB_SlimeCompressorNotWorking>This slime compressor is not working at the moment</AB_SlimeCompressorNotWorking>
 
 <!--     Misc     -->
 
 <AB_NotReallyAPlant>This is just a disgusting puddle of smelly tar</AB_NotReallyAPlant>
 <AB_MessageWarningTooHighFertility>Need less fertile terrain.</AB_MessageWarningTooHighFertility>
+<AB_BiomeBuildings>build biome structures</AB_BiomeBuildings>
+<AB_BiomeBuildingsDesc>Open a menu to build biome-specific buildings.</AB_BiomeBuildingsDesc>
+<AM_CurrentBiome>Current biome: </AM_CurrentBiome>
+<AM_AvailableStructures>Available structures for this biome:</AM_AvailableStructures>
+<AM_None>None</AM_None>
+<AB_ResearchNeeded>Can't be built until {0} has been researched by the colony</AB_ResearchNeeded>
+<AB_FeaturesInThisTile>Features in this tile:</AB_FeaturesInThisTile>
+<AB_AmbientRadiationLabel>Ambient radiation mutation for {0}</AB_AmbientRadiationLabel>
+<AB_AmbientRadiationDesc>Due to the ambient radiation in this place, {0} has received the following mutation: {1}</AB_AmbientRadiationDesc>
 
 <!-- Core Sample Drill -->
 
@@ -48,6 +98,7 @@
 
 
 <AB_Reset>Reset {0}</AB_Reset>
+<AB_Reset_Plain>Reset</AB_Reset_Plain>
 
 <!-- WITab titles -->
 <AB_TabImage>Image</AB_TabImage>

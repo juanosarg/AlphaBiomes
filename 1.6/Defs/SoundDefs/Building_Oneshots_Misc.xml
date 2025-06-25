@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+
+
+  <SoundDef>
+    <defName>AB_Hive_Spawn</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/Hive/Spawn</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <distRange>10~20</distRange>
+        <pitchRange>0.5~0.9</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>AB_Turret_Propane_Sound</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>AB_PropaneThrower</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>56.7826</min>
+          <max>56.7827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+ 
+
+</Defs>

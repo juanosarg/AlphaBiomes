@@ -62,7 +62,7 @@
 
 		</stuffCategories>
 		<graphicData>
-			<texPath>Things/Building/AB_ExoticDoorSimple_Mover</texPath>
+			<texPath>Things/Building/Structure/AB_ExoticDoorSimple_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<!--  no damage marks because they don't move with the door
@@ -70,7 +70,7 @@
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/AB_ExoticDoorSimple_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/Structure/AB_ExoticDoorSimple_MenuIcon</uiIconPath>
 		<costStuffCount>40</costStuffCount>
 		<designationHotKey>Misc1</designationHotKey>
 	</ThingDef>
@@ -88,7 +88,7 @@
 			<li>AB_ExoticMetals</li>
 		</stuffCategories>
 		<graphicData>
-			<texPath>Things/Building/AB_ExoticAutodoor_Mover</texPath>
+			<texPath>Things/Building/Structure/AB_ExoticAutodoor_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<!--  no damage marks because they don't move with the door
@@ -96,7 +96,7 @@
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/AB_ExoticAutodoor_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/Structure/AB_ExoticAutodoor_MenuIcon</uiIconPath>
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
@@ -233,7 +233,7 @@
 		<graphicData>
 			<drawSize>(1,1.25)</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
-			<texPath>Things/Building/AB_OrnateColumn</texPath>
+			<texPath>Things/Building/Structure/AB_OrnateColumn</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
 				<volume>(0.3, 0.5, 0.3)</volume>

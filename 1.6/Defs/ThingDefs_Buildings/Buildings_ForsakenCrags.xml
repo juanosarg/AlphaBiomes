@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="LampBase">
+		<defName>AB_ShackledGamma</defName>
+		<label>shackled gamma</label>
+		<description>A containment vat designed to preserve and regulate the life of a Gamma plant beyond its natural span. Suspended in nutrient gel and restrained by growth-limiting harnesses, the plant glows with its characteristic brilliance, enough to replace a sun lamp, while its metabolic decay is slowed to a crawl.\n\nRadagast berries are needed to build it to create the nutrient gel that sustains the plant.</description>
+		<thingClass>Building_SunLamp</thingClass>
+		<graphicData>
+			<texPath>Things/Building/ForsakenCrags/AB_ShackledGamma</texPath>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<blockWind>true</blockWind>
+		<tickerType>Normal</tickerType>
+		<uiIconScale>0.25</uiIconScale>
+		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
+			<Mass>4.5</Mass>
+		</statBases>
+		<costList>
+			<Steel>300</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<AB_RawRagadast>50</AB_RawRagadast>
+		</costList>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<overlightRadius>7</overlightRadius>
+				<glowRadius>10</glowRadius>
+				<glowColor>(242,221,37,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>5.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>AB_RawRagadast</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>AlphaBiomes.PlaceWorker_ShowGammaRadius</li>
+		</placeWorkers>
+		<researchPrerequisites Inherit="false">
+			<li>TreeSowing</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

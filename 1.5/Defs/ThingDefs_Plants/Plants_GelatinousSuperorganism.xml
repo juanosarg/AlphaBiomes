@@ -100,7 +100,7 @@
 		<label>slimy fern</label>
 		<description>Although at first sight this seems to be an independent plant, its roots are intricately interconnected with the rest of the gelatinous superorganism.</description>
 		<graphicData>
-			<texPath>Things/Plants/AB_SlimyFern</texPath>
+			<texPath>Things/Plants/AB_OldSlimyFern</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			
 			<drawSize>2</drawSize>

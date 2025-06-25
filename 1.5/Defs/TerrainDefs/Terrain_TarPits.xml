@@ -5,7 +5,7 @@
 		<label>asphalt bridge</label>
 		<description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
 		<texturePath>Terrain/Surfaces/AB_Tarmac</texturePath>
-		<uiIconPath>Terrain/Surfaces/AB_AsphaltBridge_MenuIcon</uiIconPath>
+		<uiIconPath>Terrain/Surfaces/AB_AsphaltBridge</uiIconPath>
 		<layerable>true</layerable>
 		<affordances>
 			<li>Light</li>

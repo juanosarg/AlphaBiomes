@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>AB_HiddenDesignators_General</defName>
+		<hiddenDesignators>
+			<li>AB_CoreSampleDrill</li>
+			<!-- Ocular Forest -->
+			<li>AB_AlienComplianceCenter</li>
+			<li>AB_OcularGasSpewer</li>
+			<li>AB_AlienWoodFloors_RedWood</li>
+			<li>AB_AlcyoniteSolar</li>
+			<li>AB_AlcyoniteSolar_Advanced</li>
+			<!-- Mycotic Jungle -->
+			<li>AB_AlienWoodFloors_MushroomStalks</li>
+			<!-- Propane Lakes -->
+			<li>AB_AlienWoodFloors_CrystalWood</li>
+			<li>AB_PropaneTap</li>
+			<li>AB_PropaneDrain</li>
+			<li>AB_PropanePipe</li>
+			<li>AB_PropanePipe_Underground</li>
+			<li>AB_Propane_Valve</li>
+			<li>AB_PropaneStorage</li>
+			<li>AB_PropanePump</li>
+			<li>AB_PropaneStove</li>
+			<li>AB_PropaneHeater</li>
+			<li>AB_PropaneFueledSmithy</li>
+			<li>AB_PropaneSmelter</li>
+			<li>AB_PropaneTableMachining</li>
+			<li>AB_Turret_Propane</li>
+			<!-- Tar Pits -->
+			<li>AB_AsphaltFloor</li>
+			<li>AB_AsphaltBridge</li>
+			<li>AB_TarPump</li>
+			<li>AB_TrapIED_Tar</li>
+			<!-- Gelatinous Organism -->
+			<li>AB_SlimeCompressor</li>
+			<!-- Forsaken Crags -->
+			<li>AB_ShackledGamma</li>
+			<!-- Gallatross Graveyard -->
+			<li>AB_CompactedSand</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

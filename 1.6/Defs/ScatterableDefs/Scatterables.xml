@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScatterableDef Abstract="True" Name="AB_DarkScatter">
+		<minSize>0.4</minSize>
+		<maxSize>1.0</maxSize>
+		<scatterChance>1</scatterChance>
+		
+	</ScatterableDef>
+	<ScatterableDef ParentName="AB_DarkScatter">
+		<defName>AB_DebrisDarkStoneA</defName>
+		<texturePath>Terrain/Scatter/AB_DarkScatterA</texturePath>
+		<scatterType>AB_DarkScatter</scatterType>
+	</ScatterableDef>
+	
+	
+	
+</Defs>

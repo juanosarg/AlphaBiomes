@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_TarPump</defName>
 		<label>tar pump</label>
 		<description>Extracts tar from a natural tar hole and transforms the tar into chemfuel.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/AB_TarPump</texPath>
+			<texPath>Things/Building/TarPits/AB_TarPump</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(6,6)</drawSize>
 			<shadowData>
@@ -53,7 +50,7 @@
 				<basePowerConsumption>100</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
-			  <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable"/>
 			<li Class="AlphaBiomes.CompProperties_SpawnerDouble">
 				<requiresPower>true</requiresPower>
 				<thingToSpawn>Chemfuel</thingToSpawn>
@@ -67,10 +64,8 @@
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
-
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		
 		<terrainAffordanceNeeded/>
 		<!-- handled by the placeworker -->
 		<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
@@ -87,39 +82,35 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
-	
-	  <ThingDef ParentName="TrapIEDBase">
-    <defName>AB_TrapIED_Tar</defName>
-    <label>IED Tar trap</label>
-    <description>A pair of tar shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. Creates a puddle of tar that is very difficult to move across. It is also very difficult to remove, and tends to also remove other floors because it sticks to them and ruins them. All things considered, I wouldn't detonate one of this in my kitchen.</description>
-    <graphicData>
-      <texPath>Things/Building/AB_IEDTarExplosive</texPath>
-    </graphicData>
-    <costList>
-      <AB_Shell_Tar>2</AB_Shell_Tar>
-	  <AB_ProcessedResin>1</AB_ProcessedResin>
-    </costList>
-	<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
-    <designationHotKey>Misc10</designationHotKey>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>7</explosiveRadius>
-        <explosiveDamageType>AB_Tar</explosiveDamageType>
-        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
-        <postExplosionSpawnThingDef>AB_Filth_Tar</postExplosionSpawnThingDef>
-        <postExplosionSpawnChance>0.8</postExplosionSpawnChance>
-        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
-        <wickTicks>15</wickTicks>
-        <startWickOnDamageTaken>
-          <li>Bullet</li>
-          <li>Arrow</li>
-          <li>ArrowHighVelocity</li>
-        </startWickOnDamageTaken>
-      </li>
-    </comps>
-    <specialDisplayRadius>7</specialDisplayRadius>
-  </ThingDef>
-	
-	
-	
-	</Defs>
+	<ThingDef ParentName="TrapIEDBase">
+		<defName>AB_TrapIED_Tar</defName>
+		<label>IED Tar trap</label>
+		<description>A pair of tar shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. Creates a puddle of tar that is very difficult to move across. It is also very difficult to remove, and tends to also remove other floors because it sticks to them and ruins them. All things considered, I wouldn't detonate one of this in my kitchen.</description>
+		<graphicData>
+			<texPath>Things/Building/TarPits/AB_IEDTarExplosive</texPath>
+		</graphicData>
+		<costList>
+			<AB_Shell_Tar>2</AB_Shell_Tar>
+			<AB_ProcessedResin>1</AB_ProcessedResin>
+		</costList>
+		<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
+		<designationHotKey>Misc10</designationHotKey>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>7</explosiveRadius>
+				<explosiveDamageType>AB_Tar</explosiveDamageType>
+				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+				<postExplosionSpawnThingDef>AB_Filth_Tar</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>0.8</postExplosionSpawnChance>
+				<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+				<wickTicks>15</wickTicks>
+				<startWickOnDamageTaken>
+					<li>Bullet</li>
+					<li>Arrow</li>
+					<li>ArrowHighVelocity</li>
+				</startWickOnDamageTaken>
+			</li>
+		</comps>
+		<specialDisplayRadius>7</specialDisplayRadius>
+	</ThingDef>
+</Defs>

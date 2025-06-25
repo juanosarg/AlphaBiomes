@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="AB_JunkBuildingBase" Abstract="true" ParentName="BuildingBase">
+
+	</ThingDef>
+	
+</Defs>

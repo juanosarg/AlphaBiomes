@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="AlphaBiomes.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/DesignationCategoryDef[defName="Furniture"]/specialDesignatorClasses</xpath>
+			<value>
+				<li>AlphaBiomes.Designator_AlphaBiomes</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  <SoundDef>
+    <defName>AB_MagmaVent</defName>  
+    <sustain>True</sustain>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainFadeoutTime>1</sustainFadeoutTime>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>AB_MagmaVent</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~30</volumeRange>      
+        <pitchRange>0.9088235~1</pitchRange>      
+        <distRange>10~34</distRange>      
+        <sustainAttack>2</sustainAttack>      
+        <sustainSkipFirstAttack>False</sustainSkipFirstAttack>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+ 
+</Defs>

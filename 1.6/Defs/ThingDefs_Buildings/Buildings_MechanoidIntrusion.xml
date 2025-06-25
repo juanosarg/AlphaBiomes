@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<thingClass>Building</thingClass>
+		<defName>AB_AbandonedShipPart</defName>
+		<label>long abandoned ship part</label>
+		<description>A mysterious crashed piece of a spaceship. This was probably full of mechanoids once, but it seems to have been left abandoned for a while. Perhaps it could be salvaged for raw materials.</description>
+		<graphicData>
+			<texPath>Things/Building/Exotic/CrashedShipPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+			<shadowData>
+				<volume>(5.17, 1.0, 2.4)</volume>
+				<offset>(-0.16, 0, -0.08)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>1.0</fillPercent>
+		<size>(6,3)</size>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>2500</WorkToBuild>
+			<Beauty>-200</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<costList>
+			<Steel>75</Steel>
+			<Plasteel>15</Plasteel>
+			<ChunkSlagSteel>8</ChunkSlagSteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<killedLeavings>
+			<Steel>75</Steel>
+			<Plasteel>15</Plasteel>
+			<ChunkSlagSteel>8</ChunkSlagSteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</killedLeavings>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<drawerType>MapMeshOnly</drawerType>
+		<repairEffect>ConstructMetal</repairEffect>
+		<forceDebugSpawnable>true</forceDebugSpawnable>
+		<building>
+			<claimable>true</claimable>
+			<roofCollapseDamageMultiplier>0.2</roofCollapseDamageMultiplier>
+		</building>
+		<comps>
+			<li Class="CompProperties_SnowExpand"/>
+			<li Class="CompProperties_AmbientSound">
+				<sound>CrashedShipPart_Ambience</sound>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

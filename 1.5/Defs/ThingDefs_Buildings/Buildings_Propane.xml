@@ -6,7 +6,7 @@
 		<description>Extracts propane from a liquid propane lake and refines it into usable fuel. This obviously won't work in most biomes.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/AB_PropanePump</texPath>
+			<texPath>Things/Building/PropaneLakes/AB_PropanePump</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
@@ -84,7 +84,7 @@
 		<description>A propane-fueled stove with an attached countertop for preparing meals.</description>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<graphicData>
-			<texPath>Things/Building/AB_PropaneStove</texPath>
+			<texPath>Things/Building/PropaneLakes/AB_PropaneStove</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.5,1.5)</drawSize>
 			<damageData>
@@ -163,7 +163,7 @@
 		<description>A device that burns propane fuel and turns it into heat. The propane heater wastes a lot of fuel when attempting to reach temperatures too different from ambient ones, but it's quite fuel conservative if configured carefully.</description>
 		<thingClass>AlphaBiomes.Building_PropaneHeater</thingClass>
 		<graphicData>
-			<texPath>Things/Building/AB_PropaneHeater</texPath>
+			<texPath>Things/Building/PropaneLakes/AB_PropaneHeater</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
 				<volume>(0.5,0.3,0.7)</volume>

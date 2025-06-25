@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaBiomes.BiomeStructuresDef>
+		<defName>AB_BiomeStructures</defName>
+		<structureToBiomeList>
+		
+		
+			<li>
+				<allBiomes>true</allBiomes>
+				<structure>AB_CoreSampleDrill</structure>
+			</li>
+			<!-- Ocular Forest -->
+			<li>
+				<biome>AB_OcularForest</biome>
+				<structure>AB_AlienComplianceCenter</structure>
+			</li>
+			<li>
+				<biome>AB_OcularForest</biome>
+				<structure>AB_OcularGasSpewer</structure>
+			</li>
+			
+			<li>
+				<biome>AB_OcularForest</biome>
+				<structure>AB_AlcyoniteSolar</structure>
+			</li>	
+			<li MayRequire="VanillaExpanded.VFEPower">
+				<biome>AB_OcularForest</biome>
+				<structure>AB_AlcyoniteSolar_Advanced</structure>
+			</li>
+			<li>
+				<biome>AB_OcularForest</biome>
+				<iconOverride>UI/Commands/AB_RedSolarCells_Gizmo</iconOverride>
+				<descOverride>AB_AlcyoniteSolarPanelsDescription</descOverride>
+				<labelOverride>AB_AlcyoniteSolarPanels</labelOverride>
+				<notBuildableMessage>AB_AlcyoniteSolarPanels_NotBuildable</notBuildableMessage>
+			</li>
+			<li>
+				<biome>AB_OcularForest</biome>
+				<structure>AB_AlienWoodFloors_RedWood</structure>
+			</li>	
+			<!-- Mycotic Jungle -->
+			
+			<li>
+				<biome>AB_MycoticJungle</biome>
+				<structure>AB_AlienWoodFloors_MushroomStalks</structure>
+			</li>
+			<!-- Propane Lakes -->
+			
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropanePipe</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropanePipe_Underground</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_Propane_Valve</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneStorage</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropanePump</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneTap</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneDrain</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneStove</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneHeater</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_AlienWoodFloors_CrystalWood</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneFueledSmithy</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneSmelter</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_PropaneTableMachining</structure>
+			</li>
+			<li>
+				<biome>AB_PropaneLakes</biome>
+				<structure>AB_Turret_Propane</structure>
+			</li>
+			<!-- Tar Pits -->
+			
+			<li>
+				<biome>AB_TarPits</biome>
+				<structure>AB_TarPump</structure>
+			</li>
+			<li>
+				<biome>AB_TarPits</biome>
+				<structure>AB_TrapIED_Tar</structure>
+			</li>
+			<li>
+				<biome>AB_TarPits</biome>
+				<structure>AB_AsphaltFloor</structure>
+			</li>
+			<li>
+				<biome>AB_TarPits</biome>
+				<structure>AB_AsphaltBridge</structure>
+			</li>
+			<!-- Gelatinous Superorganism -->
+			
+			<li>
+				<biome>AB_GelatinousSuperorganism</biome>
+				<structure>AB_SlimeCompressor</structure>
+			</li>
+			
+			<!-- Forsaken Crags -->
+			
+			<li>
+				<biome>AB_RockyCrags</biome>
+				<structure>AB_ShackledGamma</structure>
+			</li>
+			
+			<!-- Gallatross Graveyard -->
+			
+			<li>
+				<biome>AB_GallatrossGraveyard</biome>
+				<structure>AB_CompactedSand</structure>
+			</li>
+			
+		</structureToBiomeList>
+	</AlphaBiomes.BiomeStructuresDef>
+</Defs>

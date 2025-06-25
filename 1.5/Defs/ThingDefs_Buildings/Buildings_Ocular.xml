@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_AlcyoniteSolar</defName>
 		<label>alcyonite solar generator</label>
 		<description>Uses alcyonite solar cells to extract electricity from the sun. Produces extra electricity if an alien red fog is present. Does not work in the dark or under artificial light.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/AB_RedSolarCells</texPath>
+			<texPath>Things/Building/OcularForest/AB_RedSolarCells</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
@@ -58,13 +53,12 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_OcularGasSpewer</defName>
 		<label>ocular gas spewer</label>
 		<description>This device needs a small amount of electricity to condense atmospheric gases and spew a large cloud of ocular gas. This gas blocks ranged attacks greatly, working as a constant smokepop belt.</description>
 		<graphicData>
-			<texPath>Things/Building/AB_OcularGasSpewer</texPath>
+			<texPath>Things/Building/OcularForest/AB_OcularGasSpewer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
 				<volume>(0.25, 0.35, 0.25)</volume>
@@ -85,10 +79,7 @@
 				<rate>0.4</rate>
 				<radius>4</radius>
 				<needsElectricity>true</needsElectricity>
-
 			</li>
-
-
 		</comps>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Building</altitudeLayer>
@@ -123,72 +114,68 @@
 			<li>AlphaBiomes.PlaceWorker_OcularOnly</li>
 		</placeWorkers>
 	</ThingDef>
-	
-	  <ThingDef ParentName="BuildingBase">
-    <defName>AB_AlienComplianceCenter</defName>
-    <label>alien compliance center</label>
-    <description>An experimental device that emmanates strange waves making everyone love the truly alien weather.</description>
-	<uiIconScale>0.6</uiIconScale>
-    <graphicData>
-      <texPath>Things/Building/AB_AlienComplianceCenter</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2, 2)</drawSize>
-      <shadowData>
-        <volume>(0.3, 0.6, 0.3)</volume>
-        <offset>(0.0, 0.0, -0.1)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0,0.75,1.0,0.5)</rect>
-      </damageData>
-    </graphicData>
-   
-    <thingCategories>
-      <li>BuildingsSpecial</li>
-    </thingCategories>
-    <costList>
-      <Steel>20</Steel>
-	  <AB_AlcyoniteChunk>30</AB_AlcyoniteChunk>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>100</basePowerConsumption>
-      </li>
-      <li Class="AlphaBiomes.CompProperties_CauseThoughtIfThoughtFound">
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_AlienComplianceCenter</defName>
+		<label>alien compliance center</label>
+		<description>An experimental device that emmanates strange waves making everyone love the truly alien weather.</description>
+		<uiIconScale>0.6</uiIconScale>
+		<graphicData>
+			<texPath>Things/Building/OcularForest/AB_AlienComplianceCenter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0.0, 0.0, -0.1)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0,0.75,1.0,0.5)</rect>
+			</damageData>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsSpecial</li>
+		</thingCategories>
+		<costList>
+			<Steel>20</Steel>
+			<AB_AlcyoniteChunk>30</AB_AlcyoniteChunk>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="AlphaBiomes.CompProperties_CauseThoughtIfThoughtFound">
 				<radius>15</radius>
 				<tickInterval>50</tickInterval>
 				<foundThoughtDef>AB_RedFogThought</foundThoughtDef>
 				<thoughtDef>AB_RedFogThoughtPositive</thoughtDef>
 			</li>
-      <li Class="CompProperties_Breakdownable"/>
-      <li Class="CompProperties_Flickable"/>
-    </comps>
-    <altitudeLayer>Building</altitudeLayer>
-    <statBases>
-      <MarketValue>100</MarketValue>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <Beauty>0</Beauty>
-      <Mass>15</Mass>
-      <WorkToBuild>2000</WorkToBuild>
-    </statBases>
-   
-    <fillPercent>0.2</fillPercent>
-    <designationCategory>AB_AlphaBiomesBuildings</designationCategory>
-    <pathCost>25</pathCost>
-    <rotatable>false</rotatable>
-    <canOverlapZones>false</canOverlapZones>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <specialDisplayRadius>14.9</specialDisplayRadius>
-    <tradeability>Sellable</tradeability>
-    <tickerType>Normal</tickerType>
-   <researchPrerequisites>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>0</Beauty>
+			<Mass>15</Mass>
+			<WorkToBuild>2000</WorkToBuild>
+		</statBases>
+		<fillPercent>0.2</fillPercent>
+		<designationCategory>AB_AlphaBiomesBuildings</designationCategory>
+		<pathCost>25</pathCost>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<specialDisplayRadius>14.9</specialDisplayRadius>
+		<tradeability>Sellable</tradeability>
+		<tickerType>Normal</tickerType>
+		<researchPrerequisites>
 			<li>Electricity</li>
 		</researchPrerequisites>
-	<placeWorkers>
+		<placeWorkers>
 			<li>AlphaBiomes.PlaceWorker_OcularOnly</li>
 		</placeWorkers>
-  </ThingDef>
-
+	</ThingDef>
 </Defs>

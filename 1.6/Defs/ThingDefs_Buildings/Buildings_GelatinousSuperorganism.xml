@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_SlimeCompressor</defName>
+		<label>slime compressor</label>
+		<description>A bulky, churning machine that grinds down organic slime and compresses it under immense pressure, slowly transforming the ooze into dense, usable sandstone.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/GelatinousSuperorganism/AB_SlimeCompressor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(2.6,1,2.16)</volume>
+				<offset>(-0.20,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1,1.2,4.75,3.25)</rectN>
+				<rectE>(1.25,0.2,3.5,4.7)</rectE>
+				<rectS>(0.2,1.2,4.7,3.25)</rectS>
+				<rectW>(1.25,0.2,3.5,4.7)</rectW>
+			</damageData>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<AB_SlimeMeal>50</AB_SlimeMeal>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Mass>10</Mass>
+			<WorkToBuild>800</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<size>(2,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>AB_SlimeCompressorNotWorking</notWorkingKey>
+				<processes>
+					<li>AB_SlimeIntoSandstone</li>
+					
+				</processes>
+				<progressBarOffset>(0,0,-1)</progressBarOffset>
+			</li>
+		</comps>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	</ThingDef>
+</Defs>

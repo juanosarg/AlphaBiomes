@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef Name="AB_FloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+	</TerrainDef>
+</Defs>
