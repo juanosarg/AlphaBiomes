@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TileMutatorDef>
+		<defName>AB_WideRegion</defName>
+		<label>wide region</label>
+		<description>The limits of this region make it have an irregular size. Map will be set to 400x100 tiles.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<mapSizeOverrideX>400</mapSizeOverrideX>
+				<mapSizeOverrideZ>100</mapSizeOverrideZ>
+			</li>
+		</modExtensions>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+		<categories>
+			<li>VEE_MapSize</li>
+		</categories>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_NarrowRegion</defName>
+		<label>narrow region</label>
+		<description>The limits of this region make it have an irregular size. Map will be set to 100x400 tiles.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<mapSizeOverrideX>100</mapSizeOverrideX>
+				<mapSizeOverrideZ>400</mapSizeOverrideZ>
+			</li>
+		</modExtensions>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+		<categories>
+			<li>VEE_MapSize</li>
+		</categories>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DiminutiveRegion</defName>
+		<label>diminutive region</label>
+		<description>The limits of this region are very restrictive. Map will be set to 100x100 tiles.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<mapSizeOverrideX>100</mapSizeOverrideX>
+				<mapSizeOverrideZ>100</mapSizeOverrideZ>
+			</li>
+		</modExtensions>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+		<categories>
+			<li>VEE_MapSize</li>
+		</categories>
+	</TileMutatorDef>
+</Defs>
+

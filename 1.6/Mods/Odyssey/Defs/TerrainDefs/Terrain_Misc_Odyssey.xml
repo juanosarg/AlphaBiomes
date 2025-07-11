@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef ParentName="AB_FloorBase">
+		<defName>AB_BrokenPoolTiles</defName>
+		<label>broken poolside tiles</label>
+		<texturePath>Terrain/Surfaces/AB_BrokenTiles</texturePath>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<pollutionColor>(1, 1, 1, 0.1)</pollutionColor>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>350</renderPrecedence>
+		<statBases>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>-1</BeautyOutdoors>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<takeFootprints>false</takeFootprints>
+	</TerrainDef>
+	<VEF.Maps.ActiveTerrainDef ParentName="WaterShallowBase">
+		<defName>AB_HealingSpringwater</defName>
+		<label>healing spring water</label>
+		<renderPrecedence>394</renderPrecedence>
+		<driesTo>Sand</driesTo>
+		<texturePath>Terrain/Surfaces/HotSpringRamp</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/PollutedHotSpringRamp</pollutedTexturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<pathCost>30</pathCost>
+		<traversedThought>AB_HealingSpringwaterThought</traversedThought>
+		<waterBodyType>Other</waterBodyType>
+		<floodTerrain>SpringFlood</floodTerrain>
+		<throwFleckChance>0.25</throwFleckChance>
+		<tickerType>Rare</tickerType>
+		<fleckData>
+			<fleck>Heart</fleck>
+			<velocitySpeedRange>0.01~0.5</velocitySpeedRange>
+			<velocityAngleRange>-90~90</velocityAngleRange>
+			<rotationSpeedRange>0~0</rotationSpeedRange>
+			<solidTicksRange>1~4</solidTicksRange>
+			<scaleRange>0.25~0.5</scaleRange>
+		</fleckData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<terrainComps>
+			<li Class="VEF.Maps.TerrainCompProperties_Healer">
+				<curePermanent>false</curePermanent>
+				<amountToHeal>0.5</amountToHeal>
+			</li>
+		</terrainComps>
+	</VEF.Maps.ActiveTerrainDef>
+	<VEF.Maps.ActiveTerrainDef Name="AB_MutagenicOcularWater" ParentName="WaterShallowBase">
+		<defName>AB_MutagenicOcularWater</defName>
+		<label>mutagenic ocular water</label>
+		<renderPrecedence>394</renderPrecedence>
+		<driesTo>Sand</driesTo>
+		<color>(255,200,200)</color>
+		<texturePath>Terrain/Surfaces/AB_MutagenicOcularWater</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<pathCost>30</pathCost>
+		<traversedThought>AB_MutagenicOcularWater</traversedThought>
+		<tickerType>Long</tickerType>
+		<canFreeze>false</canFreeze>
+		<waterBodyType>Other</waterBodyType>
+		<floodTerrain>AB_MutagenicOcularWaterFlood</floodTerrain>
+		<throwFleckChance>0.25</throwFleckChance>
+		<fleckData>
+			<fleck>AB_Ocular</fleck>
+			<velocitySpeedRange>0.01~0.5</velocitySpeedRange>
+			<velocityAngleRange>-90~90</velocityAngleRange>
+			<rotationSpeedRange>-50~50</rotationSpeedRange>
+			<solidTicksRange>1~3</solidTicksRange>
+			<scaleRange>0.5~1</scaleRange>
+		</fleckData>
+		<terrainComps>
+			<li Class="VEF.Maps.TerrainCompProperties_HediffGiver">
+				<hediffsForHumanlike>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">
+						<hediff MayRequire="Ludeon.RimWorld.Anomaly">Tentacle</hediff>
+						<hediffLimit>2</hediffLimit>
+					</li>
+					<li>
+						<hediff>AB_MalevolentEye</hediff>
+						<hediffLimit>7</hediffLimit>
+						<randomBodyParts>true</randomBodyParts>
+					</li>
+				</hediffsForHumanlike>
+				<hediffsForAnimals>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">
+						<hediff MayRequire="Ludeon.RimWorld.Anomaly">AB_AnimalTentacle</hediff>
+						<hediffLimit>4</hediffLimit>
+					</li>
+					<li>
+						<hediff>AB_MalevolentEye</hediff>
+						<hediffLimit>7</hediffLimit>
+						<randomBodyParts>true</randomBodyParts>
+					</li>
+				</hediffsForAnimals>
+			</li>
+		</terrainComps>
+	</VEF.Maps.ActiveTerrainDef>
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>AB_MutagenicOcularWaterFlood</defName>
+		<label>shallow floodwater</label>
+		<renderPrecedence>394</renderPrecedence>
+		<texturePath>Terrain/Surfaces/AB_MutagenicOcularWater</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<pathCost>100</pathCost>
+		<traversedThought>AB_MutagenicOcularWater</traversedThought>
+		<waterBodyType>Other</waterBodyType>
+		<throwFleckChance>0.25</throwFleckChance>
+		<fleckData>
+			<fleck>AirPuff</fleck>
+			<velocitySpeedRange>0.01~0.5</velocitySpeedRange>
+			<velocityAngleRange>-90~90</velocityAngleRange>
+			<rotationSpeedRange>-50~50</rotationSpeedRange>
+			<solidTicksRange>1~3</solidTicksRange>
+			<scaleRange>1.5~3</scaleRange>
+		</fleckData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<temporary>true</temporary>
+		<tags>
+			<li>Flood</li>
+		</tags>
+		<canFreeze>false</canFreeze>
+		<!-- Thin ice and floodwater are both temp terrain, this means we can't support frozen floodwater -->
+		<driesTo/>
+		<!-- We don't want moisture pumps to turn temp terrain into stony soil -->
+		<floodTerrain>AB_MutagenicOcularWaterFlood</floodTerrain>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>AB_Quicksand</defName>
+		<label>quicksand</label>
+		<renderPrecedence>394</renderPrecedence>
+		<driesTo>Sand</driesTo>
+		<texturePath>Terrain/Surfaces/AB_Quicksand</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<pathCost>2</pathCost>
+		<canFreeze>false</canFreeze>
+		<traversedThought>AB_Quicksand</traversedThought>
+		<waterBodyType>Other</waterBodyType>
+		<statBases>
+			<Beauty>-2</Beauty>
+		</statBases>
+	</TerrainDef>
+</Defs>

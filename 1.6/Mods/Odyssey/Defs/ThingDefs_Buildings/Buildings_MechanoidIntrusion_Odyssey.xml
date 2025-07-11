@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_MechanoidReceiver</defName>
+		<label>mechanoid resonance receiver</label>
+		<description>A wide band receiver designed to intercept lingering mechanoid signal patterns from the environment. It decodes the residual overclocking hum into a low-frequency auditory resonance: barely perceptible, yet strangely calming.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/MechanoidIntrusion/AB_MechanoidReceiver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(2.6,1,2.16)</volume>
+				<offset>(-0.20,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1,1.2,4.75,3.25)</rectN>
+				<rectE>(1.25,0.2,3.5,4.7)</rectE>
+				<rectS>(0.2,1.2,4.7,3.25)</rectS>
+				<rectW>(1.25,0.2,3.5,4.7)</rectW>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.5</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.75</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="VEF.Buildings.CompProperties_CustomCauseHediff_AoE">
+				<compClass>VEF.Buildings.CompCustomCauseHediff_AoE</compClass>
+				<hediff>AB_ResonanceSoothe</hediff>
+				<range>15</range>
+				<checkInterval>300</checkInterval>
+				<hediffDuration>305</hediffDuration>
+				<mustBeAwake>true</mustBeAwake>
+				<requiredCapacities>
+					<li>Hearing</li>
+				</requiredCapacities>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<drawPlaceWorkersWhileInstallBlueprintSelected>true</drawPlaceWorkersWhileInstallBlueprintSelected>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded/>
+		<designationCategory>Furniture</designationCategory>
+		<placeWorkers>
+			<li>VEF.Buildings.PlaceWorker_CompCustomCauseHediff_AoE</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+</Defs>

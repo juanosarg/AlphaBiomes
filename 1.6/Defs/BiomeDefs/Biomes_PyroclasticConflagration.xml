@@ -14,11 +14,30 @@
 		<foragedFood>AB_RawBrownBarrelCactus</foragedFood>
 		<wildPlantRegrowDays>27</wildPlantRegrowDays>
 		<allowRivers>false</allowRivers>
-		<biomeMapConditions><li>AB_VolcanicHeatWave</li></biomeMapConditions>
+		<biomeMapConditions>
+			<li>AB_VolcanicHeatWave</li>
+		</biomeMapConditions>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Standard</li>
 		</soundsAmbient>
 		<diseaseMtbDays>65</diseaseMtbDays>
+		<maxFishPopulation>480</maxFishPopulation>
+		<fishTypes>
+			<freshwater_Common>
+				<Fish_Bass>1</Fish_Bass>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Catfish>1</Fish_Catfish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<Fish_Bluefish>1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Flounder>1</Fish_Flounder>
+				<Fish_Marlin>1</Fish_Marlin>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker>RareFishingCatches_Hot</rareCatchesSetMaker>
+		</fishTypes>
 		<diseases>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>
@@ -135,8 +154,10 @@
 		<allowedPackAnimals>
 			<li>Dromedary</li>
 		</allowedPackAnimals>
-		<forceRockTypes><li>AB_Obsidianstone</li><li>Slate</li></forceRockTypes>
-		
+		<forceRockTypes>
+			<li>AB_Obsidianstone</li>
+			<li>Slate</li>
+		</forceRockTypes>
 		<gravelTerrain>AB_VolcanicGravel</gravelTerrain>
 	</BiomeDef>
 </Defs>

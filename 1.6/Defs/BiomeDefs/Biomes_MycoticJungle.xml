@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<BiomeDef>
 		<defName>AB_MycoticJungle</defName>
 		<label>mycotic jungle</label>
@@ -12,7 +11,6 @@
 		<texture>Biomes/AB_MycoticJungle</texture>
 		<forageability>0.5</forageability>
 		<foragedFood>RawFungus</foragedFood>
-
 		<movementDifficulty>1</movementDifficulty>
 		<wildPlantRegrowDays>25</wildPlantRegrowDays>
 		<soundsAmbient>
@@ -20,6 +18,26 @@
 			<li>AB_Ambient_DayInsects_Mycotic</li>
 		</soundsAmbient>
 		<diseaseMtbDays>35</diseaseMtbDays>
+		<maxFishPopulation>780</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<VCEF_Jellyfungus MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Jellyfungus>
+				<VCEF_MudSplasherCarp MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MudSplasherCarp>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
+				<Fish_Piranha MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Piranha>
+				<VCEF_Sturgeon MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Sturgeon>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<VCEF_Jellyfungus MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Jellyfungus>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Tuna MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tuna>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Tropical</rareCatchesSetMaker>
+		</fishTypes>
 		<diseases>
 			<li>
 				<diseaseInc>AB_Disease_SporesAllergy</diseaseInc>
@@ -53,7 +71,6 @@
 				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
 				<commonality>30</commonality>
 			</li>
-
 			<li>
 				<diseaseInc>Disease_AnimalFlu</diseaseInc>
 				<commonality>100</commonality>
@@ -69,7 +86,6 @@
 			<DryThunderstorm>1</DryThunderstorm>
 			<RainyThunderstorm>10</RainyThunderstorm>
 			<FoggyRain>10</FoggyRain>
-
 		</baseWeatherCommonalities>
 		<terrainsByFertility>
 			<li>
@@ -126,8 +142,6 @@
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">4</Plant_GrayGrass>
 			<AB_GiantAgariTox MayRequire="Ludeon.RimWorld.Biotech">1</AB_GiantAgariTox>
 			<AB_LandCoral MayRequire="Ludeon.RimWorld.Biotech">3</AB_LandCoral>
-
-
 		</wildPlants>
 		<wildAnimals>
 			<Rat>1</Rat>
@@ -139,7 +153,6 @@
 			<Cobra>0.15</Cobra>
 			<Warg>0.07</Warg>
 			<Raccoon>0.5</Raccoon>
-
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>
@@ -147,7 +160,4 @@
 			<li>Alpaca</li>
 		</allowedPackAnimals>
 	</BiomeDef>
-
-
-
 </Defs>

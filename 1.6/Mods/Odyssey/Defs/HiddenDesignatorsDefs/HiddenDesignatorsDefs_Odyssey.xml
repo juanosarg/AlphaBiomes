@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>AB_HiddenDesignators_Odyssey</defName>
+		<hiddenDesignators>
+		
+			<li>AB_MagmaThermalPlant</li>
+			<li>AB_MycoticCollector</li>
+			<li>AB_MechanoidReceiver</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

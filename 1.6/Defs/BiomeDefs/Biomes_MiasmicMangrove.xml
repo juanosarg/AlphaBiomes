@@ -19,6 +19,27 @@
 			<li>Ambient_DayInsects_Jungle</li>
 		</soundsAmbient>
 		<diseaseMtbDays>15</diseaseMtbDays>
+		<maxFishPopulation>780</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<VCEF_Spinyfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Spinyfish>
+			
+				<VCEF_MudSplasherCarp MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MudSplasherCarp>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
+				<Fish_Piranha MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Piranha>
+				<VCEF_Sturgeon MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Sturgeon>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Tuna MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tuna>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Tropical</rareCatchesSetMaker>
+		</fishTypes>
 		<diseases>
 			<li>
 				<diseaseInc>Disease_Malaria</diseaseInc>

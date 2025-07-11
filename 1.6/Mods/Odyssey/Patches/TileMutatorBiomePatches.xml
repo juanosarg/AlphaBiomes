@@ -1,0 +1,358 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[@Name="AncientStructureMutBase"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_PyroclasticConflagration</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="AncientRuins"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_PropaneLakes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="AncientRuins_Frozen"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_PropaneLakes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[@Name="BaseAncientVentMut"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="AncientHeatVent"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[@Name="AbandonedColonyMutatorBase"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_PyroclasticConflagration</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="AncientLaunchSite"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_PropaneLakes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Harbor"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_PropaneLakes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="PlantLife_Increased"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_MechanoidIntrusion</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="PlantGrove"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="WildPlants"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_TarPits</li>
+			<li>AB_GallatrossGraveyard</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="WildTropicalPlants"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_FeraliskInfestedJungle</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="SteamGeysers_Increased"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_MechanoidIntrusion</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="MineralRich"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_PropaneLakes</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="ArcheanTrees"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="FoggyMutator"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="WetClimate"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Fish_Increased"]/biomeBlacklist</xpath>
+		<value>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_PropaneLakes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[@Name="BaseLakeMut"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Pond"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Oasis"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="DryLake"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Wetland"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="HotSprings"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Cliffs"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PyroclasticConflagration</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Basin"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="TerraformingScar"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_PyroclasticConflagration</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[@Name="BaseCoastMut"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_PyroclasticConflagration</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[@Name="BaseLavaLakeMut"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_PyroclasticConflagration</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="LavaFlow"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_PyroclasticConflagration</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Marshy"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_MiasmicMangrove</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Sandy"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Fertile"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="Muddy"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TileMutatorDef[defName="MixedBiome"]/biomeWhitelist</xpath>
+		<value>
+			<li>AB_FeraliskInfestedJungle</li>
+			<li>AB_RockyCrags</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>AB_GelatinousSuperorganism</li>
+			<li>AB_IdyllicMeadows</li>
+			<li>AB_MechanoidIntrusion</li>
+			<li>AB_MiasmicMangrove</li>
+			<li>AB_MycoticJungle</li>
+			<li>AB_OcularForest</li>
+			<li>AB_PropaneLakes</li>
+			<li>AB_PyroclasticConflagration</li>
+			<li>AB_TarPits</li>
+		</value>
+	</Operation>
+</Patch>			

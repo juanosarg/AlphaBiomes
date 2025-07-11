@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_DerelictArchotechTower</defName>
+		<label>derelict archotech tower</label>
+		<description>A moderately-sized archotech tower rising from the ground. It seems to be long inert.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<selectable>true</selectable>
+		<fillPercent>0.75</fillPercent>
+		<size>(5,5)</size>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+		<rotatable>false</rotatable>
+		<statBases>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/DerelictArchonexus/AB_DerelictArchonexusA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+			<shadowData>
+				<volume>(2.8, 1, 3.2)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+		</graphicData>
+		<building>
+			<paintable>false</paintable>
+			<claimable>false</claimable>
+			<neverBuildable>true</neverBuildable>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_DerelictMajorArchotechStructure</defName>
+		<label>derelict major archotech structure</label>
+		<description>A large archotech structure. The dull green surface is ruiend and covered in vegetation. It seems to be long inert.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<selectable>true</selectable>
+		<fillPercent>0.75</fillPercent>
+		<size>(7,7)</size>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+		<rotatable>false</rotatable>
+		<statBases>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/DerelictArchonexus/AB_DerelictArchonexusB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<shadowData>
+				<volume>(7, 1, 5)</volume>
+				<offset>(0,0,-0.76)</offset>
+			</shadowData>
+		</graphicData>
+		<building>
+			<paintable>false</paintable>
+			<claimable>false</claimable>
+			<neverBuildable>true</neverBuildable>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_DerelictArchonexusCore</defName>
+		<label>derelict archonexus core</label>
+		<description>The ruined central core of an archonexus. Its broad surfaces are dusty and covered with vegetation. It seems to be long inert.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<selectable>true</selectable>
+		<fillPercent>0.75</fillPercent>
+		<size>(11,11)</size>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+		<rotatable>false</rotatable>
+		<statBases>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/DerelictArchonexus/AB_DerelictArchonexusC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(11,11)</drawSize>
+			<shadowData>
+				<volume>(9.8, 1, 8)</volume>
+				<offset>(0,0,-0.66)</offset>
+			</shadowData>
+		</graphicData>
+		<building>
+			<paintable>false</paintable>
+			<claimable>false</claimable>
+			<neverBuildable>true</neverBuildable>
+		</building>
+	</ThingDef>
+
+</Defs>

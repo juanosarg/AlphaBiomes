@@ -15,7 +15,7 @@
 						<TerrainDef ParentName="FineTileStoneBase">
 							<defName>AB_FinestoneRoseQuartz</defName>
 							<label>fine rose quartz tile</label>
-							<color>(120,50,50)</color>
+							<color>(110,75,75)</color>
 							<costList>
 								<GU_BlocksRoseQuartz>20</GU_BlocksRoseQuartz>
 							</costList>
@@ -29,7 +29,7 @@
 						<TerrainDef ParentName="FineTileStoneBase">
 							<defName>AB_FinestoneMudstone</defName>
 							<label>fine mudstone tile</label>
-							<color>(49,31,15)</color>
+							<color>(41,35,31)</color>
 							<costList>
 								<AB_BlocksMudstone>20</AB_BlocksMudstone>
 							</costList>

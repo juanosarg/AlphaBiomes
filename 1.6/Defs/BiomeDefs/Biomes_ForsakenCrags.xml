@@ -17,6 +17,22 @@
 			<li>Ambient_NightInsects_Standard</li>
 		</soundsAmbient>
 		<diseaseMtbDays>65</diseaseMtbDays>
+		<maxFishPopulation>360</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<VCEF_DuskySprat MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_DuskySprat>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<VCEF_ForsakenAnglerfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_ForsakenAnglerfish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<VCEF_DuskySprat MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_DuskySprat>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<VCEF_ShadowFry MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_ShadowFry>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Hot</rareCatchesSetMaker>
+		</fishTypes>
 		<diseases>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>
@@ -123,9 +139,9 @@
 		<allowedPackAnimals>
 			<li>Dromedary</li>
 		</allowedPackAnimals>
-		
-		<forceRockTypes><li>AB_Cragstone</li></forceRockTypes>
+		<forceRockTypes>
+			<li>AB_Cragstone</li>
+		</forceRockTypes>
 		<gravelTerrain>AB_DarkGravel</gravelTerrain>
-		
 	</BiomeDef>
 </Defs>

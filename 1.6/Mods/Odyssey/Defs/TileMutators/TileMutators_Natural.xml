@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TileMutatorDef>
+		<defName>AB_TarLakes</defName>
+		<label>tar lakes</label>
+		<description>A shallow pool of a dense tar-like substance. Impassable, and can't be bridged over.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<coastSidesRange>0~0</coastSidesRange>
+		<workerClass>AlphaBiomes.TileMutatorWorker_TarLakes</workerClass>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_PropaneLakes</defName>
+		<label>propane lakes</label>
+		<description>Lakes of liquid hydrocarbons that seem to defy the laws of physics.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<coastSidesRange>0~1</coastSidesRange>
+		<workerClass>AlphaBiomes.TileMutatorWorker_PropaneLakes</workerClass>
+		<biomeWhitelist>
+			<li>GlacialPlain</li>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+			<li>Tundra</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MagmaticQuagmire</defName>
+		<label>magmatic quagmire</label>
+		<description>A seething landscape of molten rock and blistering heat—where the ground bubbles, cracks, and burns beneath your feet.</description>
+		<maxHilliness>Flat</maxHilliness>
+		<preventsPondGeneration>true</preventsPondGeneration>
+		<overrideLakeBeachTerrain>AB_SolidifiedLava</overrideLakeBeachTerrain>
+		<overrideRiverbankTerrain>AB_SolidifiedLava</overrideRiverbankTerrain>
+		<coastSidesRange>0~0</coastSidesRange>
+		<workerClass>AlphaBiomes.TileMutatorWorker_MagmaticQuagmire</workerClass>
+		<biomeWhitelist>
+			<li>AB_PyroclasticConflagration</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MagmaVents</defName>
+		<label>magma vents</label>
+		<description>Fiery fissures in the earth that intermittently erupt with jets of molten rock and searing gas.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<prefabsToSpawn>
+					<li>AB_MagmaVent_Prefab</li>
+				</prefabsToSpawn>
+				<prefabsToSpawnAmount>6~12</prefabsToSpawnAmount>
+				<minSeparationBetweenPrefabs>30</minSeparationBetweenPrefabs>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericPrefabSpawner</workerClass>
+		<chanceOnNonLandmarkTile>0.5</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_PyroclasticConflagration</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_GiantFossils</defName>
+		<label>giant fossils</label>
+		<description>Gigantic skeletons of long-gone beasts litter this land.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>AB_GiantBonesA</li>
+					<li>AB_GiantBonesB</li>
+					<li>AB_GiantBonesC</li>
+					<li>AB_GiantBonesD</li>
+					<li>AB_GiantBonesE</li>
+					<li>AB_GiantBonesF</li>
+					<li>AB_GiantBonesG</li>
+					<li>AB_GiantBonesH</li>
+					<li>AB_GiantBonesI</li>
+					<li>AB_GiantBonesJ</li>
+					<li>AB_GiantBonesK</li>
+					<li>AB_GiantBonesL</li>
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>4~8</KCSGStructuresToSpawnAmount>
+				<minSeparationBetweenPrefabs>30</minSeparationBetweenPrefabs>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<chanceOnNonLandmarkTile>0.02</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_TarPits</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+			<li>AridShrubland</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DerelictClusters</defName>
+		<label>derelict clusters</label>
+		<description>This area is littered with derelict mechanoid clusters, from which some materials could be scavenged.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>AB_MechClusterA</li>
+					<li>AB_MechClusterB</li>
+					<li>AB_MechClusterC</li>
+					<li>AB_MechClusterD</li>
+					<li>AB_MechClusterE</li>
+					<li>AB_MechClusterF</li>
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>4~6</KCSGStructuresToSpawnAmount>
+				<minSeparationBetweenPrefabs>30</minSeparationBetweenPrefabs>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<chanceOnNonLandmarkTile>0.5</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_MechanoidIntrusion</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_GeothermalHotspots</defName>
+		<label>geothermal hotspots</label>
+		<description>High geothermal activity allows construction of efficient geothermal plants (find them under "build biome structures" in the Furniture Architect menu).</description>
+		<chanceOnNonLandmarkTile>0.5</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_PyroclasticConflagration</li>
+		</biomeWhitelist>
+		<categories>
+			<li>VEE_Geothermal_NotHigh</li>
+		</categories>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_EdibleAirborneMicrofungi</defName>
+		<label>edible airborne micro-fungi</label>
+		<description>Microscopic spores present in this biome can be collected and used as edible ingredients (find the collector under "build biome structures" in the Furniture Architect menu).</description>
+		<chanceOnNonLandmarkTile>0.25</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>Glowforest</li>
+			<li>AB_MycoticJungle</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MoldyEnvironment</defName>
+		<label>moldy environment</label>
+		<description>The ubiquitous presence of fungal spores in this region makes staying outdoors almost unbearable.</description>
+		<chanceOnNonLandmarkTile>0.25</chanceOnNonLandmarkTile>
+		<additionalGameConditions>
+			<li>AB_MoldyEnvironment</li>
+		</additionalGameConditions>
+		<biomeWhitelist>
+			
+			<li>AB_MycoticJungle</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_OversaturatedSoil</defName>
+		<label>oversaturated soil</label>
+		<description>Fertile ground areas are even more fertile than usual.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_TerrainSwapper</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<terrainToSwap>AB_FertileGrassyFlowerySoil</terrainToSwap>
+				<terrainToSwapTo>AB_FertileGrassyFlowerySoil_Oversaturated</terrainToSwapTo>
+			</li>
+		</modExtensions>
+		<categories>
+			<li>VEE_Fertility</li>
+		</categories>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_PollinationFrenzy</defName>
+		<label>pollination frenzy</label>
+		<description>Plant density is increased here due to heavy pollination, but at the risk of causing tougher allergies.</description>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+		<plantDensityFactor>1.1</plantDensityFactor>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_PetalStorms</defName>
+		<label>petal storms</label>
+		<description>Occasional flurries of flower petals that improve mood but reduce visibility.</description>
+		<workerClass>TileMutatorWorker_IncreaseWeatherFrequency</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+		<weatherFrequencyOffset>50</weatherFrequencyOffset>
+		<weathersToAffect>
+			<li>AB_PetalStorms</li>
+		</weathersToAffect>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DigestiveSurface</defName>
+		<label>digestive surface</label>
+		<description>The ground here will digest dropped items if left too long.</description>
+		<biomeWhitelist>
+			<li>AB_GelatinousSuperorganism</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_SymbioticNutrients</defName>
+		<label>symbiotic nutrients</label>
+		<description>Simply being around this landscape makes people require 10% less nutrients to feel full.</description>
+		<biomeWhitelist>
+			<li>AB_GelatinousSuperorganism</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_QuiveringSurface</defName>
+		<label>quivering surface</label>
+		<description>The very ground beneath your colony trembles, pulses, and reacts—it is alive. Movement will be harder in this terrain.</description>
+		<biomeWhitelist>
+			<li>AB_GelatinousSuperorganism</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_GelatinousMemoryEcho</defName>
+		<label>gelatinous memory echo</label>
+		<description>The superorganism retains echoes of past events, stored like data in a living neural lattice. These memory echoes occasionally bleed into reality.</description>
+		<additionalGameConditions>
+			<li>AB_GelatinousMemoryEcho</li>
+		</additionalGameConditions>
+		<biomeWhitelist>
+			<li>AB_GelatinousSuperorganism</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.15</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AB_AmbientRadiation</defName>
+		<label>ambient radiation</label>
+		<description>Low levels of background radiation permeate the area, subtly affecting health and mutation rates.</description>
+		<additionalGameConditions>
+			<li>AB_AmbientRadiation</li>
+		</additionalGameConditions>
+		<chanceOnNonLandmarkTile>0.025</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ExtremeTemperatureFluctuations</defName>
+		<label>extreme temperature fluctuations</label>
+		<description>Wild swings between scorching days and freezing nights challenge survival and crop stability.</description>
+		<additionalGameConditions>
+			<li>AB_ExtremeTemperatureFluctuations</li>
+		</additionalGameConditions>
+		<biomeBlacklist>
+			<li>AB_PyroclasticConflagration</li>
+		</biomeBlacklist>
+		<chanceOnNonLandmarkTile>0.025</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_HealingSprings</defName>
+		<label>healing springs</label>
+		<description>This region contains natural springs imbued with curative properties.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<workerClass>AlphaBiomes.TileMutatorWorker_HealingSprings</workerClass>
+		<biomeWhitelist>
+			<li>BorealForest</li>
+			<li>LavaField</li>
+			<li>TemperateForest</li>
+			<li>Tundra</li>
+			<li>GlacialPlain</li>
+			<li>Desert</li>
+			<li>AridShrubland</li>
+		</biomeWhitelist>
+		<minHilliness>Mountainous</minHilliness>
+		<preventsPondGeneration>true</preventsPondGeneration>
+		<canSpawnOnRiver>false</canSpawnOnRiver>
+		<coastSidesRange>0~0</coastSidesRange>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MutagenicSprings</defName>
+		<label>mutagenic ocular springs</label>
+		<description>This region contains weird ocular springs that mutate the body of both colonists and animals.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.1</chanceOnNonLandmarkTile>
+		<workerClass>AlphaBiomes.TileMutatorWorker_MutagenicSprings</workerClass>
+		<biomeWhitelist>
+			<li>AB_OcularForest</li>
+		</biomeWhitelist>
+		<preventsPondGeneration>true</preventsPondGeneration>
+		<canSpawnOnRiver>false</canSpawnOnRiver>
+		<coastSidesRange>0~0</coastSidesRange>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_QuicksandPits</defName>
+		<label>quicksand pits</label>
+		<description>This region contains pools of shallow quicksand that impede movement.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<workerClass>AlphaBiomes.TileMutatorWorker_QuicksandPits</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>AridShrubland</li>
+			<li>ExtremeDesert</li>
+			<li>AB_GallatrossGraveyard</li>
+		</biomeWhitelist>
+		<preventsPondGeneration>true</preventsPondGeneration>
+		<canSpawnOnRiver>false</canSpawnOnRiver>
+		<coastSidesRange>0~0</coastSidesRange>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ResidualOverclocking</defName>
+		<label>residual overclocking</label>
+		<description>This region still hums with the unstable energy of forgotten mechanoid infrastructure. Collectors can be built to tune into these energies (find them under "build biome structures" in the Furniture Architect menu).</description>
+		<chanceOnNonLandmarkTile>0.5</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_MechanoidIntrusion</li>
+		</biomeWhitelist>
+		
+	</TileMutatorDef>
+</Defs>
+

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<BiomeDef>
 		<defName>AB_FeraliskInfestedJungle</defName>
 		<label>feralisk infested jungle</label>
@@ -14,6 +13,27 @@
 		<forageability>1</forageability>
 		<foragedFood>RawBerries</foragedFood>
 		<wildPlantRegrowDays>15</wildPlantRegrowDays>
+		<maxFishPopulation>720</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<VCEF_Jellyfungus MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Jellyfungus>
+				<VCEF_MutantFlatfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MutantFlatfish>
+				<VCEF_ForsakenAnglerfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_ForsakenAnglerfish>
+				<VCEF_MudSplasherCarp MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MudSplasherCarp>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<VCEF_Spiderfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Spiderfish>
+				<VCEF_Sturgeon MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Sturgeon>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<VCEF_Jellyfungus MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_Jellyfungus>
+				<VCEF_MutantFlatfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MutantFlatfish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<VCEF_HabdakLongfin MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_HabdakLongfin>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Tropical</rareCatchesSetMaker>
+		</fishTypes>
 		<soundsAmbient>
 			<li>Ambient_NightInsects_Jungle</li>
 			<li>Ambient_DayInsects_Jungle</li>
@@ -52,7 +72,6 @@
 				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
 				<commonality>30</commonality>
 			</li>
-
 			<li>
 				<diseaseInc>Disease_AnimalFlu</diseaseInc>
 				<commonality>100</commonality>
@@ -119,7 +138,7 @@
 		<wildPlants>
 			<AB_JungleTree_Polluted MayRequire="Ludeon.RimWorld.Biotech">0.4</AB_JungleTree_Polluted>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">1.6</Plant_GrayGrass>
-			<Plant_RatPalm MayRequire="Ludeon.RimWorld.Biotech">0.1</Plant_RatPalm>			
+			<Plant_RatPalm MayRequire="Ludeon.RimWorld.Biotech">0.1</Plant_RatPalm>
 			<AB_WeepingToxberry MayRequire="Ludeon.RimWorld.Biotech">0.2</AB_WeepingToxberry>
 			<Plant_Grass>3.0</Plant_Grass>
 			<Plant_TallGrass>2.0</Plant_TallGrass>
@@ -150,10 +169,6 @@
 		<allowedPackAnimals>
 			<li>Muffalo</li>
 			<li>Elephant</li>
-			
 		</allowedPackAnimals>
 	</BiomeDef>
-
-
-
 </Defs>

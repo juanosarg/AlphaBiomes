@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TileMutatorDef>
+		<defName>AB_AncientFreezingVent</defName>
+		<label>ancient freezing vent</label>
+		<description>This area has a number of massive freezing vents. An ancient mechanism buried deep beneath the earth will occasionally vent large amounts of freezing cold air, lowering temperatures greatly.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_AncientFreezingVent</workerClass>
+		<categories>
+			<li>AncientVent</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_AncientGreyPallVent</defName>
+		<label>gray pall vent</label>
+		<description>This area has a number of rusted, forebodding vents. An ancient mechanism buried deep beneath the earth will occasionally vent large amounts of sickly looking smoke that will plunge the area into a preternatural darkness.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_AncientGreyPallVent</workerClass>
+		<categories>
+			<li>AncientVent</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_AncientBloodRainVent</defName>
+		<label>blood rain vent</label>
+		<description>This area has a number of gigantic corroded vents. An ancient mechanism buried deep beneath the earth will occasionally vent huge red clouds of a vaporized blood-like substance that will coalesce into a disgusting blood rain.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_AncientBloodRainVent</workerClass>
+		<categories>
+			<li>AncientVent</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_AncientDeathPallVent</defName>
+		<label>death pall vent</label>
+		<description>This area has a number of ancient runic grates of unknown origin. An ancient mechanism buried deep beneath the earth will occasionally vent clouds of microscopic self-powered archites that affect corpses reanimating them to create a twisted imitation of life.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_AncientDeathPallVent</workerClass>
+		<categories>
+			<li>AncientVent</li>
+		</categories>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphabooks">
+		<defName>AB_DerelictLibrary</defName>
+		<label>derelict library</label>
+		<description>A derelict library is present in this area. Investigating it might attract unwanted company.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>ABooks_Library_Alpha</li>
+					<li>ABooks_Library_Beta</li>
+					<li>ABooks_Library_Gamma</li>
+					<li>ABooks_Library_Delta</li>
+					<li>ABooks_Library_Epsilon</li>
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>1~1</KCSGStructuresToSpawnAmount>
+			</li>
+		</modExtensions>
+		<maxHilliness>SmallHills</maxHilliness>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphagenes">
+		<defName>AB_DerelictBioLab</defName>
+		<label>derelict biolab</label>
+		<description>A derelict biolab is present in this area. Investigating it might attract unwanted company.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>AG_AbandonedBiotechLabAlpha</li>
+					<li>AG_AbandonedBiotechLabBeta</li>
+					<li>AG_AbandonedBiotechLabGamma</li>
+					<li>AG_AbandonedBiotechLabDelta</li>
+					<li>AG_AbandonedBiotechLabEpsilon</li>
+					<li>AG_AbandonedBiotechLabZeta</li>
+					<li>AG_AbandonedBiotechLabEta</li>
+					<li>AG_AbandonedBiotechLabTheta</li>
+					<li>AG_AbandonedBiotechLabIota</li>
+					<li>AG_AbandonedBiotechLabKappa</li>
+					<li>AG_AbandonedBiotechLabLambda</li>
+					<li>AG_AbandonedBiotechLabMu</li>
+					<li>AG_AbandonedBiotechLabNu</li>
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>1~1</KCSGStructuresToSpawnAmount>
+			</li>
+		</modExtensions>
+		<maxHilliness>Flat</maxHilliness>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>AB_DerelictArchonexus</defName>
+		<label>derelict archonexus</label>
+		<description>A bunch of derelict archonexus structures are present in this area.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericPrefabSpawner</workerClass>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<prefabsToSpawn>
+					<li>AB_DerelictArchonexusAlpha</li>
+					<li>AB_DerelictArchonexusBeta</li>
+					<li>AB_DerelictArchonexusGamma</li>
+					<li>AB_DerelictArchonexusDelta</li>
+					<li>AB_DerelictArchonexusEpsilon</li>
+					
+				</prefabsToSpawn>
+				<prefabsToSpawnAmount>3~5</prefabsToSpawnAmount>
+			</li>
+		</modExtensions>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Sarg.AlphaMemes">
+		<defName>AB_DerelictKemeticTemple</defName>
+		<label>derelict kemetic temple</label>
+		<description>A derelict kemetic temple is present in this area.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>AB_KemeticTemple</li>
+					
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>1~1</KCSGStructuresToSpawnAmount>
+			</li>
+		</modExtensions>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_TarPits</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+			<li>AridShrubland</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DerelictResort</defName>
+		<label>derelict resort</label>
+		<description>A derelict resort is present in this area.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>AB_DerelictResort_Alpha</li>
+					<li>AB_DerelictResort_Beta</li>
+					<li>AB_DerelictResort_Gamma</li>
+					<li>AB_DerelictResort_Delta</li>
+					
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>1~1</KCSGStructuresToSpawnAmount>
+			</li>
+		</modExtensions>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_TarPits</li>
+			<li>AB_GallatrossGraveyard</li>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+			<li>AridShrubland</li>
+			<li>Grasslands</li>
+		</biomeWhitelist>
+		<coastSidesRange>1~6</coastSidesRange>
+		<averageTemperatureRange>20~40</averageTemperatureRange>
+	</TileMutatorDef>
+</Defs>

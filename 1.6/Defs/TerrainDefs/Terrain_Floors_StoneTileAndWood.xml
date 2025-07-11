@@ -35,7 +35,7 @@
 	<TerrainDef ParentName="FlagstoneBase">
 		<defName>AB_FlagstoneRoseQuartz</defName>
 		<label>rose quartz flagstone</label>
-		<color>(120,50,50)</color>
+		<color>(110,75,75)</color>
 		<costList>
 			<GU_BlocksRoseQuartz>4</GU_BlocksRoseQuartz>
 		</costList>
@@ -43,7 +43,7 @@
 	<TerrainDef ParentName="FlagstoneBase">
 		<defName>AB_FlagstoneMudstone</defName>
 		<label>mudstone flagstone</label>
-		<color>(49,31,15)</color>
+		<color>(41,35,31)</color>
 		<costList>
 			<AB_BlocksMudstone>4</AB_BlocksMudstone>
 		</costList>

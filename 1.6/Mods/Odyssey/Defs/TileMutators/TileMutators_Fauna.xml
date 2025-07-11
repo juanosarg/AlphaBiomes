@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_ButterflySwarms</defName>
+		<label>butterfly swarms</label>
+		<description>Harmless swarms of beautiful butterflies roam this area.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.35</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li>
+						<forcedPawnKindDef>AA_SmallButterfly</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.25</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_LocustPlagues</defName>
+		<label>locust plagues</label>
+		<description>Ravenous locusts plagues infest this area, making short work of any yellow grass lying unprotected.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>Grasslands</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.1</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li>
+						<forcedPawnKindDef>AA_Locusts</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.5</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_FeraliskNest</defName>
+		<label>feralisk nest</label>
+		<description>This area is infested with Feralisks.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeBlacklist>
+			<li>AB_FeraliskInfestedJungle</li>
+		</biomeBlacklist>
+		<chanceOnNonLandmarkTile>0.025</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li>
+						<forcedPawnKindDef>AA_Feralisk</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.25</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_BlizzariskNest</defName>
+		<label>blizzarisk nest</label>
+		<description>This area is infested with Blizzarisks.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>AB_PropaneLakes</li>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+			<li>Tundra</li>
+			<li>GlacialPlain</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.025</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li>
+						<forcedPawnKindDef>AA_Blizzarisk</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.25</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_DunealiskNest</defName>
+		<label>dunealisk nest</label>
+		<description>This area is infested with Dunealisks.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+			<li>AB_GallatrossGraveyard</li>
+		</biomeWhitelist>
+		<chanceOnNonLandmarkTile>0.025</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li>
+						<forcedPawnKindDef>AA_Dunealisk</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.25</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_BumbledroneNests</defName>
+		<label>bumbledrone nests</label>
+		<description>This area has several dangerous Bumbledrone nests.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericSpawner</workerClass>
+		<biomeBlacklist>
+			<li>AB_TarPits</li>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+			<li>Tundra</li>
+			<li>GlacialPlain</li>
+		</biomeBlacklist>
+		<chanceOnNonLandmarkTile>0.015</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<thingToSpawn>AB_BumbledroneHive</thingToSpawn>
+				<thingToSpawnAmount>3~4</thingToSpawnAmount>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ExplodingAnimals</defName>
+		<label>exploding animals</label>
+		<description>Something in this area makes all animals explode violently on death.</description>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<additionalGameConditions>
+			<li>AB_ExplodingAnimals</li>
+		</additionalGameConditions>
+	</TileMutatorDef>
+</Defs>
+

@@ -16,6 +16,25 @@
 			<li>Ambient_NightInsects_Standard</li>
 		</soundsAmbient>
 		<diseaseMtbDays>60</diseaseMtbDays>
+		<maxFishPopulation>1500</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
+				<Fish_Bass MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bass>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Marlin MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Marlin>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Temperate</rareCatchesSetMaker>
+		</fishTypes>
 		<diseases>
 			<li>
 				<diseaseInc>AB_Disease_SporesAllergy</diseaseInc>
@@ -50,7 +69,6 @@
 			<RainyThunderstorm>1</RainyThunderstorm>
 			<FoggyRain>1</FoggyRain>
 			<SnowGentle>4</SnowGentle>
-		
 		</baseWeatherCommonalities>
 		<terrainsByFertility>
 			<li>
@@ -113,7 +131,7 @@
 		</terrainPatchMakers>
 		<wildPlants>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">2</Plant_GrayGrass>
-			<AB_ToxiGrass MayRequire="Ludeon.RimWorld.Biotech">2</AB_ToxiGrass>		
+			<AB_ToxiGrass MayRequire="Ludeon.RimWorld.Biotech">2</AB_ToxiGrass>
 			<AB_GiantToxicFlower MayRequire="Ludeon.RimWorld.Biotech">1</AB_GiantToxicFlower>
 			<AB_Flowers>10</AB_Flowers>
 			<Plant_Grass>20.0</Plant_Grass>
@@ -148,7 +166,6 @@
 			<Gazelle>0.3</Gazelle>
 			<Megasloth>0.2</Megasloth>
 			<Rhinoceros>0.1</Rhinoceros>
-		
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>

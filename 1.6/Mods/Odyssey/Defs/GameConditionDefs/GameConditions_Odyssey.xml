@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<GameConditionDef>
+		<defName>AB_GelatinousMemoryEcho</defName>
+		<conditionClass>AlphaBiomes.GameCondition_GelatinousMemoryEcho</conditionClass>
+		<label>gelatinous memory echo</label>
+		<description>The superorganism retains echoes of past events, stored like data in a living neural lattice. These memory echoes occasionally (every 2 days) bleed into reality, causing inspirations, mood boosts, penalties... or hallucinations.</description>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
+	<GameConditionDef>
+		<defName>AB_AmbientRadiation</defName>
+		<conditionClass>AlphaBiomes.GameCondition_AmbientRadiation</conditionClass>
+		<label>ambient radiation</label>
+		<description>Low levels of background radiation permeate the area, subtly affecting health and mutation rates, and causing gene mutations in random colonists every quadrum or so.</description>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
+	<GameConditionDef>
+		<defName>AB_ExtremeTemperatureFluctuations</defName>
+		<conditionClass>AlphaBiomes.GameCondition_ExtremeTemperatureFluctuations</conditionClass>
+		<label>extreme temperature fluctuations</label>
+		<description>Wild swings between scorching days and freezing nights challenge survival and crop stability.</description>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
+	<GameConditionDef>
+		<defName>AB_ExplodingAnimals</defName>
+		<conditionClass>AlphaBiomes.GameCondition_ExplodingAnimals</conditionClass>
+		<label>exploding animals</label>
+		<description>Something in this area makes all animals explode violently on death.</description>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
+	<GameConditionDef>
+		<defName>AB_MoldyEnvironment</defName>
+		<conditionClass>GameCondition</conditionClass>
+		<label>moldy environment</label>
+		<description>The ubiquitous presence of fungal spores makes staying outdoors almost unbearable.</description>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
+</Defs>

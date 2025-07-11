@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+
+		<xpath>/Defs/FleshTypeDef[defName = "Normal"]/hediffWounds</xpath>
+		<value>
+			<li>
+				<hediff>AB_MalevolentEye</hediff>
+				<wounds>
+					<li>
+						<textureSouth>Things/Wounds/AB_EyesHediffImage</textureSouth>
+						<textureNorth>Things/Wounds/AB_EyesHediffImage</textureNorth>
+						<textureEast>Things/Wounds/AB_EyesHediffImage</textureEast>
+						<textureWest>Things/Wounds/AB_EyesHediffImage</textureWest>
+						<flipWest>true</flipWest>
+						<tintWithSkinColor>false</tintWithSkinColor>
+						<flipOnRotation>South</flipOnRotation>
+						<scale>1</scale>
+					</li>
+				</wounds>
+			</li>
+			
+		</value>
+
+	</Operation>
+
+
+
+</Patch>

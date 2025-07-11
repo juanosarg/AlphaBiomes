@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>AB_GelatinousEchoes_Good</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>gelatinous echoes</label>
+				<description>I feel connected to something ancient.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AB_GelatinousEchoes_Bad</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>ominous gelatinous echoes</label>
+				<description>I feel connected to something ancient, it's terrifying.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AB_HealingSpringwaterThought</defName>
+		<durationDays>0.1</durationDays>
+		<stackLimit>1</stackLimit>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>healing spring</label>
+				<description>The healing properties of the water rejuvenated me.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AB_MutagenicOcularWater</defName>
+		<durationDays>0.1</durationDays>
+		<stages>
+			<li>
+				<label>mutagenic water</label>
+				<description>I can feel myself changing...</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AB_Quicksand</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AB_Quicksand</hediff>
+		<durationDays>0.005</durationDays>
+		<stages>
+			<li>
+				<label>traversing quicksand</label>
+				<description>It's like moving through molasses...</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AB_MoldyEnvironment</defName>
+		<gameCondition>AB_MoldyEnvironment</gameCondition>
+		<workerClass>AlphaBiomes.ThoughtWorker_MoldyEnvironment</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>moldy environment</label>
+				<description>This place reeks of mold and decay, I can't stay outdoors for long!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

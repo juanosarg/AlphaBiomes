@@ -21,6 +21,8 @@
 		<soundsAmbient>
 			<li>Ambient_Wind_Desolate</li>
 		</soundsAmbient>
+		 <maxFishPopulation>0</maxFishPopulation>
+    
 		<diseaseMtbDays>90</diseaseMtbDays>
 		<diseases>
 			<li>

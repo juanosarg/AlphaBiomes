@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
 	<BiomeDef>
 		<defName>AB_PropaneLakes</defName>
 		<label>propane lakes</label>
@@ -13,7 +10,6 @@
 		<allowRivers>false</allowRivers>
 		<animalDensity>0.5</animalDensity>
 		<plantDensity>0.75</plantDensity>
-		
 		<wildPlantRegrowDays>1</wildPlantRegrowDays>
 		<settlementSelectionWeight>0.01</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
@@ -22,6 +18,24 @@
 		<soundsAmbient>
 			<li>Ambient_Wind_Desolate</li>
 		</soundsAmbient>
+		<maxFishPopulation>600</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<VCEF_BorealSardine MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_BorealSardine>
+				<VCEF_FrigidSwimmer MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_FrigidSwimmer>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Frostfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Frostfish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<VCEF_GiantPolarPrawn MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_GiantPolarPrawn>
+				<VCEF_PropaneBag MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_PropaneBag>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<VCEF_AbyssalEel MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_AbyssalEel>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Cold</rareCatchesSetMaker>
+		</fishTypes>
 		<diseaseMtbDays>110</diseaseMtbDays>
 		<diseases>
 			<li>
@@ -40,7 +54,6 @@
 				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
 				<commonality>30</commonality>
 			</li>
-
 			<li>
 				<diseaseInc>Disease_AnimalFlu</diseaseInc>
 				<commonality>100</commonality>
@@ -105,9 +118,6 @@
 			<AB_FrostLeaf>10</AB_FrostLeaf>
 			<AB_RimeNodules>8</AB_RimeNodules>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">3</Plant_GrayGrass>
-			
-
-
 		</wildPlants>
 		<wildAnimals>
 			<Snowhare>0.5</Snowhare>
@@ -120,5 +130,4 @@
 			<li>Muffalo</li>
 		</allowedPackAnimals>
 	</BiomeDef>
-
 </Defs>

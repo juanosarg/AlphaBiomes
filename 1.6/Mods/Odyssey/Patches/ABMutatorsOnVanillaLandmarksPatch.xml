@@ -1,0 +1,228 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[@Name="BaseLake"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="DryLake"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="ToxicLake"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Wetland"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="HotSprings"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Archipelago"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="CoastalIsland"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Peninsula"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Bay"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Fjord"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="CoastalAtoll"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Iceberg"]/mutatorChances</xpath>
+		<value>
+			<AB_BlizzariskNest MayRequire="sarg.alphaanimals">0.15</AB_BlizzariskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Valley"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Cavern"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Chasm"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Crevasse"]/mutatorChances</xpath>
+		<value>
+			<AB_BlizzariskNest MayRequire="sarg.alphaanimals">0.15</AB_BlizzariskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Plateau"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="IceDunes"]/mutatorChances</xpath>
+		<value>
+			<AB_BlizzariskNest MayRequire="sarg.alphaanimals">0.03</AB_BlizzariskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Cliffs"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Hollow"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Basin"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="TerraformingScar"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[@Name="BaseLavaLake"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="LavaFlow"]/mutatorChances</xpath>
+		<value>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Dunes"]/mutatorChances</xpath>
+		<value>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Ruins"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="FrozenRuins"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_BlizzariskNest MayRequire="sarg.alphaanimals">0.05</AB_BlizzariskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[@Name="BaseAncientVent"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="AncientQuarry"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[@Name="AbandonedColonyLandmarkBase"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="AncientLaunchSite"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[defName="Harbor"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/LandmarkDef[@Name="AncientStructureBase"]/mutatorChances</xpath>
+		<value>
+			<AB_AgariluxPrime_Mutator>0.01</AB_AgariluxPrime_Mutator>
+			<AB_FeraliskNest MayRequire="sarg.alphaanimals">0.03</AB_FeraliskNest>
+		</value>
+	</Operation>
+</Patch>			

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TileMutatorDef>
+		<defName>AB_AgariluxPrime_Mutator</defName>
+		<label>agarilux prime sprout</label>
+		<description>This area contains a wayward Agarilux Prime growing outside the Mycotic Jungle. It will release spores that destroy everything surrounding it.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_AgariluxPrime</workerClass>
+		<biomeBlacklist>
+			<li>AB_MycoticJungle</li>
+		</biomeBlacklist>
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base">
+		<defName>AB_OcularTransformation</defName>
+		<label>ocular transformation</label>
+		<description>This area has begun to transform into an ocular forest.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>IceSheet</li>
+			<li>SeaIce</li>
+			<li>ExtremeDesert</li>
+			<li>AB_OcularForest</li>
+		</biomeBlacklist>
+		<plantKinds>
+			<li>AB_AlienTree</li>
+		</plantKinds>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_GoldenTrees</defName>
+		<label>golden cube trees</label>
+		<description>This area is achieving PERFECTION.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>IceSheet</li>
+			<li>SeaIce</li>
+			<li>ExtremeDesert</li>
+			<li>AB_MechanoidIntrusion</li>
+		</biomeBlacklist>
+		<plantKinds>
+			<li>AB_GoldenCubeTree</li>
+		</plantKinds>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_FleshTrees</defName>
+		<label>flesh trees</label>
+		<description>Weird flesh trees grow wild in this area. They don't look tasty.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>IceSheet</li>
+			<li>SeaIce</li>
+			<li>ExtremeDesert</li>
+			<li>AB_MechanoidIntrusion</li>
+		</biomeBlacklist>
+		<plantKinds>
+			<li>AB_FleshTree</li>
+		</plantKinds>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base" MayRequire="VanillaExpanded.VCookE">
+		<defName>AB_DessertTrees</defName>
+		<label>dessert trees</label>
+		<description>Weird dessert trees grow wild in this area. They look VERY tasty.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>IceSheet</li>
+			<li>SeaIce</li>
+			<li>ExtremeDesert</li>
+			<li>AB_MechanoidIntrusion</li>
+		</biomeBlacklist>
+		<plantKinds>
+			<li>AB_DessertTree</li>
+		</plantKinds>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base">
+		<defName>AB_TechnoTrees</defName>
+		<label>technological trees</label>
+		<description>A strange kind of trees grows in this area. They appear to be half synthetic.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>IceSheet</li>
+			<li>SeaIce</li>
+			<li>ExtremeDesert</li>
+			
+		</biomeBlacklist>
+		<plantKinds>
+			<li>AB_TechnoTree</li>
+		</plantKinds>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base">
+		<defName>AB_LuminescentTrees</defName>
+		<label>luminescent trees</label>
+		<description>Unusual luminescent trees grow in this area.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>IceSheet</li>
+			<li>SeaIce</li>
+			<li>ExtremeDesert</li>
+			<li>AB_MycoticJungle</li>
+		</biomeBlacklist>
+		<plantKinds>
+			<li>AB_LuminescentTree</li>
+		</plantKinds>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_SterileGround</defName>
+		<label>sterile ground</label>
+		<description>No wild plants grow here besides simple grass, but disease chance is lowered by 75%.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_OnlyGrass</workerClass>
+		
+		<chanceOnNonLandmarkTile>0.005</chanceOnNonLandmarkTile>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<diseaseMTBMultiplier>1.75</diseaseMTBMultiplier>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+</Defs>
+

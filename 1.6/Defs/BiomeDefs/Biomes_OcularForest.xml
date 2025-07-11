@@ -17,6 +17,25 @@
 			<li>AB_AmbientAlien</li>
 		</soundsAmbient>
 		<diseaseMtbDays>30</diseaseMtbDays>
+		<maxFishPopulation>540</maxFishPopulation>
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<VCEF_BloodLeech MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_BloodLeech>
+				<VCEF_MutantFlatfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MutantFlatfish>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<VCEF_OcularFish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_OcularFish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<VCEF_MutantFlatfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_MutantFlatfish>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<VCEF_HabdakLongfin MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_HabdakLongfin>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Temperate</rareCatchesSetMaker>
+		</fishTypes>
 		<diseases>
 			<li>
 				<diseaseInc>AB_Disease_SporesAllergy</diseaseInc>
@@ -138,19 +157,19 @@
 			<li>Alpaca</li>
 		</allowedPackAnimals>
 		<fogOfWarColor>(75,45,45)</fogOfWarColor>
-		<forceRockTypes><li>GU_RoseQuartz</li></forceRockTypes>
+		<forceRockTypes>
+			<li>GU_RoseQuartz</li>
+		</forceRockTypes>
 		<coastalBeachTerrain>GU_AlienSandFine</coastalBeachTerrain>
 		<lakeBeachTerrain>GU_AlienSandFine</lakeBeachTerrain>
 		<riverbankTerrain>GU_AlienSandFine</riverbankTerrain>
 		<mudTerrain>GU_AlienSandFine</mudTerrain>
 		<gravelTerrain>GU_AlienSand</gravelTerrain>
-		
 		<waterShallowTerrain>GU_RedWaterShallow</waterShallowTerrain>
 		<waterDeepTerrain>GU_RedWaterDeep</waterDeepTerrain>
 		<oceanShallowTerrain>GU_RedWaterOceanShallow</oceanShallowTerrain>
 		<oceanDeepTerrain>GU_RedWaterOceanDeep</oceanDeepTerrain>
 		<waterMovingShallowTerrain>GU_RedWaterMovingShallow</waterMovingShallowTerrain>
 		<waterMovingChestDeepTerrain>GU_RedWaterMovingChestDeep</waterMovingChestDeepTerrain>
-		
 	</BiomeDef>
 </Defs>

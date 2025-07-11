@@ -1,0 +1,16 @@
+<Patch>
+ 
+        <Operation Class="PatchOperationReplace">
+          <xpath>Defs/BiomeDef[defName="AB_PyroclasticConflagration"]/terrainPatchMakers/li[@Name="AB_LiquidLava"]/thresholds/li[@Name="AB_LiquidLava"]/terrain</xpath>
+          <value>
+            <terrain>LavaDeep</terrain>
+          </value>
+        </Operation>
+    
+   <Operation Class="PatchOperationReplace">
+          <xpath>Defs/BiomeDef[defName="AB_PyroclasticConflagration"]/terrainPatchMakers/li[@Name="AB_Obsidian"]/thresholds/li/terrain</xpath>
+          <value>
+            <terrain>VolcanicRock</terrain>
+          </value>
+        </Operation>
+</Patch>

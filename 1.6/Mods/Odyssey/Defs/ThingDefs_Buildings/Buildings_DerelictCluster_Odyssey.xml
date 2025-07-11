@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedTurret_Single</defName>
+		<label>ruined mech turret base</label>
+		<description>A ruined mech turret base. Completely broken.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedTurret_Single</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedTurret_Full</defName>
+		<label>ruined mech turret</label>
+		<description>A ruined mech turret. Completely broken. No useful components can be scavenged from this old turret.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedTurret_Full</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedShield</defName>
+		<label>ruined mech shield</label>
+		<description>A spent mech shield generator. Still faintly humming.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedMortar_Single</defName>
+		<label>ruined mech mortar gun</label>
+		<description>A ruined mech mortar.</description>
+		<size>(2,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>true</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedMortar_Single</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+		<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedMortar_Full</defName>
+		<label>ruined mech mortar</label>
+		<description>A ruined mech auto-mortar. Completely broken. No useful components can be scavenged from this old mortar.</description>
+		<size>(2,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedMortar_Full</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+		<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedLargeGunPlatform</defName>
+		<label>ruined mech large turret base</label>
+		<description>A ruined mech large turret base. Whatever this base held, it's long gone.</description>
+		<size>(2,2)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedLargeGunPlatform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>5</Steel>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedCell</defName>
+		<label>ruined mech power cell</label>
+		<description>A ruined mech power cell. Perhaps a few components can be scavenged from this one.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedCell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedActivator</defName>
+		<label>ruined mech proximity activator</label>
+		<description>A ruined mech proximity activator. Perhaps a few components can be scavenged from this one.</description>
+		<size>(1,1)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedActivator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>1</Steel>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedCapsule</defName>
+		<label>ruined mech capsule</label>
+		<description>A ruined mech capsule. Thankfully it has been empty for a while.</description>
+		<size>(2,3)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedCapsule</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(2,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>10</Steel>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+	<ThingDef ParentName="AB_JunkBuildingBase">
+		<defName>AB_Mech_RuinedAssembler</defName>
+		<label>ruined mech assembler</label>
+		<description>A ruined mech assembler. Thankfully it has been inactive for a while.</description>
+		<size>(3,3)</size>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/DerelictCluster/AB_Mech_RuinedAssembler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(3,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+			<ChunkSlagSteel>5</ChunkSlagSteel>
+		
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>4000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+	</ThingDef>
+</Defs>

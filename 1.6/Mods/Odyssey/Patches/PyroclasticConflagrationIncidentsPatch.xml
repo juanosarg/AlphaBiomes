@@ -1,0 +1,20 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName="VolcanicAsh"]/allowedBiomes</xpath>
+		<value>
+			<li>AB_PyroclasticConflagration</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName="LavaEmergence"]/allowedBiomes</xpath>
+		<value>
+			<li>AB_PyroclasticConflagration</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName="VolcanicDebris"]/allowedBiomes</xpath>
+		<value>
+			<li>AB_PyroclasticConflagration</li>
+		</value>
+	</Operation>
+</Patch>

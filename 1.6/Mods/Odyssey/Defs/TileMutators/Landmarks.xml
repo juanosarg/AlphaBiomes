@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<LandmarkDef>
+		<defName>AB_TarLakes</defName>
+		<label>tar lakes</label>
+		<drawScale>0.7</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_Landmark_TarPonds</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>1</commonality>
+		<nameMaker>AB_NamerLandmark_TarLakes</nameMaker>
+		<category>lake</category>
+		<mutatorChances>
+			<AB_TarLakes Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<Muddy>0.75</Muddy>
+			<AnimalHabitat>0.25</AnimalHabitat>
+			<SunnyMutator>0.05</SunnyMutator>
+			<AncientUplink>0.02</AncientUplink>
+			<Marshy>0.05</Marshy>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_PropaneLakes</defName>
+		<label>propane lakes</label>
+		<drawScale>0.7</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_Landmark_PropaneLakes</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>1</commonality>
+		<nameMaker>AB_NamerLandmark_PropaneLakes</nameMaker>
+		<category>lake</category>
+		<mutatorChances>
+			<AB_PropaneLakes Required="True"/>
+			<IceCaves>0.5</IceCaves>
+			<WindyMutator>0.5</WindyMutator>
+			<Stockpile>0.15</Stockpile>
+			<AncientChemfuelRefinery>0.05</AncientChemfuelRefinery>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_MagmaticQuagmire</defName>
+		<label>magmatic quagmire</label>
+		<drawScale>0.7</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_Landmark_MagmaticQuagmire</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.15</commonality>
+		<nameMaker>AB_NamerLandmark_MagmaticQuagmire</nameMaker>
+		<mutatorChances>
+			<AB_MagmaticQuagmire Required="True"/>
+			<AB_MagmaVents Required="True"/>
+			<AB_GeothermalHotspots Required="True"/>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<AnimalLife_Decreased>0.15</AnimalLife_Decreased>
+			<SunnyMutator>0.1</SunnyMutator>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<AncientUplink>0.02</AncientUplink>
+			<MineralRich>0.05</MineralRich>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_HealingSprings</defName>
+		<label>healing springs</label>
+		<drawScale>0.8</drawScale>
+		<iconTexturePath>World/Landmarks/HotSprings</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.25</commonality>
+		<nameMaker>AB_NamerLandmark_HealingSprings</nameMaker>
+		<mutatorChances>
+			<AB_HealingSprings Required="True"/>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<MineralRich>0.03</MineralRich>
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WetClimate>0.05</WetClimate>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<MixedBiome>0.5</MixedBiome>
+			<AncientUplink>0.02</AncientUplink>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<PlantGrove>0.05</PlantGrove>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<PlantLife_Increased>0.03</PlantLife_Increased>
+			<Fertile>0.05</Fertile>
+			<WildPlants>0.05</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<PlantGrove>0.05</PlantGrove>
+		</mutatorChances>
+		<comboLandmarkMutators>
+			<Valley>0.1</Valley>
+			<Cavern>0.1</Cavern>
+			<Chasm>0.1</Chasm>
+			<TerraformingScar>0.1</TerraformingScar>
+			<Wetland>0.02</Wetland>
+		</comboLandmarkMutators>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_MutagenicSprings</defName>
+		<label>mutagenic ocular springs</label>
+		<drawScale>0.8</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_MutagenicSprings</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.25</commonality>
+		<nameMaker>AB_NamerLandmark_MutagenicSprings</nameMaker>
+		<mutatorChances>
+			<AB_MutagenicSprings Required="True"/>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<MineralRich>0.03</MineralRich>
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WetClimate>0.05</WetClimate>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<MixedBiome>0.25</MixedBiome>
+			<AncientUplink>0.02</AncientUplink>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<PlantGrove>0.05</PlantGrove>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<PlantLife_Increased>0.03</PlantLife_Increased>
+			<Fertile>0.05</Fertile>
+			<WildPlants>0.05</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<PlantGrove>0.05</PlantGrove>
+		</mutatorChances>
+		<comboLandmarkMutators>
+			<Valley>0.1</Valley>
+			<Cavern>0.1</Cavern>
+			<Chasm>0.1</Chasm>
+			<TerraformingScar>0.1</TerraformingScar>
+			<Wetland>0.02</Wetland>
+		</comboLandmarkMutators>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_QuicksandPits</defName>
+		<label>quicksand pits</label>
+		<drawScale>0.8</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_QuicksandPits</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.25</commonality>
+		<nameMaker>AB_NamerLandmark_QuicksandPits</nameMaker>
+		<mutatorChances>
+			<AB_QuicksandPits Required="True"/>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<MineralRich>0.03</MineralRich>
+			<Muddy>0.05</Muddy>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<MixedBiome>0.1</MixedBiome>
+			<AncientUplink>0.02</AncientUplink>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<ArcheanTrees>0.01</ArcheanTrees>
+		</mutatorChances>
+		<comboLandmarkMutators>
+			<Valley>0.1</Valley>
+			<Cavern>0.1</Cavern>
+			<Chasm>0.1</Chasm>
+			<TerraformingScar>0.1</TerraformingScar>
+		</comboLandmarkMutators>
+	</LandmarkDef>
+</Defs>

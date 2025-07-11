@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Power</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<ThingDef ParentName="BuildingBase">
+					<defName>AB_MagmaThermalPlant_Advanced</defName>
+					<label>advanced magma-thermal generator</label>
+					<description>This advanced, spacertech generator produces electricity from hyperheated geothermal steam geysers in a magma rich zone. Must be placed on a steam geyser.</description>
+					<thingClass>Building</thingClass>
+					<graphicData>
+						<texPath>Things/Building/PyroclasticConflagration/AB_MagmaGeothermal_Advanced</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(6,6)</drawSize>
+						<shadowData>
+							<volume>(6.03,1.0,5.25)</volume>
+							<offset>(0,0,-0.25)</offset>
+						</shadowData>
+						<damageData>
+							<rect>(0.3,0,5.4,6)</rect>
+						</damageData>
+					</graphicData>
+					<altitudeLayer>Building</altitudeLayer>
+					<passability>Impassable</passability>
+					<blockWind>true</blockWind>
+					<scatterableOnMapGen>false</scatterableOnMapGen>
+					<fillPercent>1</fillPercent>
+					<blockLight>true</blockLight>
+					<canOverlapZones>false</canOverlapZones>
+					<statBases>
+						<MaxHitPoints>750</MaxHitPoints>
+						<WorkToBuild>18000</WorkToBuild>
+						<Flammability>0.5</Flammability>
+						<Beauty>-20</Beauty>
+					</statBases>
+					<tickerType>Normal</tickerType>
+					<size>(6,6)</size>
+					<costList>
+						<Steel>300</Steel>
+						<ComponentSpacer>6</ComponentSpacer>
+					</costList>
+					<comps>
+						<li Class="CompProperties_Power">
+							<compClass>VanillaPowerExpanded.CompPowerPlantAdvSteam</compClass>
+							<basePowerConsumption>-5720</basePowerConsumption>
+							<transmitsPower>true</transmitsPower>
+						</li>
+						<li Class="CompProperties_Stunnable">
+							<useLargeEMPEffecter>true</useLargeEMPEffecter>
+							<empChancePerTick>0.7</empChancePerTick>
+							<affectedDamageDefs>
+								<li>EMP</li>
+							</affectedDamageDefs>
+						</li>
+						<li Class="CompProperties_Breakdownable"/>
+						<li Class="CompProperties_AmbientSound">
+							<sound>GeothermalPlant_Ambience</sound>
+							<disabledOnUnpowered>true</disabledOnUnpowered>
+						</li>
+					</comps>
+					<rotatable>false</rotatable>
+					<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+					<designationCategory>Power</designationCategory>
+					<placeWorkers>
+						<li>PlaceWorker_OnSteamGeyser</li>
+					</placeWorkers>
+					<building>
+						<ai_chillDestination>false</ai_chillDestination>
+						<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+					</building>
+					<constructEffect>ConstructMetal</constructEffect>
+					<designationHotKey>Misc6</designationHotKey>
+					<researchPrerequisites>
+						<li>VFE_AdvancedPowerSources</li>
+						<li>GeothermalPower</li>
+					</researchPrerequisites>
+					<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+				</ThingDef>
+				<VEF.Buildings.HiddenDesignatorsDef>
+					<defName>AB_HiddenDesignators_Odyssey_VFEPower</defName>
+					<hiddenDesignators>
+						<li>AB_MagmaThermalPlant_Advanced</li>
+					</hiddenDesignators>
+				</VEF.Buildings.HiddenDesignatorsDef>
+			</value>
+		</match>
+	</Operation>
+</Patch>
+

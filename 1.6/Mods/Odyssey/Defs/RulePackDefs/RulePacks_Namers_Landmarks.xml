@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>AB_NamerLandmark_TarLakes</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>terrain_word(p=4)->tar lakes</li>
+        <li>terrain_word->asphalt pits</li>
+        <li>terrain_word->bitumen pools</li>
+        <li>terrain_word->pitch ponds</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+   <RulePackDef>
+    <defName>AB_NamerLandmark_PropaneLakes</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>terrain_word(p=4)->propane lakes</li>
+        <li>terrain_word->propane ponds</li>
+        <li>terrain_word->propane pools</li>
+        <li>terrain_word->propane basins</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+     <RulePackDef>
+    <defName>AB_NamerLandmark_MagmaticQuagmire</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>terrain_word(p=4)->magmatic quagmire</li>
+        <li>terrain_word->magma sinks</li>
+        <li>terrain_word->pyromarsh</li>
+        <li>terrain_word->lavamire</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>AB_NamerLandmark_QuicksandPits</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>terrain_word(p=4)->quicksand pits</li>
+        <li>terrain_word->sinking sands</li>
+        <li>terrain_word->loose earth pockets</li>
+        <li>terrain_word->unstable ground</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>AB_NamerLandmark_MutagenicSprings</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=0.2)->[NamePerson]'s noxious springs</li>
+
+        <li>terrain_word(p=2)->mutagenic spring</li>
+        <li>terrain_word(p=2)->ocular springs</li>
+        <li>terrain_word->ocular spring</li>
+       
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+   <RulePackDef>
+    <defName>AB_NamerLandmark_HealingSprings</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=0.2)->[NamePerson]'s healing fonts</li>
+
+        <li>terrain_word(p=2)->healing spring</li>
+        <li>terrain_word(p=2)->healing springs</li>
+      
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

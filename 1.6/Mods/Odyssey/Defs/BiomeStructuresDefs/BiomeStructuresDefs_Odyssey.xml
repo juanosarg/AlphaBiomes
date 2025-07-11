@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaBiomes.BiomeStructuresDef>
+		<defName>AB_BiomeStructures_Odyssey</defName>
+		<structureToBiomeList>
+		
+		
+			
+			<li>
+				<mutator>AB_GeothermalHotspots</mutator>
+				<structure>AB_MagmaThermalPlant</structure>
+			</li>
+			
+			<li MayRequire="VanillaExpanded.VFEPower">
+				<mutator>AB_GeothermalHotspots</mutator>
+				<structure>AB_MagmaThermalPlant_Advanced</structure>
+			</li>
+			<li>
+				<mutator>AB_EdibleAirborneMicrofungi</mutator>
+				<structure>AB_MycoticCollector</structure>
+			</li>
+			<li>
+				<mutator>AB_ResidualOverclocking</mutator>
+				<structure>AB_MechanoidReceiver</structure>
+			</li>
+			
+		</structureToBiomeList>
+	</AlphaBiomes.BiomeStructuresDef>
+</Defs>

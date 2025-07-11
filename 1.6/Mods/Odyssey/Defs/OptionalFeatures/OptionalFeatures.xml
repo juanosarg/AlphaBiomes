@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <VEF.OptionalFeatures.ModDef>
+        <defName>AB_OptionalFeatures</defName>
+        <label>Alpha Biomes</label>
+        <description>VE Framework optional features for Alpha Biomes</description>
+        <Activate>
+            <li>TileMutatorMechanics</li>
+        </Activate>
+    </VEF.OptionalFeatures.ModDef>
+</Defs>

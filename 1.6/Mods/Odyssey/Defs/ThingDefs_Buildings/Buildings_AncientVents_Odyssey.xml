@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="BaseAncientVentThing">
+		<defName>AB_AncientFreezingVent</defName>
+		<label>ancient freezing vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent freezing cold air from an underground megastructure, dramatically lowering the temperature of the surrounding area.</description>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientFreezingVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_AncientHeatVent">
+				<compClass>AlphaBiomes.CompAncientFreezingVent</compClass>
+				<pulseSpeed>0.5</pulseSpeed>
+				<rampUpTime>5.0</rampUpTime>
+				<rampDownTime>20.0</rampDownTime>
+				<conditionToCause>DeepFreeze</conditionToCause>
+				<onDurationMtbDays>12</onDurationMtbDays>
+				<offDurationMtbDays>4</offDurationMtbDays>
+				<heatToPush>-200</heatToPush>
+				<!-- 5x steam vents -->
+				<startupMessageKey>AB_AncientFreezingVentStartUp</startupMessageKey>
+				<shutdownMessageKey>AB_AncientFreezingVentShutdown</shutdownMessageKey>
+				<activeInspectStringKey>AB_AncientFreezingVentActive</activeInspectStringKey>
+				<activeSound>AncientVent_Ambient</activeSound>
+			</li>
+			<li Class="CompProperties_FleckEmitterLongTerm">
+				<fleckDef>AB_AncientFreezingAir</fleckDef>
+				<spawnRadius>2.0</spawnRadius>
+				<spawnChance>0.2</spawnChance>
+				<spawnOffsetFromCenter>(0.5,0.0,-0.5)</spawnOffsetFromCenter>
+				<prewarmCycles>1.0</prewarmCycles>
+				<fleckScale>4.0</fleckScale>
+				<minRotationRate>-20.0</minRotationRate>
+				<maxRotationRate>20.0</maxRotationRate>
+				<minVelocityAngle>-20.0</minVelocityAngle>
+				<maxVelocityAngle>20.0</maxVelocityAngle>
+				<minVelocitySpeed>0.5</minVelocitySpeed>
+				<maxVelocitySpeed>0.7</maxVelocitySpeed>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseAncientVentThing" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_AncientGreyPallVent</defName>
+		<label>ancient gray pall vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent large amounts of sickly looking smoke that will plunge the area into a preternatural darkness.</description>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientGreyPallVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_AncientHeatVent">
+				<compClass>AlphaBiomes.CompAncientGreyPallVent</compClass>
+				<pulseSpeed>0.5</pulseSpeed>
+				<rampUpTime>5.0</rampUpTime>
+				<rampDownTime>20.0</rampDownTime>
+				<conditionToCause>GrayPall</conditionToCause>
+				<onDurationMtbDays>12</onDurationMtbDays>
+				<offDurationMtbDays>4</offDurationMtbDays>
+				<heatToPush>-200</heatToPush>
+				<!-- 5x steam vents -->
+				<startupMessageKey>AB_AncientGreyPallVentStartUp</startupMessageKey>
+				<shutdownMessageKey>AB_AncientGreyPallVentShutdown</shutdownMessageKey>
+				<activeInspectStringKey>AB_AncientGreyPallVentActive</activeInspectStringKey>
+				<activeSound>AncientVent_Ambient</activeSound>
+			</li>
+			<li Class="CompProperties_FleckEmitterLongTerm">
+				<fleckDef>AB_AncientGreyPallAir</fleckDef>
+				<spawnRadius>2.0</spawnRadius>
+				<spawnChance>0.2</spawnChance>
+				<spawnOffsetFromCenter>(0.5,0.0,-0.5)</spawnOffsetFromCenter>
+				<prewarmCycles>1.0</prewarmCycles>
+				<fleckScale>4.0</fleckScale>
+				<minRotationRate>-20.0</minRotationRate>
+				<maxRotationRate>20.0</maxRotationRate>
+				<minVelocityAngle>-20.0</minVelocityAngle>
+				<maxVelocityAngle>20.0</maxVelocityAngle>
+				<minVelocitySpeed>0.5</minVelocitySpeed>
+				<maxVelocitySpeed>0.7</maxVelocitySpeed>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseAncientVentThing" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_AncientBloodRainVent</defName>
+		<label>ancient blood rain vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent huge red clouds of a vaporized blood-like substance that will coalesce into a disgusting blood rain.</description>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientBloodRainVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_AncientHeatVent">
+				<compClass>AlphaBiomes.CompAncientBloodRainVent</compClass>
+				<pulseSpeed>0.5</pulseSpeed>
+				<rampUpTime>5.0</rampUpTime>
+				<rampDownTime>20.0</rampDownTime>
+				<conditionToCause>BloodRain</conditionToCause>
+				<onDurationMtbDays>12</onDurationMtbDays>
+				<offDurationMtbDays>4</offDurationMtbDays>
+				<heatToPush>-200</heatToPush>
+				<!-- 5x steam vents -->
+				<startupMessageKey>AB_AncientBloodRainVentStartUp</startupMessageKey>
+				<shutdownMessageKey>AB_AncientBloodRainVentShutdown</shutdownMessageKey>
+				<activeInspectStringKey>AB_AncientBloodRainVentActive</activeInspectStringKey>
+				<activeSound>AncientVent_Ambient</activeSound>
+			</li>
+			<li Class="CompProperties_FleckEmitterLongTerm">
+				<fleckDef>AB_AncientBloodRainAir</fleckDef>
+				<spawnRadius>2.0</spawnRadius>
+				<spawnChance>0.2</spawnChance>
+				<spawnOffsetFromCenter>(0.5,0.0,-0.5)</spawnOffsetFromCenter>
+				<prewarmCycles>1.0</prewarmCycles>
+				<fleckScale>4.0</fleckScale>
+				<minRotationRate>-20.0</minRotationRate>
+				<maxRotationRate>20.0</maxRotationRate>
+				<minVelocityAngle>-20.0</minVelocityAngle>
+				<maxVelocityAngle>20.0</maxVelocityAngle>
+				<minVelocitySpeed>0.5</minVelocitySpeed>
+				<maxVelocitySpeed>0.7</maxVelocitySpeed>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseAncientVentThing" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_AncientDeathPallVent</defName>
+		<label>ancient death pall vent</label>
+		<description>A massive duct that drops endlessly into the ground. It will regularly vent clouds of microscopic self-powered archites that affect corpses reanimating them to create a twisted imitation of life.</description>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/AncientVents/AB_AncientDeathPallVent</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_AncientHeatVent">
+				<compClass>AlphaBiomes.CompAncientDeathPallVent</compClass>
+				<pulseSpeed>0.5</pulseSpeed>
+				<rampUpTime>5.0</rampUpTime>
+				<rampDownTime>20.0</rampDownTime>
+				<conditionToCause>DeathPall</conditionToCause>
+				<onDurationMtbDays>12</onDurationMtbDays>
+				<offDurationMtbDays>4</offDurationMtbDays>
+				<heatToPush>-200</heatToPush>
+				<!-- 5x steam vents -->
+				<startupMessageKey>AB_AncientDeathPallVentStartUp</startupMessageKey>
+				<shutdownMessageKey>AB_AncientDeathPallVentShutdown</shutdownMessageKey>
+				<activeInspectStringKey>AB_AncientDeathPallVentActive</activeInspectStringKey>
+				<activeSound>AncientVent_Ambient</activeSound>
+			</li>
+			<li Class="CompProperties_FleckEmitterLongTerm">
+				<fleckDef>AB_AncientDeathPallAir</fleckDef>
+				<spawnRadius>2.0</spawnRadius>
+				<spawnChance>0.2</spawnChance>
+				<spawnOffsetFromCenter>(0.5,0.0,-0.5)</spawnOffsetFromCenter>
+				<prewarmCycles>1.0</prewarmCycles>
+				<fleckScale>4.0</fleckScale>
+				<minRotationRate>-20.0</minRotationRate>
+				<maxRotationRate>20.0</maxRotationRate>
+				<minVelocityAngle>-20.0</minVelocityAngle>
+				<maxVelocityAngle>20.0</maxVelocityAngle>
+				<minVelocitySpeed>0.5</minVelocitySpeed>
+				<maxVelocitySpeed>0.7</maxVelocitySpeed>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

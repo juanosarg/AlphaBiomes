@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PrefabDef>
+    <defName>AB_AgariluxPrime_Prefab</defName>
+    <size>(1,1)</size>
+    <things>
+      <AB_AgariluxPrime>
+        <position>(0,0,0)</position>
+      </AB_AgariluxPrime>
+    </things>
+    <terrain>
+      <Soil>
+        <chance>1</chance>
+        
+      </Soil>
+    </terrain>
+  </PrefabDef>
+  
+  <PrefabDef>
+    <defName>AB_MagmaVent_Prefab</defName>
+    <size>(2,2)</size>
+    <things>
+      <AB_MagmaVent>
+        <position>(0,0,0)</position>
+      </AB_MagmaVent>
+    </things>
+    <terrain>
+      <AB_Obsidian>
+        <chance>1</chance>
+        
+      </AB_Obsidian>
+    </terrain>
+  </PrefabDef>
+  
+  
+<PrefabDef>
+  <defName>AB_DerelictArchonexusAlpha</defName> 
+  <size>(21,23)</size>
+  <things>
+    <AB_DerelictArchotechTower>
+      <positions>
+        <li>(10, 0, 1)</li>
+        <li>(1, 0, 11)</li>
+        <li>(19, 0, 11)</li>
+        <li>(10, 0, 21)</li>
+      </positions>
+      <hp>-1</hp>
+    </AB_DerelictArchotechTower>
+    <AB_DerelictMajorArchotechStructure>
+      <position>(10, 0, 12)</position>
+      <hp>-1</hp>
+    </AB_DerelictMajorArchotechStructure>
+  </things>
+</PrefabDef>
+
+
+<PrefabDef>
+  <defName>AB_DerelictArchonexusBeta</defName> 
+  <size>(11,11)</size>
+  <things>
+    <AB_DerelictArchonexusCore>
+      <position>(5, 0, 5)</position>
+      <hp>-1</hp>
+    </AB_DerelictArchonexusCore>
+  </things>
+</PrefabDef>
+
+
+<PrefabDef>
+  <defName>AB_DerelictArchonexusGamma</defName>
+  <size>(5,5)</size>
+  <things>
+    <AB_DerelictArchotechTower>
+      <position>(2, 0, 2)</position>
+      <hp>-1</hp>
+    </AB_DerelictArchotechTower>
+  </things>
+</PrefabDef>
+
+
+<PrefabDef>
+  <defName>AB_DerelictArchonexusDelta</defName> 
+  <size>(43,43)</size>
+  <things>
+    <AB_DerelictArchotechTower>
+      <positions>
+        <li>(21, 0, 2)</li>
+        <li>(7, 0, 7)</li>
+        <li>(35, 0, 7)</li>
+        <li>(2, 0, 21)</li>
+        <li>(40, 0, 21)</li>
+        <li>(7, 0, 35)</li>
+        <li>(35, 0, 35)</li>
+        <li>(21, 0, 40)</li>
+      </positions>
+      <hp>-1</hp>
+    </AB_DerelictArchotechTower>
+    <AB_DerelictArchonexusCore>
+      <position>(21, 0, 21)</position>
+      <hp>-1</hp>
+    </AB_DerelictArchonexusCore>
+  </things>
+</PrefabDef>
+
+<PrefabDef>
+  <defName>AB_DerelictArchonexusEpsilon</defName> 
+  <size>(77,74)</size>
+  <things>
+    <AB_DerelictArchotechTower>
+      <positions>
+        <li>(18, 0, 17)</li>
+        <li>(58, 0, 17)</li>
+        <li>(38, 0, 25)</li>
+        <li>(24, 0, 37)</li>
+        <li>(53, 0, 37)</li>
+        <li>(38, 0, 51)</li>
+        <li>(18, 0, 57)</li>
+        <li>(58, 0, 57)</li>
+      </positions>
+      <hp>-1</hp>
+    </AB_DerelictArchotechTower>
+    <AB_DerelictArchonexusCore>
+      <position>(38, 0, 38)</position>
+      <hp>-1</hp>
+    </AB_DerelictArchonexusCore>
+    <AB_DerelictMajorArchotechStructure>
+      <positions>
+        <li>(38, 0, 4)</li>
+        <li>(5, 0, 38)</li>
+        <li>(71, 0, 38)</li>
+        <li>(38, 0, 71)</li>
+      </positions>
+      <hp>-1</hp>
+    </AB_DerelictMajorArchotechStructure>
+  </things>
+</PrefabDef>
+
+
+
+
+
+
+</Defs>
