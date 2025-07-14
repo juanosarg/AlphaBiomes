@@ -60,10 +60,13 @@ namespace AlphaBiomes
 		[MayRequireOdyssey]
 		public static ThingDef AB_AncientFreezingVent;
         [MayRequireOdyssey]
+        [MayRequireAnomaly]
         public static ThingDef AB_AncientGreyPallVent;
         [MayRequireOdyssey]
+        [MayRequireAnomaly]
         public static ThingDef AB_AncientBloodRainVent;
         [MayRequireOdyssey]
+        [MayRequireAnomaly]
         public static ThingDef AB_AncientDeathPallVent;
 
         public static TerrainDef AB_ArtificialTar;
