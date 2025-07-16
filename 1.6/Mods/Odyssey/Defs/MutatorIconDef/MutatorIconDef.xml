@@ -299,7 +299,7 @@
 				<mutator>PlantLife_Increased</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_PlantLife_Increased</icon>
 			</li>
-			<li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
 				<mutator>Pollution_Increased</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Pollution_Increased</icon>
 			</li>
@@ -840,6 +840,184 @@
 			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>VEE_IceAndFire</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_IceAndFire</icon>
+			</li>
+			
+			<!-- Geological Landforms -->
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Archipelago</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Archipelago</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Atoll</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CoastalAtoll</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Badlands</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Badlands</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Caldera</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Caldera</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Canyon</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Canyon</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_CaveEntrance</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Cavern</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Cirque</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Cirque</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Cliff</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Cliffs</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_CliffAndCoast</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CliffAndCoast</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_CliffCorner</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CliffCorner</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Coast</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Coast</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_CoastalIsland</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CoastalIsland</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_CoastCorner</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CoastCorner</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Cove</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Cove</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_CoveWithIsland</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CoveWithIsland</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Crater</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_MeteorCrater</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_DesertPlateau</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_DesertPlateau</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_DryLake</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_DryLake</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Fjord</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Fjord</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Glacier</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Glacier</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Gorge</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Chasm</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_IceOasis</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_IceOasis</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Island</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CoastalIsland</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Lake</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Lake</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_LakeWithIsland</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_LakeWithIsland</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Landbridge</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Landbridge</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_LoneMountain</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_RockRidge</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Oasis</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Oasis</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Peninsula</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Peninsula</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Rift</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_TerraformingScar</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_River</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_River</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_RiverConfluence</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_RiverConfluence</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_RiverDelta</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_RiverDelta</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_RiverIsland</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_RiverIsland</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_RiverSource</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Headwater</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_SecludedCove</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Cove</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_SecludedValley</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Valley</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Sinkhole</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Hollow</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Skerry</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Skerry</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_SurfaceCave</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Cavern</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_SwampHill</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SwampHill</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_SwampHill</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SwampHill</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Tombolo</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Tombolo</icon>
+			</li>
+			<li MayRequire="m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Valley</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Valley</icon>
 			</li>
 		</mutatorIcons>
 	</AlphaBiomes.MutatorIconDef>

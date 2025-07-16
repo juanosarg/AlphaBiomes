@@ -104,6 +104,8 @@ namespace AlphaBiomes
         public static TileMutatorDef AB_SymbioticNutrients;
         [MayRequireOdyssey]
         public static TileMutatorDef AB_QuiveringSurface;
+        [MayRequire("m00nl1ght.GeologicalLandforms")]
+        public static TileMutatorDef GL_RiverTerrain;
 
         public static HediffDef AB_SporesAllergy_Heightened;
         public static HediffDef AB_SporesAllergy;

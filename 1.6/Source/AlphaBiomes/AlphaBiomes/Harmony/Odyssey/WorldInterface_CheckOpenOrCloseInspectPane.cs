@@ -47,7 +47,12 @@ namespace AlphaBiomes
                 RimWorld.Planet.Tile tile = __instance?.selector?.SelectedTile.Tile;
                 if (tile != null) {
                     List<TileMutatorDef> mutators = tile.Mutators?.ToList();
-                    
+
+                    if (mutators.Contains(InternalDefOf.GL_RiverTerrain))
+                    {
+                        mutators.Remove(InternalDefOf.GL_RiverTerrain);
+                    }
+
                     InfoRectProps.height = (((mutators.Count-1) / 4) +1)*100 +70;
                     
                     for (int i = 0; i < mutators.Count; i++)
