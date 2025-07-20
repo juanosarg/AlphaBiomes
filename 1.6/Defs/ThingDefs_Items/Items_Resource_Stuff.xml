@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AB_AlcyoniteChunk</defName>
 		<label>alcyonite chunk</label>
@@ -11,13 +9,12 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>Sellable</tradeability>
-
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
 		<generateCommonality>0</generateCommonality>
 		<generateAllowChance>0</generateAllowChance>
 		<statBases>
-			<MarketValue>5</MarketValue>
+			<MarketValue>1</MarketValue>
 			<Mass>1</Mass>
 			<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
@@ -46,21 +43,24 @@
 				<Beauty>7</Beauty>
 			</statOffsets>
 			<statFactors>
-				<MaxHitPoints>3</MaxHitPoints>
+				<MaxHitPoints>1.9</MaxHitPoints>
 				<Flammability>0.2</Flammability>
 				<Beauty>1.75</Beauty>
 				<WorkToMake>2.5</WorkToMake>
 				<WorkToBuild>2.5</WorkToBuild>
 				<DoorOpenSpeed>0.75</DoorOpenSpeed>
-
 				<MeleeWeapon_CooldownMultiplier>1.4</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
-
 		</stuffProps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<modExtensions>
+			<li Class="VEF.Things.StuffExtension">
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
 	</ThingDef>
-
-
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>AB_CrystalWood</defName>
 		<label>crystalline wood</label>
@@ -91,7 +91,6 @@
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>crystalline</stuffAdjective>
-
 			<categories>
 				<li>Woody</li>
 				<li>AB_ExoticWooden</li>
@@ -105,12 +104,11 @@
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 			<statFactors>
 				<Beauty>0.7</Beauty>
-				<MaxHitPoints>0.25</MaxHitPoints>    
+				<MaxHitPoints>0.25</MaxHitPoints>
 				<Flammability>0</Flammability>
 				<WorkToMake>1</WorkToMake>
 				<WorkToBuild>0.8</WorkToBuild>
 				<DoorOpenSpeed>1.0</DoorOpenSpeed>
-
 			</statFactors>
 		</stuffProps>
 		<thingCategories>
@@ -122,7 +120,6 @@
 		<tools>
 			<li>
 				<label>crystalline wood log</label>
-
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -131,8 +128,14 @@
 			</li>
 		</tools>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+			<li Class="VEF.Things.StuffExtension">
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>GU_RedWood</defName>
 		<label>red wood</label>
@@ -155,15 +158,14 @@
 			<DeteriorationRate>1</DeteriorationRate>
 			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
-			 <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
-			  <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
-			  <StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
-			  <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
-			  <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>red wooden</stuffAdjective>
-
 			<categories>
 				<li>Woody</li>
 				<li>AB_ExoticWooden</li>
@@ -177,13 +179,12 @@
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 			<statFactors>
 				<Beauty>0.45</Beauty>
-				<MaxHitPoints>0.75</MaxHitPoints>    
+				<MaxHitPoints>0.75</MaxHitPoints>
 				<Flammability>0.75</Flammability>
 				<WorkToMake>0.6</WorkToMake>
 				<WorkToBuild>0.8</WorkToBuild>
 				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
-
 			</statFactors>
 		</stuffProps>
 		<thingCategories>
@@ -195,7 +196,6 @@
 		<tools>
 			<li>
 				<label>red wood log</label>
-
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -204,8 +204,14 @@
 			</li>
 		</tools>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+			<li Class="VEF.Things.StuffExtension">
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>AB_MushroomWoodLog</defName>
 		<label>mushroom stalks</label>
@@ -236,7 +242,6 @@
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>mushroom stalk</stuffAdjective>
-
 			<categories>
 				<li>Woody</li>
 				<li>AB_ExoticWooden</li>
@@ -250,12 +255,11 @@
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 			<statFactors>
 				<Beauty>0.3</Beauty>
-				<MaxHitPoints>0.32</MaxHitPoints>    
+				<MaxHitPoints>0.32</MaxHitPoints>
 				<Flammability>1.2</Flammability>
 				<WorkToMake>0.45</WorkToMake>
 				<WorkToBuild>0.6</WorkToBuild>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
-
 			</statFactors>
 		</stuffProps>
 		<thingCategories>
@@ -267,7 +271,6 @@
 		<tools>
 			<li>
 				<label>mushroom stalk</label>
-
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -276,10 +279,14 @@
 			</li>
 		</tools>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+			<li Class="VEF.Things.StuffExtension">
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
 	</ThingDef>
-
-
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AB_CordaxResin</defName>
 		<label>cordax resin</label>
@@ -296,19 +303,14 @@
 			<MarketValue>10</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>1</Mass>
-
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
-
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-
-
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AB_AsphaltBucket</defName>
 		<label>asphalt bucket</label>
@@ -330,12 +332,10 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
-
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AB_Propane</defName>
 		<label>propane fuel tank</label>
@@ -373,5 +373,4 @@
 			</li>
 		</comps>
 	</ThingDef>
-
 </Defs>

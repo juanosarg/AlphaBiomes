@@ -642,8 +642,9 @@
 		<defName>AB_MakeStoneBlocksSlimeStone</defName>
 		<label>turn hardened slime chunks into "food"</label>
 		<description>Cuts slime stone chunks into semi-edible food.</description>
-		<recipeUsers>
-			<li>TableStonecutter</li>
+		<recipeUsers Inherit="false">
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
