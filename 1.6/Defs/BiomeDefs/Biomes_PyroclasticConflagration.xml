@@ -24,19 +24,19 @@
 		<maxFishPopulation>480</maxFishPopulation>
 		<fishTypes>
 			<freshwater_Common>
-				<Fish_Bass>1</Fish_Bass>
+				<Fish_Bass MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bass>
 			</freshwater_Common>
 			<freshwater_Uncommon>
-				<Fish_Catfish>1</Fish_Catfish>
+				<Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
 			</freshwater_Uncommon>
 			<saltwater_Common>
-				<Fish_Bluefish>1</Fish_Bluefish>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
 			</saltwater_Common>
 			<saltwater_Uncommon>
-				<Fish_Flounder>1</Fish_Flounder>
-				<Fish_Marlin>1</Fish_Marlin>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+				<Fish_Marlin MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Marlin>
 			</saltwater_Uncommon>
-			<rareCatchesSetMaker>RareFishingCatches_Hot</rareCatchesSetMaker>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Hot</rareCatchesSetMaker>
 		</fishTypes>
 		<diseases>
 			<li>
