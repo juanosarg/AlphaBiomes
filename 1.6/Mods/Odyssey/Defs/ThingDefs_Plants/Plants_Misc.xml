@@ -205,6 +205,11 @@
 			<smashedThingDef IsNull="True"/>
 		</plant>
 		<ingestible/>
-		
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(242,221,37,0)</glowColor>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>
