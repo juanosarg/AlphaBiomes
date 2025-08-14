@@ -24,6 +24,85 @@
 				<structure>AB_MechanoidReceiver</structure>
 			</li>
 			
+			
+			<!-- Propane Lakes, mutator locked -->
+			
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropanePipe</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropanePipe_Underground</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_Propane_Valve</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneStorage</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropanePump</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneTap</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneDrain</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneStove</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneHeater</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_AlienWoodFloors_CrystalWood</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneFueledSmithy</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneSmelter</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_PropaneTableMachining</structure>
+			</li>
+			<li>
+				<mutator>AB_PropaneLakes</mutator>
+				<structure>AB_Turret_Propane</structure>
+			</li>
+			
+			<!-- Tar Pits, mutator locked -->
+			
+			<li>
+				<mutator>AB_TarLakes</mutator>
+				<structure>AB_TarPump</structure>
+			</li>
+			<li>
+				<mutator>AB_TarLakes</mutator>
+				<structure>AB_TrapIED_Tar</structure>
+			</li>
+			<li>
+				<mutator>AB_TarLakes</mutator>
+				<structure>AB_AsphaltFloor</structure>
+			</li>
+			<li>
+				<mutator>AB_TarLakes</mutator>
+				<structure>AB_AsphaltBridge</structure>
+			</li>
+			
 		</structureToBiomeList>
 	</AlphaBiomes.BiomeStructuresDef>
 </Defs>

@@ -475,25 +475,21 @@
 		<costList>
 			<Steel>150</Steel>
 			<AB_CrystalWood>50</AB_CrystalWood>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<uiIconScale>0.75</uiIconScale>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>150</basePowerConsumption>
+				<basePowerConsumption>50</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
-			  <li Class="PipeSystem.CompProperties_SpawnerOrNet">
-			  <pipeNet>AB_PropaneNet</pipeNet>
-			  <inheritFaction>true</inheritFaction>
-			  <requiresPower>true</requiresPower>
-			  <spawnCount>25</spawnCount>
-			  <spawnIntervalRange>200000~300000</spawnIntervalRange>
-			  <thingToSpawn>AB_Propane</thingToSpawn>
-			  <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-       
-      </li>
+			
+			<li Class="PipeSystem.CompProperties_ResourceTrader">
+				<pipeNet>AB_PropaneNet</pipeNet>
+				<consumptionPerTick>-0.4</consumptionPerTick>
+			</li>
+			
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<rotatable>true</rotatable>

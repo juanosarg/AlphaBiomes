@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>AB_PropaneToChemfuel</defName>
+		<label>extract chemfuel from propane</label>
+		<description>Make a batch of chemfuel by extracting it from propane.</description>
+		<jobString>Refining chemfuel from propane.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>AB_Propane</li>
+				  </thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AB_Propane</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Chemfuel>50</Chemfuel>
+		</products>
+	</RecipeDef>
+	
+	
+
+
+</Defs>

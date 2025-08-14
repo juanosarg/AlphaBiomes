@@ -117,6 +117,13 @@
 				<MeleeWeapon_CooldownMultiplier>1.35</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
+		<modExtensions>
+			<li Class="VEF.Things.StuffExtension">
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<!-- ================ Rose Quartz ================ -->
 	<ThingDef ParentName="GU_RockBase" Name="GU_QuartzBase">

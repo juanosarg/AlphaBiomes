@@ -338,7 +338,7 @@
 	</ThingDef>
 	<ThingDef ParentName="ResourceBase">
 		<defName>AB_Propane</defName>
-		<label>propane fuel tank</label>
+		<label>propane</label>
 		<description>A versatile fuel. Can be converted into chemfuel, or used as fuel for propane specific buildings, such as heaters or stoves. Insert inane and trite King of the Hill joke here (yes, I have heard them all, you are not original).</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>

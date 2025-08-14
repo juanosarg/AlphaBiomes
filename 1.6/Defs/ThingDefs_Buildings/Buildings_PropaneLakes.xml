@@ -43,7 +43,7 @@
 		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelConsumptionRate>250.0</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -131,7 +131,7 @@
 		</building>
 		<comps>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelConsumptionRate>500.0</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -209,7 +209,7 @@
 		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>300.0</fuelConsumptionRate>
+				<fuelConsumptionRate>1000.0</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
@@ -338,7 +338,7 @@
 		<defName>AB_PropaneHeater</defName>
 		<label>propane heater</label>
 		<description>A device that burns propane fuel and turns it into heat. The propane heater wastes a lot of fuel when attempting to reach temperatures too different from ambient ones, but it's quite fuel conservative if configured carefully.</description>
-		<thingClass>AlphaBiomes.Building_PropaneHeater</thingClass>
+		 <thingClass>PipeSystem.Building_ResourceHeater</thingClass>
 		<graphicData>
 			<texPath>Things/Building/PropaneLakes/AB_PropaneHeater</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -370,7 +370,7 @@
 			<Mass>6</Mass>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<costList>
 			<Steel>50</Steel>
 			<AB_CrystalWood>20</AB_CrystalWood>
