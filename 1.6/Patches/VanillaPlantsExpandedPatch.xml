@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="AB_RawTentacularFruit"]/thingCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="AB_RawTentacularFruit"]</xpath>
+						<value>
+							<thingCategories/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="AB_RawTentacularFruit"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Fruit</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="AB_RawIashiphus"]/thingCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="AB_RawIashiphus"]</xpath>
+						<value>
+							<thingCategories/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="AB_RawIashiphus"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Fruit</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="AB_RawSugarFamewort"]/thingCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="AB_RawSugarFamewort"]</xpath>
+						<value>
+							<thingCategories/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="AB_RawSugarFamewort"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Fruit</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="AB_RawBloodBouquet"]/thingCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="AB_RawBloodBouquet"]</xpath>
+						<value>
+							<thingCategories/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="AB_RawBloodBouquet"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Fruit</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="AB_RawRagadast"]/thingCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="AB_RawRagadast"]</xpath>
+						<value>
+							<thingCategories/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="AB_RawRagadast"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Fruit</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
