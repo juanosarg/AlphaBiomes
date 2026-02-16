@@ -327,6 +327,7 @@
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
 			<fixedStorageSettings>
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
@@ -399,6 +400,7 @@
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
 			<fixedStorageSettings>
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
