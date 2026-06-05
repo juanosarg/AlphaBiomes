@@ -1424,6 +1424,95 @@
 				<mutator>Mashed_Ashlands_UndergroundMine</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_UndergroundMine</icon>
 			</li>
+			
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_CliffRacerHabitat</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_CliffRacerHabitat</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_Miasmic</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_Miasmic</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_TaintedSea</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_TaintedSea</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_DryLake</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_DryLake</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_DryLakeBlighted</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_DryLakeBlighted</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_DryLakeVolcanic</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_DryLakeVolcanic</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_LandCoralPools</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_LandCoralPools</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_LavaPools</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_LavaPools</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_SulphuricLake</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_SulphuricLake</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_AshMuddy</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_AshMuddy</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_AshFertile</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_AshFertile</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_AshRocky</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_AshRocky</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_AshSandy</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_AshSandy</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_LingeringAshClouds</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_LingeringAshClouds</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_PersistentVolcanicHeat</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_PersistentVolcanicHeat</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_LandCoralPoolsVolcanic</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_LandCoralPoolsVolcanic</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_TaintedLake</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_TaintedLake</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands">
+				<mutator>Mashed_Ashlands_ThermalMudPoolsVolcanic</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_ThermalMudPoolsVolcanic</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands,m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Mashed_Ashlands_AshDeposit</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GL_Mashed_Ashlands_AshDeposit</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands,m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Mashed_Ashlands_BlightedAshDeposit</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GL_Mashed_Ashlands_BlightedAshDeposit</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands,m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Mashed_Ashlands_VolcanicAshDeposit</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GL_Mashed_Ashlands_VolcanicAshDeposit</icon>
+			</li>
+			<li MayRequire="SirMashedPotato.Ashlands,m00nl1ght.GeologicalLandforms">
+				<mutator>GL_Mashed_Ashlands_RichAshDeposit</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GL_Mashed_Ashlands_RichAshDeposit</icon>
+			</li>
 		</mutatorIcons>
 	</AlphaBiomes.MutatorIconDef>
 </Defs>
