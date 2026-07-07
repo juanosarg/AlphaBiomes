@@ -263,4 +263,23 @@
 			</li>
 		</comps>
 	</HediffDef>
+	<HediffDef>
+		<defName>AB_CandySandInEyes</defName>
+		<label>candy sand</label>
+		<labelNoun>candy sand</labelNoun>
+		<description>Candy sand in the eyes. It impairs vision, but can be cleared within a few moments.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<battleStateLabel>blind</battleStateLabel>
+		<maxSeverity>1</maxSeverity>
+		<stages>
+			<li>
+				<partEfficiencyOffset>-0.5</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SelfHeal">
+				<healAmount>0.02</healAmount>
+			</li>
+		</comps>
+	</HediffDef>
 </Defs>

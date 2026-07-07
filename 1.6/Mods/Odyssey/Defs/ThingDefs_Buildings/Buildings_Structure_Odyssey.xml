@@ -73,4 +73,60 @@
 		</damageMultipliers>
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
+	
+	<ThingDef ParentName="UglyRockBase" Name="AB_MineableChocolate_Base">
+		<defName>AB_MineableChocolate</defName>
+		<label>chocolate</label>
+		<description>Chunks of compacted chocolate.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Rock_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Rock</li>
+				<li>MapEdge</li>
+			</linkFlags>
+			<color>(88,60,24)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>Chocolate</mineableThing>
+			<mineableYield>1</mineableYield>
+			<veinMineable>false</veinMineable>
+			<mineablePreventMeteorite>true</mineablePreventMeteorite>
+			<mineablePreventNaturalRockOnSurface>true</mineablePreventNaturalRockOnSurface>
+			<mineableScatterCommonality>0</mineableScatterCommonality>
+			<smoothedThing>AB_SmoothedChocolate</smoothedThing>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="AB_MineableChocolate_Base">
+		<defName>AB_SmoothedChocolate</defName>
+		<label>smoothed chocolate</label>
+		<description>Chunks of smoothed compacted chocolate. Is this revolting? Well, yes, yes it is.</description>
+		<graphicData Inherit="False">
+			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+			<color>(88,60,24)</color>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Rock</li>
+				<li>MapEdge</li>
+			</linkFlags>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<MarketValue>25</MarketValue>
+		</statBases>
+		<building>
+			<isNaturalRock>false</isNaturalRock>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<smoothedThing/>
+		</building>
+		<saveCompressible>false</saveCompressible>
+		<repairEffect>Repair</repairEffect>
+	</ThingDef>
 </Defs>

@@ -53,5 +53,15 @@
 		</modExtensions>
 	</TileMutatorDef>
 	
+	<TileMutatorDef>
+		<defName>AB_SweetRocks</defName>
+		<label>chocolate mountains</label>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+		</biomeWhitelist>
+		<description>The stone found in this region is instead a highly compacted form of chocolate.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_ChocolateMountains</workerClass>
+	</TileMutatorDef>
+	
 </Defs>
 

@@ -393,6 +393,7 @@
     <Compile Include="TileMutatorWorkers\TileMutatorWorker_AgariluxPrime.cs" />
     <Compile Include="TileMutatorWorkers\Ancient Vents\TileMutatorWorker_AncientFreezingVent.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_HealingSprings.cs" />
+    <Compile Include="TileMutatorWorkers\TileMutatorWorker_ChocolateMountains.cs" />
     <Compile Include="TileMutatorWorkers\TileMutatorWorker_MagmaticQuagmire.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_MutagenicSprings.cs" />
     <Compile Include="TileMutatorWorkers\TileMutatorWorker_OnlyGrass.cs" />

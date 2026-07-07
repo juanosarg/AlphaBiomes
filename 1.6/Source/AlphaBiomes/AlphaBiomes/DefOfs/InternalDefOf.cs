@@ -59,7 +59,9 @@ namespace AlphaBiomes
         public static ThingDef VFE_AdvancedSolarGenerator;
 		[MayRequireOdyssey]
 		public static ThingDef AB_AncientFreezingVent;
-     
+        [MayRequireOdyssey]
+        public static ThingDef AB_MineableChocolate;
+
 
         public static TerrainDef AB_ArtificialTar;
 		public static TerrainDef AB_SoilOnCrackedMetal;
@@ -85,6 +87,8 @@ namespace AlphaBiomes
         [MayRequireOdyssey]
         public static TerrainDef AB_Cream;
         [MayRequireOdyssey]
+        public static TerrainDef AB_CandySand;
+        [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_Deep;
         [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_MovingChestDeep;
@@ -92,6 +96,7 @@ namespace AlphaBiomes
         public static TerrainDef AB_LiquidCream_Shallow;
         [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_MovingShallow;
+
        
 
         public static SoundDef AB_MagmaVent;

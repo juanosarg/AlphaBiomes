@@ -181,6 +181,7 @@
 		<mutatorChances>
 			<AB_SweetForest Required="True"/>
 			<AB_SweetFlora Required="True"/>
+			<AB_SweetRocks Required="True"/>
 			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
 			<Stockpile>0.05</Stockpile>
 			<MineralRich>0.03</MineralRich>

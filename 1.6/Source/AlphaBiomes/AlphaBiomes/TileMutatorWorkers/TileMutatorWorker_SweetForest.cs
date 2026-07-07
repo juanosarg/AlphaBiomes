@@ -22,7 +22,11 @@ namespace AlphaBiomes
                 {
                     map.terrainGrid.SetTerrain(cell, InternalDefOf.AB_ChocolateSoil);
                 }
-                if (cell.GetTerrain(map) == TerrainDefOf.Sand || cell.GetTerrain(map) == TerrainDefOf.Gravel)
+                if (cell.GetTerrain(map) == TerrainDefOf.Sand)
+                {
+                    map.terrainGrid.SetTerrain(cell, InternalDefOf.AB_CandySand);
+                }
+                if (cell.GetTerrain(map) == TerrainDefOf.Gravel)
                 {
                     map.terrainGrid.SetTerrain(cell, InternalDefOf.AB_Cream);
                 }
