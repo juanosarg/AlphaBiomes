@@ -79,6 +79,7 @@
 		<description>A malevolent looking, bloodshot eye is emerging from this wound, blinking and peering wildly around it. Without treatment, it will cause rotting of the local tissue, eventually causing blood poisoning and death. They will however allow the afflicted to see through them.</description>
 		<makesSickThought>true</makesSickThought>
 		<lethalSeverity>1</lethalSeverity>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<woundAnchorRange>0</woundAnchorRange>
 		<displayWound>true</displayWound>
 		<tendable>true</tendable>
@@ -149,6 +150,7 @@
 		<description>Moving through quicksand. Greatly reduces movement speed.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>1.0</initialSeverity>
@@ -178,6 +180,7 @@
 		<description>The colonist is subconsciously affected by the mechanoid resonance receiver’s low-frequency harmonics. Stress signals in the brain are dampened, enhancing focus and emotional stability.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>1.0</initialSeverity>
@@ -201,5 +204,63 @@
 				</statOffsets>
 			</li>
 		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AB_ChocolateInEyes</defName>
+		<label>chocolate</label>
+		<labelNoun>chocolate</labelNoun>
+		<description>Chocolate in the eyes. It impairs vision, but can be cleared in a few moments.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<battleStateLabel>blind</battleStateLabel>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<maxSeverity>1</maxSeverity>
+		<stages>
+			<li>
+				<partEfficiencyOffset>-0.8</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SelfHeal">
+				<healAmount>0.05</healAmount>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AB_StrawberryInEyes</defName>
+		<label>strawberry</label>
+		<labelNoun>strawberry</labelNoun>
+		<description>Strawberry ice cream in the eyes. It impairs vision, but can be cleared in a few moments.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<battleStateLabel>blind</battleStateLabel>
+		<maxSeverity>1</maxSeverity>
+		<stages>
+			<li>
+				<partEfficiencyOffset>-0.8</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SelfHeal">
+				<healAmount>0.05</healAmount>
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>AB_CreamInEyes</defName>
+		<label>whipped cream</label>
+		<labelNoun>whipped cream</labelNoun>
+		<description>Whipped cream in the eyes. It impairs vision, but can be cleared in a few moments.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<battleStateLabel>blind</battleStateLabel>
+		<maxSeverity>1</maxSeverity>
+		<stages>
+			<li>
+				<partEfficiencyOffset>-0.8</partEfficiencyOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_SelfHeal">
+				<healAmount>0.1</healAmount>
+			</li>
+		</comps>
 	</HediffDef>
 </Defs>

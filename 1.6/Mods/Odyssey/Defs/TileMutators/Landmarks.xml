@@ -170,4 +170,45 @@
 			<TerraformingScar>0.1</TerraformingScar>
 		</comboLandmarkMutators>
 	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_SweetForest</defName>
+		<label>sweet forest</label>
+		<drawScale>0.8</drawScale>
+		<iconTexturePath>World/Landmarks/HotSprings</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.25</commonality>
+		<nameMaker>AB_NamerLandmark_HealingSprings</nameMaker>
+		<mutatorChances>
+			<AB_SweetForest Required="True"/>
+			<AB_SweetFlora Required="True"/>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<MineralRich>0.03</MineralRich>
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WetClimate>0.05</WetClimate>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<MixedBiome>0.5</MixedBiome>
+			<AncientUplink>0.02</AncientUplink>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<PlantGrove>0.05</PlantGrove>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<PlantLife_Increased>0.03</PlantLife_Increased>
+			<Fertile>0.05</Fertile>
+			<WildPlants>0.05</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<PlantGrove>0.05</PlantGrove>
+		</mutatorChances>
+		<comboLandmarkMutators>
+			<Valley>0.1</Valley>
+			<Cavern>0.1</Cavern>
+			<Chasm>0.1</Chasm>
+			<TerraformingScar>0.1</TerraformingScar>
+			<Wetland>0.02</Wetland>
+		</comboLandmarkMutators>
+	</LandmarkDef>
 </Defs>

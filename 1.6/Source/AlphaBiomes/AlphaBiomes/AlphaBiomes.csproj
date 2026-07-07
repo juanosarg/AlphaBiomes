@@ -288,6 +288,10 @@
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="VEF">
+      <HintPath>..\..\..\..\..\VanillaExpandedFramework\1.6\Assemblies\VEF.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BiomeWorkers\BiomeWorker_IdyllicMeadows.cs" />
@@ -394,6 +398,8 @@
     <Compile Include="TileMutatorWorkers\TileMutatorWorker_OnlyGrass.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_PropaneLakes.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_TarLakes.cs" />
+    <Compile Include="TileMutatorWorkers\TileMutatorWorker_RemoveSpecificFlora.cs" />
+    <Compile Include="TileMutatorWorkers\TileMutatorWorker_SweetForest.cs" />
     <Compile Include="Weathers and Conditions\GameCondition_AcidRain.cs" />
     <Compile Include="MapExtender\WorldComponentExtender.cs" />
     <Compile Include="Weathers and Conditions\GameCondition_VolcanicHeatWave.cs" />

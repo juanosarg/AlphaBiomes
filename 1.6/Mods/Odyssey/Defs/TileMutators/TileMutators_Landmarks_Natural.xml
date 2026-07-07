@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<TileMutatorDef ParentName="BasePatch">
+		<defName>AB_SweetForest</defName>
+		<label>sweet forest</label>
+		<description>A perfect example of the consequences of providing terraforming technology to cultures that are not prepared to handle them responsibly.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_SweetForest</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+		</biomeWhitelist>
+		
+	</TileMutatorDef>
+	
+	<TileMutatorDef>
+		<defName>AB_SweetFlora</defName>
+		<label>sweet flora</label>
+		<description>The flora in this region has been excesively modified to resemble giant confectionery, to an absurd degree.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+		</biomeWhitelist>
+		<plantKinds>
+			<li>AB_DessertTree</li>
+			<li>AB_Plant_SugarcaneGrass</li>
+			<li>AB_ChocolateTree</li>
+			<li>AB_Plant_Lollipops</li>
+		</plantKinds>
+		
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_DessertTree</plantDef>
+						<commonality>0.3</commonality>
+					</li>
+					<li>
+						<plantDef>AB_ChocolateTree</plantDef>
+						<commonality>0.3</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_SugarcaneGrass</plantDef>
+						<commonality>3</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_Lollipops</plantDef>
+						<commonality>2</commonality>
+					</li>
+					
+					
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	
+</Defs>
+

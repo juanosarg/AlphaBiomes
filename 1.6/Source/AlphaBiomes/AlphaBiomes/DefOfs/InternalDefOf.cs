@@ -76,6 +76,23 @@ namespace AlphaBiomes
         public static TerrainDef AB_MutagenicOcularWater;
         [MayRequireOdyssey]
         public static TerrainDef AB_Quicksand;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_ChocolateSoil;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_ChocolateSoilRich;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_Strawberry;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_Cream;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_LiquidCream_Deep;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_LiquidCream_MovingChestDeep;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_LiquidCream_Shallow;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_LiquidCream_MovingShallow;
+       
 
         public static SoundDef AB_MagmaVent;
 

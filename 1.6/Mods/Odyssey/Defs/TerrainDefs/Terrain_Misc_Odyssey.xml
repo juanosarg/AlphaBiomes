@@ -143,4 +143,165 @@
 			<Beauty>-2</Beauty>
 		</statBases>
 	</TerrainDef>
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>AB_ChocolateSoil</defName>
+		<label>chocolate soil</label>
+		<texturePath>Terrain/Surfaces/AB_Chocolate</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Chocolate</pollutedTexturePath>
+		<edgeType>FadeRough</edgeType>
+		<categoryType>Soil</categoryType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>1.0</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>chocolate</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>AB_ChocolateInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
+	</TerrainDef>
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>AB_ChocolateSoilRich</defName>
+		<label>rich chocolate soil</label>
+		<texturePath>Terrain/Surfaces/AB_Chocolate</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Chocolate</pollutedTexturePath>
+		<edgeType>FadeRough</edgeType>
+		<color>(160,140,140)</color>
+		<categoryType>Soil</categoryType>
+		<renderPrecedence>335</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>1.4</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>chocolate</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>AB_ChocolateInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
+		<spaceEdgeGraphicData>
+			<overrideColor>(0.27, 0.22, 0.18, 1)</overrideColor>
+		</spaceEdgeGraphicData>
+	</TerrainDef>
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>AB_Strawberry</defName>
+		<label>strawberry</label>
+		<texturePath>Terrain/Surfaces/AB_Strawberry</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Strawberry</pollutedTexturePath>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionMud</pollutionOverlayTexturePath>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+		<pollutionColor>(1, 1, 1, 1)</pollutionColor>
+		<edgeType>FadeRough</edgeType>
+		<categoryType>Soil</categoryType>
+		<renderPrecedence>330</renderPrecedence>
+		<pathCost>14</pathCost>
+		<statBases>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Bridgeable</li>
+			<li>WaterproofConduitable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0</fertility>
+		<takeFootprints>True</takeFootprints>
+		<avoidWander>true</avoidWander>
+		<driesTo>AB_ChocolateSoil</driesTo>
+		<tools>
+			<li>
+				<label>strawberry</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>AB_StrawberryInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tags>
+			<li>Mud</li>
+		</tags>
+	</TerrainDef>
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>AB_Cream</defName>
+		<label>whipped cream</label>
+		<texturePath>Terrain/Surfaces/AB_Cream</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Cream</pollutedTexturePath>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>320</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.7</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>whipped cream</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>AB_CreamInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
+	</TerrainDef>
 </Defs>
