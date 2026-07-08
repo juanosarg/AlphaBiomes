@@ -61,6 +61,8 @@ namespace AlphaBiomes
 		public static ThingDef AB_AncientFreezingVent;
         [MayRequireOdyssey]
         public static ThingDef AB_MineableChocolate;
+        [MayRequireOdyssey]
+        public static ThingDef AB_SugarChunk;
 
 
         public static TerrainDef AB_ArtificialTar;
@@ -72,6 +74,17 @@ namespace AlphaBiomes
 		public static TerrainDef AB_Tar;
         public static TerrainDef AB_AsphaltBridge;
 		public static TerrainDef AB_SolidifiedLava;
+        public static TerrainDef GU_AlienSand;
+        public static TerrainDef GU_AlienSoftSand;
+        public static TerrainDef GU_RichAlienSand;
+        public static TerrainDef GU_AlienSandFine;
+        public static TerrainDef GU_RedWaterShallow;
+        public static TerrainDef GU_RedWaterDeep;
+        public static TerrainDef GU_RedWaterMovingChestDeep;
+        public static TerrainDef GU_RedWaterMovingShallow;
+        public static TerrainDef GU_RedWaterOceanShallow;
+        public static TerrainDef GU_RedWaterOceanDeep;
+        public static TerrainDef GU_MossyRed;
         [MayRequireOdyssey]
         public static TerrainDef AB_HealingSpringwater;
         [MayRequireOdyssey]
@@ -89,6 +102,8 @@ namespace AlphaBiomes
         [MayRequireOdyssey]
         public static TerrainDef AB_CandySand;
         [MayRequireOdyssey]
+        public static TerrainDef AB_HardenedChocolate;
+        [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_Deep;
         [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_MovingChestDeep;
@@ -96,8 +111,7 @@ namespace AlphaBiomes
         public static TerrainDef AB_LiquidCream_Shallow;
         [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_MovingShallow;
-
-       
+        
 
         public static SoundDef AB_MagmaVent;
 

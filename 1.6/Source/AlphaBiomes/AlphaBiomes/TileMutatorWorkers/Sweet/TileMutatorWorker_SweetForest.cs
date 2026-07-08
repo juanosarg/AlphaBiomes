@@ -64,7 +64,7 @@ namespace AlphaBiomes
                 }
                 if (cell.GetTerrain(map).defName.Contains("_Rough"))
                 {
-                    map.terrainGrid.SetTerrain(cell, DefDatabase<TerrainDef>.GetNamed(InternalDefOf.AB_MineableChocolate.defName + "_Rough"));
+                    map.terrainGrid.SetTerrain(cell, InternalDefOf.AB_HardenedChocolate);
                 }
             }
 

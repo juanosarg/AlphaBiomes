@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_ToxiGrass_Odyssey</defName>
+		<label>toxi grass</label>
+		<description>Better not eat this...</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.30</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_ToxiGrass</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<selectable>false</selectable>
+		<plant>
+			<pollution>Any</pollution>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_DryFlowers</defName>
+		<label>dry flowers</label>
+		<description>A bunch of dry terrain flowers.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>2</Flammability>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_DryFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<topWindExposure>0.05</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_ToxicFlowers</defName>
+		<label>toxic flowers</label>
+		<description>A bunch of poisonous looking flowers.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>2</Flammability>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_ToxicFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<pollution>Any</pollution>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<topWindExposure>0.05</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="BushBase">
+		<defName>AB_DryFern</defName>
+		<label>dry fern</label>
+		<description>A fern adapted to a dry climate.\n\nPlant details: Dry fern is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7.</description>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_DryFern</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.2, 0.15)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<plant>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>4</wildClusterWeight>
+			<visualSizeRange>0.75~1</visualSizeRange>
+			<harvestWork>250</harvestWork>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="BushBase">
+		<defName>AB_ToxicBush</defName>
+		<label>toxic bush</label>
+		<description>A poisonous looking bush adapted to toxic environments.\n\nPlant details: Toxic bush is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7.</description>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_ToxicBush</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.2, 0.15)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<plant>
+			<pollution>Any</pollution>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>4</wildClusterWeight>
+			<visualSizeRange>0.75~1</visualSizeRange>
+			<harvestWork>250</harvestWork>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_GiantTrumpetglory</defName>
+		<label>giant trumpetglories</label>
+		<description>A cluster of large, trumpet-shaped blossoms reminiscent of morning glories. These giant flowers were genetically modified by a long-forgotten genetics company. These seem to be blooming almost continuously. Their stalks are not strong enough to be used as a wood substitute, but they are incredibly pretty.\n\nPlant details: Giant trumpetglory is a wild plant that cannot be cultivated. Very beautiful.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantDryFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<minifiedDef>MinifiedTree</minifiedDef>
+		<rotatable>false</rotatable>
+		<statBases>
+			<Beauty>5</Beauty>
+			<BeautyOutdoors>5</BeautyOutdoors>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>2</Flammability>
+			<Nutrition>2.0</Nutrition>
+			<Mass>150</Mass>
+		</statBases>
+		<plant>
+			<leaflessGraphicPath>Things/Plants/AB_GiantDryFlower_Leafless</leaflessGraphicPath>
+			<growDays>14</growDays>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>2.8~3.8</visualSizeRange>
+			<sowTags Inherit="false">				
+			</sowTags>
+			<sowResearchPrerequisites Inherit="false">      
+			</sowResearchPrerequisites>
+			<lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<treeLoversCareIfChopped>true</treeLoversCareIfChopped>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+			<treeCategory>Full</treeCategory>
+			<topWindExposure>0.25</topWindExposure>
+			<wildOrder>3</wildOrder>
+			<interferesWithRoof>true</interferesWithRoof>
+		</plant>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_GiantPaleRose</defName>
+		<label>giant pale roses</label>
+		<description>Giant flowers genetically modified by a long-forgotten genetics company using the genome of a rose. These seem to be blooming almost continuously. Their stalks are very strong and durable, so they can be cut and used as a wood substitute.\n\nPlant details: Giant pale rose is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7. Can be harvested for wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantDryRose</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+			<Nutrition>1.2</Nutrition>
+			<Flammability>2</Flammability>
+		</statBases>
+		<plant>
+			<leaflessGraphicPath>Things/Plants/AB_GiantDryRose_Leafless</leaflessGraphicPath>
+			<growDays>14</growDays>
+			<harvestWork>1800</harvestWork>
+			<harvestYield>60</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>2.8~3.8</visualSizeRange>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+		</plant>
+		<ingestible/>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_GiantToxicFlower_Odyssey</defName>
+		<label>giant toxic flower</label>
+		<description>A continously blooming giant flower with a dangerous, bright pink colour. Its stalk can be cut and used as a wood substitute.\n\nPlant details: Giant toxic flowers are wild plants that cannot be cultivated. Can be harvested for meager amounts of wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Nutrition>0.05</Nutrition>
+			<Mass>175</Mass>
+			<Beauty>-5</Beauty>
+			<BeautyOutdoors>-3</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantToxicFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<selectable>true</selectable>
+		<fillPercent>0.35</fillPercent>
+		<minifiedDef>MinifiedTree</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<rotatable>false</rotatable>
+		<blockWind>true</blockWind>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<plant>
+			<leaflessGraphicPath>Things/Plants/AB_GiantToxicFlower_Leafless</leaflessGraphicPath>
+			<pollution>Any</pollution>
+			<growDays>14</growDays>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+			<harvestWork>800</harvestWork>
+			<harvestYield>12</harvestYield>
+			<harvestMinGrowth>0.4</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<visualSizeRange>2.8~3.8</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_GiantToxicHornbloom</defName>
+		<label>giant toxic hornbloom</label>
+		<description>A continously blooming giant flower. Its stalk can be cut and used as a wood substitute.\n\nPlant details: Giant toxic hornbloom are wild plants that cannot be cultivated. Can be harvested for meager amounts of wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Nutrition>0.05</Nutrition>
+			<Mass>175</Mass>
+			<Beauty>-5</Beauty>
+			<BeautyOutdoors>-3</BeautyOutdoors>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_GiantToxicHorn</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<selectable>true</selectable>
+		<fillPercent>0.35</fillPercent>
+		<minifiedDef>MinifiedTree</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<rotatable>false</rotatable>
+		<blockWind>true</blockWind>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<plant>
+			<leaflessGraphicPath>Things/Plants/AB_GiantToxicHorn_Leafless</leaflessGraphicPath>
+			<pollution>Any</pollution>
+			<growDays>14</growDays>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+			<harvestWork>800</harvestWork>
+			<harvestYield>15</harvestYield>
+			<harvestMinGrowth>0.4</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<visualSizeRange>2.8~3.8</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+		</plant>
+	</ThingDef>
+</Defs>

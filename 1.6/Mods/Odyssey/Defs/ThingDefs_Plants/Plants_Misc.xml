@@ -265,7 +265,7 @@
 						
 			<growDays>14</growDays>
 			<harvestWork>550</harvestWork>
-			<harvestYield>10</harvestYield>
+			<harvestYield>1</harvestYield>
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>11</wildClusterWeight>
 			<visualSizeRange>2.1~3</visualSizeRange>

@@ -95,6 +95,7 @@
 			<isResourceRock>true</isResourceRock>
 			<mineableThing>Chocolate</mineableThing>
 			<mineableYield>1</mineableYield>
+			<mineableDropChance>0.1</mineableDropChance>
 			<veinMineable>false</veinMineable>
 			<mineablePreventMeteorite>true</mineablePreventMeteorite>
 			<mineablePreventNaturalRockOnSurface>true</mineablePreventNaturalRockOnSurface>

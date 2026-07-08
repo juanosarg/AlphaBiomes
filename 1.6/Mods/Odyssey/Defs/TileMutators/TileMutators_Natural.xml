@@ -1,46 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<TileMutatorDef>
-		<defName>AB_TarLakes</defName>
-		<label>tar lakes</label>
-		<description>A shallow pool of a dense tar-like substance. Impassable, and can't be bridged over.</description>
-		<categories>
-			<li>Lake</li>
-		</categories>
-		<coastSidesRange>0~0</coastSidesRange>
-		<workerClass>AlphaBiomes.TileMutatorWorker_TarLakes</workerClass>
-	</TileMutatorDef>
-	<TileMutatorDef>
-		<defName>AB_PropaneLakes</defName>
-		<label>propane lakes</label>
-		<description>Lakes of liquid hydrocarbons that seem to defy the laws of physics.</description>
-		<categories>
-			<li>Lake</li>
-		</categories>
-		<coastSidesRange>0~1</coastSidesRange>
-		<workerClass>AlphaBiomes.TileMutatorWorker_PropaneLakes</workerClass>
-		<biomeWhitelist>
-			<li>GlacialPlain</li>
-			<li>SeaIce</li>
-			<li>IceSheet</li>
-			<li>Tundra</li>
-		</biomeWhitelist>
-	</TileMutatorDef>
-	<TileMutatorDef>
-		<defName>AB_MagmaticQuagmire</defName>
-		<label>magmatic quagmire</label>
-		<description>A seething landscape of molten rock and blistering heat—where the ground bubbles, cracks, and burns beneath your feet.</description>
-		<maxHilliness>Flat</maxHilliness>
-		<preventsPondGeneration>true</preventsPondGeneration>
-		<overrideLakeBeachTerrain>AB_SolidifiedLava</overrideLakeBeachTerrain>
-		<overrideRiverbankTerrain>AB_SolidifiedLava</overrideRiverbankTerrain>
-		<coastSidesRange>0~0</coastSidesRange>
-		<workerClass>AlphaBiomes.TileMutatorWorker_MagmaticQuagmire</workerClass>
-		<biomeWhitelist>
-			<li>AB_PyroclasticConflagration</li>
-		</biomeWhitelist>
-	</TileMutatorDef>
-	<TileMutatorDef>
 		<defName>AB_MagmaVents</defName>
 		<label>magma vents</label>
 		<description>Fiery fissures in the earth that intermittently erupt with jets of molten rock and searing gas.</description>
@@ -148,7 +108,6 @@
 			<li>AB_MoldyEnvironment</li>
 		</additionalGameConditions>
 		<biomeWhitelist>
-			
 			<li>AB_MycoticJungle</li>
 		</biomeWhitelist>
 	</TileMutatorDef>
@@ -256,28 +215,6 @@
 		<chanceOnNonLandmarkTile>0.025</chanceOnNonLandmarkTile>
 	</TileMutatorDef>
 	<TileMutatorDef>
-		<defName>AB_HealingSprings</defName>
-		<label>healing springs</label>
-		<description>This region contains natural springs imbued with curative properties.</description>
-		<categories>
-			<li>Lake</li>
-		</categories>
-		<workerClass>AlphaBiomes.TileMutatorWorker_HealingSprings</workerClass>
-		<biomeWhitelist>
-			<li>BorealForest</li>
-			<li>LavaField</li>
-			<li>TemperateForest</li>
-			<li>Tundra</li>
-			<li>GlacialPlain</li>
-			<li>Desert</li>
-			<li>AridShrubland</li>
-		</biomeWhitelist>
-		<minHilliness>Mountainous</minHilliness>
-		<preventsPondGeneration>true</preventsPondGeneration>
-		<canSpawnOnRiver>false</canSpawnOnRiver>
-		<coastSidesRange>0~0</coastSidesRange>
-	</TileMutatorDef>
-	<TileMutatorDef>
 		<defName>AB_MutagenicSprings</defName>
 		<label>mutagenic ocular springs</label>
 		<description>This region contains weird ocular springs that mutate the body of both colonists and animals.</description>
@@ -320,7 +257,6 @@
 		<biomeWhitelist>
 			<li>AB_MechanoidIntrusion</li>
 		</biomeWhitelist>
-		
 	</TileMutatorDef>
 </Defs>
 

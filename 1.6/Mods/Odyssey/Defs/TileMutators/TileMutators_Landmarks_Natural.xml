@@ -1,21 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+	<TileMutatorDef>
+		<defName>AB_TarLakes</defName>
+		<label>tar lakes</label>
+		<description>A shallow pool of a dense tar-like substance. Impassable, and can't be bridged over.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<coastSidesRange>0~0</coastSidesRange>
+		<workerClass>AlphaBiomes.TileMutatorWorker_TarLakes</workerClass>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_PropaneLakes</defName>
+		<label>propane lakes</label>
+		<description>Lakes of liquid hydrocarbons that seem to defy the laws of physics.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<coastSidesRange>0~1</coastSidesRange>
+		<workerClass>AlphaBiomes.TileMutatorWorker_PropaneLakes</workerClass>
+		<biomeWhitelist>
+			<li>GlacialPlain</li>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+			<li>Tundra</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MagmaticQuagmire</defName>
+		<label>magmatic quagmire</label>
+		<description>A seething landscape of molten rock and blistering heat—where the ground bubbles, cracks, and burns beneath your feet.</description>
+		<maxHilliness>Flat</maxHilliness>
+		<preventsPondGeneration>true</preventsPondGeneration>
+		<overrideLakeBeachTerrain>AB_SolidifiedLava</overrideLakeBeachTerrain>
+		<overrideRiverbankTerrain>AB_SolidifiedLava</overrideRiverbankTerrain>
+		<coastSidesRange>0~0</coastSidesRange>
+		<workerClass>AlphaBiomes.TileMutatorWorker_MagmaticQuagmire</workerClass>
+		<biomeWhitelist>
+			<li>AB_PyroclasticConflagration</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_HealingSprings</defName>
+		<label>healing springs</label>
+		<description>This region contains natural springs imbued with curative properties.</description>
+		<categories>
+			<li>Lake</li>
+		</categories>
+		<workerClass>AlphaBiomes.TileMutatorWorker_HealingSprings</workerClass>
+		<biomeWhitelist>
+			<li>BorealForest</li>
+			<li>LavaField</li>
+			<li>TemperateForest</li>
+			<li>Tundra</li>
+			<li>GlacialPlain</li>
+			<li>Desert</li>
+			<li>AridShrubland</li>
+		</biomeWhitelist>
+		<minHilliness>Mountainous</minHilliness>
+		<preventsPondGeneration>true</preventsPondGeneration>
+		<canSpawnOnRiver>false</canSpawnOnRiver>
+		<coastSidesRange>0~0</coastSidesRange>
+	</TileMutatorDef>
 	<TileMutatorDef ParentName="BasePatch">
 		<defName>AB_SweetForest</defName>
-		<label>sweet forest</label>
-		<description>A perfect example of the consequences of providing terraforming technology to cultures that are not prepared to handle them responsibly.</description>
+		<label>chocolate terrain</label>
+		<description>A perfect example of the consequences of providing terraforming technology to societies that are not prepared to handle them responsibly.</description>
 		<workerClass>AlphaBiomes.TileMutatorWorker_SweetForest</workerClass>
 		<biomeWhitelist>
 			<li>TemperateForest</li>
 		</biomeWhitelist>
-		
 	</TileMutatorDef>
-	
 	<TileMutatorDef>
 		<defName>AB_SweetFlora</defName>
 		<label>sweet flora</label>
-		<description>The flora in this region has been excesively modified to resemble giant confectionery, to an absurd degree.</description>
+		<description>The flora in this region has been genetically modified to resemble giant confectionery, to an absurd degree.</description>
 		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
 		<biomeWhitelist>
 			<li>TemperateForest</li>
@@ -26,7 +85,6 @@
 			<li>AB_ChocolateTree</li>
 			<li>AB_Plant_Lollipops</li>
 		</plantKinds>
-		
 		<modExtensions>
 			<li Class="VEF.Maps.TileMutatorExtension">
 				<plantDefsWithCommonality>
@@ -46,13 +104,10 @@
 						<plantDef>AB_Plant_Lollipops</plantDef>
 						<commonality>2</commonality>
 					</li>
-					
-					
 				</plantDefsWithCommonality>
 			</li>
 		</modExtensions>
 	</TileMutatorDef>
-	
 	<TileMutatorDef>
 		<defName>AB_SweetRocks</defName>
 		<label>chocolate mountains</label>
@@ -62,6 +117,177 @@
 		<description>The stone found in this region is instead a highly compacted form of chocolate.</description>
 		<workerClass>AlphaBiomes.TileMutatorWorker_ChocolateMountains</workerClass>
 	</TileMutatorDef>
-	
+	<TileMutatorDef>
+		<defName>AB_SugarChunks</defName>
+		<label>sugar chunks</label>
+		<description>This area contains small clumps of hardened sugar.</description>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+		</biomeWhitelist>
+		<chunkDensityFactor>0.25</chunkDensityFactor>
+		<workerClass>AlphaBiomes.TileMutatorWorker_SugarChunks</workerClass>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="VanillaExpanded.VExplorationE">
+		<defName>AB_AnimaDesertFlora</defName>
+		<label>anima desert flora</label>
+		<description>This region contains a desert with sparse anima cacti, quietly resonating with psychic energy. The air feels attentive, as if the land itself is listening.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+		<plantKinds>
+			<li>VEE_Plant_AnimaBush</li>
+			<li>AB_Plant_AnimaCactus_Small</li>
+			<li>AB_Plant_AnimaCactus_Medium</li>
+			<li>AB_Plant_AnimaCactus_Grand</li>
+			<li>AB_Plant_AnimaPalm</li>
+			<li>Plant_Grass</li>
+			<li>Plant_TallGrass</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Plant_GrassAnima</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">VEE_Plant_AnimaHusk</li>
+		</plantKinds>
+		<extraGenSteps>
+			<li MayRequire="Ludeon.RimWorld.Royalty">VEE_AncientAnimaTree</li>
+		</extraGenSteps>
+		<preventGenSteps>
+			<li MayRequire="Ludeon.RimWorld.Royalty">AnimaTrees</li>
+		</preventGenSteps>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>VEE_Plant_AnimaBush</plantDef>
+						<commonality>0.6</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_AnimaCactus_Small</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_AnimaCactus_Medium</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_AnimaCactus_Grand</plantDef>
+						<commonality>0.5</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_AnimaPalm</plantDef>
+						<commonality>0.6</commonality>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">
+						<plantDef>Plant_GrassAnima</plantDef>
+						<commonality>4</commonality>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<plantDef>VEE_Plant_AnimaHusk</plantDef>
+						<commonality>1</commonality>
+					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="VanillaExpanded.VExplorationE">
+		<defName>AB_AnimaSoilsDesert</defName>
+		<label>anima desert soils</label>
+		<description>This area contains soil infused with latent anima energy, subtly influencing plants, animals, and minds.</description>
+		<workerClass>VanillaExplorationExpanded.TileMutatorWorker_AnimaSoils</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="VanillaExpanded.VExplorationE">
+		<defName>AB_JadeiteChunksDesert</defName>
+		<label>anima desert jadeite chunks</label>
+		<description>This desertic area contains small deposits of jadeite.</description>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+		<extraGenSteps>
+			<li>VEE_JadeChunks</li>
+		</extraGenSteps>
+		<chunkDensityFactor>0.25</chunkDensityFactor>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="VanillaExpanded.VExplorationE">
+		<defName>AB_AnimaFaunaDesert</defName>
+		<label>anima desert fauna</label>
+		<description>The placid environment of the anima desert attracts some anima-touched animals.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li MayRequire="sarg.alphaanimals">
+						<forcedPawnKindDef>AA_AnimaColossus</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.1</forcedPawnKindDefChance>
+					</li>
+					<li MayRequire="sarg.alphaanimals">
+						<forcedPawnKindDef>AA_Animalisk</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.1</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_OcularDesertSoil</defName>
+		<label>ocular desert soils</label>
+		<description>This desertic area contains soil twisted by a strange extradimensional influence.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_OcularDesertSoils</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_OcularDesertFlora</defName>
+		<label>ocular desert flora</label>
+		<description>This region contains a desert with sparse ocular cacti.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+		<plantKinds>
+			<li>AB_AlienGrass</li>
+			<li>AB_Plant_OcularCactus_Small</li>
+			<li>AB_Plant_OcularCactus_Large</li>
+			<li>AB_DesertBouquet</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">AB_EyeGrass</li>
+		</plantKinds>
+		
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_AlienGrass</plantDef>
+						<commonality>5</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_OcularCactus_Small</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_OcularCactus_Large</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_DesertBouquet</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<plantDef>AB_EyeGrass</plantDef>
+						<commonality>1</commonality>
+					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
 </Defs>
 

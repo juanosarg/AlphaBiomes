@@ -400,7 +400,7 @@
 				<mutator>AB_PetalStorms</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_PetalStorms</icon>
 			</li>
-				<li>
+			<li>
 				<mutator>AB_PollinationFrenzy</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_PollinationFrenzy</icon>
 			</li>
@@ -544,7 +544,47 @@
 				<mutator>AB_ResidualOverclocking</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_ResidualOverclocking</icon>
 			</li>
-						<!-- VE Exploration -->
+			<li>
+				<mutator>AB_SweetForest</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SweetForest</icon>
+			</li>
+			<li>
+				<mutator>AB_SweetFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SweetFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_SweetRocks</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SweetRocks</icon>
+			</li>
+			<li>
+				<mutator>AB_SugarChunks</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SugarChunks</icon>
+			</li>
+			<li>
+				<mutator>AB_AnimaDesertFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_AnimaDesertFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_AnimaSoilsDesert</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_AnimaSoilsDesert</icon>
+			</li>
+			<li>
+				<mutator>AB_JadeiteChunksDesert</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_JadeiteChunksDesert</icon>
+			</li>
+			<li>
+				<mutator>AB_AnimaFaunaDesert</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_AnimaFaunaDesert</icon>
+			</li>
+			<li>
+				<mutator>AB_OcularDesertSoil</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_OcularDesertSoil</icon>
+			</li>
+			<li>
+				<mutator>AB_OcularDesertFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_OcularDesertFlora</icon>
+			</li>
+			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>VEE_LoneIsland</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_LoneIsland</icon>
@@ -1318,7 +1358,6 @@
 				<mutator>GL_BiomeTransitions</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_MixedBiomesMod</icon>
 			</li>
-			
 			<!-- Mashed Ashlands -->
 			<li MayRequire="SirMashedPotato.Ashlands">
 				<mutator>Mashed_Ashlands_UndercaveEntrance</mutator>
@@ -1424,7 +1463,6 @@
 				<mutator>Mashed_Ashlands_UndergroundMine</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_UndergroundMine</icon>
 			</li>
-			
 			<li MayRequire="SirMashedPotato.Ashlands">
 				<mutator>Mashed_Ashlands_CliffRacerHabitat</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_Mashed_Ashlands_CliffRacerHabitat</icon>

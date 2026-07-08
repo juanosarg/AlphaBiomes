@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_AnimaCactus_Small</defName>
+		<label>small anima cactus</label>
+		<description>A small anima-touched cactus. Hums faintly with psychic life. They can be harvested for wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<minifiedDef IsNull="True"/>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Nutrition>0.5</Nutrition>
+			<Mass>10</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_AnimaCactusSmall</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.2</fillPercent>
+		<plant>
+			<lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>3</growDays>
+			<harvestWork>210</harvestWork>
+			<harvestYield>5</harvestYield>
+			<harvestMinGrowth>0.2</harvestMinGrowth>
+			<topWindExposure>0.08</topWindExposure>
+			<wildClusterRadius>-1</wildClusterRadius>
+			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+			<visualSizeRange>0.85~1</visualSizeRange>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_AnimaCactus_Medium</defName>
+		<label>anima cactus</label>
+		<description>An anima-touched cactus. Hums faintly with psychic life. They can be harvested for wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<minifiedDef IsNull="True"/>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Nutrition>1</Nutrition>
+			<Mass>100</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_AnimaCactusMedium</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<plant>
+			<lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>5</growDays>
+			<harvestWork>210</harvestWork>
+			<harvestYield>10</harvestYield>
+			<harvestMinGrowth>0.2</harvestMinGrowth>
+			<topWindExposure>0.08</topWindExposure>
+			<wildClusterRadius>-1</wildClusterRadius>
+			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+			<visualSizeRange>1.2~2</visualSizeRange>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_AnimaCactus_Grand</defName>
+		<label>grand anima cactus</label>
+		<description>A large anima-touched cactus. Hums faintly with psychic life. They can be harvested for wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<minifiedDef IsNull="True"/>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Nutrition>2.0</Nutrition>
+			<Mass>120</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_AnimaCactusLarge</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<plant>
+			<lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>7</growDays>
+			<harvestWork>210</harvestWork>
+			<harvestYield>15</harvestYield>
+			<harvestMinGrowth>0.2</harvestMinGrowth>
+			<topWindExposure>0.08</topWindExposure>
+			<wildClusterRadius>-1</wildClusterRadius>
+			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+			<visualSizeRange>2~3</visualSizeRange>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="DeciduousTreeBase">
+		<defName>AB_Plant_AnimaPalm</defName>
+		<label>anima palm</label>
+		<description>An anima-touched palm. It lacks the psychic potency of a true anima tree, but still hums faintly with psychic life.\n\nPlant details: Anima palms are wild plants that cannot be cultivated, and they need minimum terrain fertility of 0.05. They can be harvested for wood.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Plants/AB_AnimaPalm</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<growDays>30</growDays>
+			<harvestWork>1400</harvestWork>
+			<harvestYield>35</harvestYield>
+			<wildClusterWeight>35</wildClusterWeight>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<visualSizeRange>3~3.75</visualSizeRange>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_OcularCactus_Small</defName>
+		<label>small ocular cactus</label>
+		<description>A small ocular cactus. Is it looking at you?\n\nPlant details: Ocular cacti are wild plants that cannot be cultivated, and they need minimum terrain fertility of 0.05. Can be harvested for red wood.</description>
+		<minifiedDef IsNull="True"/>
+		<descriptionHyperlinks>
+			<ThingDef>GU_RedWood</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Nutrition>0.5</Nutrition>
+			<Mass>10</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_OcularCactusSmall</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.2</fillPercent>
+		<plant>
+			<lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>3</growDays>
+			<harvestWork>210</harvestWork>
+			<harvestYield>5</harvestYield>
+			<harvestMinGrowth>0.2</harvestMinGrowth>
+			<harvestedThingDef>GU_RedWood</harvestedThingDef>
+			<harvestTag>Wood</harvestTag>
+			<topWindExposure>0.08</topWindExposure>
+			<wildClusterRadius>-1</wildClusterRadius>
+			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+			<visualSizeRange>0.85~1</visualSizeRange>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_OcularCactus_Large</defName>
+		<label>ocular cactus</label>
+		<description>An ocular cactus. It is definitely keeping an eye (or several) on the colonists.\n\nPlant details: Ocular cacti are wild plants that cannot be cultivated, and they need minimum terrain fertility of 0.05. Can be harvested for red wood.\n\nBased on artwork by Ulysse Verhasselt, https://www.artstation.com/artwork/ORkP8</description>
+		<minifiedDef IsNull="True"/>
+		<descriptionHyperlinks>
+			<ThingDef>GU_RedWood</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Nutrition>1</Nutrition>
+			<Mass>100</Mass>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_OcularCactusLarge</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<plant>
+			<lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>5</growDays>
+			<harvestWork>210</harvestWork>
+			<harvestYield>10</harvestYield>
+			<harvestedThingDef>GU_RedWood</harvestedThingDef>
+			<harvestTag>Wood</harvestTag>
+			<harvestMinGrowth>0.2</harvestMinGrowth>
+			<topWindExposure>0.08</topWindExposure>
+			<wildClusterRadius>-1</wildClusterRadius>
+			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+			<visualSizeRange>2~3.5</visualSizeRange>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_DesertBouquet</defName>
+		<label>desert bouquet</label>
+		<description>A spiny plant with some unusual fleshy tentacles sprouting from the top. Seems to be a variation of the blood bouquet found in ocular forests, but the fruit is inedible.\n\nPlant details: Desert bouquet is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.05.</description>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_DryBouquet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<selectable>true</selectable>
+		<fillPercent>0.35</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>130</pathCost>
+		<blockWind>true</blockWind>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>5</growDays>
+			<visualSizeRange>2~2.5</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<harvestWork>250</harvestWork>
+		</plant>
+	</ThingDef>
+</Defs>

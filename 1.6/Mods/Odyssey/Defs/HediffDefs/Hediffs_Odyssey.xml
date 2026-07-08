@@ -265,9 +265,9 @@
 	</HediffDef>
 	<HediffDef>
 		<defName>AB_CandySandInEyes</defName>
-		<label>candy sand</label>
-		<labelNoun>candy sand</labelNoun>
-		<description>Candy sand in the eyes. It impairs vision, but can be cleared within a few moments.</description>
+		<label>cookie sand</label>
+		<labelNoun>cookie sand</labelNoun>
+		<description>Cookie sand in the eyes. It impairs vision, but can be cleared within a few moments.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<battleStateLabel>blind</battleStateLabel>
 		<maxSeverity>1</maxSeverity>

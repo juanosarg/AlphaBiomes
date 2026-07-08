@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_SugarChunk</defName>
+		<label>sugar chunk</label>
+		<description>A chunk of sugar. It can be deconstructed to acquire some sugar (if you are using VE Cooking).</description>
+		<graphicData>
+			 <texPath>Things/Item/Chunk/ChunkStone</texPath>
+			  <graphicClass>Graphic_Random</graphicClass>
+			  <flipExtraRotation>80</flipExtraRotation>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<preventGravshipLandingOn>false</preventGravshipLandingOn>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<pathCost>42</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<building>
+			<isEdifice>true</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>true</deconstructible>
+			<alwaysDeconstructible>true</alwaysDeconstructible>
+		</building>
+		<killedLeavings>
+			<VCE_RawSugar MayRequire="VanillaExpanded.VCookE">1</VCE_RawSugar>
+		</killedLeavings>
+		<costList>
+			<VCE_RawSugar MayRequire="VanillaExpanded.VCookE">1</VCE_RawSugar>
+		</costList>
+	</ThingDef>
+</Defs>

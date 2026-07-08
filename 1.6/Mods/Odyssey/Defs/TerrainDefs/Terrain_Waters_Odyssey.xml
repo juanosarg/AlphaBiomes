@@ -6,7 +6,7 @@
 		<renderPrecedence>395</renderPrecedence>
 		<texturePath>Terrain/Surfaces/AB_Cream</texturePath>
 		<pollutedTexturePath>Terrain/Surfaces/AB_Cream</pollutedTexturePath>
-	
+		<color>(246,246,246)</color>
 		<pathCost>400</pathCost>
 	
 		<waterBodyType>Other</waterBodyType>
@@ -19,6 +19,7 @@
 		<defName>AB_LiquidCream_MovingChestDeep</defName>
 		<label>chest-deep moving liquid cream</label>
 		<renderPrecedence>399</renderPrecedence>
+		<color>(246,246,246)</color>
 		<avoidWander>true</avoidWander>
 		<affordances>
 			<li>MovingFluid</li>
@@ -64,6 +65,7 @@
 		<label>shallow moving liquid cream</label>
 		<waterDepthShader>Map/WaterDepth</waterDepthShader>
 		<renderPrecedence>398</renderPrecedence>
+		<color>(250,250,250)</color>
 		<avoidWander>true</avoidWander>
 		<affordances>
 			<li>MovingFluid</li>

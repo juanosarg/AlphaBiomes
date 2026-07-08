@@ -174,14 +174,15 @@
 		<defName>AB_SweetForest</defName>
 		<label>sweet forest</label>
 		<drawScale>0.8</drawScale>
-		<iconTexturePath>World/Landmarks/HotSprings</iconTexturePath>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_SweetForest</iconTexturePath>
 		<atlasSize>(2, 2)</atlasSize>
 		<commonality>0.25</commonality>
-		<nameMaker>AB_NamerLandmark_HealingSprings</nameMaker>
+		<nameMaker>AB_NamerLandmark_SweetForest</nameMaker>
 		<mutatorChances>
 			<AB_SweetForest Required="True"/>
 			<AB_SweetFlora Required="True"/>
 			<AB_SweetRocks Required="True"/>
+			<AB_SugarChunks Required="True"/>
 			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
 			<Stockpile>0.05</Stockpile>
 			<MineralRich>0.03</MineralRich>
@@ -211,5 +212,42 @@
 			<TerraformingScar>0.1</TerraformingScar>
 			<Wetland>0.02</Wetland>
 		</comboLandmarkMutators>
+	</LandmarkDef>
+	<LandmarkDef MayRequire="Ludeon.RimWorld.Royalty,VanillaExpanded.VExplorationE">
+		<defName>AB_AnimaDesert</defName>
+		<label>anima desert</label>
+		<iconTexturePath>World/Landmarks/VEE_AnimaForest</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.15</commonality>
+		<nameMaker>AB_NamerLandmark_AnimaDesert</nameMaker>
+		<mutatorChances>
+			<AB_AnimaSoilsDesert MayRequire="VanillaExpanded.VExplorationE" Required="True"/>
+			<AB_AnimaDesertFlora MayRequire="VanillaExpanded.VExplorationE" Required="True"/>
+			<AB_AnimaFaunaDesert MayRequire="VanillaExpanded.VExplorationE,sarg.alphaanimals" Required="True"/>
+			<AB_JadeiteChunksDesert MayRequire="VanillaExpanded.VExplorationE" Required="True"/>
+			<VEE_JadeiteMountains MayRequire="VanillaExpanded.VExplorationE" Required="True"/>
+			<Stockpile>0.15</Stockpile>
+			<AncientUplink>0.15</AncientUplink>
+			<SunnyMutator>0.05</SunnyMutator>
+			<Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.02</Pollution_Increased>
+			<WindyMutator>0.05</WindyMutator>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef MayRequire="Ludeon.RimWorld.Royalty,VanillaExpanded.VExplorationE">
+		<defName>AB_OcularDesert</defName>
+		<label>ocular desert</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_OcularDesert</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.15</commonality>
+		<nameMaker>AB_NamerLandmark_OcularDesert</nameMaker>
+		<mutatorChances>
+			<AB_OcularDesertSoil Required="True"/>
+			<AB_OcularDesertFlora Required="True"/>
+			<Stockpile>0.15</Stockpile>
+			<AncientUplink>0.15</AncientUplink>
+			<SunnyMutator>0.05</SunnyMutator>
+			<Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.02</Pollution_Increased>
+			<WindyMutator>0.05</WindyMutator>
+		</mutatorChances>
 	</LandmarkDef>
 </Defs>
