@@ -27,32 +27,6 @@
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
-		<defName>AB_DryFlowers</defName>
-		<label>dry flowers</label>
-		<description>A bunch of dry terrain flowers.</description>
-		<statBases>
-			<MaxHitPoints>85</MaxHitPoints>
-			<Flammability>2</Flammability>
-			<Nutrition>0.05</Nutrition>
-		</statBases>
-		<graphicData>
-			<texPath>Things/Plants/AB_DryFlower</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
-		<ingestible/>
-		<plant>
-			<fertilityMin>0.05</fertilityMin>
-			<fertilitySensitivity>0.3</fertilitySensitivity>
-			<growDays>2.5</growDays>
-			<harvestWork>40</harvestWork>
-			<maxMeshCount>9</maxMeshCount>
-			<visualSizeRange>0.3~0.5</visualSizeRange>
-			<topWindExposure>0.05</topWindExposure>
-			<wildOrder>1</wildOrder>
-		</plant>
-	</ThingDef>
-	<ThingDef ParentName="PlantBase">
 		<defName>AB_ToxicFlowers</defName>
 		<label>toxic flowers</label>
 		<description>A bunch of poisonous looking flowers.</description>
@@ -79,10 +53,37 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_DryFlowers</defName>
+		<label>dry flowers</label>
+		<description>A bunch of dry terrain flowers.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>2</Flammability>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_DryFlower</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<topWindExposure>0.05</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
 	<ThingDef ParentName="BushBase">
 		<defName>AB_DryFern</defName>
 		<label>dry fern</label>
-		<description>A fern adapted to a dry climate.\n\nPlant details: Dry fern is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7.</description>
+		<description>A fern adapted to a dry climate.\n\nPlant details: Dry fern is a wild plant that cannot be cultivated.</description>
 		<statBases>
 			<Beauty>2</Beauty>
 		</statBases>
@@ -95,16 +96,19 @@
 			</shadowData>
 		</graphicData>
 		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>4</wildClusterWeight>
-			<visualSizeRange>0.75~1</visualSizeRange>
+			<visualSizeRange>1.2~2</visualSizeRange>
 			<harvestWork>250</harvestWork>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="BushBase">
 		<defName>AB_ToxicBush</defName>
 		<label>toxic bush</label>
-		<description>A poisonous looking bush adapted to toxic environments.\n\nPlant details: Toxic bush is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7.</description>
+		<description>A poisonous looking bush adapted to toxic environments.\n\nPlant details: Toxic bush is a wild plant that cannot be cultivated.\n\nBased on artwork by Splix04, https://splix04.itch.io</description>
 		<statBases>
 			<Beauty>2</Beauty>
 		</statBases>
@@ -120,8 +124,9 @@
 			<pollution>Any</pollution>
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>4</wildClusterWeight>
-			<visualSizeRange>0.75~1</visualSizeRange>
+			<visualSizeRange>2~3</visualSizeRange>
 			<harvestWork>250</harvestWork>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
@@ -158,14 +163,15 @@
 			<sowResearchPrerequisites Inherit="false">      
 			</sowResearchPrerequisites>
 			<lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<treeLoversCareIfChopped>true</treeLoversCareIfChopped>
 			<burnedThingDef IsNull="True"/>
 			<choppedThingDef IsNull="True"/>
 			<smashedThingDef IsNull="True"/>
 			<treeCategory>Full</treeCategory>
 			<topWindExposure>0.25</topWindExposure>
-			<wildOrder>3</wildOrder>
+			<wildOrder>1</wildOrder>
 			<interferesWithRoof>true</interferesWithRoof>
 		</plant>
 		<ingestible>
@@ -176,7 +182,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>AB_GiantPaleRose</defName>
 		<label>giant pale roses</label>
-		<description>Giant flowers genetically modified by a long-forgotten genetics company using the genome of a rose. These seem to be blooming almost continuously. Their stalks are very strong and durable, so they can be cut and used as a wood substitute.\n\nPlant details: Giant pale rose is a wild plant that cannot be cultivated, and it needs minimum terrain fertility of 0.7. Can be harvested for wood.</description>
+		<description>Giant flowers genetically modified by a long-forgotten genetics company using the genome of a rose. These seem to be blooming almost continuously. Their stalks are very strong and durable, so they can be cut and used as a wood substitute.\n\nPlant details: Giant pale rose is a wild plant that cannot be cultivated. Can be harvested for wood.</description>
 		<descriptionHyperlinks>
 			<ThingDef>WoodLog</ThingDef>
 		</descriptionHyperlinks>
@@ -205,6 +211,9 @@
 			<burnedThingDef IsNull="True"/>
 			<choppedThingDef IsNull="True"/>
 			<smashedThingDef IsNull="True"/>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<wildOrder>1</wildOrder>
 		</plant>
 		<ingestible/>
 	</ThingDef>
@@ -256,6 +265,8 @@
 			<harvestFailable>false</harvestFailable>
 			<visualSizeRange>2.8~3.8</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
+			<wildOrder>1</wildOrder>
+			<fertilityMin>0.1</fertilityMin>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -306,6 +317,7 @@
 			<harvestFailable>false</harvestFailable>
 			<visualSizeRange>2.8~3.8</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 </Defs>

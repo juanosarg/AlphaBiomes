@@ -261,7 +261,6 @@
 			<li>AB_DesertBouquet</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">AB_EyeGrass</li>
 		</plantKinds>
-		
 		<modExtensions>
 			<li Class="VEF.Maps.TileMutatorExtension">
 				<plantDefsWithCommonality>
@@ -284,6 +283,209 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">
 						<plantDef>AB_EyeGrass</plantDef>
 						<commonality>1</commonality>
+					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DryMeadows</defName>
+		<label>dry meadows soils</label>
+		<description>This meadows area is drier than usual, with less fertile soil and less precipitation.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_DryMeadows</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DryMeadowsFlora</defName>
+		<label>dry meadows flora</label>
+		<description>This region contains flora adapted to the drier conditions of the terrain.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+		<plantDensityFactor>0.4</plantDensityFactor>
+		<plantKinds>
+			<li>AB_DryFlowers</li>
+			<li>AB_DryFern</li>
+			<li>AB_GiantTrumpetglory</li>
+			<li>AB_GiantPaleRose</li>
+			<li>Plant_YellowGrass</li>
+			<li>Plant_YellowTallGrass</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
+		</plantKinds>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>Plant_YellowGrass</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>Plant_YellowTallGrass</plantDef>
+						<commonality>0.5</commonality>
+					</li>
+					<li>
+						<plantDef>AB_DryFlowers</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>AB_DryFern</plantDef>
+						<commonality>0.6</commonality>
+					</li>
+					<li>
+						<plantDef>AB_GiantTrumpetglory</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_GiantPaleRose</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<plantDef>Plant_GrayGrass</plantDef>
+						<commonality>2</commonality>
+					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ToxicMeadows</defName>
+		<label>toxic meadows soils</label>
+		<description>This meadows area is filled with toxic flowers.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_ToxicMeadows</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ToxicMeadowsFlora</defName>
+		<label>toxic meadows flora</label>
+		<description>This region contains flora adapted to the toxic conditions of the terrain.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>AB_IdyllicMeadows</li>
+		</biomeWhitelist>
+		<plantDensityFactor>0.8</plantDensityFactor>
+		<plantKinds>
+			<li>AB_ToxicFlowers</li>
+			<li>AB_ToxicBush</li>
+			<li>AB_GiantToxicFlower_Odyssey</li>
+			<li>AB_GiantToxicHornbloom</li>
+			<li>AB_ToxiGrass_Odyssey</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
+		</plantKinds>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_ToxiGrass_Odyssey</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>AB_ToxicFlowers</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>AB_ToxicBush</plantDef>
+						<commonality>0.6</commonality>
+					</li>
+					<li>
+						<plantDef>AB_GiantToxicFlower_Odyssey</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_GiantToxicHornbloom</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<plantDef>Plant_GrayGrass</plantDef>
+						<commonality>2</commonality>
+					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_WillowForest</defName>
+		<label>willow forest</label>
+		<description>This region contains a multitude of weeping willows.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_PlantsWithCommonality</workerClass>
+		<biomeWhitelist>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_Plant_TreeWillow</plantDef>
+						<commonality>5</commonality>
+					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_CloverForest</defName>
+		<label>clover forest</label>
+		<description>A lush forest where giant clovers carpet the ground and towering trees bear clover-shaped leaves.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+		</biomeWhitelist>
+		
+		<plantKinds>
+			<li>Plant_Grass</li>
+			<li>Plant_TallGrass</li>
+			<li>Plant_Brambles</li>
+			<li>Plant_Dandelion</li>
+			<li>Plant_Bush</li>
+			<li>Plant_HealrootWild</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Ripthorn</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Witchwood</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Reeds</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_LilyPad</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Bulrush</li>
+			<li>AB_Clovers</li>
+			<li>AB_Plant_TreeClover</li>
+			<li>AB_Plant_TreeLilypad</li>
+		</plantKinds>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_Clovers</plantDef>
+						<commonality>10</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_TreeClover</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_TreeLilypad</plantDef>
+						<commonality>2</commonality>
+					</li>
+					
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_GinkgoForest</defName>
+		<label>ginkgo forest</label>
+		<description>A tranquil forest of genetically modified ginkgo trees with distinctive fan-shaped leaves that stay brilliant gold all year.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_PlantsWithCommonality</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+		</biomeWhitelist>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_Plant_GinkgoTree</plantDef>
+						<commonality>2</commonality>
 					</li>
 				</plantDefsWithCommonality>
 			</li>

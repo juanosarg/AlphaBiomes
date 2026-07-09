@@ -108,7 +108,6 @@
 				<li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
 				<li>terrain_word(p=3)->anima desert</li>
 				<li>terrain_word(p=2)->anima sands</li>
-				
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -122,7 +121,70 @@
 				<li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
 				<li>terrain_word(p=3)->ocular desert</li>
 				<li>terrain_word(p=2)->ocular sands</li>
-				
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_DryMeadows</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[NamePerson]'s dry meadows</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_ToxicMeadows</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[NamePerson]'s toxic meadows</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_WillowForest</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word(p=4)->willow forest</li>
+				<li>terrain_word->weeping woods</li>
+				<li>terrain_word->willow groves</li>
+				<li>terrain_word->catkin woods</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_CloverForest</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word(p=4)->clover forest</li>
+				<li>terrain_word->clover woods</li>
+				<li>terrain_word->shamrock grove</li>
+				<li>terrain_word->greenleaf thicket</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_GinkgoForest</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word(p=4)->ginkgo forest</li>
+				<li>terrain_word->ginkgo woods</li>
+				<li>terrain_word->maidenhair grove</li>
+				<li>terrain_word->golden ginkgoes</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

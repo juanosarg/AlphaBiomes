@@ -581,8 +581,40 @@
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_OcularDesertSoil</icon>
 			</li>
 			<li>
+				<mutator>AB_DryMeadows</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_DryMeadows</icon>
+			</li>
+			<li>
 				<mutator>AB_OcularDesertFlora</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_OcularDesertFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_DryMeadowsFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_DryMeadowsFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_DryClimate</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_DryClimate</icon>
+			</li>
+			<li>
+				<mutator>AB_ToxicMeadowsFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_ToxicMeadowsFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_ToxicMeadows</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_ToxicMeadows</icon>
+			</li>
+			<li>
+				<mutator>AB_WillowForest</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_WillowForest</icon>
+			</li>
+			<li>
+				<mutator>AB_CloverForest</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CloverForest</icon>
+			</li>
+			<li>
+				<mutator>AB_GinkgoForest</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GinkgoForest</icon>
 			</li>
 			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">

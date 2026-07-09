@@ -250,4 +250,139 @@
 			<WindyMutator>0.05</WindyMutator>
 		</mutatorChances>
 	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_DryMeadows</defName>
+		<label>dry meadows</label>
+		<drawScale>0.8</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_DryMeadows</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.25</commonality>
+		<nameMaker>AB_NamerLandmark_DryMeadows</nameMaker>
+		<mutatorChances>
+			<AB_DryMeadows Required="True"/>
+			<AB_DryMeadowsFlora Required="True"/>
+			<AB_DryClimate Required="True"/>
+			<VEE_WildWheat MayRequire="VanillaExpanded.VExplorationE,VanillaExpanded.VCookE" Required="True"/>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<MineralRich>0.03</MineralRich>
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<MixedBiome>0.25</MixedBiome>
+			<AncientUplink>0.02</AncientUplink>
+			<ArcheanTrees>0.01</ArcheanTrees>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_ToxicMeadows</defName>
+		<label>toxic meadows</label>
+		<drawScale>0.8</drawScale>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_ToxicMeadows</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.25</commonality>
+		<nameMaker>AB_NamerLandmark_ToxicMeadows</nameMaker>
+		<mutatorChances>
+			<AB_ToxicMeadows Required="True"/>
+			<AB_ToxicMeadowsFlora Required="True"/>
+			<VEE_PoisonousFlora MayRequire="VanillaExpanded.VExplorationE" Required="True"/>
+			<Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.5</Pollution_Increased>
+			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<Stockpile>0.05</Stockpile>
+			<MineralRich>0.03</MineralRich>
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WindyMutator>0.05</WindyMutator>
+			<InsectMegahive>0.01</InsectMegahive>
+			<MixedBiome>0.25</MixedBiome>
+			<AncientUplink>0.02</AncientUplink>
+			<ArcheanTrees>0.01</ArcheanTrees>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_WillowForest</defName>
+		<label>willow forest</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_WillowForest</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.5</commonality>
+		<nameMaker>AB_NamerLandmark_WillowForest</nameMaker>
+		<mutatorChances>
+			<AB_WillowForest Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<FoggyMutator>0.3</FoggyMutator>
+			<WetClimate>0.2</WetClimate>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+			<Muddy>0.05</Muddy>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<PlantLife_Increased>0.05</PlantLife_Increased>
+			<PlantGrove>0.05</PlantGrove>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_CloverForest</defName>
+		<label>clover forest</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_WillowForest</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.5</commonality>
+		<nameMaker>AB_NamerLandmark_CloverForest</nameMaker>
+		<mutatorChances>
+			<AB_CloverForest Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<FoggyMutator>0.3</FoggyMutator>
+			<WetClimate>0.2</WetClimate>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+			<Muddy>0.05</Muddy>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<PlantLife_Increased>0.05</PlantLife_Increased>
+			<PlantGrove>0.05</PlantGrove>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_GinkgoForest</defName>
+		<label>ginkgo forest</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_GinkgoForest</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.5</commonality>
+		<nameMaker>AB_NamerLandmark_GinkgoForest</nameMaker>
+		<mutatorChances>
+			<AB_GinkgoForest Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<FoggyMutator>0.3</FoggyMutator>
+			<WetClimate>0.2</WetClimate>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+			<Muddy>0.05</Muddy>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<PlantLife_Increased>0.05</PlantLife_Increased>
+			<PlantGrove>0.05</PlantGrove>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
 </Defs>

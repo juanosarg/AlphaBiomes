@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_DessertTree</defName>
+		<label>dessert tree</label>
+		<description>An easy answer to the question: "what would you create if you were an insane plant geneticist?". This whimsical tree with a sugary trunk, frosting-like growths, and fruit that resembles glazed confections lures animals and colonists alike with the promise of edible delights.\n\nPlant details: Dessert trees are wild plants, and they need minimum terrain fertility of 0.7. Can be harvested for wood and fine desserts.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+			<ThingDef MayRequire="VanillaExpanded.VCookE">VCE_FineDessert</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Plants/AB_DessertTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+			<Nutrition>2</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>25</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>2.1~3</visualSizeRange>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+		</plant>
+		<ingestible/>
+		<modExtensions>
+			<li Class="VEF.Plants.DualCropExtension">
+				<secondaryOutput MayRequire="VanillaExpanded.VCookE">VCE_FineDessert</secondaryOutput>
+				<outPutAmount>1</outPutAmount>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>AB_Plant_SugarcaneGrass</defName>
+		<label>sugarcanes</label>
+		<description>Wild grass modified to look like giant sugarcanes.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_Sugarcane</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildOrder>1</wildOrder>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_ChocolateTree</defName>
+		<label>chocolate tree</label>
+		<description>A weird combination of a tree, a mushroom, whipped cream, chocolate... sprinkles... Ok, very, very weird.\n\nPlant details: Chocolate trees are wild plants, and they need minimum terrain fertility of 0.7. Can be harvested for wood and chocolate.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>
+			<ThingDef>Chocolate</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Plants/AB_ChocolateTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+			<Nutrition>2</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>14</growDays>
+			<harvestWork>550</harvestWork>
+			<harvestYield>1</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>2.1~3</visualSizeRange>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+		</plant>
+		<ingestible/>
+		<modExtensions>
+			<li Class="VEF.Plants.DualCropExtension">
+				<secondaryOutput>Chocolate</secondaryOutput>
+				<outPutAmount>1</outPutAmount>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BushBase" Name="Plant_Bush">
+		<defName>AB_Plant_Lollipops</defName>
+		<label>lollipops</label>
+		<description>Strange plants genetically modified to look like giant lollipops.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_Lollipops</texPath>
+			<drawSize>1.15</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<growDays>3</growDays>
+		</plant>
+	</ThingDef>
+</Defs>

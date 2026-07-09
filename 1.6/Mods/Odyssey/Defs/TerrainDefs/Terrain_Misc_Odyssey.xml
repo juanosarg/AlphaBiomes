@@ -375,6 +375,7 @@
 		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
 		<pollutionColor>(214, 140, 234, 0.15)</pollutionColor>
 		<edgeType>FadeRough</edgeType>
+		<categoryType>Soil</categoryType>
 		<renderPrecedence>340</renderPrecedence>
 		<pathCost>2</pathCost>
 		<statBases>
@@ -403,6 +404,9 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
 	</TerrainDef>
 	<TerrainDef ParentName="NaturalTerrainBase">
 		<defName>AB_ToxicFlowerySoil</defName>
@@ -412,6 +416,7 @@
 		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
 		<pollutionColor>(214, 140, 234, 0.15)</pollutionColor>
 		<edgeType>FadeRough</edgeType>
+		<categoryType>Soil</categoryType>
 		<renderPrecedence>340</renderPrecedence>
 		<pathCost>2</pathCost>
 		<statBases>
@@ -440,6 +445,9 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
 	</TerrainDef>
 	<TerrainDef ParentName="NaturalTerrainBase">
 		<defName>AB_ToxicFertileGrassyFlowerySoil</defName>
@@ -449,6 +457,7 @@
 		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
 		<pollutionColor>(214, 140, 234, 0.15)</pollutionColor>
 		<edgeType>FadeRough</edgeType>
+		<categoryType>Soil</categoryType>
 		<renderPrecedence>350</renderPrecedence>
 		<pathCost>2</pathCost>
 		<statBases>
@@ -477,5 +486,8 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
 	</TerrainDef>
 </Defs>

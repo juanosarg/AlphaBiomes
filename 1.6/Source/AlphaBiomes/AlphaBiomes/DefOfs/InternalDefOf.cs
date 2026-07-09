@@ -85,6 +85,8 @@ namespace AlphaBiomes
         public static TerrainDef GU_RedWaterOceanShallow;
         public static TerrainDef GU_RedWaterOceanDeep;
         public static TerrainDef GU_MossyRed;
+        public static TerrainDef AB_GrassyFlowerySoil;
+        public static TerrainDef AB_FertileGrassyFlowerySoil;
         [MayRequireOdyssey]
         public static TerrainDef AB_HealingSpringwater;
         [MayRequireOdyssey]
@@ -111,7 +113,12 @@ namespace AlphaBiomes
         public static TerrainDef AB_LiquidCream_Shallow;
         [MayRequireOdyssey]
         public static TerrainDef AB_LiquidCream_MovingShallow;
-        
+        [MayRequireOdyssey]
+        public static TerrainDef AB_DryFlowerySoil;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_ToxicFlowerySoil;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_ToxicFertileGrassyFlowerySoil;
 
         public static SoundDef AB_MagmaVent;
 

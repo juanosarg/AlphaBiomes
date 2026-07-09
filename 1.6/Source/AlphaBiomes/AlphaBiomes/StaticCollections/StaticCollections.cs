@@ -12,7 +12,8 @@ namespace AlphaBiomes
     public static class StaticCollections
     {
         static StaticCollections()
-        {   
+        {
+          
             foreach (BiomeStructuresDef structures in DefDatabase<BiomeStructuresDef>.AllDefsListForReading)
             {
                 structureToBiomes.AddRange(structures.structureToBiomeList);

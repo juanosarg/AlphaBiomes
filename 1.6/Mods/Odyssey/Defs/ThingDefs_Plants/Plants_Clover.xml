@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="PlantBase">
+		<defName>AB_Clovers</defName>
+		<label>clovers</label>
+		<description>A hardy, low-growing plant with distinctive lobed leaves that spreads into dense, verdant carpets across the forest floor.</description>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/AB_Clovers</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<growDays>2.5</growDays>
+			<harvestWork>40</harvestWork>			
+			<visualSizeRange>0.5~1</visualSizeRange>
+			<topWindExposure>0.05</topWindExposure>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_TreeClover</defName>
+		<label>clover tree</label>
+		<description>A towering tree whose broad canopy is formed from oversized clover-shaped leaves, casting cool shade over the forest below. It doesn't yield much usable wood.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_CloverTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(0,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<growDays>13</growDays>		
+			<harvestWork>800</harvestWork>
+			<harvestYield>27</harvestYield>
+			<wildClusterRadius>17</wildClusterRadius>
+			<wildClusterWeight>25</wildClusterWeight>
+			<visualSizeRange>1.8~2.8</visualSizeRange>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_Plant_TreeLilypad</defName>
+		<label>lilypad tree</label>
+		<description>A peculiar tree with broad, flat leaves resembling giant lilypads, forming layered canopies above the forest floor.</description>
+		<graphicData>
+			<texPath>Things/Plants/AB_LillipadTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(0,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<growDays>18</growDays>		
+			<harvestWork>1200</harvestWork>
+			<harvestYield>35</harvestYield>
+			<wildClusterRadius>17</wildClusterRadius>
+			<wildClusterWeight>25</wildClusterWeight>
+			<visualSizeRange>2.3~3.8</visualSizeRange>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+</Defs>

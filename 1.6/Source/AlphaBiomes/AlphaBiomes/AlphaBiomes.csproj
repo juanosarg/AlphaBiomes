@@ -395,6 +395,7 @@
     <Compile Include="TileMutatorWorkers\Ancient Vents\TileMutatorWorker_AncientFreezingVent.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_HealingSprings.cs" />
     <Compile Include="TileMutatorWorkers\Sweet\TileMutatorWorker_ChocolateMountains.cs" />
+    <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_DryMeadows.cs" />
     <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_MagmaticQuagmire.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_MutagenicSprings.cs" />
     <Compile Include="TileMutatorWorkers\Flora\TileMutatorWorker_OnlyGrass.cs" />
@@ -403,6 +404,7 @@
     <Compile Include="TileMutatorWorkers\Flora\TileMutatorWorker_RemoveSpecificFlora.cs" />
     <Compile Include="TileMutatorWorkers\Sweet\TileMutatorWorker_SugarChunks.cs" />
     <Compile Include="TileMutatorWorkers\Sweet\TileMutatorWorker_SweetForest.cs" />
+    <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_ToxicMeadows.cs" />
     <Compile Include="Weathers and Conditions\GameCondition_AcidRain.cs" />
     <Compile Include="MapExtender\WorldComponentExtender.cs" />
     <Compile Include="Weathers and Conditions\GameCondition_VolcanicHeatWave.cs" />

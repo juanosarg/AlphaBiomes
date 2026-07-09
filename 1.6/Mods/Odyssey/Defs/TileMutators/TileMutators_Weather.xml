@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TileMutatorDef>
+		<defName>AB_DryClimate</defName>
+		<label>dry climate</label>
+		<description>Precipitation is much less common here.</description>
+		<categories>
+			<li>Weather</li>
+		</categories>
+		<workerClass>TileMutatorWorker_IncreaseWeatherFrequency</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<weathersToAffect>
+			<li>Rain</li>
+			<li>RainyThunderstorm</li>
+			<li>SnowGentle</li>
+			<li>SnowHard</li>
+			<li>Blizzard</li>
+			<li>FoggyRain</li>
+		</weathersToAffect>
+		<weatherFrequencyOffset>0.25</weatherFrequencyOffset>
+		<biomeBlacklist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+			<li>AB_RockyCrags</li>
+		</biomeBlacklist>
+	</TileMutatorDef>
+</Defs>
+
