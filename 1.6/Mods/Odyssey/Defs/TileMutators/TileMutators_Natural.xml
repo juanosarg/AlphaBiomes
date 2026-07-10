@@ -258,5 +258,26 @@
 			<li>AB_MechanoidIntrusion</li>
 		</biomeWhitelist>
 	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_TarHoles</defName>
+		<label>tar holes</label>
+		<description>This regions contains natural holes connecting to an underground tar reservoir. They will periodically spray fresh tar in the vicinity.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<prefabsToSpawn>
+					<li>AB_TarHole_Prefab</li>
+				</prefabsToSpawn>
+				<prefabsToSpawnAmount>6~8</prefabsToSpawnAmount>
+				<minSeparationBetweenPrefabs>20</minSeparationBetweenPrefabs>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericPrefabSpawner</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<biomeBlacklist>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+			
+		</biomeBlacklist>
+	</TileMutatorDef>
 </Defs>
 

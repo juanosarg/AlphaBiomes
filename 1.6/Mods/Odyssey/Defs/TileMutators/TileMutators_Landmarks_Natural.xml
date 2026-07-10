@@ -9,6 +9,9 @@
 		</categories>
 		<coastSidesRange>0~0</coastSidesRange>
 		<workerClass>AlphaBiomes.TileMutatorWorker_TarLakes</workerClass>
+		<biomeBlacklist>
+			<li>AB_TarPits</li>
+		</biomeBlacklist>
 	</TileMutatorDef>
 	<TileMutatorDef>
 		<defName>AB_PropaneLakes</defName>

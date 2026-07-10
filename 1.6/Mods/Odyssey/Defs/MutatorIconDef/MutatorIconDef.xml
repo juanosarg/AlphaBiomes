@@ -640,6 +640,10 @@
 				<mutator>AB_MauvebloomFlora</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_MauveFlora</icon>
 			</li>
+			<li>
+				<mutator>AB_TarHoles</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_TarHoles</icon>
+			</li>
 			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>VEE_LoneIsland</mutator>

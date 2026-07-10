@@ -11,6 +11,7 @@
 		<category>lake</category>
 		<mutatorChances>
 			<AB_TarLakes Required="True"/>
+			<AB_TarHoles Required="True"/>
 			<Stockpile>0.05</Stockpile>
 			<Muddy>0.75</Muddy>
 			<AnimalHabitat>0.25</AnimalHabitat>
