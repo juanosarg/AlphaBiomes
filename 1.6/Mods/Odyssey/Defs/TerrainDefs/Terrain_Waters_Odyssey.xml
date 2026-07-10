@@ -93,5 +93,100 @@
 		<renderPrecedence>325</renderPrecedence>
 	</TerrainDef>
 	
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>AB_LightRedWaterShallow</defName>
+		<label>red-tinged shallow water</label>
+		<pollutionCloudColor>(90, 87, 80, 0.66)</pollutionCloudColor>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_LightRed</texturePath>
+		<floodTerrain>AB_LightRedFlood</floodTerrain>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<renderPrecedence>394</renderPrecedence>
+		<driesTo>Sand</driesTo>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterDeepBase">
+		<defName>AB_LightRedWaterDeep</defName>
+		<label>red-tinged deep water</label>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_Red</texturePath>
+		
+		<renderPrecedence>395</renderPrecedence>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>AB_LightRedFlood</defName>
+		<label>red-tinged flood water</label>
+		<temporary>true</temporary>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_LightRed</texturePath>
+		<tags>
+			<li>Flood</li>
+		</tags>
+		<canFreeze>false</canFreeze>
+		<!-- Thin ice and floodwater are both temp terrain, this means we can't support frozen floodwater -->
+		<driesTo/>
+		<!-- We don't want moisture pumps to turn temp terrain into stony soil -->
+		<floodTerrain>AB_LightRedFlood</floodTerrain>
+		<renderPrecedence>325</renderPrecedence>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterChestDeepBase">
+		<defName>AB_LightRedWaterMovingChestDeep</defName>
+		<label>chest-deep red-tinged moving water</label>
+		<renderPrecedence>399</renderPrecedence>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_LightRed</texturePath>
+		<floodTerrain>AB_LightRedFlood</floodTerrain>
+		<affordances>
+			<li>MovingFluid</li>
+		</affordances>
+		<tags>
+			<li>River</li>
+		</tags>
+		<waterDepthShaderParameters>
+			<_UseWaterOffset>1</_UseWaterOffset>
+		</waterDepthShaderParameters>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>AB_LightRedWaterMovingShallow</defName>
+		<label>shallow red-tinged moving water</label>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_LightRed</texturePath>
+		<floodTerrain>AB_LightRedFlood</floodTerrain>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<renderPrecedence>398</renderPrecedence>
+		<driesTo>Sand</driesTo>
+		<affordances>
+			<li>MovingFluid</li>
+		</affordances>
+		<tags>
+			<li>River</li>
+			<li>WaterFreshShallow</li>
+			<li>WaterFreshShallowMoving</li>
+		</tags>
+		<waterDepthShaderParameters>
+			<_UseWaterOffset>1</_UseWaterOffset>
+		</waterDepthShaderParameters>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>AB_LightRedWaterOceanShallow</defName>
+		<label>shallow red-tinged ocean water</label>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_LightRed</texturePath>
+		
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<renderPrecedence>396</renderPrecedence>
+		<driesTo>Sand</driesTo>
+		<canFreeze>false</canFreeze>
+		<waterBodyType>Saltwater</waterBodyType>
+		<tags>
+			<li>Ocean</li>
+		</tags>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterDeepBase">
+		<defName>AB_LightRedWaterOceanDeep</defName>
+		<label>deep red-tinged ocean water</label>
+		<texturePath>Terrain/Surfaces/AB_WaterShallowRamp_Red</texturePath>
+		
+		<renderPrecedence>397</renderPrecedence>
+		<waterBodyType>Saltwater</waterBodyType>
+		<gravshipReplacementTerrain>WaterOceanShallow</gravshipReplacementTerrain>
+		<tags>
+			<li>Ocean</li>
+		</tags>
+	</TerrainDef>
+	
 	
 </Defs>

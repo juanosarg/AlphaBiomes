@@ -243,6 +243,8 @@
 		<mutatorChances>
 			<AB_OcularDesertSoil Required="True"/>
 			<AB_OcularDesertFlora Required="True"/>
+			<AB_RedFog Required="True"/>
+			<AB_MobileCacti MayRequire="sarg.alphaanimals" Required="True"/>
 			<Stockpile>0.15</Stockpile>
 			<AncientUplink>0.15</AncientUplink>
 			<SunnyMutator>0.05</SunnyMutator>
@@ -370,6 +372,35 @@
 			<Stockpile>0.05</Stockpile>
 			<FoggyMutator>0.3</FoggyMutator>
 			<WetClimate>0.2</WetClimate>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+			<Muddy>0.05</Muddy>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<PlantLife_Increased>0.05</PlantLife_Increased>
+			<PlantGrove>0.05</PlantGrove>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_MauvebloomFields</defName>
+		<label>mauvebloom fields</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_MauvebloomFields</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.5</commonality>
+		<nameMaker>AB_NamerLandmark_MauvebloomFields</nameMaker>
+		<mutatorChances>
+			<AB_MauvebloomFields Required="True"/>
+			<AB_MauvebloomFlora Required="True"/>
+			<AB_ReddishRains Required="True"/>
+			<AB_ReddishWaters Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<FoggyMutator>0.3</FoggyMutator>
 			<AnimalLife_Increased>0.05</AnimalLife_Increased>
 			<AnimalHabitat>0.15</AnimalHabitat>
 			<Sandy>0.05</Sandy>

@@ -404,6 +404,8 @@
     <Compile Include="TileMutatorWorkers\Flora\TileMutatorWorker_RemoveSpecificFlora.cs" />
     <Compile Include="TileMutatorWorkers\Sweet\TileMutatorWorker_SugarChunks.cs" />
     <Compile Include="TileMutatorWorkers\Sweet\TileMutatorWorker_SweetForest.cs" />
+    <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_MauvebloomFields.cs" />
+    <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_ReddishWaters.cs" />
     <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_ToxicMeadows.cs" />
     <Compile Include="Weathers and Conditions\GameCondition_AcidRain.cs" />
     <Compile Include="MapExtender\WorldComponentExtender.cs" />

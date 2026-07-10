@@ -3,7 +3,7 @@
 	<WeatherDef>
 		<defName>AB_RedFog</defName>
 		<label>red fog</label>
-		<description>Red fog reduces the accuracy of ranged weapons.</description>
+		<description>A sickening red fog that reduces the accuracy of ranged weapons.</description>
 		<windSpeedFactor>0.5</windSpeedFactor>
 		<accuracyMultiplier>0.4</accuracyMultiplier>
 		<favorability>Neutral</favorability>

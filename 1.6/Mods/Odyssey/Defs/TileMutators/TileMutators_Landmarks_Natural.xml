@@ -289,6 +289,40 @@
 		</modExtensions>
 	</TileMutatorDef>
 	<TileMutatorDef>
+		<defName>AB_RedFog</defName>
+		<label>red fog</label>
+		<description>A sickening red fog that reduces the accuracy of ranged weapons permeates this region.</description>
+		<categories>
+			<li>Weather</li>
+		</categories>
+		<workerClass>TileMutatorWorker_IncreaseWeatherFrequency</workerClass>
+		<weathersToAffect>
+			<li>AB_RedFog</li>
+		</weathersToAffect>
+		<weatherFrequencyOffset>15</weatherFrequencyOffset>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="sarg.alphaanimals">
+		<defName>AB_MobileCacti</defName>
+		<label>mobile cacti</label>
+		<description>Some of the ocular cacti in this region are mobile.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</biomeWhitelist>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li MayRequire="sarg.alphaanimals">
+						<forcedPawnKindDef>AA_OcularCactus</forcedPawnKindDef>
+						<forcedPawnKindDefChance>1</forcedPawnKindDefChance>
+					</li>
+					
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
 		<defName>AB_DryMeadows</defName>
 		<label>dry meadows soils</label>
 		<description>This meadows area is drier than usual, with less fertile soil and less precipitation.</description>
@@ -487,6 +521,92 @@
 						<plantDef>AB_Plant_GinkgoTree</plantDef>
 						<commonality>2</commonality>
 					</li>
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MauvebloomFields</defName>
+		<label>cerulean soils</label>
+		<description>A faintly metallic-smelling, blueish-tinted soil covers this region.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_MauvebloomFields</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ReddishWaters</defName>
+		<label>reddish water</label>
+		<description>The waters here are stained a deep crimson by dense blooms of red algae and pigmented microorganisms.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_ReddishWaters</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ReddishRains</defName>
+		<label>reddish rains</label>
+		<description>Periodic blooms of airborne red algae cause rain to fall in unsettling shades of pink and crimson, as though the skies themselves were bleeding.</description>
+		<categories>
+			<li>Weather</li>
+		</categories>
+		<workerClass>TileMutatorWorker_IncreaseWeatherFrequency</workerClass>
+		<weathersToAffect>
+			<li>AB_ReddishRain</li>
+		</weathersToAffect>
+		<weatherFrequencyOffset>20</weatherFrequencyOffset>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_MauvebloomFlora</defName>
+		<label>mauvebloom forest</label>
+		<description>The local flora is dominated by mauveblooms, covering the landscape in shades of soft purple and pink.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+		
+		<plantKinds>
+			<li>AB_BloodGrass</li>
+			<li>AB_Plant_MauveBush</li>
+			<li>AB_Plant_MauveBrambles</li>
+			<li>AB_Plant_MauvebloomTree</li>
+		
+			<li>Plant_HealrootWild</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Ripthorn</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Witchwood</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Reeds</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_LilyPad</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Bulrush</li>
+		
+		</plantKinds>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_BloodGrass</plantDef>
+						<commonality>10</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_MauveBush</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_MauveBrambles</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_MauvebloomTree</plantDef>
+						<commonality>0.5</commonality>
+					</li>
+					<li>
+						<plantDef>Plant_HealrootWild</plantDef>
+						<commonality>0.05</commonality>
+					</li>
+					
 				</plantDefsWithCommonality>
 			</li>
 		</modExtensions>

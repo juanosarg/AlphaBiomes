@@ -580,6 +580,10 @@
 				<mutator>AB_OcularDesertSoil</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_OcularDesertSoil</icon>
 			</li>
+			<li MayRequire="sarg.alphaanimals">
+				<mutator>AB_MobileCacti</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_MobileCacti</icon>
+			</li>
 			<li>
 				<mutator>AB_DryMeadows</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_DryMeadows</icon>
@@ -615,6 +619,26 @@
 			<li>
 				<mutator>AB_GinkgoForest</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GinkgoForest</icon>
+			</li>
+			<li>
+				<mutator>AB_RedFog</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_RedFog</icon>
+			</li>
+			<li>
+				<mutator>AB_MauvebloomFields</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_BlueDirt</icon>
+			</li>
+			<li>
+				<mutator>AB_ReddishWaters</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_ReddishWaters</icon>
+			</li>
+			<li>
+				<mutator>AB_ReddishRains</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_ReddishRains</icon>
+			</li>
+			<li>
+				<mutator>AB_MauvebloomFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_MauveFlora</icon>
 			</li>
 			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">

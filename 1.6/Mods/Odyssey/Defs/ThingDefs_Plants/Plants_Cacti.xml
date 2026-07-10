@@ -27,6 +27,9 @@
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
 			<growDays>3</growDays>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
 			<harvestWork>210</harvestWork>
 			<harvestYield>5</harvestYield>
 			<harvestMinGrowth>0.2</harvestMinGrowth>
@@ -34,7 +37,7 @@
 			<wildClusterRadius>-1</wildClusterRadius>
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
-			<visualSizeRange>0.85~1</visualSizeRange>
+			<visualSizeRange>0.85~1.5</visualSizeRange>
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
@@ -67,12 +70,15 @@
 			<growDays>5</growDays>
 			<harvestWork>210</harvestWork>
 			<harvestYield>10</harvestYield>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
 			<harvestMinGrowth>0.2</harvestMinGrowth>
 			<topWindExposure>0.08</topWindExposure>
 			<wildClusterRadius>-1</wildClusterRadius>
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
-			<visualSizeRange>1.2~2</visualSizeRange>
+			<visualSizeRange>1.8~2.5</visualSizeRange>
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
@@ -105,6 +111,9 @@
 			<growDays>7</growDays>
 			<harvestWork>210</harvestWork>
 			<harvestYield>15</harvestYield>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
 			<harvestMinGrowth>0.2</harvestMinGrowth>
 			<topWindExposure>0.08</topWindExposure>
 			<wildClusterRadius>-1</wildClusterRadius>
@@ -168,9 +177,12 @@
 		<fillPercent>0.2</fillPercent>
 		<plant>
 			<lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
-			<fertilityMin>0.05</fertilityMin>
+			<fertilityMin>0</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
 			<growDays>3</growDays>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
 			<harvestWork>210</harvestWork>
 			<harvestYield>5</harvestYield>
 			<harvestMinGrowth>0.2</harvestMinGrowth>
@@ -180,7 +192,7 @@
 			<wildClusterRadius>-1</wildClusterRadius>
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
-			<visualSizeRange>0.85~1</visualSizeRange>
+			<visualSizeRange>1.2~2</visualSizeRange>
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
@@ -213,6 +225,9 @@
 			<growDays>5</growDays>
 			<harvestWork>210</harvestWork>
 			<harvestYield>10</harvestYield>
+			<burnedThingDef IsNull="True"/>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
 			<harvestedThingDef>GU_RedWood</harvestedThingDef>
 			<harvestTag>Wood</harvestTag>
 			<harvestMinGrowth>0.2</harvestMinGrowth>

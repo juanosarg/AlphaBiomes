@@ -536,7 +536,7 @@
 		<texturePath>Terrain/Surfaces/AB_BlueGrass</texturePath>
 	
 		<edgeType>FadeRough</edgeType>
-		<color>(160,140,140)</color>
+		<color>(200,180,180)</color>
 		<categoryType>Soil</categoryType>
 		<renderPrecedence>335</renderPrecedence>
 		<pathCost>2</pathCost>

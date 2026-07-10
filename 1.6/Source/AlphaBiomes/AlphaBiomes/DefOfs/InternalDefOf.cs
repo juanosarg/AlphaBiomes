@@ -74,17 +74,10 @@ namespace AlphaBiomes
 		public static TerrainDef AB_Tar;
         public static TerrainDef AB_AsphaltBridge;
 		public static TerrainDef AB_SolidifiedLava;
-        public static TerrainDef GU_AlienSand;
-        public static TerrainDef GU_AlienSoftSand;
-        public static TerrainDef GU_RichAlienSand;
-        public static TerrainDef GU_AlienSandFine;
-        public static TerrainDef GU_RedWaterShallow;
-        public static TerrainDef GU_RedWaterDeep;
-        public static TerrainDef GU_RedWaterMovingChestDeep;
-        public static TerrainDef GU_RedWaterMovingShallow;
-        public static TerrainDef GU_RedWaterOceanShallow;
-        public static TerrainDef GU_RedWaterOceanDeep;
-        public static TerrainDef GU_MossyRed;
+        public static TerrainDef GU_AlienSand, GU_AlienSoftSand, GU_RichAlienSand, GU_AlienSandFine, GU_MossyRed;
+        public static TerrainDef GU_RedWaterShallow, GU_RedWaterDeep, GU_RedWaterMovingChestDeep, GU_RedWaterMovingShallow, 
+            GU_RedWaterOceanShallow, GU_RedWaterOceanDeep;
+
         public static TerrainDef AB_GrassyFlowerySoil;
         public static TerrainDef AB_FertileGrassyFlowerySoil;
         [MayRequireOdyssey]
@@ -94,31 +87,22 @@ namespace AlphaBiomes
         [MayRequireOdyssey]
         public static TerrainDef AB_Quicksand;
         [MayRequireOdyssey]
-        public static TerrainDef AB_ChocolateSoil;
+        public static TerrainDef AB_ChocolateSoil, AB_ChocolateSoilRich, AB_Strawberry, AB_Cream, AB_CandySand, AB_HardenedChocolate; 
         [MayRequireOdyssey]
-        public static TerrainDef AB_ChocolateSoilRich;
+        public static TerrainDef AB_LiquidCream_MovingChestDeep, AB_LiquidCream_Deep, AB_LiquidCream_Shallow, AB_LiquidCream_MovingShallow;
         [MayRequireOdyssey]
-        public static TerrainDef AB_Strawberry;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_Cream;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_CandySand;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_HardenedChocolate;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_LiquidCream_Deep;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_LiquidCream_MovingChestDeep;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_LiquidCream_Shallow;
-        [MayRequireOdyssey]
-        public static TerrainDef AB_LiquidCream_MovingShallow;
+        public static TerrainDef AB_LightRedWaterShallow, AB_LightRedWaterDeep, AB_LightRedWaterMovingChestDeep, AB_LightRedWaterMovingShallow,
+            AB_LightRedWaterOceanShallow, AB_LightRedWaterOceanDeep;
         [MayRequireOdyssey]
         public static TerrainDef AB_DryFlowerySoil;
         [MayRequireOdyssey]
         public static TerrainDef AB_ToxicFlowerySoil;
         [MayRequireOdyssey]
         public static TerrainDef AB_ToxicFertileGrassyFlowerySoil;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_CeruleanSoil;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_CeruleanSoilRich;
 
         public static SoundDef AB_MagmaVent;
 

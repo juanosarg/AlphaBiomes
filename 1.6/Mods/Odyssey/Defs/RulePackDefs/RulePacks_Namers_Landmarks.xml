@@ -188,4 +188,18 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	<RulePackDef>
+	<defName>AB_NamerLandmark_MauvebloomFields</defName>
+	<include>
+		<li>WorldFeatureNamerCommon</li>
+	</include>
+	<rulePack>
+		<rulesStrings>
+			<li>terrain_word(p=4)->mauvebloom fields</li>
+			<li>terrain_word->purple meadows</li>
+			<li>terrain_word->mauve plains</li>
+			<li>terrain_word->violet bloomlands</li>
+		</rulesStrings>
+	</rulePack>
+</RulePackDef>
 </Defs>
