@@ -560,19 +560,19 @@
 				<mutator>AB_SugarChunks</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_SugarChunks</icon>
 			</li>
-			<li>
+			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>AB_AnimaDesertFlora</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_AnimaDesertFlora</icon>
 			</li>
-			<li>
+			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>AB_AnimaSoilsDesert</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_AnimaSoilsDesert</icon>
 			</li>
-			<li>
+			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>AB_JadeiteChunksDesert</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_JadeiteChunksDesert</icon>
 			</li>
-			<li>
+			<li MayRequire="VanillaExpanded.VExplorationE,sarg.alphaanimals">
 				<mutator>AB_AnimaFaunaDesert</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_AnimaFaunaDesert</icon>
 			</li>

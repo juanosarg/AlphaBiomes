@@ -35,6 +35,7 @@
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 			<visualSizeRange>0.85~1</visualSizeRange>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -72,6 +73,7 @@
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 			<visualSizeRange>1.2~2</visualSizeRange>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -109,6 +111,7 @@
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 			<visualSizeRange>2~3</visualSizeRange>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="DeciduousTreeBase">
@@ -138,6 +141,7 @@
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
 			<visualSizeRange>3~3.75</visualSizeRange>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -177,6 +181,7 @@
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 			<visualSizeRange>0.85~1</visualSizeRange>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="TreeBase">
@@ -216,6 +221,7 @@
 			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 			<visualSizeRange>2~3.5</visualSizeRange>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
@@ -252,6 +258,7 @@
 			<visualSizeRange>2~2.5</visualSizeRange>
 			<topWindExposure>0.1</topWindExposure>
 			<harvestWork>250</harvestWork>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 </Defs>
