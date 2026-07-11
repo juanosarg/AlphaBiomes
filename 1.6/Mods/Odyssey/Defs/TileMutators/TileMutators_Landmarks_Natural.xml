@@ -214,7 +214,7 @@
 		</extraGenSteps>
 		<chunkDensityFactor>0.25</chunkDensityFactor>
 	</TileMutatorDef>
-	<TileMutatorDef MayRequire="VanillaExpanded.VExplorationE">
+	<TileMutatorDef MayRequire="VanillaExpanded.VExplorationE,sarg.alphaanimals">
 		<defName>AB_AnimaFaunaDesert</defName>
 		<label>anima desert fauna</label>
 		<description>The placid environment of the anima desert attracts some anima-touched animals.</description>
@@ -228,11 +228,11 @@
 				<forcedPawnKindDefs>
 					<li MayRequire="sarg.alphaanimals">
 						<forcedPawnKindDef>AA_AnimaColossus</forcedPawnKindDef>
-						<forcedPawnKindDefChance>0.1</forcedPawnKindDefChance>
+						<forcedPawnKindDefChance>0.02</forcedPawnKindDefChance>
 					</li>
 					<li MayRequire="sarg.alphaanimals">
 						<forcedPawnKindDef>AA_Animalisk</forcedPawnKindDef>
-						<forcedPawnKindDefChance>0.1</forcedPawnKindDefChance>
+						<forcedPawnKindDefChance>0.02</forcedPawnKindDefChance>
 					</li>
 				</forcedPawnKindDefs>
 			</li>

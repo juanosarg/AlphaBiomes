@@ -71,7 +71,7 @@
 		<nameMaker>AB_NamerLandmark_HealingSprings</nameMaker>
 		<mutatorChances>
 			<AB_HealingSprings Required="True"/>
-			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<SteamGeysers_Increased>0.5</SteamGeysers_Increased>
 			<Stockpile>0.05</Stockpile>
 			<MineralRich>0.03</MineralRich>
 			<Sandy>0.05</Sandy>
@@ -184,7 +184,7 @@
 			<AB_SweetFlora Required="True"/>
 			<AB_SweetRocks Required="True"/>
 			<AB_SugarChunks Required="True"/>
-			<SteamGeysers_Increased>0.25</SteamGeysers_Increased>
+			<SteamGeysers_Increased>0.05</SteamGeysers_Increased>
 			<Stockpile>0.05</Stockpile>
 			<MineralRich>0.03</MineralRich>
 			<Sandy>0.05</Sandy>

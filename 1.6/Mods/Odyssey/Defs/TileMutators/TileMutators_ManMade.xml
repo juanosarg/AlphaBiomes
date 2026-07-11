@@ -13,7 +13,7 @@
 	<TileMutatorDef MayRequire="Ludeon.RimWorld.Anomaly">
 		<defName>AB_AncientGreyPallVent</defName>
 		<label>gray pall vent</label>
-		<description>This area has a number of rusted, forebodding vents. An ancient mechanism buried deep beneath the earth will occasionally vent large amounts of sickly looking smoke that will plunge the area into a preternatural darkness.</description>
+		<description>This area has a number of rusted, foreboding vents. An ancient mechanism buried deep beneath the earth will occasionally vent large amounts of sickly looking smoke that will plunge the area into a preternatural darkness.</description>
 		<workerClass>AlphaBiomes.TileMutatorWorker_AncientGreyPallVent</workerClass>
 		<categories>
 			<li>AncientVent</li>
