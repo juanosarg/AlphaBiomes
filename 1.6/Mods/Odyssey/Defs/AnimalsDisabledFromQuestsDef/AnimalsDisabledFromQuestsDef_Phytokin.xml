@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+
+
+	<VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef MayRequire="Ludeon.RimWorld.Ideology,vanillaracesexpanded.phytokin">
+		<defName>AB_DisabledAnimalFromQuests_Phytokin</defName>
+		<disabledFromQuestsPawns>			
+			
+			<li>AB_UnshackledCompanionDryad</li>
+						
+		</disabledFromQuestsPawns>							
+	</VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+
+
+
+
+
+</Defs>

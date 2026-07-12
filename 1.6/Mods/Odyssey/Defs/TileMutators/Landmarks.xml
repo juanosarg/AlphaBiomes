@@ -427,6 +427,8 @@
 		<mutatorChances>
 			<AB_GauranlenFlora Required="True"/>
 			<AB_GauranlenSoil Required="True"/>
+			<AB_UnshackledDryads MayRequire="Ludeon.RimWorld.Ideology,Sarg.AlphaMemes" Required="True"/>
+			<AB_UnshackledCompanionDryads MayRequire="Ludeon.RimWorld.Ideology,vanillaracesexpanded.phytokin" Required="True"/>
 			<Stockpile>0.05</Stockpile>
 			<FoggyMutator>0.3</FoggyMutator>
 			<WetClimate>0.2</WetClimate>

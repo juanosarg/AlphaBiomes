@@ -320,7 +320,6 @@
 						<forcedPawnKindDef>AA_OcularCactus</forcedPawnKindDef>
 						<forcedPawnKindDefChance>1</forcedPawnKindDefChance>
 					</li>
-					
 				</forcedPawnKindDefs>
 			</li>
 		</modExtensions>
@@ -471,7 +470,6 @@
 		<biomeWhitelist>
 			<li>TemperateForest</li>
 		</biomeWhitelist>
-		
 		<plantKinds>
 			<li>Plant_Grass</li>
 			<li>Plant_TallGrass</li>
@@ -504,7 +502,6 @@
 						<plantDef>AB_Plant_TreeLilypad</plantDef>
 						<commonality>2</commonality>
 					</li>
-					
 				</plantDefsWithCommonality>
 			</li>
 		</modExtensions>
@@ -570,13 +567,11 @@
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 		</biomeWhitelist>
-		
 		<plantKinds>
 			<li>AB_BloodGrass</li>
 			<li>AB_Plant_MauveBush</li>
 			<li>AB_Plant_MauveBrambles</li>
 			<li>AB_Plant_MauvebloomTree</li>
-		
 			<li>Plant_HealrootWild</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Ripthorn</li>
@@ -584,7 +579,6 @@
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Reeds</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_LilyPad</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Bulrush</li>
-		
 		</plantKinds>
 		<modExtensions>
 			<li Class="VEF.Maps.TileMutatorExtension">
@@ -609,7 +603,6 @@
 						<plantDef>Plant_HealrootWild</plantDef>
 						<commonality>0.05</commonality>
 					</li>
-					
 				</plantDefsWithCommonality>
 			</li>
 		</modExtensions>
@@ -623,14 +616,12 @@
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 		</biomeWhitelist>
-		
 		<plantKinds>
 			<li>AB_GauGrass</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">AB_GauMoss</li>
 			<li>AB_Plant_GauBush</li>
 			<li>AB_Plant_GauBrambles</li>
 			<li>AB_Plant_GiantGauTree</li>
-		
 			<li>Plant_HealrootWild</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Ripthorn</li>
@@ -638,7 +629,6 @@
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Reeds</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_LilyPad</li>
 			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Bulrush</li>
-		
 		</plantKinds>
 		<modExtensions>
 			<li Class="VEF.Maps.TileMutatorExtension">
@@ -667,7 +657,6 @@
 						<plantDef>Plant_HealrootWild</plantDef>
 						<commonality>0.05</commonality>
 					</li>
-					
 				</plantDefsWithCommonality>
 			</li>
 		</modExtensions>
@@ -681,6 +670,46 @@
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 		</biomeWhitelist>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Ideology,Sarg.AlphaMemes">
+		<defName>AB_UnshackledDryads</defName>
+		<label>unshackled dryads</label>
+		<description>Unshackled dryads will spawn in this region.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li MayRequire="Ludeon.RimWorld.Ideology,Sarg.AlphaMemes">
+						<forcedPawnKindDef>AM_UnshackledDryad</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.25</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Ideology,vanillaracesexpanded.phytokin">
+		<defName>AB_UnshackledCompanionDryads</defName>
+		<label>unshackled companion dryads</label>
+		<description>Unshackled companion dryads will spawn in this region.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_ExtraAnimal</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<forcedPawnKindDefs>
+					<li MayRequire="Ludeon.RimWorld.Ideology,Sarg.AlphaMemes">
+						<forcedPawnKindDef>AB_UnshackledCompanionDryad</forcedPawnKindDef>
+						<forcedPawnKindDefChance>0.1</forcedPawnKindDefChance>
+					</li>
+				</forcedPawnKindDefs>
+			</li>
+		</modExtensions>
 	</TileMutatorDef>
 </Defs>
 
