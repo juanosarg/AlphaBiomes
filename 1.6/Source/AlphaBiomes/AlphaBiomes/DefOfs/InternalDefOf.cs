@@ -103,6 +103,10 @@ namespace AlphaBiomes
         public static TerrainDef AB_CeruleanSoil;
         [MayRequireOdyssey]
         public static TerrainDef AB_CeruleanSoilRich;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_GauranlenSoil;
+        [MayRequireOdyssey]
+        public static TerrainDef AB_GauranlenSoilRich;
 
         public static SoundDef AB_MagmaVent;
 

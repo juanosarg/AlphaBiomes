@@ -160,4 +160,28 @@
 		<coastSidesRange>1~6</coastSidesRange>
 		<averageTemperatureRange>20~40</averageTemperatureRange>
 	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_DerelictClusters</defName>
+		<label>derelict clusters</label>
+		<description>This area is littered with derelict mechanoid clusters, from which some materials could be scavenged.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<KCSGStructuresToSpawn>
+					<li>AB_MechClusterA</li>
+					<li>AB_MechClusterB</li>
+					<li>AB_MechClusterC</li>
+					<li>AB_MechClusterD</li>
+					<li>AB_MechClusterE</li>
+					<li>AB_MechClusterF</li>
+				</KCSGStructuresToSpawn>
+				<KCSGStructuresToSpawnAmount>4~6</KCSGStructuresToSpawnAmount>
+				<minSeparationBetweenPrefabs>30</minSeparationBetweenPrefabs>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
+		<chanceOnNonLandmarkTile>0.5</chanceOnNonLandmarkTile>
+		<biomeWhitelist>
+			<li>AB_MechanoidIntrusion</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
 </Defs>

@@ -644,6 +644,14 @@
 				<mutator>AB_TarHoles</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_TarHoles</icon>
 			</li>
+			<li>
+				<mutator>AB_GauranlenFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GauranlenFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_GauranlenSoil</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GauranlenSoil</icon>
+			</li>
 			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>VEE_LoneIsland</mutator>

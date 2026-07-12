@@ -614,5 +614,73 @@
 			</li>
 		</modExtensions>
 	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_GauranlenFlora</defName>
+		<label>gauranlen flora</label>
+		<description>The local flora is dominated by giant gauranlen trees and gau grass, covering the landscape in shades of orange.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+		
+		<plantKinds>
+			<li>AB_GauGrass</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AB_GauMoss</li>
+			<li>AB_Plant_GauBush</li>
+			<li>AB_Plant_GauBrambles</li>
+			<li>AB_Plant_GiantGauTree</li>
+		
+			<li>Plant_HealrootWild</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_GrayGrass</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Ripthorn</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Plant_Witchwood</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Reeds</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_LilyPad</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_Bulrush</li>
+		
+		</plantKinds>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_GauGrass</plantDef>
+						<commonality>5</commonality>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<plantDef>AB_GauMoss</plantDef>
+						<commonality>5</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_GauBush</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_GauBrambles</plantDef>
+						<commonality>1</commonality>
+					</li>
+					<li>
+						<plantDef>AB_Plant_GiantGauTree</plantDef>
+						<commonality>2</commonality>
+					</li>
+					<li>
+						<plantDef>Plant_HealrootWild</plantDef>
+						<commonality>0.05</commonality>
+					</li>
+					
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_GauranlenSoil</defName>
+		<label>gauranlen soil</label>
+		<description>Soil covered by a soft gauranlen moss carpets this region.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_GauranlenSoil</workerClass>
+		<biomeWhitelist>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+		</biomeWhitelist>
+	</TileMutatorDef>
 </Defs>
 

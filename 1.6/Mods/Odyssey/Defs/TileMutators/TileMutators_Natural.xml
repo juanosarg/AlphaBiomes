@@ -54,30 +54,6 @@
 		</biomeWhitelist>
 	</TileMutatorDef>
 	<TileMutatorDef>
-		<defName>AB_DerelictClusters</defName>
-		<label>derelict clusters</label>
-		<description>This area is littered with derelict mechanoid clusters, from which some materials could be scavenged.</description>
-		<modExtensions>
-			<li Class="VEF.Maps.TileMutatorExtension">
-				<KCSGStructuresToSpawn>
-					<li>AB_MechClusterA</li>
-					<li>AB_MechClusterB</li>
-					<li>AB_MechClusterC</li>
-					<li>AB_MechClusterD</li>
-					<li>AB_MechClusterE</li>
-					<li>AB_MechClusterF</li>
-				</KCSGStructuresToSpawn>
-				<KCSGStructuresToSpawnAmount>4~6</KCSGStructuresToSpawnAmount>
-				<minSeparationBetweenPrefabs>30</minSeparationBetweenPrefabs>
-			</li>
-		</modExtensions>
-		<workerClass>VEF.Maps.TileMutatorWorker_GenericKCSGSpawner</workerClass>
-		<chanceOnNonLandmarkTile>0.5</chanceOnNonLandmarkTile>
-		<biomeWhitelist>
-			<li>AB_MechanoidIntrusion</li>
-		</biomeWhitelist>
-	</TileMutatorDef>
-	<TileMutatorDef>
 		<defName>AB_GeothermalHotspots</defName>
 		<label>geothermal hotspots</label>
 		<description>High geothermal activity allows construction of efficient geothermal plants (find them under "build biome structures" in the Furniture Architect menu).</description>
@@ -175,7 +151,7 @@
 	<TileMutatorDef>
 		<defName>AB_QuiveringSurface</defName>
 		<label>quivering surface</label>
-		<description>The very ground beneath your colony trembles, pulses, and reacts—it is alive. Movement will be harder in this terrain.</description>
+		<description>The very ground beneath your colony trembles, pulses, and reacts as if it was alive. Movement will be harder in this terrain.</description>
 		<biomeWhitelist>
 			<li>AB_GelatinousSuperorganism</li>
 		</biomeWhitelist>
@@ -276,7 +252,7 @@
 		<biomeBlacklist>
 			<li>SeaIce</li>
 			<li>IceSheet</li>
-			
+			<li>AB_TarPits</li>
 		</biomeBlacklist>
 	</TileMutatorDef>
 </Defs>

@@ -17,7 +17,7 @@
 			<li>Blizzard</li>
 			<li>FoggyRain</li>
 		</weathersToAffect>
-		<weatherFrequencyOffset>0.25</weatherFrequencyOffset>
+		<weatherFrequencyFactor>0.25</weatherFrequencyFactor>
 		<biomeBlacklist>
 			<li>Desert</li>
 			<li>ExtremeDesert</li>

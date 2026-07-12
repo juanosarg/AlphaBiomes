@@ -417,4 +417,32 @@
 			<Fish_Decreased>0.01</Fish_Decreased>
 		</mutatorChances>
 	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_GauranlenGrove</defName>
+		<label>gauranlen grove</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_GauranlenGrove</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.5</commonality>
+		<nameMaker>AB_NamerLandmark_GauranlenGrove</nameMaker>
+		<mutatorChances>
+			<AB_GauranlenFlora Required="True"/>
+			<AB_GauranlenSoil Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<FoggyMutator>0.3</FoggyMutator>
+			<WetClimate>0.2</WetClimate>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+			<Muddy>0.05</Muddy>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<PlantLife_Increased>0.05</PlantLife_Increased>
+			<PlantGrove>0.05</PlantGrove>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
 </Defs>
