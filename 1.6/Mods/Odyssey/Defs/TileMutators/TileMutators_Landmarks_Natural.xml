@@ -711,5 +711,85 @@
 			</li>
 		</modExtensions>
 	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_WarpedStoneForest</defName>
+		<label>warped stone forest</label>
+		<description>Giant spires of sandstone are scattered around this area. These jagged rocks seem to have been warped by an unknown force, acquiring unnatural shapes.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<thingToSpawn>AB_WarpedStonePillar</thingToSpawn>
+				<thingToSpawnAmount>500~1000</thingToSpawnAmount>
+				<allowWater>false</allowWater>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericSpawner</workerClass>
+		<biomeBlacklist>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+		</biomeBlacklist>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="BasePatch">
+		<defName>AB_ObsidianExpanse</defName>
+		<label>obsidian expanse</label>
+		<description>Large patches of hard obsidian terrain cover this area, reducing the fertility.</description>
+		<categories>
+			<li>Groundwater</li>
+		</categories>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_Obsidian</terrain>
+						<min>0.34</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_ObsidianSpires</defName>
+		<label>obsidian spires</label>
+		<description>Giant spires of obsidian are scattered around this area.</description>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<thingToSpawn>AB_ObsidianSpire</thingToSpawn>
+				<thingToSpawnAmount>100~250</thingToSpawnAmount>
+				<allowWater>false</allowWater>
+				<terrainValidation><li>AB_Obsidian</li></terrainValidation>
+			</li>
+		</modExtensions>
+		<workerClass>VEF.Maps.TileMutatorWorker_GenericSpawner</workerClass>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="BasePatch">
+		<defName>AB_CalcifiedSoil</defName>
+		<label>calcified soil</label>
+		<description>This region is covered by soil slowly turned to stone by the calcifying growth of the remnants plant.</description>
+		
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_Calcified</terrain>
+						<min>0.34</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base">
+		<defName>AB_CalcifiedRemnants</defName>
+		<label>calcified remnants</label>
+		<description>Half-alive, half-dead plants that seem to be partly organic and partly inorganic grow in this area. Their living tissues persist within a shell of mineralized growth, slowly replacing stems, leaves, and roots with stone-like structures.</description>
+		<workerClass>TileMutatorWorker_WildPlants</workerClass>
+		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		
+		<plantKinds>
+			<li>AB_CalcifiedRemnant</li>
+		</plantKinds>
+	</TileMutatorDef>
 </Defs>
 

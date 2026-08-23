@@ -213,4 +213,41 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_WarpedStoneForest</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->warped stone grove</li>
+				<li>terrain_word->warped pillar-strewn expanse</li>
+				<li>terrain_word->warped rocky field</li>
+				<li>terrain_word->warped shattered monoliths</li>
+				<li>terrain_word->warped stone thicket</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>VEE_NamerLandmark_ObsidianExpanse</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->obsidian expanse</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>VEE_NamerLandmark_CalcifiedRemnants</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->calcified remnants</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 </Defs>

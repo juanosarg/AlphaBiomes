@@ -654,4 +654,46 @@
 			<overrideColor>(0.27, 0.22, 0.18, 1)</overrideColor>
 		</spaceEdgeGraphicData>
 	</TerrainDef>
+	
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>AB_Calcified</defName>
+		<label>calcified soil</label>
+		<texturePath>Terrain/Surfaces/AB_Calcified</texturePath>
+	
+		<pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+		<edgeType>FadeRough</edgeType>
+		
+		<renderPrecedence>320</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>-5</Beauty>
+			<BeautyOutdoors>-1</BeautyOutdoors>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.7</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>gravel</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>GravelInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tags>
+			<li>Soil</li>
+		</tags>
+	</TerrainDef>
 </Defs>

@@ -207,4 +207,50 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
+	<ThingDef ParentName="TreeBase">
+		<defName>AB_CalcifiedRemnant</defName>
+		<label>calcified remnant</label>
+		<description>Half-alive, half-dead, this plant seems to be partly organic and partly inorganic. Its living tissues persist within a greenish shell of mineralized growth, slowly replacing stems, leaves, and roots with stone-like structures. Yet beneath the calcified exterior, faint signs of life remain.\n\nPlant details: Calcified remnants are wild plants, and they need minimum terrain fertility of 0.7. Can be harvested for minute amounts of wood and random stone chunks.\n\nInspired by No Man's Sky.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WoodLog</ThingDef>	
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Plants/AB_CalcifiedRemnant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(0,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>20</growDays>
+			<harvestWork>3500</harvestWork>
+			<harvestYield>1</harvestYield>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>11</wildClusterWeight>
+			<visualSizeRange>3~4</visualSizeRange>
+			<choppedThingDef IsNull="True"/>
+			<smashedThingDef IsNull="True"/>
+		</plant>
+		<ingestible/>
+		<modExtensions>
+			<li Class="VEF.Plants.DualCropExtension">
+				<randomOutput>true</randomOutput>
+				<outPutAmount>1</outPutAmount>
+				<randomSecondaryOutput>
+					<li>ChunkSandstone</li>
+					<li>ChunkGranite</li>
+					<li>ChunkLimestone</li>
+					<li>ChunkSlate</li>
+					<li>ChunkMarble</li>
+				</randomSecondaryOutput>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>

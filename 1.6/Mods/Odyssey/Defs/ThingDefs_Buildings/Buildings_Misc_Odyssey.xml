@@ -35,4 +35,80 @@
 			<VCE_RawSugar MayRequire="VanillaExpanded.VCookE">1</VCE_RawSugar>
 		</costList>
 	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_WarpedStonePillar</defName>
+		<label>warped stone pillar</label>
+		<description>A sandstone pillar warped into an unnatural form.</description>
+		<graphicData>
+			<texPath>Things/Building/AB_WarpedStonePillar</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.30</fillPercent>
+		<preventGravshipLandingOn>false</preventGravshipLandingOn>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>1</Beauty>
+			<WorkToMake>3500</WorkToMake>
+		</statBases>
+		<selectable>true</selectable>
+		<pathCost>90</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<building>
+			
+			<isEdifice>true</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>true</deconstructible>
+			<alwaysDeconstructible>true</alwaysDeconstructible>
+		</building>
+		<killedLeavings>
+			<ChunkSandstone>4</ChunkSandstone>
+		</killedLeavings>
+		<costList>
+			<ChunkSandstone>4</ChunkSandstone>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_ObsidianSpire</defName>
+		<label>obsidian spire</label>
+		<description>A large spire made of solid obsidian.</description>
+		<graphicData>
+			<texPath>Things/Building/AB_ObsidianSpire</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.30</fillPercent>
+		<preventGravshipLandingOn>false</preventGravshipLandingOn>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>1</Beauty>
+			<WorkToMake>3500</WorkToMake>
+		</statBases>
+		<selectable>true</selectable>
+		<pathCost>90</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<building>
+			
+			<isEdifice>true</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>true</deconstructible>
+			<alwaysDeconstructible>true</alwaysDeconstructible>
+		</building>
+		<killedLeavings>
+			<Obsidian>2</Obsidian>
+		</killedLeavings>
+		<costList>
+			<Obsidian>2</Obsidian>
+		</costList>
+	</ThingDef>
 </Defs>

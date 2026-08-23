@@ -447,4 +447,90 @@
 			<Fish_Decreased>0.01</Fish_Decreased>
 		</mutatorChances>
 	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_WarpedStoneForest</defName>
+		<label>warped stone forest</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_WarpedStoneForest</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.2</commonality>
+		<nameMaker>AB_NamerLandmark_WarpedStoneForest</nameMaker>
+		<category>mountain</category>
+		<mutatorChances>
+			<AB_WarpedStoneForest Required="True"/>
+			<CaveLakes>0.15</CaveLakes>
+			<LavaCaves>0.15</LavaCaves>
+			<Stockpile>0.05</Stockpile>
+			<PlantLife_Increased>0.1</PlantLife_Increased>
+			<AnimalHabitat>0.15</AnimalHabitat>
+			<PlantGrove>0.1</PlantGrove>
+			<FoggyMutator>0.05</FoggyMutator>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WetClimate>0.05</WetClimate>
+			<MineralRich>0.03</MineralRich>
+			<Marshy>0.05</Marshy>
+			<Sandy>0.05</Sandy>
+			<Fertile>0.05</Fertile>
+			<Muddy>0.05</Muddy>
+			<InsectMegahive>0.02</InsectMegahive>
+			<MixedBiome>0.5</MixedBiome>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.02</Pollution_Increased>
+			<AncientUplink>0.02</AncientUplink>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+		</mutatorChances>
+	</LandmarkDef>
+	
+	<LandmarkDef>
+		<defName>AB_ObsidianExpanse</defName>
+		<label>obsidian expanse</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_ObsidianExpanse</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>	
+		<commonality>0.1</commonality>
+		<nameMaker>VEE_NamerLandmark_ObsidianExpanse</nameMaker>
+		<mutatorChances>
+			<AB_ObsidianExpanse Required="True"/>
+			<AB_ObsidianSpires Required="True"/>
+			<VEE_ObsidianChunks MayRequire="VanillaExpanded.VExplorationE" Required="True"/>
+			<Stockpile>0.05</Stockpile>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WindyMutator>0.25</WindyMutator>
+			<AnimalHabitat>0.05</AnimalHabitat>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>
+			<PlantGrove>0.15</PlantGrove>
+			<PlantLife_Increased>0.05</PlantLife_Increased>
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<WildPlants>0.1</WildPlants>
+			<WildTropicalPlants>0.03</WildTropicalPlants>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_CalcifiedRemnants</defName>
+		<label>calcified remnants</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_CalcifiedRemnants</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>	
+		<commonality>0.1</commonality>
+		<nameMaker>VEE_NamerLandmark_CalcifiedRemnants</nameMaker>
+		<mutatorChances>
+			<AB_CalcifiedRemnants Required="True"/>
+			<AB_CalcifiedSoil Required="True"/>
+			<AB_SterileGround>1</AB_SterileGround>
+			<SunnyMutator>0.05</SunnyMutator>
+			<WindyMutator>0.25</WindyMutator>
+			<AnimalHabitat>0.05</AnimalHabitat>
+			<AnimalLife_Increased>0.05</AnimalLife_Increased>		
+			<Sandy>0.05</Sandy>
+			<Muddy>0.05</Muddy>
+			<ArcheanTrees>0.01</ArcheanTrees>
+			<AncientUplink>0.02</AncientUplink>
+			<Fish_Increased>0.05</Fish_Increased>
+			<Fish_Decreased>0.01</Fish_Decreased>
+		</mutatorChances>
+	</LandmarkDef>
 </Defs>

@@ -136,4 +136,14 @@
 			</Soil>
 		</terrain>
 	</PrefabDef>
+	<PrefabDef>
+		<defName>AB_Stonepillar_Prefab</defName>
+		<size>(1,1)</size>
+		<things>
+			<AB_WarpedStonePillar>
+				<position>(0,0,0)</position>
+			</AB_WarpedStonePillar>
+		</things>
+		
+	</PrefabDef>
 </Defs>

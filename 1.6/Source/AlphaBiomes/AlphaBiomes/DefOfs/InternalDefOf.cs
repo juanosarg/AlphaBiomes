@@ -63,7 +63,8 @@ namespace AlphaBiomes
         public static ThingDef AB_MineableChocolate;
         [MayRequireOdyssey]
         public static ThingDef AB_SugarChunk;
-
+        [MayRequireOdyssey]
+        public static ThingDef AB_CalcifiedRemnant;
 
         public static TerrainDef AB_ArtificialTar;
 		public static TerrainDef AB_SoilOnCrackedMetal;

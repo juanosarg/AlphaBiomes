@@ -15,7 +15,7 @@ namespace AlphaBiomes
 
         public override float PlantCommonalityFactorFor(ThingDef plant, PlanetTile tile)
         {
-            return (plant.label.ToLower().Contains("grass")) ? 1f : 0f;
+            return (plant.label.ToLower().Contains("grass")|| plant == InternalDefOf.AB_CalcifiedRemnant) ? 1f : 0f;
         }
 
 
