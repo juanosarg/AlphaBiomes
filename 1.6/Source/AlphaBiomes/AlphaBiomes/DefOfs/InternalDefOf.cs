@@ -94,6 +94,8 @@ namespace AlphaBiomes
         [MayRequireOdyssey]
         public static TerrainDef AB_LightRedWaterShallow, AB_LightRedWaterDeep, AB_LightRedWaterMovingChestDeep, AB_LightRedWaterMovingShallow,
             AB_LightRedWaterOceanShallow, AB_LightRedWaterOceanDeep;
+        [MayRequireOdyssey,MayRequireAnomaly]
+        public static TerrainDef AB_CerebrospinalFluid_Deep, AB_CerebrospinalFluid_MovingChestDeep, AB_CerebrospinalFluid_Shallow, AB_CerebrospinalFluid_MovingShallow;
         [MayRequireOdyssey]
         public static TerrainDef AB_DryFlowerySoil;
         [MayRequireOdyssey]

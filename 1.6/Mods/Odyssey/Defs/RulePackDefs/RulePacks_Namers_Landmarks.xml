@@ -250,4 +250,35 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_LivingCrystalBed</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->living crystal garden</li>
+				<li>terrain_word->pulsing crystal field</li>
+				<li>terrain_word->alcyonite crystal bed</li>
+				<li>terrain_word->breathing crystal grove</li>
+				<li>terrain_word->living crystal expanse</li>
+				<li>terrain_word->crystalline growth</li>
+				<li>terrain_word->alcyonite garden</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_FleshMorass</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->flesh morass</li>
+				<li>terrain_word->fleshy bog</li>
+				<li>terrain_word->meat mire</li>
+				<li>terrain_word->flesh mire</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 </Defs>

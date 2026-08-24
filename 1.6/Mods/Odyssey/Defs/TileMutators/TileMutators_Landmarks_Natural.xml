@@ -784,12 +784,114 @@
 		<defName>AB_CalcifiedRemnants</defName>
 		<label>calcified remnants</label>
 		<description>Half-alive, half-dead plants that seem to be partly organic and partly inorganic grow in this area. Their living tissues persist within a shell of mineralized growth, slowly replacing stems, leaves, and roots with stone-like structures.</description>
-		<workerClass>TileMutatorWorker_WildPlants</workerClass>
-		<chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+		<workerClass>VEF.Maps.TileMutatorWorker_PlantsWithCommonality</workerClass>
+		
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_CalcifiedRemnant</plantDef>
+						<commonality>0.5</commonality>
+					</li>
+					
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+		
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="BasePatch">
+		<defName>AB_LivingCrystalBed</defName>
+		<label>living crystal bed</label>
+		<description>This region is covered by soil that has been slowly overtaken by tiny living crystals, their growths emerging from the earth like mineral sprouts.</description>
+		
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_Crystallized</terrain>
+						<min>0.34</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="WildPlants_Base">
+		<defName>AB_LivingAlcyonite</defName>
+		<label>living alcyonite</label>
+		<description>Crystalline organisms that grow and pulse with faint signs of life, their mineral bodies constantly shifting and regenerating. They were originally created as a bioengineered solution to alcyonite mining, but inevitably spread into the wild.</description>
+		<workerClass>VEF.Maps.TileMutatorWorker_PlantsWithCommonality</workerClass>
+		
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_LivingAlcyonite</plantDef>
+						<commonality>0.5</commonality>
+					</li>
+					
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+		
+	</TileMutatorDef>
+	<TileMutatorDef ParentName="BasePatch" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_FleshTerrain</defName>
+		<label>flesh terrain</label>
+		<description>Large sections of the ground in this region have been covered by soft, fleshy terrain resembling living tissue, pulsing faintly beneath the feet.</description>
+		
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>AB_OdysseyFlesh</terrain>
+						<min>0.25</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+	</TileMutatorDef>
+	<TileMutatorDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>AB_TumorousGrowths</defName>
+		<label>tumorous growths</label>
+		<description>The local flora is dominated by irregular tumorous growths that swell from the ground like diseased flesh, spreading across the landscape.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_RemoveSpecificFlora</workerClass>
 		
 		<plantKinds>
-			<li>AB_CalcifiedRemnant</li>
+			<li>AB_FleshyTumor</li>
+			<li>AB_FleshTentacle</li>
+			<li>AB_FleshTree</li>
+			
 		</plantKinds>
+		<modExtensions>
+			<li Class="VEF.Maps.TileMutatorExtension">
+				<plantDefsWithCommonality>
+					<li>
+						<plantDef>AB_FleshyTumor</plantDef>
+						<commonality>0.005</commonality>
+					</li>
+					<li>
+						<plantDef>AB_FleshTentacle</plantDef>
+						<commonality>0.05</commonality>
+					</li>
+					<li>
+						<plantDef>AB_FleshTree</plantDef>
+						<commonality>0.005</commonality>
+					</li>
+					
+				</plantDefsWithCommonality>
+			</li>
+		</modExtensions>
+	</TileMutatorDef>
+	<TileMutatorDef>
+		<defName>AB_CerebrospinalFluid</defName>
+		<label>cerebrospinal fluid</label>
+		<description>Instead of water, shallow pools, lakes and rivers in this region are composed of diluted cerebrospinal fluid.</description>
+		<workerClass>AlphaBiomes.TileMutatorWorker_CerebrospinalFluid</workerClass>
+		
 	</TileMutatorDef>
 </Defs>
 

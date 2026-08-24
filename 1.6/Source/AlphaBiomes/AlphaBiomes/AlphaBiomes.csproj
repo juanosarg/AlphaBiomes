@@ -395,6 +395,7 @@
     <Compile Include="TileMutatorWorkers\Ancient Vents\TileMutatorWorker_AncientFreezingVent.cs" />
     <Compile Include="TileMutatorWorkers\Ponds\TileMutatorWorker_HealingSprings.cs" />
     <Compile Include="TileMutatorWorkers\Sweet\TileMutatorWorker_ChocolateMountains.cs" />
+    <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_CerebrospinalFluid.cs" />
     <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_DryMeadows.cs" />
     <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_GauranlenSoil.cs" />
     <Compile Include="TileMutatorWorkers\Terrain\TileMutatorWorker_MagmaticQuagmire.cs" />

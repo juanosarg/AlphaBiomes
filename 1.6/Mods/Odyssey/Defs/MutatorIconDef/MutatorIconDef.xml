@@ -672,7 +672,26 @@
 				<mutator>AB_CalcifiedRemnants</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CalcifiedRemnants</icon>
 			</li>
-			
+			<li>
+				<mutator>AB_LivingCrystalBed</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_LivingCrystalBed</icon>
+			</li>
+			<li>
+				<mutator>AB_LivingAlcyonite</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_LivingAlcyonite</icon>
+			</li>
+			<li>
+				<mutator>AB_FleshTerrain</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_FleshTerrain</icon>
+			</li>
+			<li>
+				<mutator>AB_TumorousGrowths</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_TumorousGrowths</icon>
+			</li>
+			<li>
+				<mutator>AB_CerebrospinalFluid</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CerebrospinalFluid</icon>
+			</li>
 			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>VEE_LoneIsland</mutator>

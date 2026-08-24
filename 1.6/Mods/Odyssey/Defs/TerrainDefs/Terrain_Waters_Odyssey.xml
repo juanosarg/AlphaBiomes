@@ -189,4 +189,97 @@
 	</TerrainDef>
 	
 	
+		<TerrainDef ParentName="WaterDeepBase">
+		<defName>AB_CerebrospinalFluid_Deep</defName>
+		<label>deep cerebrospinal fluid</label>
+		<renderPrecedence>395</renderPrecedence>
+		<texturePath>Terrain/Surfaces/AB_Cream</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Cream</pollutedTexturePath>
+		<color>(246,246,246)</color>
+		<pathCost>400</pathCost>
+	
+		<waterBodyType>Other</waterBodyType>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<avoidWander>true</avoidWander>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterChestDeepBase">
+		<defName>AB_CerebrospinalFluid_MovingChestDeep</defName>
+		<label>chest-deep moving cerebrospinal fluid</label>
+		<renderPrecedence>399</renderPrecedence>
+		<color>(246,246,246)</color>
+		<avoidWander>true</avoidWander>
+		<affordances>
+			<li>MovingFluid</li>
+		</affordances>
+		<tags>
+			<li>River</li>
+		</tags>
+		<waterDepthShaderParameters>
+			<_UseWaterOffset>1</_UseWaterOffset>
+		</waterDepthShaderParameters>
+		<texturePath>Terrain/Surfaces/AB_Cream</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Cream</pollutedTexturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<toxicBuildupFactor>1</toxicBuildupFactor>
+		<pathCost>150</pathCost>
+		
+		<waterBodyType>Other</waterBodyType>
+		<floodTerrain>AB_CerebrospinalFluidFlood</floodTerrain>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+	</TerrainDef>
+	<TerrainDef Name="AB_CerebrospinalFluid_Shallow_Base" ParentName="WaterShallowBase">
+		<defName>AB_CerebrospinalFluid_Shallow</defName>
+		<label>shallow cerebrospinal fluid</label>
+		<renderPrecedence>394</renderPrecedence>
+		
+		<driesTo>Soil</driesTo>
+		<texturePath>Terrain/Surfaces/AB_Cream</texturePath>
+		<pollutedTexturePath>Terrain/Surfaces/AB_Cream</pollutedTexturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<toxicBuildupFactor>1</toxicBuildupFactor>
+		<pathCost>100</pathCost>
+	
+		<waterBodyType>Other</waterBodyType>
+		<floodTerrain>AB_CerebrospinalFluidFlood</floodTerrain>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+	</TerrainDef>
+	<TerrainDef ParentName="AB_CerebrospinalFluid_Shallow_Base">
+		<defName>AB_CerebrospinalFluid_MovingShallow</defName>
+		<label>shallow moving cerebrospinal fluid</label>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<renderPrecedence>398</renderPrecedence>
+		<color>(250,250,250)</color>
+		<avoidWander>true</avoidWander>
+		<affordances>
+			<li>MovingFluid</li>
+		</affordances>
+		<tags>
+			<li>River</li>
+		</tags>
+		<waterDepthShaderParameters>
+			<_UseWaterOffset>1</_UseWaterOffset>
+		</waterDepthShaderParameters>
+	</TerrainDef>
+	<TerrainDef ParentName="AB_CerebrospinalFluid_Shallow_Base">
+		<defName>AB_CerebrospinalFluidFlood</defName>
+		<label>shallow flood cerebrospinal fluid</label>
+		<temporary>true</temporary>
+		
+		<tags>
+			<li>Flood</li>
+		</tags>
+		<canFreeze>false</canFreeze>
+		<!-- Thin ice and floodwater are both temp terrain, this means we can't support frozen floodwater -->
+		<driesTo/>
+		<!-- We don't want moisture pumps to turn temp terrain into stony soil -->
+		<floodTerrain>AB_CerebrospinalFluidFlood</floodTerrain>
+		<renderPrecedence>325</renderPrecedence>
+	</TerrainDef>
+	
 </Defs>
