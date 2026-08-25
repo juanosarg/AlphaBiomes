@@ -864,24 +864,27 @@
 			<li>AB_FleshyTumor</li>
 			<li>AB_FleshTentacle</li>
 			<li>AB_FleshTree</li>
-			
+			<li>AB_TentacleGrass</li>
 		</plantKinds>
 		<modExtensions>
 			<li Class="VEF.Maps.TileMutatorExtension">
 				<plantDefsWithCommonality>
 					<li>
 						<plantDef>AB_FleshyTumor</plantDef>
-						<commonality>0.005</commonality>
+						<commonality>0.1</commonality>
 					</li>
 					<li>
 						<plantDef>AB_FleshTentacle</plantDef>
-						<commonality>0.05</commonality>
+						<commonality>0.5</commonality>
 					</li>
 					<li>
 						<plantDef>AB_FleshTree</plantDef>
-						<commonality>0.005</commonality>
+						<commonality>0.1</commonality>
 					</li>
-					
+					<li>
+						<plantDef>AB_TentacleGrass</plantDef>
+						<commonality>3</commonality>
+					</li>
 				</plantDefsWithCommonality>
 			</li>
 		</modExtensions>
