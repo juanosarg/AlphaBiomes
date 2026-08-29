@@ -140,6 +140,10 @@
 				<biome>AB_GallatrossGraveyard</biome>
 				<structure>AB_CompactedSand</structure>
 			</li>
+			<li>
+				<biome>AB_GallatrossGraveyard</biome>
+				<structure>AB_BoneDistillery</structure>
+			</li>
 			
 		</structureToBiomeList>
 	</AlphaBiomes.BiomeStructuresDef>

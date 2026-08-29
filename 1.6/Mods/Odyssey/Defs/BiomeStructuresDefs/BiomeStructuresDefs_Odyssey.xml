@@ -103,6 +103,13 @@
 				<structure>AB_AsphaltBridge</structure>
 			</li>
 			
+			<!-- Other mutators -->
+			
+			<li>
+				<mutator>AB_CerebrospinalFluid</mutator>
+				<structure>AB_NeutroamineSynthetizer</structure>
+			</li>
+			
 		</structureToBiomeList>
 	</AlphaBiomes.BiomeStructuresDef>
 </Defs>

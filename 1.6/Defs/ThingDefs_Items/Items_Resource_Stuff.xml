@@ -373,4 +373,66 @@
 			</li>
 		</comps>
 	</ThingDef>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AB_AncientBone</defName>
+		<label>ancient bone</label>
+		<description>A sturdy building material made from the remains of long-dead creatures. Though aged and brittle, it can be worked much like wood into structures and furnishings.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AB_AncientBone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<Mass>0.4</Mass>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.40</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<stuffProps>
+			<categories>
+				<li>Woody</li>
+				<li>AB_ExoticWooden</li>
+			</categories>
+			<color>(167,155,128)</color>
+			<commonality>0</commonality>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.1</Flammability>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+			<li Class="VEF.Things.StuffExtension">
+				<structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+				<weaponGenerationCommonalityFactor>0</weaponGenerationCommonalityFactor>
+				<apparelGenerationCommonalityFactor>0</apparelGenerationCommonalityFactor>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>

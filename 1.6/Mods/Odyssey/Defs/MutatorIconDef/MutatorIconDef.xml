@@ -692,6 +692,18 @@
 				<mutator>AB_CerebrospinalFluid</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CerebrospinalFluid</icon>
 			</li>
+			<li>
+				<mutator>AB_CorruptedIntrusion</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CorruptedIntrusion</icon>
+			</li>
+			<li>
+				<mutator>AB_CorruptedMechFlora</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_CorruptedMechFlora</icon>
+			</li>
+			<li>
+				<mutator>AB_GnawingSands</mutator>
+				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_GnawingSands</icon>
+			</li>
 			<!-- VE Exploration -->
 			<li MayRequire="VanillaExpanded.VExplorationE">
 				<mutator>VEE_LoneIsland</mutator>

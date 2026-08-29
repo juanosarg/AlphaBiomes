@@ -142,6 +142,7 @@
 			<li>AB_IdyllicMeadows</li>
 			<li>AB_MiasmicMangrove</li>
 			<li>AB_TarPits</li>
+			<li>AB_MechanoidIntrusion</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">

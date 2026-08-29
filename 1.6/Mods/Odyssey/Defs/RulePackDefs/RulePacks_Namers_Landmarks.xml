@@ -281,4 +281,26 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_CorruptedIntrusion</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->corrupted intrusion</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>AB_NamerLandmark_GnawingSands</defName>
+		<include>
+			<li>WorldFeatureNamerCommon</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>terrain_word->gnawing sands</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 </Defs>

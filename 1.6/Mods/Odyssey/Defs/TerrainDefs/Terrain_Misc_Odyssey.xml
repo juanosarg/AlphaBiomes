@@ -734,7 +734,6 @@
 		<edgeType>FadeRough</edgeType>
 		<renderPrecedence>340</renderPrecedence>
 		<pathCost>2</pathCost>
-		
 		<statBases>
 			<Beauty>-10</Beauty>
 			<BeautyOutdoors>-5</BeautyOutdoors>
@@ -753,5 +752,26 @@
 			<li>AB_Flesh</li>
 			<li>Soil</li>
 		</tags>
+	</TerrainDef>
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>AB_CorruptedIntrusion</defName>
+		<label>corrupted intrusion</label>
+		<texturePath>Terrain/Surfaces/AB_CorruptedIntrusion</texturePath>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<pollutionColor>(1, 1, 1, 0.1)</pollutionColor>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>350</renderPrecedence>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<fertility>0.1</fertility>
+		<takeFootprints>false</takeFootprints>
 	</TerrainDef>
 </Defs>

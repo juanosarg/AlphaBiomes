@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_GallatrossBones</defName>
 		<label>gallatross bones</label>
-		<description>This ribcage once belonged to a living Gallatross of truly exceptional size. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<description>This ribcage once belonged to a living Gallatross of truly exceptional size. Can be deconstructed to acquire ancient bones.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GallatrossGraveyard/AB_Bones1</texPath>
@@ -12,6 +12,9 @@
 		</graphicData>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<rotatable>false</rotatable>
+		<costList>
+			<AB_AncientBone>150</AB_AncientBone>
+		</costList>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>4</Mass>
@@ -29,13 +32,16 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_AncientGallatrossSkull</defName>
 		<label>ancient gallatross skull</label>
-		<description>This skull belonged to an exceptionally huge Gallatross. Look at the size of this thing! Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<description>This skull belonged to an exceptionally huge Gallatross. Look at the size of this thing! Can be deconstructed to acquire ancient bones.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GallatrossGraveyard/AB_AncientGallatrossSkull</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
+		<costList>
+			<AB_AncientBone>60</AB_AncientBone>
+		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<fillPercent>0.5</fillPercent>
@@ -55,7 +61,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_AncientBone</defName>
 		<label>ancient bone</label>
-		<description>This fosilized bone might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<description>This fosilized bone might have belonged to an exceptionally large Gallatross. Can be deconstructed to acquire ancient bones.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GallatrossGraveyard/AB_AncientBone</texPath>
@@ -64,6 +70,9 @@
 		</graphicData>
 		<altitudeLayer>Floor</altitudeLayer>
 		<rotatable>false</rotatable>
+		<costList>
+			<AB_AncientBone>30</AB_AncientBone>
+		</costList>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>4</Mass>
@@ -80,7 +89,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_AncientBrokenBone</defName>
 		<label>ancient shattered bone</label>
-		<description>This fosilized bone might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<description>This fosilized bone might have belonged to an exceptionally large Gallatross. Can be deconstructed to acquire ancient bones.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GallatrossGraveyard/AB_AncientBrokenBone</texPath>
@@ -89,6 +98,9 @@
 		</graphicData>
 		<altitudeLayer>Floor</altitudeLayer>
 		<rotatable>false</rotatable>
+		<costList>
+			<AB_AncientBone>10</AB_AncientBone>
+		</costList>
 		<statBases>
 			<MaxHitPoints>25</MaxHitPoints>
 			<Mass>4</Mass>
@@ -105,7 +117,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_AncientVerticalBone</defName>
 		<label>ancient bones</label>
-		<description>These fosilized bones might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<description>These fosilized bones might have belonged to an exceptionally large Gallatross. Can be deconstructed to acquire ancient bones.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GallatrossGraveyard/AB_AncientVerticalBone</texPath>
@@ -115,6 +127,9 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
 		<fillPercent>0.5</fillPercent>
+		<costList>
+			<AB_AncientBone>40</AB_AncientBone>
+		</costList>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>4</Mass>
@@ -131,7 +146,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AB_HugeGallatrossSkeleton</defName>
 		<label>huge gallatross skeleton</label>
-		<description>These fosilized bones might have belonged to an exceptionally large Gallatross. Note: if you have the Rim of Madness - Bones mod installed, you can deconstruct these into useable bones.</description>
+		<description>These fosilized bones might have belonged to an exceptionally large Gallatross. Can be deconstructed to acquire ancient bones.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/GallatrossGraveyard/AB_WholeGallatrossSkeleton</texPath>
@@ -141,6 +156,9 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<rotatable>false</rotatable>
 		<fillPercent>0.75</fillPercent>
+		<costList>
+			<AB_AncientBone>250</AB_AncientBone>
+		</costList>
 		<statBases>
 			<MaxHitPoints>850</MaxHitPoints>
 			<Mass>4</Mass>
@@ -154,5 +172,80 @@
 		<selectable>true</selectable>
 		<size>(8,4)</size>
 	</ThingDef>
-	
+	<ThingDef ParentName="BuildingBase">
+		<defName>AB_BoneDistillery</defName>
+		<label>bone drill</label>
+		<description>A powerful hydraulic drill designed to bore into ancient bone deposits buried deep beneath the ground, breaking them loose for extraction and processing.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/GallatrossGraveyard/AB_BoneDistillery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(2.6,1,2.16)</volume>
+				<offset>(-0.20,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1,1.2,4.75,3.25)</rectN>
+				<rectE>(1.25,0.2,3.5,4.7)</rectE>
+				<rectS>(0.2,1.2,4.7,3.25)</rectS>
+				<rectW>(1.25,0.2,3.5,4.7)</rectW>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.5</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.75</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Spawner">
+				<requiresPower>true</requiresPower>
+				<thingToSpawn>AB_AncientBone</thingToSpawn>
+				<spawnCount>75</spawnCount>
+				<spawnIntervalRange>
+					<min>180000</min>
+					<max>180000</max>
+				</spawnIntervalRange>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded/>
+		<designationCategory>Furniture</designationCategory>
+		<placeWorkers>
+			<li>AlphaBiomes.PlaceWorker_GenericDistance_Fifteen</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
 </Defs>

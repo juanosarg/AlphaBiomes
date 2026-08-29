@@ -587,4 +587,41 @@
 			<Stockpile>0.05</Stockpile>
 		</mutatorChances>
 	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_CorruptedIntrusion</defName>
+		<label>corrupted intrusion</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_CorruptedIntrusion</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.1</commonality>
+		<nameMaker>AB_NamerLandmark_CorruptedIntrusion</nameMaker>
+		<mutatorChances>
+			<AB_CorruptedIntrusion Required="True"/>
+			<AB_CorruptedMechFlora Required="True"/>
+			<InsectMegahive>0.5</InsectMegahive>
+			<AncientUplink>0.02</AncientUplink>
+			<Stockpile>0.05</Stockpile>
+			<Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.25</Pollution_Increased>
+			<Junkyard MayRequire="Ludeon.RimWorld.Ideology">0.25</Junkyard>
+			<FoggyMutator>1</FoggyMutator>
+			<WindyMutator>0.25</WindyMutator>
+		</mutatorChances>
+	</LandmarkDef>
+	<LandmarkDef>
+		<defName>AB_GnawingSands</defName>
+		<label>gnawing sands</label>
+		<iconTexturePath>UI/Icons/AB_Landmarks/AB_GnawingSands</iconTexturePath>
+		<atlasSize>(2, 2)</atlasSize>
+		<commonality>0.2</commonality>
+		<nameMaker>AB_NamerLandmark_GnawingSands</nameMaker>
+		<mutatorChances>
+			<AB_GnawingSands Required="True"/>
+			
+			<AB_GiantFossils>0.5</AB_GiantFossils>
+			<Stockpile>0.15</Stockpile>
+			<AncientUplink>0.15</AncientUplink>
+			<SunnyMutator>1</SunnyMutator>
+			<Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.02</Pollution_Increased>
+			<WindyMutator>0.05</WindyMutator>
+		</mutatorChances>
+	</LandmarkDef>
 </Defs>
