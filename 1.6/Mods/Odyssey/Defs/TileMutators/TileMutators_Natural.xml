@@ -22,7 +22,7 @@
 	<TileMutatorDef>
 		<defName>AB_GiantFossils</defName>
 		<label>giant fossils</label>
-		<description>Gigantic skeletons of long-gone beasts litter this land.</description>
+		<description>Gigantic skeletons of long-gone beasts litter this land. Considering fossilization hasn't had time to actually occur on the Rim, it's a mystery who put these giant bones here.</description>
 		<modExtensions>
 			<li Class="VEF.Maps.TileMutatorExtension">
 				<KCSGStructuresToSpawn>
@@ -38,6 +38,9 @@
 					<li>AB_GiantBonesJ</li>
 					<li>AB_GiantBonesK</li>
 					<li>AB_GiantBonesL</li>
+					<li>AB_GiantBonesM</li>
+					<li>AB_GiantBonesN</li>
+					<li>AB_GiantBonesO</li>
 				</KCSGStructuresToSpawn>
 				<KCSGStructuresToSpawnAmount>4~8</KCSGStructuresToSpawnAmount>
 				<minSeparationBetweenPrefabs>30</minSeparationBetweenPrefabs>

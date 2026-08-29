@@ -884,7 +884,7 @@
 	<TileMutatorDef>
 		<defName>AB_CerebrospinalFluid</defName>
 		<label>cerebrospinal fluid</label>
-		<description>Instead of water, shallow pools, lakes and rivers in this region are composed of diluted cerebrospinal fluid.</description>
+		<description>Instead of water, shallow pools, lakes and rivers in this region are composed of diluted cerebrospinal fluid. Neutroamine synthetizer can be built here (find it under "build biome structures" in the Furniture Architect menu).</description>
 		<workerClass>AlphaBiomes.TileMutatorWorker_CerebrospinalFluid</workerClass>
 	</TileMutatorDef>
 	<TileMutatorDef ParentName="BasePatch">

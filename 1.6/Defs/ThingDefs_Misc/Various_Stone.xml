@@ -360,7 +360,7 @@
 			<AB_BlocksCragstone>20</AB_BlocksCragstone>
 		</products>
 	</RecipeDef>
-	<!-- ================ Obsidian ================ -->
+	<!-- ================ Onyxglass ================ -->
 	<ThingDef ParentName="GU_RockBase" Name="AB_Obsidianstone">
 		<defName>AB_Obsidianstone</defName>
 		<label>onyxglass</label>

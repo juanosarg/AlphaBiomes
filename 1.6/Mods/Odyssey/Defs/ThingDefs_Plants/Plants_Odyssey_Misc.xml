@@ -326,7 +326,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>AB_Tooth</defName>
 		<label>giant false tooth</label>
-		<description>These otherworldly plants grow within hollow marble lattices shaped like enormous teeth, using the casing for support and protection as their roots spread beneath the sands. A bizarre creation of an insane geneticist, their name and origins long lost to the centuries.\n\nPlant details: Giant false teeth are wild plants, and they need minimum terrain fertility of 0.1. Can be harvested for marble blocks.</description>
+		<description>These otherworldly plants grow within hollow marble lattices shaped like enormous teeth, using the casing for support and protection as their roots spread beneath the sands. A bizarre creation of an insane geneticist, their name and origins long lost to the centuries.\n\nPlant details: Giant false teeth are wild plants, and they need minimum terrain fertility of 0.1. Can be harvested for marble blocks and a bit of ancient bone.</description>
 		<descriptionHyperlinks>
 			<ThingDef>BlocksMarble</ThingDef>
 		</descriptionHyperlinks>
@@ -357,5 +357,11 @@
 			<fertilitySensitivity>0</fertilitySensitivity>
 		</plant>
 		<ingestible/>
+		<modExtensions>
+			<li Class="VEF.Plants.DualCropExtension">
+				<secondaryOutput>AB_AncientBone_Stuff</secondaryOutput>
+				<outPutAmount>5</outPutAmount>
+			</li>
+		</modExtensions>
 	</ThingDef>
 </Defs>

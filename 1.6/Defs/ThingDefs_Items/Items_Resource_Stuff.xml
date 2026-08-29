@@ -374,7 +374,7 @@
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="ResourceBase">
-		<defName>AB_AncientBone</defName>
+		<defName>AB_AncientBone_Stuff</defName>
 		<label>ancient bone</label>
 		<description>A sturdy building material made from the remains of long-dead creatures. Though aged and brittle, it can be worked much like wood into structures and furnishings.</description>
 		<graphicData>

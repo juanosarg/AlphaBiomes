@@ -225,34 +225,34 @@
 		<uiIconPath>Things/Building/Linked/AB_BoneWall_MenuIcon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
-			<WorkToBuild>50</WorkToBuild>
+			<WorkToBuild>550</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
-		
+		<costList>
+			<AB_AncientBone_Stuff>6</AB_AncientBone_Stuff>
+		</costList>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>1</fillPercent>
+		<fillPercent>0.9</fillPercent>
 		<coversFloor>true</coversFloor>
 		<drawStyleCategory>Walls</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		
 		<holdsRoof>false</holdsRoof>
-	
 		<blockLight>false</blockLight>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>		
 		<canOverlapZones>false</canOverlapZones>
 		<fertility>0</fertility>
 		
 		<building>
 			<supportsWallAttachments>true</supportsWallAttachments>
 			<isInert>true</isInert>
+			<isAirtight>false</isAirtight>
 			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>

@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="AlphaBiomes.PatchOperationModOption">
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/DesignationCategoryDef[defName="Furniture"]/specialDesignatorClasses</xpath>
+			<xpath>Defs/DesignationCategoryDef[defName="Furniture"]/specialDesignatorClasses</xpath>
 			<value>
 				<li>AlphaBiomes.Designator_AlphaBiomes</li>
 			</value>

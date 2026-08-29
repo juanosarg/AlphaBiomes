@@ -13,7 +13,7 @@
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<rotatable>false</rotatable>
 		<costList>
-			<AB_AncientBone>150</AB_AncientBone>
+			<AB_AncientBone_Stuff>150</AB_AncientBone_Stuff>
 		</costList>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -40,7 +40,7 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 		<costList>
-			<AB_AncientBone>60</AB_AncientBone>
+			<AB_AncientBone_Stuff>60</AB_AncientBone_Stuff>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>false</rotatable>
@@ -71,7 +71,7 @@
 		<altitudeLayer>Floor</altitudeLayer>
 		<rotatable>false</rotatable>
 		<costList>
-			<AB_AncientBone>30</AB_AncientBone>
+			<AB_AncientBone_Stuff>30</AB_AncientBone_Stuff>
 		</costList>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -99,7 +99,7 @@
 		<altitudeLayer>Floor</altitudeLayer>
 		<rotatable>false</rotatable>
 		<costList>
-			<AB_AncientBone>10</AB_AncientBone>
+			<AB_AncientBone_Stuff>10</AB_AncientBone_Stuff>
 		</costList>
 		<statBases>
 			<MaxHitPoints>25</MaxHitPoints>
@@ -128,7 +128,7 @@
 		<rotatable>false</rotatable>
 		<fillPercent>0.5</fillPercent>
 		<costList>
-			<AB_AncientBone>40</AB_AncientBone>
+			<AB_AncientBone_Stuff>40</AB_AncientBone_Stuff>
 		</costList>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -157,7 +157,7 @@
 		<rotatable>false</rotatable>
 		<fillPercent>0.75</fillPercent>
 		<costList>
-			<AB_AncientBone>250</AB_AncientBone>
+			<AB_AncientBone_Stuff>250</AB_AncientBone_Stuff>
 		</costList>
 		<statBases>
 			<MaxHitPoints>850</MaxHitPoints>
@@ -224,7 +224,7 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Spawner">
 				<requiresPower>true</requiresPower>
-				<thingToSpawn>AB_AncientBone</thingToSpawn>
+				<thingToSpawn>AB_AncientBone_Stuff</thingToSpawn>
 				<spawnCount>75</spawnCount>
 				<spawnIntervalRange>
 					<min>180000</min>
