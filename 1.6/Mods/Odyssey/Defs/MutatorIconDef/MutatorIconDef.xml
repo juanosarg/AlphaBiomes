@@ -680,11 +680,11 @@
 				<mutator>AB_LivingAlcyonite</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_LivingAlcyonite</icon>
 			</li>
-			<li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
 				<mutator>AB_FleshTerrain</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_FleshTerrain</icon>
 			</li>
-			<li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
 				<mutator>AB_TumorousGrowths</mutator>
 				<icon>UI/Icons/AB_MutatorIcons/AB_MutatorIcon_TumorousGrowths</icon>
 			</li>
