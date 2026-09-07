@@ -38,6 +38,7 @@
 			<li>AB_ShackledGamma</li>
 			<!-- Gallatross Graveyard -->
 			<li>AB_CompactedSand</li>
+			<li>AB_BoneDistillery</li>
 		</hiddenDesignators>
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>

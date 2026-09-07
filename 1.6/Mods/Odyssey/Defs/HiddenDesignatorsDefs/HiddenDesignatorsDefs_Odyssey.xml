@@ -7,6 +7,7 @@
 			<li>AB_MagmaThermalPlant</li>
 			<li>AB_MycoticCollector</li>
 			<li>AB_MechanoidReceiver</li>
+			<li>AB_NeutroamineSynthetizer</li>
 		</hiddenDesignators>
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>
