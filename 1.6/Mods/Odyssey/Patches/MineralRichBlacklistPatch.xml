@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		
+		<xpath>Defs/TileMutatorDef[defName="MineralRich"]/resourceBlacklist</xpath>
+		<value>
+			<li>AB_MineableChocolate</li>
+			
+		</value>
+	</Operation>
+</Patch>
+
