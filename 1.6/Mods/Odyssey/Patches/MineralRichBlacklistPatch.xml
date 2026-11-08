@@ -5,7 +5,7 @@
 		<xpath>Defs/TileMutatorDef[defName="MineralRich"]/resourceBlacklist</xpath>
 		<value>
 			<li>AB_MineableChocolate</li>
-			
+			<li>AB_SmoothedChocolate</li>
 		</value>
 	</Operation>
 </Patch>
